@@ -1,4 +1,4 @@
-This is the repository of the Single European Sky (SES) Performance Review Board (PRB) dashboard.
+This is the repository of the Single European Sky (SES) Performance Review Body (PRB) dashboard.
 
 The RP1 site is live at http://www.eurocontrol.int/prudata/dashboard/eur_view_2014.html
 
