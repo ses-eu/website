@@ -389,7 +389,7 @@ options: {
 		containerId: 'tbl_ertSU',
 		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1wCl2GdiXRu5i6voPakm1vm6pWSSx20XmWa6ig7dMF7Q/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
 		options:{ allowHtml:true, width: 470, height: 400},
-		view: {columns: [0,3,5,6,8]}
+		view: {columns: [0,3,6,8,5]}
 	}); tbl_ertSU.draw();		
 	
 	
@@ -836,7 +836,7 @@ google.setOnLoadCallback(drawVisualization)
 	  </td>
 	  <tr>
       <td colspan="4" rowspan="1">
-	  <div class="head3">&nbsp; En-route Service Units (SU)[actual vs. determined]</div>
+	  <div class="head3">&nbsp; En-route Service Units (TSU)[actual vs. determined]</div>
 	  </td>
     </tr>
 
@@ -850,7 +850,7 @@ google.setOnLoadCallback(drawVisualization)
 	</span></div></td>		
    <td>
     <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-	Source: CRCO; PRU analysis </div></td>	
+	Source: CRCO; EC; PRU analysis </div></td>	
 	<td>
 	<div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"> 
 	</span></div></td>
@@ -858,12 +858,12 @@ google.setOnLoadCallback(drawVisualization)
     </tr>
 	  <tr>
       <td colspan="2" rowspan="1"style="width: 475px, text-align: center; vertical-align: top; ">
-		<div class="head4">&nbsp;En-route SU: by charging zones</div> 
+		<div class="head4">&nbsp;En-route TSU: by charging zones</div> 
 		<div style="text-align: left; vertical-align: top;">
 	   <div style="float: top;" id="tbl_ertSU"></div><br>
 	  </td>
       <td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
-		<div class="head4">&nbsp;En-route SU: actual vs. determined (2015)</div>
+		<div class="head4">&nbsp;En-route TSU: actual vs. determined (2015)</div>
 		<div style="text-align: left; vertical-align: top;">
 	    <div style="float: top;" id="crt_ertSUYYvstgt"></div>
 	  </td>
