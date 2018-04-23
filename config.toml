@@ -1,0 +1,56 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Single European Sky Portal"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "News"
+    url = "/post/"
+    weight = 10
+[[menu.main]]
+    name = "Dashboard"
+    url = "/dashboard/"
+    weight = 20
+[[menu.main]]
+    name = "Data"
+    url = "/data/"
+    weight = 30
+[[menu.main]]
+    name = "Metadata"
+    url = "/metadata/"
+    weight = 40
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 100
+
+[params]
+    description = "Single European Sky Portal."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "ses-performance-logo.png"
+    width = ""
+    height = "32"
+    alt = "Single European Sky logo"
+
+    [params.logofooter]
+    url = "logo-ce-horizontal-en-quadri-lr.png"
+    width = "w6"
+    height = "h2"
+    alt = "European Commission logo"
+    description = "Single European Sky, "

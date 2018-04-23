@@ -1,0 +1,198 @@
+---
+title: "2017 dashboard"
+date: 2017-01-01
+categories: ["dashboard"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo = FALSE, warning = FALSE)
+suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(readxl))
+suppressPackageStartupMessages(library(lubridate))
+suppressPackageStartupMessages(library(plotly))
+
+source("../../R/helpers.R")
+
+```
+
+# Traffic
+
+
+```{r test}
+
+df_yy_2017 <- get_yearly_flights(2017)
+
+plot_ly(df_yy_2017) %>%
+  add_trace(
+    x = ~date, y = ~avg, type = 'bar', name = 'Traffic',
+    marker = list(color = '#C9EFF9'),
+    hoverinfo = "text",
+    text = ~paste(avg, ' flights')) %>%
+  add_trace(x = ~date, y = ~pc, type = 'scatter', mode = 'lines+markers', name = 'Percentage', yaxis = 'y2',
+            line = list(color = '#45171D'),
+            hoverinfo = "text",
+            text = ~paste(pc, '%')) %>%
+  layout(
+    margin = list(b = 100),
+    title = 'Average daily IFR flights (EU-wide)',
+    xaxis = list(
+      title = "",
+      ticks = "outside",
+      tickangle = 40
+      ),
+    yaxis = list(
+      side = 'left',
+      title = 'Avg. daily IFR flights',
+      showgrid = FALSE,
+      zeroline = FALSE),
+    yaxis2 = list(
+      side = 'right',
+      overlaying = "y",
+      title = 'year to year (%)',
+      showgrid = FALSE,
+      zeroline = FALSE,
+      hoverformat = ".2f"),
+    hovermode = "closest"
+    ) %>%
+  config(
+    collaborate =  FALSE,
+    displaylogo = FALSE,
+    modeBarButtonsToRemove = list(
+         'sendDataToCloud',
+         'pan2d',
+         'select2d',
+         'lasso2d',
+         'zoomIn2d',
+         'zoomOut2d',
+         # 'autoScale2d',
+      'toggleSpikelines',
+         'resetScale2d',
+         'hoverClosestCartesian',
+         'hoverCompareCartesian'
+         ),
+        showLink = FALSE)
+
+```
+
+```{r avg-daily-flights-mm}
+
+df_mm_2017 <- get_monthly_flights(2017)
+
+plot_ly(df_mm_2017) %>%
+  add_trace(
+    x = ~date,
+    y = ~avg,
+    type = 'bar',
+    name = 'Traffic',
+    marker = list(color = '#C9EFF9'),
+    hoverinfo = "text",
+    text = ~paste(avg, ' flights')) %>%
+  add_trace(
+    x = ~date,
+    y = ~pc,
+    type = 'scatter',
+    mode = 'lines+markers',
+    name = 'Percentage',
+    yaxis = 'y2',
+    line = list(color = '#45171D'),
+    hoverinfo = "text",
+    text = ~paste(pc, '%')) %>%
+  layout(
+    margin = list(b = 120),
+    title = 'Average daily IFR flights (EU-wide)',
+    xaxis = list(
+      title = "",
+      ticks = "outside",
+      tickangle = 40,
+      range = c("2014-06-01", "2019-01-01")
+      ),
+    yaxis = list(
+      side = 'left',
+      title = 'Avg. daily IFR flights',
+      showgrid = FALSE,
+      zeroline = FALSE
+      ),
+    yaxis2 = list(
+      side = 'right',
+      overlaying = "y",
+      title = 'year to year (%)',
+      showgrid = FALSE,
+      zeroline = FALSE,
+      hoverformat = ".2f"),
+    legend = list(
+      orientation = "v"
+      )
+    ) %>% 
+  config(
+    collaborate =  FALSE,
+    displaylogo = FALSE,
+    modeBarButtonsToRemove = list(
+         'sendDataToCloud',
+         'pan2d',
+         'select2d',
+         'lasso2d',
+         'zoomIn2d',
+         'zoomOut2d',
+         # 'autoScale2d',
+      'toggleSpikelines',
+         'resetScale2d',
+         'hoverClosestCartesian',
+         'hoverCompareCartesian'
+         ),
+        showLink = FALSE)
+
+```
+
+```{r fab-flights}
+get_fab_flights <- function(year) {
+  ## Data preparation for year 2017
+  flt_file <- str_glue("RP2_Flights_{year}.xlsx")
+  flt_sheet <- "ERT_FLTS_LOC"
+  ff <- file.path("../../static/download", year, flt_file)
+  
+  df <- read_excel(path = ff, sheet = "ERT_FLTS_LOC", skip = 4) %>%
+    select(-2, -3) %>% 
+    rename(pc = !!names(.[4])) %>%
+    gather("year", "flights", 2:3) %>%
+    mutate(year = as.integer(year), flights = as.integer(flights)) %>% 
+    group_by(`FAB (based on FIR)`) %>%
+    mutate(lag = lag(flights), pcc = 100 * (flights - lag) / lag) 
+  
+  names(df)[2:3] <- str_replace(names(df[2:3]), "__1", "")
+  df <- df %>%
+    mutate(`2016` = as.integer(`2016`), `2017` = as.integer(`2017`),
+      pc = round(pc * 100, digits = 2))
+  
+}
+
+## Data preparation for year 2017
+flt_file <- "RP2_Flights_2017.xlsx"
+flt_sheet <- "ERT_FLTS_LOC"
+ff <- file.path("../../static/download", "2017", flt_file)
+
+df <- read_excel(path = ff, sheet = "ERT_FLTS_LOC", skip = 4) %>%
+  select(-2, -3) %>% 
+  rename(pc = !!names(.[4]))
+
+names(df)[2:3] <- str_replace(names(df[2:3]), "__1", "")
+df <- df %>%
+  mutate(`2016` = as.integer(`2016`), `2017` = as.integer(`2017`),
+    pc = round(pc * 100, digits = 2))
+
+knitr::kable(df, booktabs = TRUE,
+  format = "html",
+  caption = 'Average number of flights.')
+```
+
+
+
+# Safety
+
+
+# Environment
+
+
+# Capacity
+
+
+# Cost-efficiency

@@ -1,0 +1,95 @@
+---
+title: Data Download
+
+dwnld_i: <i class="fa pru fa-download"></i>
+info_i: <i class="fa pru fa-info-circle"></i>
+ndwk_i: <i class="fa pru fa-flask"></i>
+fltr_i: <i class="fa pru fa-filter"></i>
+attn_i: <i class="fa pru fa-exclamation-triangle"></i>
+
+---
+
+## 2017
+
+| Description                           |  Files/Link                                                           |
+|---------------------------------------|-----------------------------------------------------------------------|
+| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP2_APT_ASMA_2017.xlsx][RP2_APT_ASMA_2017]           |
+| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP2_APT_ATC_PRE_2017.xlsx][RP2_APT_ATC_PRE_2017]     |
+| Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP2_APT_ATFM_ARR_2017.xlsx][RP2_APT_ATFM_ARR_2017]   |
+| Adherence to ATFM slots               | [{{% dwnld_i %}} RP2_APT_ATFM_SLOT_2017.xlsx][RP2_APT_ATFM_SLOT_2017] |
+| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP2_APT_TxOut_2017.xlsx][RP2_APT_TxOut_2017]         |
+| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP2_ERT_ATFM_2017.xlsx][RP2_ERT_ATFM_2017]           |
+| En-route Service Units                | [{{% dwnld_i %}} RP2_ERT_SU_2017.xlsx][RP2_ERT_SU_2017]               |
+| Average daily IFR Flight              | [{{% dwnld_i %}} RP2_Flights_2017.xlsx][RP2_Flights_2017]             |
+| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP2_FLT_EFF_2017.xlsx][RP2_FLT_EFF_2017]             |
+| Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2017.xlsx][RP2_TRM_CEF_2017]             |
+
+
+[RP2_APT_ASMA_2017]:      /download/2017/RP2_APT_ASMA_2017.xlsx
+[RP2_APT_ATC_PRE_2017]:   /download/2017/RP2_APT_ATC_PRE_2017.xlsx
+[RP2_APT_ATFM_ARR_2017]:  /download/2017/RP2_APT_ATFM_ARR_2017.xlsx
+[RP2_APT_ATFM_SLOT_2017]: /download/2017/RP2_APT_ATFM_SLOT_2017.xlsx
+[RP2_APT_TxOut_2017]:     /download/2017/RP2_APT_TxOut_2017.xlsx
+[RP2_ERT_ATFM_2017]:      /download/2017/RP2_ERT_ATFM_2017.xlsx
+[RP2_ERT_SU_2017]:        /download/2017/RP2_ERT_SU_2017.xlsx
+[RP2_Flights_2017]:       /download/2017/RP2_Flights_2017.xlsx
+[RP2_FLT_EFF_2017]:       /download/2017/RP2_FLT_EFF_2017.xlsx
+[RP2_TRM_CEF_2017]:       /download/2017/RP2_TRM_CEF_2017.xlsx
+
+
+
+## 2016
+
+| Description                           |  Files/Link                                                           |
+|---------------------------------------|-----------------------------------------------------------------------|
+| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP2_APT_ASMA_2016.xlsx][RP2_APT_ASMA_2016]           |
+| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP2_APT_ATC_PRE_2016.xlsx][RP2_APT_ATC_PRE_2016]     |
+| Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP2_APT_ATFM_ARR_2016.xlsx][RP2_APT_ATFM_ARR_2016]   |
+| Adherence to ATFM slots               | [{{% dwnld_i %}} RP2_APT_ATFM_SLOT_2016.xlsx][RP2_APT_ATFM_SLOT_2016] |
+| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP2_APT_TxOut_2016.xlsx][RP2_APT_TxOut_2016]         |
+| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP2_ERT_ATFM_2016.xlsx][RP2_ERT_ATFM_2016]           |
+| En-route Service Units                | [{{% dwnld_i %}} RP2_ERT_SU_2016.xlsx][RP2_ERT_SU_2016]               |
+| Average daily IFR Flight              | [{{% dwnld_i %}} RP2_Flights_2016.xlsx][RP2_Flights_2016]             |
+| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP2_FLT_EFF_2016.xlsx][RP2_FLT_EFF_2016]             |
+| Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2016.xlsx][RP2_TRM_CEF_2016]             |
+
+
+[RP2_APT_ASMA_2016]:      /download/2016/RP2_APT_ASMA_2016.xlsx
+[RP2_APT_ATC_PRE_2016]:   /download/2016/RP2_APT_ATC_PRE_2016.xlsx
+[RP2_APT_ATFM_ARR_2016]:  /download/2016/RP2_APT_ATFM_ARR_2016.xlsx
+[RP2_APT_ATFM_SLOT_2016]: /download/2016/RP2_APT_ATFM_SLOT_2016.xlsx
+[RP2_APT_TxOut_2016]:     /download/2016/RP2_APT_TxOut_2016.xlsx
+[RP2_ERT_ATFM_2016]:      /download/2016/RP2_ERT_ATFM_2016.xlsx
+[RP2_ERT_SU_2016]:        /download/2016/RP2_ERT_SU_2016.xlsx
+[RP2_Flights_2016]:       /download/2016/RP2_Flights_2016.xlsx
+[RP2_FLT_EFF_2016]:       /download/2016/RP2_FLT_EFF_2016.xlsx
+[RP2_TRM_CEF_2016]:       /download/2016/RP2_TRM_CEF_2016.xlsx
+
+
+
+## 2015
+
+| Description                           |  Files/Link                                                           |
+|---------------------------------------|-----------------------------------------------------------------------|
+| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP2_APT_ASMA_2015.xlsx][RP2_APT_ASMA_2015]           |
+| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP2_APT_ATC_PRE_2015.xlsx][RP2_APT_ATC_PRE_2015]     |
+| Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP2_APT_ATFM_ARR_2015.xlsx][RP2_APT_ATFM_ARR_2015]   |
+| Adherence to ATFM slots               | [{{% dwnld_i %}} RP2_APT_ATFM_SLOT_2015.xlsx][RP2_APT_ATFM_SLOT_2015] |
+| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP2_APT_TxOut_2015.xlsx][RP2_APT_TxOut_2015]         |
+| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP2_ERT_ATFM_2015.xlsx][RP2_ERT_ATFM_2015]           |
+| En-route Service Units                | [{{% dwnld_i %}} RP2_ERT_SU_2015.xlsx][RP2_ERT_SU_2015]               |
+| Average daily IFR Flight              | [{{% dwnld_i %}} RP2_Flights_2015.xlsx][RP2_Flights_2015]             |
+| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP2_FLT_EFF_2015.xlsx][RP2_FLT_EFF_2015]             |
+| Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2015.xlsx][RP2_TRM_CEF_2015]             |
+
+
+[RP2_APT_ASMA_2015]:      /download/2015/RP2_APT_ASMA_2015.xlsx
+[RP2_APT_ATC_PRE_2015]:   /download/2015/RP2_APT_ATC_PRE_2015.xlsx
+[RP2_APT_ATFM_ARR_2015]:  /download/2015/RP2_APT_ATFM_ARR_2015.xlsx
+[RP2_APT_ATFM_SLOT_2015]: /download/2015/RP2_APT_ATFM_SLOT_2015.xlsx
+[RP2_APT_TxOut_2015]:     /download/2015/RP2_APT_TxOut_2015.xlsx
+[RP2_ERT_ATFM_2015]:      /download/2015/RP2_ERT_ATFM_2015.xlsx
+[RP2_ERT_SU_2015]:        /download/2015/RP2_ERT_SU_2015.xlsx
+[RP2_Flights_2015]:       /download/2015/RP2_Flights_2015.xlsx
+[RP2_FLT_EFF_2015]:       /download/2015/RP2_FLT_EFF_2015.xlsx
+[RP2_TRM_CEF_2015]:       /download/2015/RP2_TRM_CEF_2015.xlsx
