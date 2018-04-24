@@ -6,7 +6,7 @@ categories: ["dashboard"]
 
 
 
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
 <script type="text/javascript"> // load the visualisation API
 google.load('visualization', '1', { packages: ['corechart', 'controls'] });
 </script>
@@ -19,7 +19,7 @@ function drawVisualization()
  var crt_ertfltsYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertfltsYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
 
         options: {
                 width: 450, height: 170,
@@ -48,7 +48,7 @@ function drawVisualization()
     var crt_ertfltsMM = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertfltsMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&sheet=ERT_FLTS_MM&range=A4:I64&tq=where%20I%3D1',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&sheet=ERT_FLTS_MM&range=A4:I64&tq=where%20I%3D1',
 options: {
                 width: 450, height: 190,
                 chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -76,7 +76,7 @@ options: {
     var tbl_ertflts_YY = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertflts_YY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:F15',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:F15',
         options:{allowHtml: false, width: 470, height: 340},
         view: {columns: [0,3,4,5]
         }
@@ -86,7 +86,7 @@ options: {
     var crt_flteffYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_flteffYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G10',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G10',
             options:{
                     width: 450, height: 180,
                     chartArea: {left: 50, top: 30, width:'55%',height:'60%'},
@@ -122,7 +122,7 @@ options: {
     var crt_flteffMM = new google.visualization.ChartWrapper({
         chartType: 'LineChart',
         containerId: 'crt_flteffMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
 
         options:{
                     width: 450, height: 190,
@@ -190,7 +190,7 @@ options: {
     var tbl_ert_flteff = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ert_flteff',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=ERT_FLT_EFF_FAB&range=A5:E15&hl=en_GB',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=ERT_FLT_EFF_FAB&range=A5:E15&hl=en_GB',
         options:{
         allowHtml: true,
         width: 470, height: 360,
@@ -204,7 +204,7 @@ options: {
     var tbl_ASMAdly_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ASMAdly_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1MdhOPUqTN4nvVcyU0LsfBJ3uNOGjv7x5O1VzQKekILg/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1MdhOPUqTN4nvVcyU0LsfBJ3uNOGjv7x5O1VzQKekILg/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
         options:{ allowHtml: false, width: 470, height: 280},
         view: {columns: [0,5,1]}
     }); tbl_ASMAdly_LOC.draw();
@@ -212,7 +212,7 @@ options: {
     var tbl_ASMAdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ASMAdly_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1MdhOPUqTN4nvVcyU0LsfBJ3uNOGjv7x5O1VzQKekILg/edit?usp=sharing&sheet=ASMA_APT&range=A5:G180',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1MdhOPUqTN4nvVcyU0LsfBJ3uNOGjv7x5O1VzQKekILg/edit?usp=sharing&sheet=ASMA_APT&range=A5:G180',
         options:{ allowHtml: false, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_ASMAdly_APT.draw();
@@ -221,7 +221,7 @@ options: {
     var tbl_txdly_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_txdly_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hLYGdDDyS6-6IXVyblXZiWptQ2FB818qoCn2g0msKas/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F35',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1hLYGdDDyS6-6IXVyblXZiWptQ2FB818qoCn2g0msKas/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F35',
         options:{ allowHtml: false, width: 470, height: 280},
         view: {columns: [0,5,1]}
     }); tbl_txdly_LOC.draw();
@@ -229,7 +229,7 @@ options: {
     var tbl_txdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_txdly_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hLYGdDDyS6-6IXVyblXZiWptQ2FB818qoCn2g0msKas/edit?usp=sharing&sheet=TxOut_APT&range=A5:G180',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1hLYGdDDyS6-6IXVyblXZiWptQ2FB818qoCn2g0msKas/edit?usp=sharing&sheet=TxOut_APT&range=A5:G180',
         options:{ allowHtml: false, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_txdly_APT.draw();
@@ -238,7 +238,7 @@ options: {
     var crt_ertdlyYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertdlyYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:F10',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:F10',
         options:{
                     width: 450, height: 160,
                     chartArea: {left: 50, top: 30, width:'55%',height:'60%'},
@@ -260,7 +260,7 @@ options: {
     var crt_ertdlyMM = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertdlyMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:G65&tq=where%20G%3D1',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:G65&tq=where%20G%3D1',
         options:{
                     width: 450, height: 190,
                     chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -282,7 +282,7 @@ options: {
     var tbl_ertdly_YYtgt = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertdly_YYtgt',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&sheet=ERT_ATFM_LOC&range=A5:F15&hl=en_GB',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&sheet=ERT_ATFM_LOC&range=A5:F15&hl=en_GB',
         options:{allowHtml: false, width: 470, height: 280},
         view: {columns: [0,1,4,5]
         }
@@ -292,7 +292,7 @@ options: {
     var crt_aptATFMsesYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_aptATFMsesYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D10',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D10',
         options:{
                     width: 450, height: 190,
                     chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -312,7 +312,7 @@ options: {
     var crt_aptATFMsesMM = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_aptATFMsesMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&sheet=APT_ATFM_SES_MM&range=A5:G65&tq=where%20G%3D1',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&sheet=APT_ATFM_SES_MM&range=A5:G65&tq=where%20G%3D1',
                 options:{
                     width: 450, height: 190,
                     chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -334,7 +334,7 @@ options: {
     var tbl_aptATFM_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFM_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&sheet=APT_ATFM_LOC&range=A5:G35',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&sheet=APT_ATFM_LOC&range=A5:G35',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [0,1,2,3,4]}
     }); tbl_aptATFM_LOC.draw();
@@ -343,7 +343,7 @@ options: {
     var tbl_aptATFM_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFM_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&sheet=APT_ATFM_APT&range=A5:F180',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&sheet=APT_ATFM_APT&range=A5:F180',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_aptATFM_APT.draw();
@@ -352,7 +352,7 @@ options: {
     var tbl_aptATFMADH_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFMADH_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1aXO6pvE4Q6m7auDAGJv2VwXUOUd00-zfdLJbMBRYbkY/edit?usp=sharing&sheet=APT_ATFM_ADH_LOC&range=A5:B35',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1aXO6pvE4Q6m7auDAGJv2VwXUOUd00-zfdLJbMBRYbkY/edit?usp=sharing&sheet=APT_ATFM_ADH_LOC&range=A5:B35',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [0,1]}
     }); tbl_aptATFMADH_LOC.draw();
@@ -361,7 +361,7 @@ options: {
     var tbl_aptATFMADH_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFMADH_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1aXO6pvE4Q6m7auDAGJv2VwXUOUd00-zfdLJbMBRYbkY/edit?usp=sharing&sheet=APT_ATFM_ADH_APT&range=A5:D180',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1aXO6pvE4Q6m7auDAGJv2VwXUOUd00-zfdLJbMBRYbkY/edit?usp=sharing&sheet=APT_ATFM_ADH_APT&range=A5:D180',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_aptATFMADH_APT.draw();
@@ -370,7 +370,7 @@ options: {
     var tbl_aptATC_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATC_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1fbGRbNRWg6XJyhGIuA-LgacvNGUtdLU_CqbtvP9Wwjo/edit?usp=sharing&sheet=APT_ATC_PRE_LOC&range=A5:E35',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1fbGRbNRWg6XJyhGIuA-LgacvNGUtdLU_CqbtvP9Wwjo/edit?usp=sharing&sheet=APT_ATC_PRE_LOC&range=A5:E35',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [0,4,1]}
     }); tbl_aptATC_LOC.draw();
@@ -379,7 +379,7 @@ options: {
     var tbl_aptATC_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATC_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1fbGRbNRWg6XJyhGIuA-LgacvNGUtdLU_CqbtvP9Wwjo/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:F180',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1fbGRbNRWg6XJyhGIuA-LgacvNGUtdLU_CqbtvP9Wwjo/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:F180',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_aptATC_APT.draw();
@@ -388,7 +388,7 @@ options: {
     var tbl_ertSU = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertSU',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
         options:{ allowHtml:true, width: 470, height: 400},
         view: {columns: [0,3,6,8,5]}
     }); tbl_ertSU.draw();
@@ -397,7 +397,7 @@ options: {
 var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertSUYYvstgt',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:M36',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:M36',
         options:{
                     width: 475, height: 400,
                     chartArea: {left: 55, top: 30, width:'80%',height:'50%'},
@@ -506,7 +506,7 @@ Period: January-December</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -587,7 +587,7 @@ Period: January-December</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -639,7 +639,7 @@ Period: January-December</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1hLYGdDDyS6-6IXVyblXZiWptQ2FB818qoCn2g0msKas/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1hLYGdDDyS6-6IXVyblXZiWptQ2FB818qoCn2g0msKas/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -689,7 +689,7 @@ Period: January-December</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1MdhOPUqTN4nvVcyU0LsfBJ3uNOGjv7x5O1VzQKekILg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1MdhOPUqTN4nvVcyU0LsfBJ3uNOGjv7x5O1VzQKekILg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -812,7 +812,7 @@ Period: January-December</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <p><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></p>
+<a href="//docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></p>
 </span>
 </div>
 </td>
@@ -864,7 +864,7 @@ Period: January-December</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -921,7 +921,7 @@ Period: January-December</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1aXO6pvE4Q6m7auDAGJv2VwXUOUd00-zfdLJbMBRYbkY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1aXO6pvE4Q6m7auDAGJv2VwXUOUd00-zfdLJbMBRYbkY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -970,7 +970,7 @@ Period: January-December</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1fbGRbNRWg6XJyhGIuA-LgacvNGUtdLU_CqbtvP9Wwjo/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1fbGRbNRWg6XJyhGIuA-LgacvNGUtdLU_CqbtvP9Wwjo/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -1029,7 +1029,7 @@ Period: January-December</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
