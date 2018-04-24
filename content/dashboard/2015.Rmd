@@ -1,5 +1,5 @@
 ---
-title: "2015 dashboard"
+title: "Reporting Period 2 - 2015 dashboard"
 date: 2015-01-01
 categories: ["dashboard"]
 ---
@@ -423,8 +423,6 @@ var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
 }
 google.setOnLoadCallback(drawVisualization)
 </script>
-
-<div class="header">ANS performance monitoring (RP2, 2015)</div>
 
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
