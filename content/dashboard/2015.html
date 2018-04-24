@@ -6,7 +6,7 @@ categories: ["dashboard"]
 
 
 
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
 <script type="text/javascript"> // load the visualisation API
 google.load('visualization', '1', { packages: ['corechart', 'controls'] });
 </script>
@@ -19,7 +19,7 @@ function drawVisualization()
  var crt_ertfltsYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertfltsYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1P86i-AwsgNgBkmgj7tRFbKuEzNSApMMbRs96Y14VQX8/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1P86i-AwsgNgBkmgj7tRFbKuEzNSApMMbRs96Y14VQX8/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
 
         options: {
                 width: 450, height: 170,
@@ -48,7 +48,7 @@ function drawVisualization()
     var crt_ertfltsMM = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertfltsMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1P86i-AwsgNgBkmgj7tRFbKuEzNSApMMbRs96Y14VQX8/edit?usp=sharing&sheet=ERT_FLTS_MM&range=A4:I64&tq=where%20A%3D1&hl=en_US',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1P86i-AwsgNgBkmgj7tRFbKuEzNSApMMbRs96Y14VQX8/edit?usp=sharing&sheet=ERT_FLTS_MM&range=A4:I64&tq=where%20A%3D1&hl=en_US',
 options: {
                 width: 450, height: 190,
                 chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -76,7 +76,7 @@ options: {
     var tbl_ertflts_YY = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertflts_YY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1P86i-AwsgNgBkmgj7tRFbKuEzNSApMMbRs96Y14VQX8/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:D14',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1P86i-AwsgNgBkmgj7tRFbKuEzNSApMMbRs96Y14VQX8/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:D14',
         options:{allowHtml: false, width: 470, height: 340},
         view: {columns: [0,1,2,3]
         }
@@ -86,7 +86,7 @@ options: {
     var crt_flteffYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_flteffYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1dmQlsRoFixhWIOvSWYyldSM6DEXs7gGptKc4kuaN-7c/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G10',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1dmQlsRoFixhWIOvSWYyldSM6DEXs7gGptKc4kuaN-7c/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G10',
             options:{
                     width: 450, height: 180,
                     chartArea: {left: 50, top: 30, width:'55%',height:'60%'},
@@ -121,7 +121,7 @@ options: {
     var crt_flteffMM = new google.visualization.ChartWrapper({
         chartType: 'LineChart',
         containerId: 'crt_flteffMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1dmQlsRoFixhWIOvSWYyldSM6DEXs7gGptKc4kuaN-7c/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:H65&tq=where%20A%3D2015',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1dmQlsRoFixhWIOvSWYyldSM6DEXs7gGptKc4kuaN-7c/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:H65&tq=where%20A%3D2015',
         options:{
                     width: 450, height: 190,
                     chartArea: { left: 50, top: 30, width: '55%',height:'50%' },
@@ -188,7 +188,7 @@ options: {
     var tbl_ert_flteff = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ert_flteff',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1dmQlsRoFixhWIOvSWYyldSM6DEXs7gGptKc4kuaN-7c/edit?usp=sharing&sheet=ERT_FLT_EFF_FAB&range=A5:E15&hl=en_GB',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1dmQlsRoFixhWIOvSWYyldSM6DEXs7gGptKc4kuaN-7c/edit?usp=sharing&sheet=ERT_FLT_EFF_FAB&range=A5:E15&hl=en_GB',
         options:{
         allowHtml: true,
         width: 470, height: 360,
@@ -202,7 +202,7 @@ options: {
     var tbl_ASMAdly_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ASMAdly_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1McCrgBuXhqo1YHqBVaWjYF3NGAygM2o_tznbIoSgjos/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1McCrgBuXhqo1YHqBVaWjYF3NGAygM2o_tznbIoSgjos/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
         options:{ allowHtml: false, width: 470, height: 280},
         view: {columns: [0,5,1]}
     }); tbl_ASMAdly_LOC.draw();
@@ -210,7 +210,7 @@ options: {
     var tbl_ASMAdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ASMAdly_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1McCrgBuXhqo1YHqBVaWjYF3NGAygM2o_tznbIoSgjos/edit?usp=sharing&sheet=ASMA_APT&range=A5:G178',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1McCrgBuXhqo1YHqBVaWjYF3NGAygM2o_tznbIoSgjos/edit?usp=sharing&sheet=ASMA_APT&range=A5:G178',
         options:{ allowHtml: false, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_ASMAdly_APT.draw();
@@ -218,7 +218,7 @@ options: {
     var tbl_txdly_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_txdly_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B9tKMX7Pg-9Iz9yBeiFuSQYyMWqLnUtDR1mUWki5zxw/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F30',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1B9tKMX7Pg-9Iz9yBeiFuSQYyMWqLnUtDR1mUWki5zxw/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F30',
         options:{ allowHtml: false, width: 470, height: 280},
         view: {columns: [0,5,1]}
     }); tbl_txdly_LOC.draw();
@@ -226,7 +226,7 @@ options: {
     var tbl_txdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_txdly_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B9tKMX7Pg-9Iz9yBeiFuSQYyMWqLnUtDR1mUWki5zxw/edit?usp=sharing&sheet=TxOut_APT&range=A5:G178',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1B9tKMX7Pg-9Iz9yBeiFuSQYyMWqLnUtDR1mUWki5zxw/edit?usp=sharing&sheet=TxOut_APT&range=A5:G178',
         options:{ allowHtml: false, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_txdly_APT.draw();
@@ -235,7 +235,7 @@ options: {
     var crt_ertdlyYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertdlyYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1UTQYzB6Ct2IiD0kMpdaMg_CxSKYF_tDSNanmClT3APU/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:F10',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1UTQYzB6Ct2IiD0kMpdaMg_CxSKYF_tDSNanmClT3APU/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:F10',
         options:{
                     width: 450, height: 160,
                     chartArea: {left: 50, top: 30, width:'55%',height:'60%'},
@@ -257,7 +257,7 @@ options: {
     var crt_ertdlyMM = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertdlyMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1UTQYzB6Ct2IiD0kMpdaMg_CxSKYF_tDSNanmClT3APU/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:G65&tq=where%20G%3D1',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1UTQYzB6Ct2IiD0kMpdaMg_CxSKYF_tDSNanmClT3APU/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:G65&tq=where%20G%3D1',
         options:{
                     width: 450, height: 190,
                     chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -279,7 +279,7 @@ options: {
     var tbl_ertdly_YYtgt = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertdly_YYtgt',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1UTQYzB6Ct2IiD0kMpdaMg_CxSKYF_tDSNanmClT3APU/edit?usp=sharing&sheet=ERT_ATFM_LOC&range=A5:F15&hl=en_GB',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1UTQYzB6Ct2IiD0kMpdaMg_CxSKYF_tDSNanmClT3APU/edit?usp=sharing&sheet=ERT_ATFM_LOC&range=A5:F15&hl=en_GB',
         options:{allowHtml: false, width: 470, height: 280},
         view: {columns: [0,1,4,5]
         }
@@ -289,7 +289,7 @@ options: {
     var crt_aptATFMsesYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_aptATFMsesYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D10',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D10',
         options:{
                     width: 450, height: 190,
                     chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -309,7 +309,7 @@ options: {
     var crt_aptATFMsesMM = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_aptATFMsesMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&sheet=APT_ATFM_SES_MM&range=A5:G65&tq=where%20G%3D1',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&sheet=APT_ATFM_SES_MM&range=A5:G65&tq=where%20G%3D1',
                 options:{
                     width: 450, height: 190,
                     chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -331,7 +331,7 @@ options: {
     var tbl_aptATFM_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFM_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&sheet=APT_ATFM_LOC&range=A5:G35',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&sheet=APT_ATFM_LOC&range=A5:G35',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [0,1,2,3,4]}
     }); tbl_aptATFM_LOC.draw();
@@ -340,7 +340,7 @@ options: {
     var tbl_aptATFM_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFM_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&sheet=APT_ATFM_APT&range=A5:F178',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&sheet=APT_ATFM_APT&range=A5:F178',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_aptATFM_APT.draw();
@@ -349,7 +349,7 @@ options: {
     var tbl_aptATFMADH_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFMADH_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1lLqNOucP0VzGB1-hAOb5Tv3NoJToc9rc47fEalvGjVI/edit?usp=sharing&sheet=APT_ATFM_ADH_LOC&range=A5:B35',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1lLqNOucP0VzGB1-hAOb5Tv3NoJToc9rc47fEalvGjVI/edit?usp=sharing&sheet=APT_ATFM_ADH_LOC&range=A5:B35',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [0,1]}
     }); tbl_aptATFMADH_LOC.draw();
@@ -358,7 +358,7 @@ options: {
     var tbl_aptATFMADH_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFMADH_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1lLqNOucP0VzGB1-hAOb5Tv3NoJToc9rc47fEalvGjVI/edit?usp=sharing&sheet=APT_ATFM_ADH_APT&range=A5:D178',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1lLqNOucP0VzGB1-hAOb5Tv3NoJToc9rc47fEalvGjVI/edit?usp=sharing&sheet=APT_ATFM_ADH_APT&range=A5:D178',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_aptATFMADH_APT.draw();
@@ -368,7 +368,7 @@ options: {
     var tbl_aptATC_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATC_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zXlIq03BmyXP8h8mhYyj8PTPNOHjZz_eYP1v5gVES3c/edit?usp=sharing&sheet=APT_ATC_PRE_LOC&range=A5:E35',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1zXlIq03BmyXP8h8mhYyj8PTPNOHjZz_eYP1v5gVES3c/edit?usp=sharing&sheet=APT_ATC_PRE_LOC&range=A5:E35',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [0,4,1]}
     }); tbl_aptATC_LOC.draw();
@@ -377,7 +377,7 @@ options: {
     var tbl_aptATC_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATC_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zXlIq03BmyXP8h8mhYyj8PTPNOHjZz_eYP1v5gVES3c/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:F178',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1zXlIq03BmyXP8h8mhYyj8PTPNOHjZz_eYP1v5gVES3c/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:F178',
         options:{ allowHtml:true, width: 470, height: 280},
         view: {columns: [1,2,0,3]}
     }); tbl_aptATC_APT.draw();
@@ -387,7 +387,7 @@ options: {
     var tbl_ertSU = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertSU',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1wCl2GdiXRu5i6voPakm1vm6pWSSx20XmWa6ig7dMF7Q/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1wCl2GdiXRu5i6voPakm1vm6pWSSx20XmWa6ig7dMF7Q/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
         options:{ allowHtml:true, width: 470, height: 400},
         view: {columns: [0,3,6,8,5]}
     }); tbl_ertSU.draw();
@@ -398,7 +398,7 @@ options: {
 var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertSUYYvstgt',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1wCl2GdiXRu5i6voPakm1vm6pWSSx20XmWa6ig7dMF7Q/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:M36',
+        dataSourceUrl: '//docs.google.com/spreadsheets/d/1wCl2GdiXRu5i6voPakm1vm6pWSSx20XmWa6ig7dMF7Q/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:M36',
         options:{
                     width: 475, height: 400,
                     chartArea: {left: 55, top: 30, width:'80%',height:'50%'},
@@ -471,10 +471,10 @@ Despite these precautions, should you find any errors or inconsistencies we woul
 <a href="mailto:NSA-PRU-Support@eurocontrol.int">Contact us</a>
 </td>
 <td colspan="2" rowspan="1" style="text-align: center; vertical-align: center;">
-<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">Meta data</a>
+<a href="//prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">Meta data</a>
 </td>
 <td colspan="2" rowspan="1" style="text-align: center; vertical-align: center;">
-<a href="http://prudata.webfactional.com/wiki/index.php/Category:Glossary" target="_blank">Glossary</a>
+<a href="//prudata.webfactional.com/wiki/index.php/Category:Glossary" target="_blank">Glossary</a>
 </td>
 </tr>
 </tbody>
@@ -507,7 +507,7 @@ Period: January-December 2015</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1P86i-AwsgNgBkmgj7tRFbKuEzNSApMMbRs96Y14VQX8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1P86i-AwsgNgBkmgj7tRFbKuEzNSApMMbRs96Y14VQX8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -519,7 +519,7 @@ Source: Network Manager
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en_route_ATFM_delay_per_flight" target="_blank">[Meta data]</a>
+<a href="//prudata.webfactional.com/wiki/index.php/Minutes_of_en_route_ATFM_delay_per_flight" target="_blank">[Meta data]</a>
 </span>
 </div>
 </td>
@@ -588,7 +588,7 @@ Period: January-December 2015</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1dmQlsRoFixhWIOvSWYyldSM6DEXs7gGptKc4kuaN-7c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1dmQlsRoFixhWIOvSWYyldSM6DEXs7gGptKc4kuaN-7c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -600,7 +600,7 @@ Source: PRU analysis; Network Manager
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Average_horizontal_en-route_inefficiency" target="_blank">[Meta data]</a>
+<a href="//prudata.webfactional.com/wiki/index.php/Average_horizontal_en-route_inefficiency" target="_blank">[Meta data]</a>
 </span>
 </div>
 </td>
@@ -640,7 +640,7 @@ Period: January-December 2015</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1B9tKMX7Pg-9Iz9yBeiFuSQYyMWqLnUtDR1mUWki5zxw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1B9tKMX7Pg-9Iz9yBeiFuSQYyMWqLnUtDR1mUWki5zxw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -652,7 +652,7 @@ Source: PRU analysis; Airports
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">[Meta data]</a>
+<a href="//prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">[Meta data]</a>
 </span>
 </div>
 </td>
@@ -690,7 +690,7 @@ Period: January-December 2015</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1McCrgBuXhqo1YHqBVaWjYF3NGAygM2o_tznbIoSgjos/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1McCrgBuXhqo1YHqBVaWjYF3NGAygM2o_tznbIoSgjos/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -702,7 +702,7 @@ Source: PRU analysis; Airports; Network Manager
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">[Meta data]</a>
+<a href="//prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">[Meta data]</a>
 </span>
 </div>
 </td>
@@ -730,7 +730,7 @@ Source: PRU analysis; Airports; Network Manager
 <td colspan="4" rowspan="1">
 <div class="head3">
   Effective use of the civil / military airspace structures  
-<a href="http://prudata.webfactional.com/wiki/index.php/Effective_use_of_the_civil_/_military_airspace_structures" target="_blank">(Meta data)</a>
+<a href="//prudata.webfactional.com/wiki/index.php/Effective_use_of_the_civil_/_military_airspace_structures" target="_blank">(Meta data)</a>
 </div>
 </td>
 </tr>
@@ -808,7 +808,7 @@ Period: January-December 2015</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1UTQYzB6Ct2IiD0kMpdaMg_CxSKYF_tDSNanmClT3APU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1UTQYzB6Ct2IiD0kMpdaMg_CxSKYF_tDSNanmClT3APU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -820,7 +820,7 @@ Source: Network Manager
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en-route_ATFM_delay_per_flight" target="_blank">[Meta data]</a>
+<a href="//prudata.webfactional.com/wiki/index.php/Minutes_of_en-route_ATFM_delay_per_flight" target="_blank">[Meta data]</a>
 </span>
 </div>
 </td>
@@ -860,7 +860,7 @@ Period: January-December 2015</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -872,7 +872,7 @@ Source: PRU analysis; Network Manager
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Airport_ATFM_delay" target="_blank">[Meta data]</a>
+<a href="//prudata.webfactional.com/wiki/index.php/Airport_ATFM_delay" target="_blank">[Meta data]</a>
 </span>
 </div>
 </td>
@@ -917,7 +917,7 @@ Period: January-December 2015</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1lLqNOucP0VzGB1-hAOb5Tv3NoJToc9rc47fEalvGjVI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1lLqNOucP0VzGB1-hAOb5Tv3NoJToc9rc47fEalvGjVI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -929,7 +929,7 @@ Source: Network Manager
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/ATFM_slot_adherence" target="_blank">[Meta data]</a>
+<a href="//prudata.webfactional.com/wiki/index.php/ATFM_slot_adherence" target="_blank">[Meta data]</a>
 </span>
 </div>
 </td>
@@ -966,7 +966,7 @@ Period: January-December 2015</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1zXlIq03BmyXP8h8mhYyj8PTPNOHjZz_eYP1v5gVES3c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1zXlIq03BmyXP8h8mhYyj8PTPNOHjZz_eYP1v5gVES3c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -978,7 +978,7 @@ Source: Airports
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/ATC_pre-departure_delay" target="_blank">[Meta data]</a>
+<a href="//prudata.webfactional.com/wiki/index.php/ATC_pre-departure_delay" target="_blank">[Meta data]</a>
 </span>
 </div>
 </td>
@@ -1025,7 +1025,7 @@ Period: January-December 2015</span>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1wCl2GdiXRu5i6voPakm1vm6pWSSx20XmWa6ig7dMF7Q/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="//docs.google.com/spreadsheets/d/1wCl2GdiXRu5i6voPakm1vm6pWSSx20XmWa6ig7dMF7Q/edit?usp=sharing" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -1066,7 +1066,7 @@ Source: CRCO; EC; PRU analysis
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head3">
   Cost efficiency KPI #1: Determined unit cost (DUC) for en-route ANS   
-<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)"target="_blank">(Meta data)</a>
+<a href="//prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)"target="_blank">(Meta data)</a>
 </div>
 <div style="text-align: left; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">To be provided in line with the scheduled reporting cycle<br>
@@ -1077,7 +1077,7 @@ Source: CRCO; EC; PRU analysis
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head3">
   Cost efficiency KPI #2: Determined unit cost (DUC) for terminal ANS   
-<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">(Meta data)</a>
+<a href="//prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">(Meta data)</a>
 </div>
 <div style="text-align: left; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">To be provided in line with the scheduled reporting cycle<br>
