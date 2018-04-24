@@ -1,0 +1,127 @@
+/* begin Page */
+
+
+body {
+	color: grey;
+	font-size: 80%; /* Base font size is 14px*/
+	font-family:Verdana, Times New Roman, Sans-Serif;
+	line-height: 1.5;
+	text-align: left;
+	text-indent:5px;
+	}
+
+a {text-decoration: none;
+}
+
+.header {
+height : 100;
+width: 950px;
+color: #c4bfc8;
+background-color: #669999;
+font-weight: bold;
+font-size: 16pt;
+font-family: Verdana;
+text-align: center;
+text-indent:5px;
+border: 0.5px solid black;
+border-radius: 10px ;
+Margin-bottom: 0.5%;
+/*position: fixed;*/
+}
+
+.head2 {
+height: 125;
+width: 950px;
+color: #c4bfc8;
+background-color: #669999;
+font-weight: bold;
+font-size: 12pt;
+font-family: Verdana;
+text-align: left;
+text-indent:5px;
+border-radius: 5px ;
+Margin-top: 0.5%;
+Margin-bottom: 0.5%;
+}
+
+.head3 {
+height : 125;
+width: 950px;
+color: 	#474752;
+background-color: #D9D9DD;
+font-weight: bold;
+font-size: 10pt;
+font-family: Verdana;
+text-align: left;
+text-indent:5px;
+border-radius: 5px ;
+Margin-bottom: 0.5%;
+}
+
+.head4 {
+height: 125;
+width: 470px;
+color: 	#474752;
+background-color: #D9D9DD;
+font-weight: bold;
+font-size: 9pt;
+font-family: Verdana;
+text-align: left;
+text-indent:5px;
+border-radius: 5px ;
+Margin-bottom: 0.5%;
+}
+
+.head5 {heigh : 125;
+width: 470px;
+color: 	#F5EFFA;
+background-color: #396ea2;
+font-weight: bold;
+font-size: 11pt;
+font-family: Verdana;
+text-align: left;
+text-indent:5px;
+border-radius: 5px ;
+Margin-bottom: 0.5%;
+}
+
+.head6 {heigh : 125;
+
+color: 	#474752;
+background-color: #D9D9DD;
+font-weight: normal;
+font-size: 8pt;
+font-family: Verdana;
+text-align: left;
+text-indent:5px;
+border-radius: 5px ;
+Margin-bottom: 0.5%;
+}
+
+.content {
+	width: 70%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.topContent{
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	Margin-top: 2%;
+}
+
+
+a:link, a:visited {
+	color: #396ea2;
+}
+
+a:hover, a:active {
+	background-color: #396ea2;
+	color: #F5EFFA;
+}
+
