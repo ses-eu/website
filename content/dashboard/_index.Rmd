@@ -13,20 +13,20 @@ title: "RP2 Dashboard (2015 - 2019)"
 
 ## EU wide view
 
-* [2012](eur_view_2012/)
-* [2013](eur_view_2013/)
 * [2014](eur_view_2014/)
+* [2013](eur_view_2013/)
+* [2012](eur_view_2012/)
 
 
 ## Local view
 
-* [2012](pp_view_2012/)
-* [2013](pp_view_2013/)
 * [2014](pp_view_2014/)
+* [2013](pp_view_2013/)
+* [2012](pp_view_2012/)
 
 
 ## Airport view
 
-* [2012](apt_view_2012/)
-* [2013](apt_view_2013/)
 * [2014](apt_view_2014/)
+* [2013](apt_view_2013/)
+* [2012](apt_view_2012/)
