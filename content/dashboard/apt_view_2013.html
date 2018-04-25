@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="/css/style_rp1.css" rel= "stylesheet" type="text/css"/>
+<title>2013 - Airport level - ANS performance monitoring</title>
+</head>
+
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+     google.load('visualization', '1', { packages: ['corechart', 'controls'] });
+      </script>
+    <script type="text/javascript">
+    var visualization;
+
+function drawVisualization() 	{
+	var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1b4IC_IQ0YmROBBAqaiChKbzEy3SmMb2_y5jMKX7Obrg/edit?usp=sharing&sheet=APT&range=A4:AD1313&hl=en_GB');
+	query.send(handleQueryResponse);
+								}
+
+function handleQueryResponse(response) {
+          if (response.isError()) {
+        alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+        return;
+        }
+var data = response.getDataTable();
+
+// CATEGORY PICKER 1
+     var AirportPicker = new google.visualization.ControlWrapper({
+		controlType: 'CategoryFilter',
+		containerId: 'control2',
+		options:{
+				filterColumnLabel: 'Airport name',
+				ui: {
+					labelStacking: 'vertical',
+					allowTyping: false,
+					allowMultiple: false
+					},
+				},
+		state: {selectedValues: ['Vienna']}
+																});
+// CATEGORY PICKER 2
+	var CountryPicker = new google.visualization.ControlWrapper({
+		controlType: 'CategoryFilter',
+		containerId: 'control1',
+		options:{
+				filterColumnLabel: 'State',
+				ui:{
+					labelStacking: 'vertical',
+					allowTyping: false,
+					allowMultiple: false
+					}
+				},
+	    state: {selectedValues: ['Austria']}
+																});
+// TBL GENERAL AIRPORT INFORMATION
+    var tblgen = new google.visualization.ChartWrapper({
+		chartType: 'Table',
+		containerId: 'tblgen',
+		options: {
+					width: 940, height: 60
+					},
+		view: {columns: [4,1,0,2,3,28,29] ,rows: [4] }
+														});
+// IFR flights - YY - CHART [APT]
+	var crt_IFRYY = new google.visualization.ChartWrapper({
+		chartType: 'LineChart',
+		containerId: 'crt_IFRYY',
+		options: {
+				width: 450, height: 200,
+				chartArea: {left: 60, top: 30, width:'60%',height:'60%'},
+				title: 'Average daily IFR movements (Arr. + Dep.)',
+				titleTextStyle : {color: 'grey', fontSize: 12},
+				legend: 'none',
+				series: {
+							0: {type: 'bars', color:'#99badb',  targetAxisIndex: 0},
+							1: {type: 'lines', color:'#B89470', lineWidth: 2, pointSize: 6, targetAxisIndex: 1}
+						},
+				vAxes:{
+							0:{	title:'Avg. daily IFR movements',
+								titleTextStyle : {color: 'grey', fontSize: 11},
+								textStyle:{color: '#5D7CBA'}},
+							1:{	title:'% change',
+								titleTextStyle : {color: 'grey', fontSize: 11},
+								textStyle:{color:'#B89470'}}
+						}
+				},
+		view: {columns: [4,7,8], rows: [0,1,2,3,4]}
+															});
+
+// IFR flights - MM - CHART [APT]
+	var crt_IFRMM = new google.visualization.ChartWrapper({
+		chartType: 'LineChart',
+		containerId: 'crt_IFRMM',
+		options: {
+				width: 470, height: 200,
+				chartArea: {left: 60, top: 30, width:'68%',height:'60%'},
+				title: 'Avg. daily IFR movements (2013)',
+				titleTextStyle : {color: 'grey', fontSize: 12},
+				legend: {position:'right',textStyle:{color: 'grey', fontSize: 11}},
+				series: {
+							0: {type: 'bars', color:'#99badb'},
+							1: {type: 'lines',color:'#c76061', lineWidth: 0, pointShape:'diamond', pointSize: 7}
+						},
+					vAxis: {title: 'Avg. daily IFR movements',
+							titleTextStyle: {color: 'grey', fontSize: 11},
+							textStyle:{color: 'grey'}}
+				},
+		view: {columns: [5,7,9], rows: [5,6,7,8,9,10,11,12,13,14,15,16]}
+														});
+// TBL Performance Overview
+    var tblperf = new google.visualization.ChartWrapper({
+		chartType: 'Table',
+		containerId: 'tblperf',
+		options: { allowHtml: false,
+					width: 950, height: 140
+					},
+		view: {columns: [4,11,18,19,20,21,12,26,23] ,rows: [3,4] }
+														});
+
+// APT ATFM DLY - MM - CHART [APT]
+	var crt_aptdlyMM = new google.visualization.ChartWrapper({
+		chartType: 'ComboChart',
+		containerId: 'crt_aptdlyMM',
+				options:{
+					width: 475, height: 220,
+					chartArea: {left: 45, top: 30, width:'65%',height:'65%'},
+					title: 'Airport arrival ATFM delays (2013)',
+					titleTextStyle : {color: 'grey', fontSize: 12},
+					legend: {position:'right',textStyle:{color: 'grey', fontSize: 11}},
+					isStacked : 'true',
+					series: {
+								0: {type:'lines',color:'#c76061', lineWidth: 0, pointShape:'diamond', pointSize: 7},
+								1: {type:'bars',color:'#F08080'},
+								2: {type:'bars',color:'#FFA07A'},
+								3: {type:'bars', color:'#99FF99'},
+								4: {type:'bars',color:'grey'}
+							},
+					vAxis: {title: 'minutes per arrival', format: '0.00',
+							titleTextStyle: {color: 'grey', fontSize: 11},
+							textStyle:{color: 'grey'}},
+						},
+		view: { columns: [5,17,13,14,15,16], rows: [5,6,7,8,9,10,11,12,13,14,15,16]}
+	});
+
+	// ASMA - MM - CHART - [APT]
+	var crt_ASMAMM = new google.visualization.ChartWrapper({
+		chartType: 'ComboChart',
+		containerId: 'crt_ASMAMM',
+		options: {
+				width: 470, height: 220,
+				chartArea: {left: 40, top: 30, width:'67%',height:'65%'},
+				title: 'ASMA additional time (2013)',
+				titleTextStyle : {color: 'grey', fontSize: 12},
+				legend: {position:'right',textStyle:{color: 'grey', fontSize: 11}},
+								isStacked : 'true',
+					series: {
+								0: {type:'bars',color:'#99badb', targetAxisIndex: 0},
+								1: {type:'bars',color:'#666699', targetAxisIndex: 0},
+								2: {type:'lines',color:'#c76061', lineWidth: 0, pointShape:'diamond', pointSize: 7}
+							},
+					vAxes:{
+							0:{	title:'[min. per arrival]',format: '0.0',
+								titleTextStyle : {color: 'grey', fontSize: 11},
+								textStyle:{color: 'grey'}}
+							}
+						},
+		view: {columns: [5,25,26,27], rows: [5,6,7,8,9,10,11,12,13,14,15,16]}
+	});
+
+		// Taxi out - MM - CHART - [APT]
+	var crt_txoutMM = new google.visualization.ChartWrapper({
+		chartType: 'ComboChart',
+		containerId: 'crt_txoutMM',
+		options: {
+				width: 470, height: 220,
+				chartArea: {left: 40, top: 30, width:'67%',height:'65%'},
+				title: 'Taxi out additional time (2013)',
+				titleTextStyle : {color: 'grey', fontSize: 12},
+				legend: {position:'right',textStyle:{color: 'grey', fontSize: 11}},
+				isStacked : 'true',
+					series: {
+								0: {type:'bars',color:'#C2E0D1', targetAxisIndex: 0},
+								1: {type:'bars',color:'#339966', targetAxisIndex: 0},
+								2: {type:'lines',color:'#c76061', lineWidth: 0, pointShape:'diamond', pointSize: 7}
+							},
+					vAxes:{
+							0:{	title:'[min. per departure]',format: '0.0',
+								titleTextStyle : {color: 'grey', fontSize: 11},
+								textStyle:{color: 'grey'}}
+							}
+						},
+		view: {columns: [5,22,23,24], rows: [5,6,7,8,9,10,11,12,13,14,15,16]}
+	});
+
+// Create a dashboard
+	new google.visualization.Dashboard(document.getElementById('dashboard')).
+        bind(CountryPicker, AirportPicker).
+        bind([AirportPicker], [tblgen, crt_IFRYY, crt_IFRMM, tblperf, crt_aptdlyMM, crt_ASMAMM, crt_txoutMM]).
+	draw(data);
+      }
+
+google.setOnLoadCallback(drawVisualization)
+
+</script>
+
+<div class="header">ANS performance monitoring (Airport level, 2013)</div>
+<div id="dashboard">
+
+<table style="text-align: left;width: 950px;" border="1" cellpadding="2" cellspacing="3">
+  <tbody>
+    <tr>
+      <td colspan="3" rowspan="6">
+		<div style="text-align: justify; vertical-align: top; margin-left: 5px; margin-right: 5px">
+		<p> This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible.
+		   Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.</p>
+		<p>For feedback or questions please contact us at: <a href="mailto:NSA-PRU-Support@eurocontrol.int">Performance Review Unit</a></p>
+		<p>Note that the dashboard takes a few moments to fully load</p>
+		</div>
+        </td>
+         <td colspan="4" rowspan="1"style="background-color: #D9D9DD;text-align: left; vertical-align: top; "><b>Also available online:</b></td>
+    </tr>
+
+	<tr>
+		<td style="width: 100px; left; vertical-align: top; ">EU wide view</td>
+		<td style="width: 60px;  text-align: center; vertical-align: top; "><a href="../eur_view_2012/">2012</a></span></div></td>
+		<td style="width: 70px;  text-align: center; vertical-align: top; "><a href="../eur_view_2013/">2013</a></span></div></td>
+		<td style="width: 70px;  text-align: center; vertical-align: top; "><a href="../eur_view_2014/">2014</a></span></div></td>
+	</tr>
+
+	<tr>
+		<td style="left; vertical-align: top; ">Local View</td>
+		<td style="text-align: center; vertical-align: top; "><a href="../pp_view_2012/">2012</a></span></div></td>
+		<td style="text-align: center; vertical-align: top; "><a href="../pp_view_2013/">2013</a></span></div></td>
+		<td style="text-align: center; vertical-align: top; "><a href="../pp_view_2014/">2014</a></span></div></td>
+	</tr>
+
+	<tr>
+		<td style="left; vertical-align: top; ">Airport View</td>
+		<td style="text-align: center; vertical-align: top; "><a href="../apt_view_2012/">2012</a></span></div></td>
+		<td style="text-align: center; vertical-align: top;background-color: #99badb "><b><a href="../apt_view_2013/">2013</a></b></span></div></td>
+		<td style="text-align: center; vertical-align: top; "><a href="../apt_view_2014/">2014</a></span></div></td>
+	</tr>
+
+	<tr>
+		<td colspan="4" rowspan="1" style="background-color: #D9D9DD;text-align: left; vertical-align: top; "><b>Support:</b></td>
+    </tr>
+     <tr>
+	  <td colspan="2" rowspan="1" style="text-align: center; vertical-align: center; "><a href="../downloads/">Download Area</a></td>
+      <td style="text-align: center; vertical-align: center; "><a href="http://prudata.webfactional.com/wiki/index.php/RP1_(2012-2014)" target="_blank">Meta data</a></td>
+      <td style="text-align: center; vertical-align: center; "><a href="http://prudata.webfactional.com/wiki/index.php/Category:Glossary" target="_blank">Glossary</a></td>
+    </tr>
+
+	<tr>
+      <td colspan="1" rowspan="1" style="text-align: right;width: 300px;"><span style="color: rgb(153, 0, 0)"><b>Select airport here: </b></span></td>
+      <td style="text-align: center;"> <div style="float: center;margin-top: 2px " id="control1"></span></div>	</td>
+      <td style="text-align: center;"> <div style="float: center;margin-top: 2px " id="control2"></span></div>	</td>
+	  <td colspan="4" rowspan="1" style="background-color: #D9D9DD;text-align: left; vertical-align: center;"><b><a href="../2018/">Dashboard second reference period (RP2)</a></b></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table style="width: 950px; height: 10px;">
+	<tr style="vertical-align: top;">
+	<div class="head2">&nbsp;GENERAL&nbsp;</div>
+	</tr>
+  	<tr style="vertical-align: top;">
+		<div style="left;"id="tblgen"></div>
+	</tr>
+ </table>
+
+
+ <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+
+	<tr>
+      <td colspan="2" rowspan="1" style="width: 950px">
+		<div class="head2">&nbsp;TRAFFIC [annual results]</div>
+	  </td>
+    </tr>
+
+	<tr>
+      <td colspan="2" rowspan="1" style="width: 950px">
+	  <div class="head3">&nbsp;IFR movements [ARR + DEP]</div>
+	  </td>
+	</tr>
+
+	 <tr>
+
+	  <td style="width: 475px">
+	  	<div style="float: left;" id="crt_IFRYY"></div>
+		<div><small><i><small>&nbsp;Source: Network Manager</small></i></small></div>
+	  </td>
+
+	  <td style="width: 475px">
+	   	<div style="float: left;" id="crt_IFRMM"></div>
+		<div><small><i><small>&nbsp;Source: Network Manager</small></i></small></div>
+	  </td>
+
+	</tr>
+
+  </tbody>
+</table>
+
+ <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td colspan="2" rowspan="1" style="width: 950px">
+		<div class="head2">&nbsp;ANS performance indicators [annual results]</div>
+	</tr>
+	 <tr>
+      <td colspan="2" rowspan="1" style="width: 950px">
+	  <div class="head3">&nbsp;Overview table &nbsp;&nbsp;</div>
+	  <div style="float: left;" id="tblperf"></div>
+	 </td>
+	</tr>
+
+
+	  </td>
+    </tr>
+   <tr>
+      <td style="width: 475px ;vertical-align: top;">
+	  	<div class="head5">&nbsp;INBOUND traffic flow [annual results]</div>
+		<div class="head4">&nbsp;Airport ATFM arrival delay PI&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://prudata.webfactional.com/wiki/index.php/Airport_ATFM_delay" target="_blank">(Meta data)</a></div>
+	  	<div style="float: left;" id="crt_aptdlyMM"></div>
+		<div><small><i><small>&nbsp;Source:Network Manager</small></i></small></div>
+
+	  </td>
+      <td style="width: 475px ;vertical-align: top;">
+	  <div class="head5">&nbsp;OUTBOUND traffic flow [annual results]</div>
+	    <div class="head4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+	  </td>
+    </tr>
+
+	<tr>
+      <td style="width: 475px; vertical-align: top;">
+	 <div class="head4">&nbsp;ASMA additional time PI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">(Meta data)</a></div>
+		<div style="float: left;" id="crt_ASMAMM"></div>
+		<div><small><i><small>&nbsp;Source:PRU analysis; Network Manager; CODA</small></i></small></div>
+	  </td>
+	  <td style="width: 475px ;vertical-align: top;">
+     <div class="head4">&nbsp;Taxi out additional time PI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="http://prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">(Meta data)</a></div>
+	  	<div style="float: left;" id="crt_txoutMM"></div>
+		<div><small><i><small>&nbsp;Source:PRU analysis; Network Manager; CODA</small></i></small></div>
+	  </td>
+    </tr>
+   </tbody>
+</table>
+   <table style="text-align: left; ; background-color:  #D9D9DD; width: 950px;" border="1" cellpadding="4" cellspacing="4">
+  <tbody>
+    <tr>
+      <td>
+		<div style="text-align: justify; vertical-align: top;">
+		 <span style="color: rgb(102, 102, 102);">
+		 The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB.
+		 The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information
+		 contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend
+		 the information provided at any time and without prior notice.</span>
+	 </td>
+    </tr>
+</tbody>
+</table>
+
+  </body>
+</html>
