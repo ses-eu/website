@@ -11,6 +11,19 @@
   border-radius: 0.1%;
 }
 
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+    background-color: #396ea2;
+    color: #F5EFFA;
+}
+
+
+
 .article-title {
   font-size: 32px;
 }
