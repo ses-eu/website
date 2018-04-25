@@ -466,15 +466,20 @@ Source: Network Manager</div></td>
 
 </tr>
 </tbody>
-</table><br>
-
+</table>
 </tbody>
 </table>
+
+
+--------------------------------------
+
 
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
+
+
 <div class="head2">&nbsp;SAFETY</div>
 </td>
 </tr>
