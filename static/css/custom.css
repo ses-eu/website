@@ -8,5 +8,129 @@
 }
 
 .nav-logo img {
-  border-radius: 0%;
+  border-radius: 0.1%;
+}
+
+.article-title {
+  font-size: 32px;
+}
+
+.article-content hr {
+  width: 80%;
+  margin: 25px auto;
+  height: 1.4px;
+  overflow: hidden;
+  border: none;
+  background: #e5e5e5;
+}
+
+
+.head2 {
+  color: #c4bfc8;
+  background-color: #669999;
+  font-weight: bold;
+  font-size: 12pt;
+  font-family: Verdana;
+  text-align: left;
+  text-indent: 5px;
+  border-radius: 5px;
+  Margin-top: 0.5%;
+  Margin-bottom: 0.5%;
+}
+
+.head3 {
+  color: #474752;
+  background-color: #D9D9DD;
+  font-weight: bold;
+  font-size: 10pt;
+  font-family: Verdana;
+  text-align: left;
+  text-indent: 5px;
+  border-radius: 5px;
+  Margin-bottom: 0.5%;
+}
+
+.head4 {
+    width: 470px;
+    color: #474752;
+    background-color: #D9D9DD;
+    font-weight: bold;
+    font-size: 9pt;
+    font-family: Verdana;
+    text-align: left;
+    text-indent: 5px;
+    border-radius: 5px;
+    Margin-bottom: 0.5%;
+}
+
+.head5 {
+    width: 470px;
+    color: #F5EFFA;
+    background-color: #396ea2;
+    font-weight: bold;
+    font-size: 11pt;
+    font-family: Verdana;
+    text-align: left;
+    text-indent: 5px;
+    border-radius: 5px;
+    Margin-bottom: 0.5%;
+}
+
+.head6 {
+    color: #474752;
+    background-color: #D9D9DD;
+    font-weight: normal;
+    font-size: 8pt;
+    font-family: Verdana;
+    text-align: left;
+    text-indent: 5px;
+    border-radius: 5px;
+    Margin-bottom: 0.5%;
+}
+
+
+.article-content table a:link,
+.article-content table a:visited {
+    color: #396ea2;
+    font-size: 10pt;
+}
+
+.article-content table a:hover,
+.article-content table a:active {
+    background-color: #396ea2;
+    color: #F5EFFA;
+}
+
+
+.article-content a:hover,
+.article-content a:focus {
+  background: #CBF8DF;
+}
+
+
+
+.article-content a:hover,
+.article-content a:active {
+    background-color: #396ea2;
+    color: #F5EFFA;
+}
+
+.article-content table a {
+  text-decoration: underline;
+  color: inherit;
+  border-bottom: none;
+  box-shadow: none;
+  background: transparent;
+  transition: background 150ms ease;
+}
+
+
+
+.article-content a {
+  text-decoration: underline;
+  color: inherit;
+  border-bottom: none;
+  box-shadow: none;
+  background: transparent;
+  transition: background 150ms ease;
 }
