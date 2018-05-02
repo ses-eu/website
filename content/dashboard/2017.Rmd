@@ -37,7 +37,7 @@ function drawVisualization() {
             series: {
                 0: {
                     type: 'bars',
-                    color: '#b3cccc',
+                    color: '#2DACE3',
                     targetAxisIndex: 0
                 },
                 1: {
@@ -104,7 +104,7 @@ function drawVisualization() {
             series: {
                 0: {
                     type: 'bars',
-                    color: '#b3cccc',
+                    color: '#2DACE3',
                     targetAxisIndex: 0
                 },
                 1: {
@@ -445,7 +445,7 @@ function drawVisualization() {
             series: {
                 1: {
                     type: 'bars',
-                    color: '#b3cccc'
+                    color: '#2DACE3'
                 },
                 0: {
                     type: 'lines',
@@ -505,7 +505,7 @@ function drawVisualization() {
                 },
                 1: {
                     type: 'bars',
-                    color: '#b3cccc'
+                    color: '#2DACE3'
                 }
             },
             vAxis: {
@@ -567,7 +567,7 @@ function drawVisualization() {
             },
             isStacked: 'true',
             seriesType: 'bars',
-            colors: ['#b3cccc'],
+            colors: ['#2DACE3'],
             vAxis: {
                 title: 'minutes per arrival',
                 format: '0.00',
@@ -620,7 +620,7 @@ function drawVisualization() {
                 },
                 1: {
                     type: 'bars',
-                    color: '#b3cccc'
+                    color: '#2DACE3'
                 }
             },
             vAxis: {
@@ -778,7 +778,7 @@ function drawVisualization() {
             series: {
                 0: {
                     type: 'bars',
-                    color: '#b3cccc'
+                    color: '#2DACE3'
                 }
             },
             vAxis: {

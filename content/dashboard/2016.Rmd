@@ -30,7 +30,7 @@ function drawVisualization()
 				titleTextStyle : {color: '#1F1F2E', fontSize: 12},
 				legend: 'none',
 				series: {
-							0: {type: 'bars', color:'#b3cccc', targetAxisIndex: 0},
+							0: {type: 'bars', color:'#2DACE3', targetAxisIndex: 0},
 							1: {type: 'lines', color:'#B89470', lineWidth: 2, pointSize: 7, targetAxisIndex: 1}
 						},
 				vAxes:{
@@ -58,7 +58,7 @@ options: {
 				titleTextStyle : {color: 'grey', fontSize: 12},
 				legend: 'none',
 				series: {
-							0: {type: 'bars', color:'#b3cccc', targetAxisIndex: 0},
+							0: {type: 'bars', color:'#2DACE3', targetAxisIndex: 0},
 							1: {type: 'lines', color:'#B89470',lineWidth: 2, pointSize: 6, targetAxisIndex: 1}
 						},
 				vAxes:{
@@ -249,7 +249,7 @@ options: {
 					legend: {position:'right',textStyle:{color: 'grey', fontSize: 10}},
 					isStacked : 'true',
 					series: {
-								1: {type:'bars',color:'#b3cccc'},
+								1: {type:'bars',color:'#2DACE3'},
 								0: {type:'lines',color:'D80032', lineWidth: 0.5, pointSize: 7}
 							},
 					vAxis: {title: 'minutes per flight', format: '0.00',
@@ -272,7 +272,7 @@ options: {
 					isStacked : 'true',
 					series: {
 								0: {type:'lines',color:'#5D7CBA', lineWidth: 1, pointSize: 6},
-								1: {type:'bars',color:'#b3cccc'}
+								1: {type:'bars',color:'#2DACE3'}
 							},
 					vAxis: {title: 'minutes per flight', format: '0.00',
 							titleTextStyle: {color: 'grey',fontSize: 10}}
@@ -303,7 +303,7 @@ options: {
 					legend: {position:'right',textStyle:{color: 'grey', fontSize: 10}},
 					isStacked : 'true',
 					seriesType: 'bars',
-					colors: ['#b3cccc'],
+					colors: ['#2DACE3'],
 					vAxis: {title: 'minutes per arrival',  format: '0.00',
 							titleTextStyle: {color: 'grey', fontSize: 10}}
 				},
@@ -324,7 +324,7 @@ options: {
 					isStacked : 'true',
 					series: {
 								0: {type:'lines',color:'#5D7CBA', lineWidth: 1, pointSize: 6},
-								1: {type:'bars',color:'#b3cccc'}
+								1: {type:'bars',color:'#2DACE3'}
 							},
 					vAxis: {title: 'minutes per arrival', format: '0.00',
 							titleTextStyle: {color: 'grey', fontSize: 10}}
@@ -406,7 +406,7 @@ var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: {position:'bottom',textStyle:{color: 'grey', fontSize: 10}},
 					series: {
-								0: {type:'bars',color:'#b3cccc'},
+								0: {type:'bars',color:'#2DACE3'},
 								1: {type:'lines',color:'green', lineWidth: 1},
 							    2: {type:'lines',color:'D80032', lineWidth: 1}
 							},
