@@ -7,3 +7,14 @@ Every effort has been made to ensure that the information and analysis contained
 as accurate and complete as possible.
 Despite these precautions, should you find any errors or inconsistencies we would be grateful
 if you could please bring them to the Performance Review Unit’s attention. 
+
+
+## Disclaimer
+
+The information may be copied in whole or in part providing that the copyright notice and disclaimer are included.
+The information may not be modified without prior written permission from the European Commission.
+The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or
+of the European Commission, which make no warranty, either implied or express, for the information
+contained on this website, neither do they assume any legal liability or responsibility for the accuracy,
+completeness or usefulness of this information.
+The EC reserves the right to change or amend the information provided at any time and without prior notice.
