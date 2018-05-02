@@ -874,7 +874,7 @@ google.setOnLoadCallback(drawVisualization)
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
@@ -883,7 +883,7 @@ Period: January-December</span></div>
 </span></div>
 </td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: Network Manager</div>
 </td>
 <td>
@@ -934,7 +934,7 @@ Source: Network Manager</div>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
@@ -943,7 +943,7 @@ Period: January-December</span></div>
 </span></div>
 </td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: PRU analysis; Network Manager</div>
 </td>
 <td>
@@ -972,7 +972,7 @@ Source: PRU analysis; Network Manager</div>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
@@ -1011,7 +1011,7 @@ Source: PRU analysis; Airports</div>
 <tr>
 
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
@@ -1020,7 +1020,7 @@ Period: January-December</span></div>
 </span></div>
 </td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: PRU analysis; Airports; Network Manager</div>
 </td>
 <td>
@@ -1099,7 +1099,7 @@ Source: PRU analysis; Airports; Network Manager</div>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
@@ -1109,7 +1109,7 @@ Period: January-December</span></div>
 </span></div>
 </td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: Network Manager</div>
 </td>
 <td>
@@ -1141,7 +1141,7 @@ These data take into account post-operations adjustments made to date. They migh
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
@@ -1150,7 +1150,7 @@ Period: January-December</span></div>
 </span></div>
 </td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: PRU analysis; Network Manager</div>
 </td>
 <td>
@@ -1183,7 +1183,7 @@ Source: PRU analysis; Network Manager</div>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
@@ -1192,7 +1192,7 @@ Period: January-December</span></div>
 </span></div>
 </td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: Network Manager</div>
 </td>
 <td>
@@ -1219,7 +1219,7 @@ Source: Network Manager</div>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
@@ -1262,7 +1262,7 @@ Source: Airports</div>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
@@ -1306,7 +1306,7 @@ Source: CRCO; EC; PRU analysis </div>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2017</span></div>
 </td>
 <td>
@@ -1364,7 +1364,7 @@ Source: States, CRCO</div>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2017</span></div>
 </td>
 <td>

@@ -147,3 +147,7 @@
   background: transparent;
   transition: background 150ms ease;
 }
+
+.data-source, .data-period {
+  font-size: 10pt;
+}

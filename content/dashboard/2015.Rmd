@@ -441,14 +441,14 @@ google.setOnLoadCallback(drawVisualization)
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2015</span></div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
 <a href="//docs.google.com/spreadsheets/d/1P86i-AwsgNgBkmgj7tRFbKuEzNSApMMbRs96Y14VQX8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div></td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: Network Manager</div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
@@ -504,14 +504,14 @@ style="color: rgb(102, 102, 102);">&nbsp;To be provided in line with the schedul
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2015</span></div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
 <a href="//docs.google.com/spreadsheets/d/1dmQlsRoFixhWIOvSWYyldSM6DEXs7gGptKc4kuaN-7c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div></td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: PRU analysis; Network Manager</div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
@@ -538,7 +538,7 @@ Source: PRU analysis; Network Manager</div></td>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2015</span></div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
@@ -571,7 +571,7 @@ Source: PRU analysis; Airports</div></td>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2015</span></div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
@@ -579,7 +579,7 @@ Period: January-December 2015</span></div></td>
 </span></div></td>
 
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: PRU analysis; Airports; Network Manager</div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
@@ -659,14 +659,14 @@ style="color: rgb(102, 102, 102);">&nbsp;To be provided in line with the schedul
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2015</span></div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
 <a href="//docs.google.com/spreadsheets/d/1UTQYzB6Ct2IiD0kMpdaMg_CxSKYF_tDSNanmClT3APU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div></td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: Network Manager</div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
@@ -696,14 +696,14 @@ Source: Network Manager</div></td>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2015</span></div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
 <a href="//docs.google.com/spreadsheets/d/1zVVd9DxxtVzExBuFLxZiDw7LTD65LDnd1CPaF3kN3HM/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div></td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: PRU analysis; Network Manager</div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
@@ -734,14 +734,14 @@ Source: PRU analysis; Network Manager</div></td>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2015</span></div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
 <a href="//docs.google.com/spreadsheets/d/1lLqNOucP0VzGB1-hAOb5Tv3NoJToc9rc47fEalvGjVI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div></td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
 Source: Network Manager</div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
@@ -768,7 +768,7 @@ Source: Network Manager</div></td>
 </tr>
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2015</span></div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
@@ -810,7 +810,7 @@ Source: Airports</div></td>
 
 <tr>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;"> <span style="color:#C0504D;">
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December 2015</span></div></td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
