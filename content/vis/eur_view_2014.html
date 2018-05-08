@@ -3,8 +3,8 @@
 
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link href="/css/style_rp1.css" rel= "stylesheet" type="text/css"/>
-<title>2012 - EU wide level - ANS performance monitoring</title>
+<link href={{ "css/style_rp1.css" | absURL }} rel="stylesheet" type="text/css"/>
+<title>2014 - EU wide level - ANS performance monitoring</title>
 </head>
 
 <script type="text/javascript" src="http://www.google.com/jsapi"></script><script type="text/javascript"> // load the visualisation API
@@ -16,17 +16,18 @@ function drawVisualization()
  {
 // IFR flights - YY - CHART [EU_YY]
 	var crt_IFRYY = new google.visualization.ChartWrapper({
-		chartType: 'LineChart',
+		chartType: 'ComboChart',
 		containerId: 'crt_IFRYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1FwFX7orY5RfhXq6r6m-XmjxhFw_aFk0VX-za-aQv788/edit?usp=sharing&sheet=IFR_YY&range=A5:F12&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1uU_1yNuCB-BJ9L9birphmpl9zdx0mk4EGUY9ycB6QG0/edit?usp=sharing&sheet=IFR_YY&range=B5:F12&headers=1&hl=en_GB',
+
 		options: {
 				width: 450, height: 170,
 				chartArea: {left: 80, top: 30, width:'60%',height:'65%'},
 				title: 'Average daily IFR flights (EU-wide)',
-				titleTextStyle : {color: 'grey', fontSize: 12},
+				titleTextStyle : {color: '#1F1F2E', fontSize: 12},
 				legend: 'none',
 				series: {
-							0: {type: 'bars', color:'#99badb',  targetAxisIndex: 0},
+							0: {type: 'bars', color:'#99badb', targetAxisIndex: 0},
 							1: {type: 'lines', color:'#B89470', lineWidth: 2, pointSize: 7, targetAxisIndex: 1}
 						},
 				vAxes:{
@@ -38,14 +39,14 @@ function drawVisualization()
 								textStyle:{color:'#B89470'}}
 						}
 				},
-		view: {columns: [1,4,5], rows: [0,1,2,3,4,5,6]}
+		view: {columns: [0,3,4], rows: [0,1,2,3,4,5,6]}
 	}); crt_IFRYY.draw();
 
 // IFR flights - YY - TABLE [ERT_SU_PP]
 var tbl_IFRYY = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_IFRYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1FwFX7orY5RfhXq6r6m-XmjxhFw_aFk0VX-za-aQv788/edit?usp=sharing&sheet=IFR flights (ANSP)&range=A5:G28&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1uU_1yNuCB-BJ9L9birphmpl9zdx0mk4EGUY9ycB6QG0/edit?usp=sharing&sheet=IFR flights (ANSP)&range=A5:G28&hl=en_GB',
 		options:{ allowHtml: false, width: 470, height: 160},
 		view: {columns: [0,1,5,6]}
 	}); tbl_IFRYY.draw();
@@ -54,14 +55,12 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_smiYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_smiYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1ahvYVNaSRQDNpJdARfJgAXenlScjivzzS6DclMyjB7k/edit?usp=sharing&sheet=SAF INDICATORS&range=A4:P12&hl=en_GB',
-		title: 'Separation Minima Infringements (SMI)',
-		titleTextStyle : {color: 'grey', fontSize: 12},
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1GeeFN3FUarocIZhi5zmUl84bmxWt6HDSiYCTJnP17L8/edit?usp=sharing&sheet=SAF INDICATORS&range=A4:P12&hl=en_GB',
 		options: {
 					width: 450, height: 200,
 					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
 					title: 'Separation Minima Infringements (SMI)',
-					titleTextStyle : {color: 'grey', fontSize: 13},
+					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: 'bottom',
 					isStacked : 'true',
 					series: {
@@ -75,7 +74,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 							0:{	title:'count',
 								titleTextStyle : {color: 'grey', fontSize: 11},
 								textStyle:{color: 'grey'}},
-							1:{	title:'Total No of reported SMI',
+							1:{	title:'total nr. of reported SMI',
 								titleTextStyle : {color: '#5D7CBA', fontSize: 11},
 								textStyle:{color:'#5D7CBA'}}
 							}
@@ -87,7 +86,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_rwyincYY = new google.visualization.ChartWrapper({
 		chartType : 'ComboChart',
 		containerId : 'crt_rwyincYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1ahvYVNaSRQDNpJdARfJgAXenlScjivzzS6DclMyjB7k/edit?usp=sharing&sheet=SAF INDICATORS&range=A4:P12&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1GeeFN3FUarocIZhi5zmUl84bmxWt6HDSiYCTJnP17L8/edit?usp=sharing&sheet=SAF INDICATORS&range=A4:P12&hl=en_GB',
 		options: {
 					width: 450, height: 200,
 					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -106,7 +105,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 							0:{	title:'count',
 								titleTextStyle : {color: 'grey', fontSize: 11},
 								textStyle:{color: '#1F1F2E'}},
-							1:{	title:'Total No of reported RI',
+							1:{	title:'total nr. of reported RI',
 								titleTextStyle : {color: '#5D7CBA', fontSize: 11},
 								textStyle:{color:'#5D7CBA'}}
 							}
@@ -118,7 +117,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_ATMspecYY = new google.visualization.ChartWrapper({
 		chartType : 'ComboChart',
 		containerId : 'crt_ATMspecYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1ahvYVNaSRQDNpJdARfJgAXenlScjivzzS6DclMyjB7k/edit?usp=sharing&sheet=SAF INDICATORS&range=A4:P12&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1GeeFN3FUarocIZhi5zmUl84bmxWt6HDSiYCTJnP17L8/edit?usp=sharing&sheet=SAF INDICATORS&range=A4:P12&hl=en_GB',
 		options: {
 					width: 450, height: 200,
 					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -145,11 +144,12 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 		view: {columns: [0,11,12,13,14,15]}
 	}); crt_ATMspecYY.draw();
 
-// EoSM - YY - CHART - [EU_YY]
+
+		// EoSM - YY - CHART - [EU_YY]
 	var crt_EoSMYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_EoSMYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1lLmz-28jrrOlh1aPYcXDTl5192uW3NXA_-AMD5WOtuA/edit?usp=sharing&sheet=EoSM_2012&range=A4:B33&hl=en_GB',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1tMXgSVH9Wpx2vxpd7XiqWYsxqGVNJPN6pleFFBs66ZE/edit?usp=sharing&sheet=EoSM_2014&range=A4:B33&hl=en_GB',
 		options:{
 					width: 475, height: 230,
 					chartArea: {left: 50, top: 30, width:'85%',height:'50%'},
@@ -164,25 +164,25 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 					hAxis: { type:'string',
 							slantedText:true,
 							slantedTextAngle: 90,
-							textStyle: {color: 'black', fontSize: 10}}
+							textStyle: {color: 'grey', fontSize: 10}}
 				},
 		view: {'columns': [0,1]}
 	}); crt_EoSMYY.draw();
 
-// RAT - APP - TABLE
+	// RAT - APP - TABLE
 	var tbl_RAT_APP_YY = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_RAT_APP_YY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1o_JEh8rdmIYDZGqC_NaLZozr6mA-p22w38-aGGnYj70/edit?usp=sharing&sheet=RAT EU_2012&range=A5:H8&hl=en_GB',
-		options:{ allowHtml: false, width: 470, height: 100},
-		view: {columns: [0,1,2,4,5,7], rows: [0]}
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1vHlDtfARx72a0sB2PTRPTcNmBkqkaXHv85YC495pXSA/edit?usp=sharing&sheet=RAT EU_2014&range=A5:H9&hl=en_GB',
+		options:{ allowHtml: false, width: 470, height: 150},
+		view: {columns: [0,1,2,4,5,7], rows: [0,1,2]}
 	}); tbl_RAT_APP_YY.draw();
 
-// ERT ATFM DLY - YY - CHART - [EU_YY]
+	// ERT ATFM DLY - YY - CHART - [EU_YY]
 	var crt_ertdlyYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_ertdlyYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zaJTkMu54GW8umT86OeKODo0qsefUop2BDdUjl9Fv-s/edit?usp=sharing&sheet=ERT_ATFM_YY&range=A6:S13&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1T2zsPaVg4p3lfzeHtAerx9mz-Q3Jfo8-Sboq8OxVaUY/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A6:S13',
 		options:{
 					width: 460, height: 190,
 					chartArea: {left: 50, top: 30, width:'55%',height:'60%'},
@@ -207,11 +207,11 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_ertdlyMM = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_ertdlyMM',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zaJTkMu54GW8umT86OeKODo0qsefUop2BDdUjl9Fv-s/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:U65&tq=where%20B%3D2012&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1T2zsPaVg4p3lfzeHtAerx9mz-Q3Jfo8-Sboq8OxVaUY/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:U89&tq=where%20B%3D2014&hl=en_US',
 		options:{
 					width: 460, height: 190,
 					chartArea: {left: 50, top: 30, width:'55%',height:'60%'},
-					title: 'EU-wide en route ATFM delays [2012]',
+					title: 'EU-wide en route ATFM delays [2014]',
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: {position:'right',textStyle:{color: 'grey', fontSize: 11}},
 					isStacked : 'true',
@@ -224,7 +224,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 								5: {type:'area',color:'#C2A385', lineWidth: 0, pointSize: 0}
 							},
 					vAxis: {title: 'minutes per flight', format: '0.00',
-							titleTextStyle: {color: 'grey', fontSize: 11}}
+							titleTextStyle: {color: 'grey',fontSize: 11}}
 				},
 		view: {'columns': [3,19,11,12,13,14,20]}
 	}); crt_ertdlyMM.draw();
@@ -233,20 +233,20 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var tbl_ertdly_YYtgt = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_ertdly_YYtgt',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zaJTkMu54GW8umT86OeKODo0qsefUop2BDdUjl9Fv-s/edit?usp=sharing&sheet=ERT_ATFM_YY&range=A6:S13&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1T2zsPaVg4p3lfzeHtAerx9mz-Q3Jfo8-Sboq8OxVaUY/edit?usp=sharing&sheet=ERT_ATFM_YY&range=A6:S13&hl=en_GB',
 		options:{allowHtml: false, width: 470, height: 80},
-		view: {columns: [1,17,8,18], rows: [4]}
+		view: {columns: [1,17,8,18], rows: [6]}
 	}); tbl_ertdly_YYtgt.draw();
 
 // ERT ATFM DLY - YY - CHART vs target - [EU_YY]
 	var crt_ertdlyYYvstgt = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_ertdlyYYvstgt',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zaJTkMu54GW8umT86OeKODo0qsefUop2BDdUjl9Fv-s/edit?usp=sharing&sheet=EERT_ATFM_PP vs ACT&range=A5:G28&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1T2zsPaVg4p3lfzeHtAerx9mz-Q3Jfo8-Sboq8OxVaUY/edit?usp=sharing&sheet=EERT_ATFM_PP vs ACT&range=A5:G28&hl=en_GB',
 		options:{
 					width: 940, height: 220,
 					chartArea: {left: 80, top: 30, width:'75%',height:'50%'},
-					title: 'CAPACITY: Actual vs. performance plan (2012) - sorted by difference between actual vs. target',
+					title: 'CAPACITY: Actual performance vs. performance plan - sorted by difference between actual vs. target',
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: {position:'right',textStyle:{color: 'grey', fontSize: 11}},
 					series: {
@@ -266,7 +266,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_aptdlyYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_aptdlyYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19VUdI6I_VoCm5xaiGsVAAtjsySTlhz0GcCwET15SDFo/edit?usp=sharing&sheet=APT_ATFM_YY&range=A6:Q13&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1L1bP8FpoVIfgVG8Yo06rWlMltdvqVvYFb73wncTU4mU/edit?usp=sharing&sheet=APT_ATFM_YY&range=A6:Q13&hl=en_GB',
 		options:{
 					width: 460, height: 180,
 					chartArea: {left: 50, top: 30, width:'55%',height:'60%'},
@@ -276,7 +276,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 					isStacked : 'true',
 					seriesType: 'bars',
 					colors: ['#F08080', '#FFA07A', '#99FF99', 'grey'],
-					vAxis: {title: 'minutes per arrival', format: '0.00',
+					vAxis: {title: 'minutes per arrival',  format: '0.00',
 							titleTextStyle: {color: 'grey', fontSize: 11}}
 				},
 		view: { columns: [1,9,10,11,12] , rows: [0,1,2,3,4,5,6] }
@@ -286,11 +286,11 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_aptdlyMM = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_aptdlyMM',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19VUdI6I_VoCm5xaiGsVAAtjsySTlhz0GcCwET15SDFo/edit?usp=sharing&sheet=APT_ATFM_MM&range=A5:T65&tq=where%20B%3D2012&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1L1bP8FpoVIfgVG8Yo06rWlMltdvqVvYFb73wncTU4mU/edit?usp=sharing&sheet=APT_ATFM_MM&range=A5:T89&tq=where%20B%3D2014&hl=en_GB',
 		options:{
 					width: 460, height: 180,
 					chartArea: {left: 50, top: 30, width:'55%',height:'60%'},
-					title: 'Airport arrival ATFM delays [2012]',
+					title: 'Airport arrival ATFM delays [2014]',
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: {position:'right',textStyle:{color: 'grey', fontSize: 11}},
 					isStacked : 'true',
@@ -311,8 +311,8 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var tbl_aptdly_YYAPT = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_aptdly_YYAPT',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19VUdI6I_VoCm5xaiGsVAAtjsySTlhz0GcCwET15SDFo/edit?usp=sharing&sheet=APT_ATFM_ARR_DLY&range=A5:K82&hl=en_GB',
-		options:{ allowHtml: true, width: 470, height: 330},
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1L1bP8FpoVIfgVG8Yo06rWlMltdvqVvYFb73wncTU4mU/edit?usp=sharing&sheet=APT_ATFM_ARR_DLY&range=A5:K82&hl=en_GB',
+		options:{ allowHtml: false, width: 470, height: 330},
 		view: {columns: [2,3,4,5,6]}
 	}); tbl_aptdly_YYAPT.draw();
 
@@ -320,7 +320,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_ASMAYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_ASMAYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/15SEBfl0XhVRUg7xCH3hK_YVexxDuom_lEyTMbwrfZ_w/edit?usp=sharing&sheet=ASMA_YY&range=A4:E8&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1TCK9RJ4AhUJi5g7KfLgArzD3lCoHBNYwo6h_w1ft5O4/edit?usp=sharing&sheet=ASMA_YY&range=A4:E8&hl=en_GB',
 		options:{
 					width: 450, height: 150,
 					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -340,11 +340,11 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_ASMAMM = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_ASMAMM',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/15SEBfl0XhVRUg7xCH3hK_YVexxDuom_lEyTMbwrfZ_w/edit?usp=sharing&sheet=ASMA_MM&range=A5:G29&tq=where%20C%3D2012&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1TCK9RJ4AhUJi5g7KfLgArzD3lCoHBNYwo6h_w1ft5O4/edit?usp=sharing&sheet=ASMA_MM&range=A5:G53&tq=where%20C%3D2014&hl=en_GB',
 		options: {
 				width: 450, height: 150,
 				chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
-				title: 'ASMA add. time [2012]',
+				title: 'ASMA add. time [2014]',
 				titleTextStyle : {color: 'grey', fontSize: 12},
 				legend: 'none',
 				seriesType: 'bars',
@@ -360,8 +360,8 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var tbl_ASMAdly_YYAPT = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_ASMAdly_YYAPT',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/15SEBfl0XhVRUg7xCH3hK_YVexxDuom_lEyTMbwrfZ_w/edit?usp=sharing&sheet=ASMA_APT&range=A5:I44&hl=en_GB',
-		options:{ allowHtml: true, width: 470, height: 300},
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1TCK9RJ4AhUJi5g7KfLgArzD3lCoHBNYwo6h_w1ft5O4/edit?usp=sharing&sheet=ASMA_APT&range=A5:I44&hl=en_GB',
+		options:{ allowHtml: false, width: 470, height: 300},
 		view: {columns: [2,3,5,6,8]}
 	}); tbl_ASMAdly_YYAPT.draw();
 
@@ -369,7 +369,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_txoutYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_txoutYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1QT3DRseIZuupKwEm6peHTEC0mzjkR0q2hjoBHjlde38/edit?usp=sharing&sheet=TxOut_YY&range=A4:E8&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/170jDab0X0R_BxKTo2f4N_pTCIo2StHNkmgD6hJ-3HjA/edit?usp=sharing&sheet=TxOut_YY&range=A4:E8&hl=en_GB',
 		options: {
 					width: 450, height: 150,
 					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
@@ -389,11 +389,11 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_txoutMM = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_txoutMM',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1QT3DRseIZuupKwEm6peHTEC0mzjkR0q2hjoBHjlde38/edit?usp=sharing&sheet=TxOut_MM&range=A5:G29&tq=where%20C%3D2012&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/170jDab0X0R_BxKTo2f4N_pTCIo2StHNkmgD6hJ-3HjA/edit?usp=sharing&sheet=TxOut_MM&range=A5:G53&tq=where%20C%3D2014&hl=en_GB',
 		options: {
 				width: 450, height: 150,
 				chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
-				title: 'Taxi out add. time [2012]',
+				title: 'Taxi out add. time [2014]',
 				titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: 'none',
 					seriesType: 'bars',
@@ -409,8 +409,8 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var tbl_txdly_YYAPT = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_txdly_YYAPT',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1QT3DRseIZuupKwEm6peHTEC0mzjkR0q2hjoBHjlde38/edit?usp=sharing&sheet=TxOut_APT&range=A5:I82&hl=en_GB',
-		options:{ allowHtml: true, width: 470, height: 300},
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/170jDab0X0R_BxKTo2f4N_pTCIo2StHNkmgD6hJ-3HjA/edit?usp=sharing&sheet=TxOut_APT&range=A5:I82&hl=en_GB',
+		options:{ allowHtml: false, width: 470, height: 300},
 		view: {columns: [2,3,5,6,8]}
 	}); tbl_txdly_YYAPT.draw();
 
@@ -418,10 +418,10 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_flteffYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_flteffYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1cYVOhkpQ8jdvM8B4GTUzRLnQb2l5X6bek5K58fRGBQE/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G11&hl=en_GB',
-		options:{
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1WHxXvtCb4QWmBH5fw1NLOfb03HTWZdRZo-R7ON_1zhQ/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G11&hl=en_GB',
+			options:{
 					width: 470, height: 200,
-					chartArea: {left: 80, top: 30, width:'55%',height:'60%'},
+					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
 					title: 'Horizontal en route flight efficiency [KEP]',
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: 'right',
@@ -433,6 +433,9 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 							},
 					vAxis: {minValue:0.04, title: 'inefficiency (%)', format: '0.0%',
 							titleTextStyle: {color: 'grey', fontSize: 11}}
+							,
+					hAxis: {title: '2014 refers to January-December',
+							titleTextStyle: {color: 'grey', fontSize: 11}}
 				},
 				view: {columns: [1,3,4,5,6] , rows: [0,1,2,3,4,5] }
 	}); crt_flteffYY.draw();
@@ -441,11 +444,11 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_flteffMM = new google.visualization.ChartWrapper({
 		chartType: 'LineChart',
 		containerId: 'crt_flteffMM',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1cYVOhkpQ8jdvM8B4GTUzRLnQb2l5X6bek5K58fRGBQE/edit?usp=sharing&sheet=FLT_EFF_MM&range=A4:F40&tq=where%20B%3D2012&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1WHxXvtCb4QWmBH5fw1NLOfb03HTWZdRZo-R7ON_1zhQ/edit?usp=sharing&sheet=FLT_EFF_MM&range=A4:F40&tq=where%20B%3D2014&hl=en_GB',
 		options:{
 					width: 470, height: 200,
 					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
-					title: 'Horizontal en route flight efficiency [2012]',
+					title: 'Horizontal en route flight efficiency [2014]',
 					titleTextStyle : {color: '#5D7CBA', fontSize: 12},
 					legend: 'right',
 					series: {
@@ -458,65 +461,25 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 		view: {'columns': [3,4,5] }
 	}); crt_flteffMM.draw();
 
-// CIV_MIL - YY - CHART - [EU_YY]
-	var crt_civmilYY = new google.visualization.ChartWrapper({
-		chartType: 'ComboChart',
-		containerId: 'crt_civmilYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1qOIwlihGTbT0xM3oGQIi_xw8bugCetElPE8cs56EWSc/edit?usp=sharing&sheet=CIV_MIL1&range=A5:G34&hl=en_GB',
-		options:{
-					width: 475, height: 220,
-					chartArea: {left: 40, top: 30, width:'65%',height:'50%'},
-					title: 'Effective booking procedures (% of time)',
-					titleTextStyle : {color: 'grey', fontSize: 11},
-					legend: {position:'right',textStyle:{color: 'grey', fontSize: 9}},
-					isStacked : 'true',
-					series: {
-								0: {type:'bars',color:'#7070FF', targetAxisIndex: 0},
-								1: {type:'bars',color:'#b2c8b2',targetAxisIndex: 0},
-								2: {type:'bars',color:'#71C68D', targetAxisIndex: 0}
-							},
-					vAxis: { format: '0%', textStyle: {color: 'grey', fontSize: 10},
-							},
-					hAxis: {title: '* States reported that allocation of military areas had no adverse impact.',
-							titleTextStyle: {color: 'grey', fontSize: 9},
-							type:'string',
-							slantedText:true,
-							slantedTextAngle: 90,
-							showTextEvery:1,
-							textStyle: { fontSize: 10}}
-				},
-		view: {'columns': [0,1,2,3]}
-	}); crt_civmilYY.draw();
-
-
-// CIV_MIL - YY - TABLE - [EU_YY]
-	var tbl_cdr = new google.visualization.ChartWrapper({
-		chartType: 'Table',
-		containerId: 'tbl_cdr',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1qOIwlihGTbT0xM3oGQIi_xw8bugCetElPE8cs56EWSc/edit?usp=sharing&sheet=CIV_MIL2&range=A5:B7&hl=en_GB',
-		options:{ allowHtml: false, width: 470, height: 100},
-		view: {columns: [0,1]}
-	}); tbl_cdr.draw();
-
 // ERT SU - YY EU wide - TABLE [EU_YY]
 	var tbl_ertSU_YYtgt = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_ertSU_YYtgt',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1s3eriIOsO9op8mxc-pKFR8cJDVF9WTlyC6EdJCsR4oQ/edit?usp=sharing&sheet=ERT_SU_YY&range=A5:H12&hl=en_GB',
-		options:{width: 470, height: 80},
-		view: {columns: [1,3,5,7], rows: [4]}
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1D9E67nIevffaAqhnHoJMbazFO-RDgjC_JYX3EJRq9CQ/edit?usp=sharing&sheet=ERT_SU_YY&range=A5:H12&hl=en_GB',
+		options:{ width: 470, height: 80},
+		view: {columns: [1,3,5,7], rows: [6]}
 	}); tbl_ertSU_YYtgt.draw();
 
 // ERT SU - YY - CHART [EU_YY]
 	var crt_SUYY = new google.visualization.ChartWrapper({
 		chartType: 'LineChart',
 		containerId: 'crt_SUYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1s3eriIOsO9op8mxc-pKFR8cJDVF9WTlyC6EdJCsR4oQ/edit?usp=sharing&sheet=ERT_SU_YY&range=A5:H12&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1D9E67nIevffaAqhnHoJMbazFO-RDgjC_JYX3EJRq9CQ/edit?usp=sharing&sheet=ERT_SU_YY&range=A5:H12&hl=en_GB',
 		options:{
 				width: 475, height: 170,
 				chartArea: {left: 80, top: 30, width:'60%',height:'65%'},
-				title: 'EU-wide en route SU (Jan.- Dec.)',
-				titleTextStyle : {color: 'grey', fontSize: 12},
+				title: 'EU-wide en route SU (Jan.-Dec.)',
+				titleTextStyle : {color: '#1F1F2E', fontSize: 12},
 				legend: 'none',
 				series: {
 							0: {type: 'bars', color:'#99badb', targetAxisIndex: 0 },
@@ -526,7 +489,7 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 							0:{	title:'En route SU',
 								titleTextStyle : {color: '#1F1F2E', fontSize: 11},
 								textStyle:{color: '8B9BBA'}},
-							1:{	title:'% change vs. previous year',
+							1:{	title:'% change vs. prev. year',
 								titleTextStyle : {color: '#1F1F2E', fontSize: 11},
 								textStyle:{color:'#B89470'}}
 						}
@@ -538,12 +501,12 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	var crt_ertcefSUYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_ertcefSUYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1s3eriIOsO9op8mxc-pKFR8cJDVF9WTlyC6EdJCsR4oQ/edit?usp=sharing&sheet=ERT_SU_MM&range=A4:K64&tq=where%20B%3D2012&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1D9E67nIevffaAqhnHoJMbazFO-RDgjC_JYX3EJRq9CQ/edit?usp=sharing&sheet=ERT_SU_MM&range=A4:K88&tq=where%20B%3D2014&hl=en_GB',
 		options:{
 					width: 475, height: 200,
 					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
 					title: 'Monthly en-route SU [act. vs. NPP]',
-					titleTextStyle : {color: 'grey', fontSize: 12},
+					titleTextStyle : {color: '#1F1F2E', fontSize: 12},
 					legend: 'bottom',
 					series: {
 								0: {type:'bars',color:'DDC5A6', targetAxisIndex: 0},
@@ -563,14 +526,15 @@ var tbl_IFRYY = new google.visualization.ChartWrapper({
 	}); crt_ertcefSUYY.draw();
 
 // ERT SU - YY - CHART vs target - [EU_YY]
+
 var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_ertSUYYvstgt',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1s3eriIOsO9op8mxc-pKFR8cJDVF9WTlyC6EdJCsR4oQ/edit?usp=sharing&sheet=ERT_SU_ACT_PP&range=A5:M34&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1D9E67nIevffaAqhnHoJMbazFO-RDgjC_JYX3EJRq9CQ/edit?usp=sharing&sheet=ERT_SU_ACT_PP&range=A5:M34&hl=en_GB',
 		options:{
 					width: 940, height: 220,
 					chartArea: {left: 80, top: 30, width:'75%',height:'50%'},
-					title: 'En-route SU: Actual vs. performance plan (Jan.-Dec.)',
+					title: 'En route SU: Actual vs. performance plan',
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: {position:'right',textStyle:{color: 'grey', fontSize: 11}},
 					series: {
@@ -592,12 +556,12 @@ var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
 	var crt_ertcefDURYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_ertcefDURYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1x2ijFTs1fKHTCIpD-HTcjss8XM74ZQ_3KNYUVbAvDJc/edit?usp=sharing&sheet=ERT_CEF&range=A5:O11&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1UOU_zPlWR5K4s-fGNtq_OWIp9OSEnf0-5GSgrji4-KE/edit?usp=sharing&sheet=ERT_CEF&range=A5:O11&hl=en_GB',
 		options:{
 					width: 475, height: 200,
 					chartArea: {left: 70, top: 30, width:'60%',height:'60%'},
 					title: 'En route DUR KPI',
-					titleTextStyle : {color: 'grey', fontSize: 12},
+					titleTextStyle : {color: '#1F1F2E', fontSize: 12},
 					legend: 'bottom',
 					series: {
 								0: {type:'bars',color:'#b2c8b2', targetAxisIndex: 1},
@@ -623,7 +587,7 @@ var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
 	var tbl_ertcstYY_Ov = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_ertcstYY_Ov',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1x2ijFTs1fKHTCIpD-HTcjss8XM74ZQ_3KNYUVbAvDJc/edit?usp=sharing&sheet=ERT_CEF&range=A5:O11&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1UOU_zPlWR5K4s-fGNtq_OWIp9OSEnf0-5GSgrji4-KE/edit?usp=sharing&sheet=ERT_CEF&range=A5:O11&hl=en_GB',
 		options:{ width: 945, height: 155},
 		view: {columns: [1,5,6,7,10,11,12,2,3,4], rows: [3,4,5]}
 	}); tbl_ertcstYY_Ov.draw();
@@ -632,10 +596,10 @@ var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
 	var crt_tmacstYY = new google.visualization.ChartWrapper({
 		chartType: 'ComboChart',
 		containerId: 'crt_tmacstYY',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/17VS4mJlxYrUcnuHkriytkQvmuXuP7AY8mbOsvDlur0U/edit?usp=sharing&sheet=TR_CEF&range=A5:F11&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1v1YY_uv6MYrhProabQBusArMtJogWQ6UV0OtT0p4xuA/edit?usp=sharing&sheet=TR_CEF&range=A5:F11&hl=en_GB',
 		options:{
 					width: 450, height: 180,
-					chartArea: {left: 80, top: 30, width:'65%',height:'70%'},
+					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
 					title: 'Total terminal ANS costs PI (real terms, M€2009)',
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: 'none',
@@ -652,7 +616,7 @@ var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
 var tbl_tmacstYY_Ov = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_tmacstYY_Ov',
-		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/17VS4mJlxYrUcnuHkriytkQvmuXuP7AY8mbOsvDlur0U/edit?usp=sharing&sheet=TR_CEF&range=A5:F11&hl=en_GB',
+		dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1v1YY_uv6MYrhProabQBusArMtJogWQ6UV0OtT0p4xuA/edit?usp=sharing&sheet=TR_CEF&range=A5:F11&hl=en_GB',
 		options:{width: 475, height: 135},
 		view: {columns: [1,2,3,4], rows: [3,4,5]}
 	}); tbl_tmacstYY_Ov.draw();
@@ -661,7 +625,7 @@ var tbl_tmacstYY_Ov = new google.visualization.ChartWrapper({
 google.setOnLoadCallback(drawVisualization)
 </script>
 
-<div class="header">ANS performance monitoring (EU wide level, 2012)</div>
+<div class="header">ANS performance monitoring (EU wide level, 2014)</div>
 
 <table style="text-align: left;width: 950px;" border="1" cellpadding="2" cellspacing="3">
   <tbody>
@@ -674,52 +638,53 @@ google.setOnLoadCallback(drawVisualization)
 		<p>For feedback or questions please contact us at: <a href="mailto:NSA-PRU-Support@eurocontrol.int">Performance Review Unit</a></p>
 		<p>Note that the dashboard takes a few moments to fully load</p>
 		</div>
-	  </td>
-      <td colspan="4" rowspan="1"style="background-color: #D9D9DD;text-align: left; vertical-align: top; "><b>First Reference Period (RP1):</b></td>
-    </tr>
-	<tr>
-     <td style="width: 100px; left; vertical-align: top; ">EU wide view</td>
-     <td style="width: 60px;  text-align: center; vertical-align: top; background-color: #99badb"><b><a href="../eur_view_2012/">2012</a></b></span></div></td>
-     <td style="width: 70px;  text-align: center; vertical-align: top; "><a href="../eur_view_2013/">2013</a></div></td>
-     <td style="width: 70px;  text-align: center; vertical-align: top; "><a href="../eur_view_2014/">2014</a></div></td>
-	</tr>
-    <tr>
-      <td style="left; vertical-align: top; ">Local View</td>
-      <td style="text-align: center; vertical-align: top; "><a href="../pp_view_2012/">2012</a></div></td>
-      <td style="text-align: center; vertical-align: top; "><a href="../pp_view_2013/">2013</a></div></td>
-      <td style="text-align: center; vertical-align: top; "><a href="../pp_view_2014/">2014</a></div></td>
-	</tr>
-    <tr>
-    <td style="left; vertical-align: top; ">Airport View</td>
-    <td style="text-align: center; vertical-align: top; "><a href="../apt_view_2012/">2012</a></div></td>
-    <td style="text-align: center; vertical-align: top; "><a href="../apt_view_2013/">2013</a></div></td>
-    <td style="text-align: center; vertical-align: top; "><a href="../apt_view_2014/">2014</a></div></td>
-	</tr>
-    <tr>
-      <td colspan="4" rowspan="1" style="background-color: #D9D9DD;text-align: left; vertical-align: top; "><b>Support:</b></td>
+	 </td>
+
+	<td colspan="4" rowspan="1"style="background-color: #D9D9DD;text-align: left; vertical-align: top;"><b>First Reference Period (RP1):</b></td>
     </tr>
     <tr>
-      <td colspan="2" rowspan="1" style="text-align: center; vertical-align: top; "><a href="../downloads/">Download Area</a></td>
-      <td style="text-align: center; vertical-align: top; "><a href="http://prudata.webfactional.com/wiki/index.php/RP1_(2012-2014)" target="_blank">Meta data</a></td>
-      <td style="text-align: center; vertical-align: top; "><a href="http://prudata.webfactional.com/wiki/index.php/Category:Glossary" target="_blank">Glossary</a></td>
+     <td style="width: 100px; left; vertical-align: top;">EU wide view</td>
+     <td style="width: 60px;  text-align: center; vertical-align: top;"><a href="../eur_view_2012/">2012</a></span></div></td>
+     <td style="width: 70px;  text-align: center; vertical-align: top;"><a href="../eur_view_2013/">2013</a></span></div></td>
+     <td style="width: 70px;  text-align: center; vertical-align: top;background-color: #99badb"><b><a href="../eur_view_2014/">2014</a></b></span></div></td>
+	</tr>
+    <tr>
+      <td style="left; vertical-align: top;">Local View</td>
+      <td style="text-align: center; vertical-align: top;"><a href="../pp_view_2012/">2012</a></span></div></td>
+      <td style="text-align: center; vertical-align: top;"><a href="../pp_view_2013/">2013</a></span></div></td>
+	  <td style="text-align: center; vertical-align: top;"><a href="../pp_view_2014/">2014</a></span></div></td>
+	</tr>
+    <tr>
+    <td style="left; vertical-align: top;">Airport View</td>
+    <td style="text-align: center; vertical-align: top;"><a href="../apt_view_2012/">2012</a></span></div></td>
+    <td style="text-align: center; vertical-align: top;"><a href="../apt_view_2013/">2013</a></span></div></td>
+    <td style="text-align: center; vertical-align: top;"><a href="../apt_view_2014/">2014</a></span></div></td>
+	</tr>
+    <tr>
+      <td colspan="4" rowspan="1" style="background-color: #D9D9DD;text-align: left; vertical-align: top;"><b>Support:</b></td>
+    </tr>
+    <tr>
+	  <td colspan="2" rowspan="1" style="text-align: center; vertical-align: top;"><a href="../downloads/">Download Area</a></td>
+      <td style="text-align: center; vertical-align: top;"><a href="http://prudata.webfactional.com/wiki/index.php/RP1_(2012-2014)" target="_blank">Meta data</a></td>
+      <td style="text-align: center; vertical-align: top;"><a href="http://prudata.webfactional.com/wiki/index.php/Category:Glossary" target="_blank">Glossary</a></td>
     </tr>
 	 <tr>
-      <td colspan="4" rowspan="1" style="background-color: #D9D9DD; text-align: left; vertical-align: top;"><b><a href="../2018/">Dashboard second reference period (RP2)</a></b></td>
+      <td colspan="4" rowspan="1" style="background-color: #D9D9DD;text-align: left; vertical-align: top;"><b><a href="../2017/">Dashboard second reference period (RP2)</a></b></td>
     </tr>
 
- </tbody>
+  </tbody>
 </table>
 
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
 	<tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-	  <div class="head2">&nbsp; TRAFFIC [full year]</div>
+	  <div class="head2">&nbsp; TRAFFIC</div>
 	  </td>
     </tr>
     <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-	  <div class="head3">&nbsp; IFR flights</div>
+	  <div class="head3">&nbsp; IFR flights&nbsp;[January-December]</div>
 	  </td>
     </tr>
     <tr>
@@ -728,8 +693,8 @@ google.setOnLoadCallback(drawVisualization)
 		<div><small><i><small>&nbsp; Source: Network Manager</small></i></small></div>
 	  </td>
       <td style="width: 475px; text-align: left; vertical-align: top;">
-	  <div class="head4">&nbsp; Avg. daily IFR flights (table is sortable)&nbsp;&nbsp;&nbsp;
-	  <a href="https://docs.google.com/spreadsheets/d/1FwFX7orY5RfhXq6r6m-XmjxhFw_aFk0VX-za-aQv788/edit?usp=sharing&hl=en_GB" target="_blank">[Download table]</a></div>
+	  <div class="head4">&nbsp; Avg. daily IFR flights (table is sortable);&nbsp;
+	  <a href="https://docs.google.com/spreadsheets/d/1uU_1yNuCB-BJ9L9birphmpl9zdx0mk4EGUY9ycB6QG0/edit?usp=sharing&hl=en_GB" target="_blank">[Download table]</a></div>
 	  <div style="float: top;" id="tbl_IFRYY"></div>
 	  </td>
     </tr>
@@ -740,68 +705,74 @@ google.setOnLoadCallback(drawVisualization)
   <tbody>
     <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head2">&nbsp;SAFETY [full year]</div>
+		<div class="head2">&nbsp;SAFETY [annual figures]</div>
 	  </td>
 	 </tr>
 	<tr>
-      <td style="width: 475px, text-align: center; vertical-align: top">
+      <td style="width: 475px, text-align: center; vertical-align: top;">
 		<div class="head4">&nbsp;Separation Minima Infringements (SMI)</div>
+		<div style="text-align: left; vertical-align: top;"><span
+		style="color: rgb(102, 102, 102);"><small>&nbsp;[2014 data to be available in Sep./Oct. 2015].</small></span></div>
 		<div style="float: left;" id="crt_smiYY"></div>
-	  <div><small><i><small>&nbsp;Source: DPS/SSR (final results, September 2013)</small></i></small></div>
+	  <div><small><i><small>&nbsp;Source: DPS/SSR</small></i></small></div>
 	  </td>
-      <td style="width: 475px, text-align: center; vertical-align: top">
+      <td style="width: 475px, text-align: center; vertical-align: top; ">
 		<div class="head4">&nbsp;Runway incursions (RI)</div>
+		<div style="text-align: left; vertical-align: top;"><span
+		style="color: rgb(102, 102, 102);"><small>&nbsp;[2014 data to be available in Sep./Oct. 2015].</small></span></div>
 		<div style="float: left;" id="crt_rwyincYY"></div>
-		<div><small><i><small>&nbsp;Source: DPS/SSR (final results, September 2013)</small></i></small></div>
+		<div><small><i><small>&nbsp;Source: DPS/SSR</small></i></small></div>
 	  </td>
     </tr>
 	<tr>
-      <td style="width: 475px, text-align: center; vertical-align: top">
-		<div class="head4">&nbsp;ATM Specific Technical Events (ATM)</div>
-	  	<div style="float: left;" id="crt_ATMspecYY"></div>
-	  	<div><small><i><small>&nbsp;Source: DPS/SSR (final results, September 2013)</small></i></small></div>
+      <td style="width: 475px, text-align: center; vertical-align: top; ">
+		<div class="head4">&nbsp;ATM Specific Technical Events</div>
+		<div style="text-align: left; vertical-align: top;"><span
+		style="color: rgb(102, 102, 102);"><small>&nbsp;[2014 data to be available in Sep./Oct. 2015].</small></span></div>
+		<div style="float: left;" id="crt_ATMspecYY"></div>
+		<div><small><i><small>&nbsp;Source: DPS/SSR</small></i></small></div>
 	  </td>
-      <td style="width: 475px, text-align: center; vertical-align: top">
+
+	    <td style="width: 475px, text-align: center; vertical-align: top; ">
 		<div class="head4">&nbsp;Reporting of Just Culture &nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Reporting_of_Just_Culture" target="_blank">(Meta data)</a> </div>
 		<div style="text-align: left; vertical-align: top">
 		<p>There are no results at European wide level.</p>
-		<p>The results at State and ANSP level can be found at:<br>
-		<a href="https://docs.google.com/spreadsheets/d/1xMg8qx7E9g64rRHE2DSRpE-4pz_JiLAT0J0DfvsHtbQ/edit?usp=sharing&hl=en_GB" target="_blank">Just culture 2012</a></p>
+		<p>The 2014 results at State and ANSP level can be found at:<br>
+		<a href="https://docs.google.com/spreadsheets/d/1OdGuAQzzqvA1t0_DSuDiWRcVO05--TnPzJbekNjfpIs/edit?usp=sharing&hl=en_GB" target="_blank">Just culture 2014</a></p>
 		<p><small><i>
 		&nbsp;Note that the total number of "NO" answers may not reflect an absence of Just Culture.<br>
 		&nbsp;Source: EASA
 		</i></small></p>
 		</div>
-
 	  </td>
 	</tr>
+
 	<tr>
-      <td style="width: 475px, text-align: center; vertical-align: top; ">
+     <td style="width: 475px, text-align: center; vertical-align: top; ">
 		<div class="head4">&nbsp;Effectiveness of safety management (EoSM)&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Effectiveness_of_safety_management" target="_blank">(Meta data)</a>
 		</div>
 		<div style="float: left;" id="crt_EoSMYY"></div>
 		<div style="text-align: left; vertical-align: top;">
 		<p>The results at ANSP level can be found at:
-		<a href="https://docs.google.com/spreadsheets/d/1lLmz-28jrrOlh1aPYcXDTl5192uW3NXA_-AMD5WOtuA/edit?usp=sharing&hl=en_GB" target="_blank">EoSM 2012</a></p>
+		<a href="https://docs.google.com/spreadsheets/d/1tMXgSVH9Wpx2vxpd7XiqWYsxqGVNJPN6pleFFBs66ZE/edit?usp=sharing&hl=en_GB" target="_blank">EoSM 2014</a></p>
 		<small><i><small>&nbsp;Source: EASA</small></i></small>
 		</div>
-	  </td>
+	 </td>
 
-
-	  <td style="width: 475px, text-align: center; vertical-align: top; ">
-	  <div class="head4">&nbsp;RAT methodology application&nbsp;&nbsp;
-	  <a href="http://prudata.webfactional.com/wiki/index.php/RAT_methodology_application" target="_blank">(Meta data)</a></div>
+      <td style="width: 475px, text-align: center; vertical-align: top; ">
+	   <div class="head4">&nbsp;RAT methodology application&nbsp;&nbsp;
+	    <a href="http://prudata.webfactional.com/wiki/index.php/RAT_methodology_application" target="_blank">(Meta data)</a></div>
 	  	<div style="text-align: left; vertical-align: top;">
 		<p>EU-wide average percentage of Separation Minima Infringements (SMI), Runway incursions (RI), and ATM Specific Technical Events (ATM) for which severity was assessed with RAT methodology.</p></div>
 		<div style="float: left;" id="tbl_RAT_APP_YY"></div>
 		<div>
-		<p>The results at State level can be found at:&nbsp;<a href="https://docs.google.com/spreadsheets/d/1o_JEh8rdmIYDZGqC_NaLZozr6mA-p22w38-aGGnYj70/edit?usp=sharing&sheet=RAT 2012&hl=en_GB" target="_blank">RAT application 2012</a></p>
-		<small><i><small>
-		Note: Some States did not report on the application of RAT methodology. Those States were credited with 0%. In addition, there are a few cases when no occurrences of specific type have been reported. These were not included in the average.<br>
-		Source: DPS/SSR (final results, September 2013)</small></i></small></div>
+		<p>The results at State level can be found at:&nbsp;
+		<a href="https://docs.google.com/spreadsheets/d/1vHlDtfARx72a0sB2PTRPTcNmBkqkaXHv85YC495pXSA/edit?usp=sharing&sheet=RAT 2013&hl=en_GB" target="_blank">RAT application 2014</a></p>
+		<small><i><small>&nbsp;Source: DPS/SSR (results, April 2015)</small></i></small></div>
 	  </td>
+
 	</tr>
   </tbody>
 </table>
@@ -815,7 +786,7 @@ google.setOnLoadCallback(drawVisualization)
     </tr>
      <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp;En route ATFM delay KPI&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="head3">&nbsp;En route ATFM delay KPI&nbsp;[January-December]&nbsp;&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en_route_ATFM_delay_per_flight" target="_blank">(Meta data)</a></div>
 	  </td>
 	</tr>
@@ -827,18 +798,18 @@ google.setOnLoadCallback(drawVisualization)
 	  <div style="float: left;" id="crt_ertdlyMM"></div>
 	  </td>
 
-	 <td style="width: 475px; text-align: center; vertical-align: top">
-	 <iframe width="420" height="420" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?viz=MAP&amp;q=select+col0+from+1tx8N2_3XEz8di-9FjwxqHzDKC9bGmJKMpgROMqi5&amp;h=false&amp;lat=51.328859897200296&amp;lng=13.48046875&amp;z=3&amp;t=1&amp;l=col0&amp;y=2&amp;tmplt=2"></iframe><br>
+	  <td style="width: 475px; text-align: center; vertical-align: top">
+	 <iframe width="420" height="420" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?viz=MAP&amp;q=select+col0+from+13-wd9uYs6sOP9gF7u3NPqyyiyAqB5gV97B6Jb-Eg&amp;h=false&amp;lat=51.328859897200296&amp;lng=13.48046875&amp;z=3&amp;t=1&amp;l=col0&amp;y=2&amp;tmplt=2&hml=KML"></iframe><br>
+
 
 	  <div style="text-align: center; vertical-align: top">
-		En-route ATFM delay (PP. vs. actual) (Jan.-Dec. 2012)<br>
-		<a href="https://docs.google.com/spreadsheets/d/1zaJTkMu54GW8umT86OeKODo0qsefUop2BDdUjl9Fv-s/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
-		</div>
+		En-route ATFM delay (PP. vs. actual) (Jan.-Dec. 2014)<br>
+		<a href="https://docs.google.com/spreadsheets/d/1z34yOv0uiuMfgB8rJsU8oqCnT2d0PiTynLUT5QLiFfQ/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+	  </div>
 	  </td>
-
 	  </tr>
 
-	<tr>
+	  <tr>
 	  <td colspan="2" rowspan="1" style="width: 950px">
 		<div class="head3">&nbsp;En route ATFM delay (actual versus performance plan)</div>
       <div style="float: left;" id="crt_ertdlyYYvstgt"></div>
@@ -848,7 +819,7 @@ google.setOnLoadCallback(drawVisualization)
 
 	<tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp; Airport ATFM delay PI&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="head3">&nbsp; Airport ATFM delay PI&nbsp;[January-December]&nbsp;&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Airport_ATFM_delay" target="_blank">(Meta data)</a></div>
 	  </td>
     </tr>
@@ -861,49 +832,49 @@ google.setOnLoadCallback(drawVisualization)
 
       <td style="width: 475px; vertical-align: top;">
 	  <div class="head4">&nbsp; Airport arrival ATFM delay by airport&nbsp;&nbsp;&nbsp;
-	  <a href="https://docs.google.com/spreadsheets/d/19VUdI6I_VoCm5xaiGsVAAtjsySTlhz0GcCwET15SDFo/edit?usp=sharing&hl=en_GB" target="_blank">[Download table]</a></div>
+	  <a href="https://docs.google.com/spreadsheets/d/1L1bP8FpoVIfgVG8Yo06rWlMltdvqVvYFb73wncTU4mU/edit?usp=sharing&hl=en_GB" target="_blank">[Download table]</a></div>
 	  <div style="float: top;" id="tbl_aptdly_YYAPT"></div>
 	  </td>
     </tr>
 
 	<tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp; ASMA additional time PI&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="head3">&nbsp; ASMA additional time PI&nbsp;[January-December]&nbsp;&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">(Meta data)</a></div>
 
 	  </td>
     </tr>
 	    <tr>
       <td style="width: 475px; vertical-align: top;">
-		<span style="color:#c76061 ; ">&nbsp; 26 of 39 airports presently included in European view </span>
-		<div style="float: left;" id="crt_ASMAYY"></div>
-	    <div style="float: left;" id="crt_ASMAMM"></div>
+		<span style="color:#c76061">&nbsp;31 of 39 airports included in time series </span>
+		<div style="float: left" id="crt_ASMAYY"></div>
+	    <div style="float: left" id="crt_ASMAMM"></div>
 	    <div><small><i><small>Source: PRU analysis; CODA; Network Manager</small></i></small></div>
 	  </td>
-      <td style="width: 475px; vertical-align: top;">
+      <td style="width: 475px; vertical-align: top">
 	  <div class="head4">&nbsp;ASMA additional time by airport &nbsp;&nbsp;&nbsp;
-	  <a href="https://docs.google.com/spreadsheets/d/15SEBfl0XhVRUg7xCH3hK_YVexxDuom_lEyTMbwrfZ_w/edit?usp=sharing&sheet=ASMA_APT&hl=en_GB" target="_blank">[Download table]</a></div>
-	  <div style="float: top;" id="tbl_ASMAdly_YYAPT"></div>
+	  <a href="https://docs.google.com/spreadsheets/d/1TCK9RJ4AhUJi5g7KfLgArzD3lCoHBNYwo6h_w1ft5O4/edit?usp=sharing&sheet=ASMA_APT&hl=en_GB" target="_blank">[Download table]</a></div>
+	  <div style="float: top" id="tbl_ASMAdly_YYAPT"></div>
 	  </td>
     </tr>
 
 	<tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp;Taxi out additional time PI&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="head3">&nbsp;Taxi out additional time PI&nbsp;[January-December]&nbsp;&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">(Meta data)</a></div>
 	  </td>
     </tr>
 
 	 <tr>
-      <td style="width: 475px; vertical-align: top;">
-		<span style="color:#c76061 ; ">&nbsp; 44 of 77 airports presently included in European view </span>
+      <td style="width: 475px; vertical-align: top">
+		<span style="color:#c76061 ; ">&nbsp; 50 of 77 airports included in time series </span>
 		<div style="float: left;" id="crt_txoutYY"></div>
 	    <div style="float: left;" id="crt_txoutMM"></div>
 	    <div><small><i><small>Source: PRU analysis; CODA; Network Manager</small></i></small></div>
 	  </td>
       <td style="width: 475px; vertical-align: top;">
 	  <div class="head4">&nbsp;Taxi-out additional time by airport &nbsp;&nbsp;&nbsp;
-	  <a href="https://docs.google.com/spreadsheets/d/1QT3DRseIZuupKwEm6peHTEC0mzjkR0q2hjoBHjlde38/edit?usp=sharing&sheet=TxOut_APT&hl=en_GB" target="_blank">[Download table]</a></div>
+	  <a href="https://docs.google.com/spreadsheets/d/170jDab0X0R_BxKTo2f4N_pTCIo2StHNkmgD6hJ-3HjA/edit?usp=sharing&sheet=TxOut_APT&hl=en_GB" target="_blank">[Download table]</a></div>
 	  <div style="float: top;" id="tbl_txdly_YYAPT"></div>
 	  </td>
     </tr>
@@ -915,12 +886,12 @@ google.setOnLoadCallback(drawVisualization)
   <tbody>
     <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head2">&nbsp; ENVIRONMENT</div>
+		<div class="head2">&nbsp; ENVIRONMENT [2009-2014]</div>
 	  </td>
 	 </tr>
 		<tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp; Horizontal en route flight efficiency [KEP]&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="head3">&nbsp; Horizontal en route flight efficiency&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Average_horizontal_en-route_inefficiency" target="_blank">(Meta data)</a></div>
 	  </td>
     </tr>
@@ -935,26 +906,22 @@ google.setOnLoadCallback(drawVisualization)
     </tr>
 	<tr>
      <td colspan="2" rowspan="1" style="width: 950px">
-	<div class="head3">&nbsp; Effective use of the civil / military airspace structures PI&nbsp;&nbsp;&nbsp;&nbsp;
+	<div class="head3">&nbsp; Effective use of the civil / military airspace structures PI&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Effective_use_of_the_civil_/_military_airspace_structures" target="_blank">(Meta data)</a></div>
 	  </td>
-	  <tr>
+	  	  <tr>
       <td style="width: 475px, text-align: center; vertical-align: top; ">
-		<div class="head4">&nbsp;Booking and release procedures&nbsp;&nbsp;&nbsp;
-		<a href="https://docs.google.com/spreadsheets/d/1qOIwlihGTbT0xM3oGQIi_xw8bugCetElPE8cs56EWSc/edit?usp=sharing&sheet=CIV_MIL1&hl=en_GB" target="_blank">[Download table]</a></div>
+		<div class="head4">&nbsp;Booking and release procedures</div>
 		<div style="text-align: left; vertical-align: top;">
-	    <div style="float: left;" id="crt_civmilYY"></div>
-		<div><small><i><small>&nbsp;Source: NSAs</small></i></small></div>
+		<span style="color: rgb(102, 102, 102);"> To be updated in 2015.<br>
 	  </td>
       <td style="width: 475px, text-align: center; vertical-align: top; ">
-		<div class="head4">&nbsp;Utilisation of Conditional Routes (CDRs)</div>
+		<div class="head4">&nbsp;Utilisation of Conditional Routes</div>
 		<div style="text-align: left; vertical-align: top;">
-	    <div style="float: left;" id="tbl_cdr"></div>
-		<div><small><i><small>&nbsp;Source: Network Manager</small></i></small></div>
+		<span style="color: rgb(102, 102, 102);"> To be updated in 2015.<br>
 		</span></div>
 	  </td>
 	</tr>
-
     </tr>
   </tbody>
 </table>
@@ -978,9 +945,11 @@ google.setOnLoadCallback(drawVisualization)
 	   <div style="float: left;" id="crt_ertcefSUYY"></div>
 	 </td>
      <td style="width: 450px; text-align: center;">
-      <iframe width="420" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?viz=MAP&amp;q=select+col0+from+11LM8FWkUKK38hK1u8vGVxUl8HrRDsf0hau8m1iMD&amp;h=false&amp;lat=51.218119846764985&amp;lng=10.82421875&amp;z=3&amp;t=1&amp;l=col0&amp;y=2&amp;tmplt=2"></iframe><br>
-	  <span style="color:#1F1F2E ; ">&nbsp; En-route Service Units (PP. vs. actual) (Jan.-Dec. 2012) <br>
-	  <a href="https://docs.google.com/spreadsheets/d/1s3eriIOsO9op8mxc-pKFR8cJDVF9WTlyC6EdJCsR4oQ/edit?usp=sharing" target="_blank">[Download data]</a><br></span>
+	 <iframe width="420" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?viz=MAP&amp;q=select+col0+from+1hjbZ_Wo3wqyocld-lIFx8gKe2LAwalVyLplxTlGA&amp;h=false&amp;lat=51.218119846764985&amp;lng=10.82421875&amp;z=3&amp;t=1&amp;l=col0&amp;y=2&amp;tmplt=2&hml=KML"></iframe><br>
+
+
+	 <span style="color:#1F1F2E ; ">&nbsp; En-route Service Units (PP. vs. actual) (Jan.-Dec.)<br>
+	 <a href="https://docs.google.com/spreadsheets/d/1D9E67nIevffaAqhnHoJMbazFO-RDgjC_JYX3EJRq9CQ/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a><br></span>
 	  </td>
     </tr>
 	<tr>

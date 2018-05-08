@@ -1,9 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<link href="/css/style_rp1.css" rel= "stylesheet" type="text/css"/>
-<title>2014 - ANS performance monitoring (Local level)</title>
+<link href={{ "css/style_rp1.css" | absURL }} rel="stylesheet" type="text/css"/>
+<title>2013 - ANS performance monitoring (Local level)</title>
 </head>
 
 <script type="text/javascript" src="http://www.google.com/jsapi"></script><script type="text/javascript"> // load the visualisation API
@@ -15,7 +16,7 @@ function drawVisualization()
 // GET DATA
 	{
 
-	var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1pLGJtFRYSVJos0pSNZA_uyiE4e4jYs5pZNCYsVpTRiE/edit?usp=sharing&sheet=PP_VIEW&range=A4:BV764&hl=en_GB');
+	var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1oClp_JVv9xBxrF4B0yUhI_pMVhZzH2jjjR3zawe5qI8/edit?usp=sharing&sheet=PP_VIEW&range=A4:BV764&hl=en_GB');
 	query.send(handleQueryResponse);
 	}
 	function handleQueryResponse(response) {
@@ -72,7 +73,7 @@ function drawVisualization()
 		options: {
 				width: 450, height: 190,
 				chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
-				title: 'Avg. daily IFR flights [2014]',
+				title: 'Avg. daily IFR flights [2013]',
 				titleTextStyle : {color: 'grey', fontSize: 12},
 				legend: 'none',
 				series: {
@@ -122,7 +123,7 @@ function drawVisualization()
 		options:{
 					width: 450, height: 190,
 					chartArea: {left: 80, top: 30, width:'70%',height:'60%'},
-					title: 'Monthly en route ATFM delays [2014]',
+					title: 'Monthly en route ATFM delays [2013]',
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: 'none',
 					isStacked : 'true',
@@ -174,7 +175,7 @@ function drawVisualization()
 				options:{
 					width: 450, height: 190,
 					chartArea: {left: 80, top: 30, width:'70%',height:'60%'},
-					title: 'Monthly airport ATFM delays [2014]',
+					title: 'Monthly airport ATFM delays [2013]',
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: 'none',
 					isStacked : 'true',
@@ -196,7 +197,7 @@ function drawVisualization()
 		chartType: 'Table',
 		containerId: 'tbl_aptdlyYY',
 		options:{ width: 940, height: 120},
-		view: {columns: [1,21,20,27,28,29,30], rows: [4,5,6] }
+		view: {columns: [3,21,20,27,28,29,30], rows: [4,5,6] }
 	});
 
 // ASMA - YY - CHART - [PP_LEVEL]
@@ -225,7 +226,7 @@ function drawVisualization()
 		options: {
 				width: 450, height: 190,
 				chartArea: {left: 80, top: 30, width:'70%',height:'60%'},
-				title: 'ASMA additional time [2014]',
+				title: 'ASMA additional time [2013]',
 				titleTextStyle : {color: 'grey', fontSize: 12},
 				legend: 'none',
 				seriesType: 'bars',
@@ -263,7 +264,7 @@ function drawVisualization()
 		options: {
 				width: 450, height: 200,
 				chartArea: {left: 80, top: 30, width:'70%',height:'60%'},
-				title: 'Taxi-out additional time [2014]',
+				title: 'Taxi-out additional time [2013]',
 				titleTextStyle : {color: 'grey', fontSize: 12},
 				legend: 'none',
 				seriesType: 'bars',
@@ -282,7 +283,7 @@ function drawVisualization()
 		options:{
 					width: 470, height: 200,
 					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
-					title: 'Horizontal en route flight efficiency [KEA - 2014]',
+					title: 'Horizontal en route flight efficiency [KEA - 2013]',
 					titleTextStyle : {color: '#5D7CBA', fontSize: 12},
 					legend: 'none',
 					colors:['#5D7CBA'], lineWidth: 1, pointSize:6,
@@ -335,7 +336,7 @@ var crt_ertcefDURYY = new google.visualization.ChartWrapper({
 		chartType: 'Table',
 		containerId: 'tbl_ertcefSU',
 		options:{ allowHtml: false, width: 940, height: 60},
-		view: {columns: [1,35,36,37,38], rows: [6] }
+		view: {columns: [3,35,36,37,38], rows: [5] }
 	});
 
 // ERT CEF SU - YY - CHART - [PP_LEVEL]
@@ -345,7 +346,7 @@ var crt_ertcefSUYY = new google.visualization.ChartWrapper({
 		options:{
 					width: 450, height: 200,
 					chartArea: {left: 80, top: 30, width:'60%',height:'60%'},
-					title: 'En route SU [act. vs. NPP] - (2014)',
+					title: 'En route SU [act. vs. NPP] - (2013)',
 					titleTextStyle : {color: 'grey', fontSize: 12},
 					legend: 'none',
 					series: {
@@ -403,7 +404,7 @@ draw(data);
 google.setOnLoadCallback(drawVisualization)
 </script>
 
-<div class="header">ANS performance monitoring (Local level, 2014)</div>
+<div class="header">ANS performance monitoring (Local level, 2013)</div>
 <div id="dashboard">
 
 <table style="text-align: left;width: 950px;" border="1" cellpadding="2" cellspacing="3">
@@ -412,7 +413,8 @@ google.setOnLoadCallback(drawVisualization)
       <td colspan="2" rowspan="6">
 		<div style="text-align: justify; vertical-align: top; margin-left: 5px; margin-right: 5px">
 		<p> This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible.
-		   Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.</p>
+		 Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.</p>
+
 		<p>For feedback or questions please contact us at: <a href="mailto:NSA-PRU-Support@eurocontrol.int">Performance Review Unit</a></p>
 		<p>Note that the dashboard takes a few moments to fully load</p>
 		</div>
@@ -421,21 +423,21 @@ google.setOnLoadCallback(drawVisualization)
     </tr>
     <tr>
      <td style="width: 100px; left; vertical-align: top; ">EU wide view</td>
-     <td style="width: 60px;  text-align: center; vertical-align: top"><a href="../eur_view_2012/">2012</a></span></div></td>
-     <td style="width: 70px;  text-align: center; vertical-align: top"><a href="../eur_view_2013/">2013</a></span></div></td>
-     <td style="width: 70px;  text-align: center; vertical-align: top"><a href="../eur_view_2014/">2014</a></span></div></td>
+     <td style="width: 60px;  text-align: center; vertical-align: top; "><a href="../eur_view_2012/">2012</a></span></div></td>
+     <td style="width: 70px;  text-align: center; vertical-align: top; "><a href="../eur_view_2013/">2013</a></span></div></td>
+     <td style="width: 70px;  text-align: center; vertical-align: top; "><a href="../eur_view_2014/">2014</a></span></div></td>
 	</tr>
     <tr>
       <td style="left; vertical-align: top; ">Local View</td>
-      <td style="text-align: center; vertical-align: top"><a href="../pp_view_2012/">2012</a></span></div></td>
-      <td style="text-align: center; vertical-align: top"><a href="../pp_view_2013/">2013</a></span></div></td>
-      <td style="text-align: center; vertical-align: top; background-color: #99badb"><b><a href="../pp_view_2014/">2014</a></b></span></div></td>
+      <td style="text-align: center; vertical-align: top; "><a href="../pp_view_2012/">2012</a></span></div></td>
+      <td style="text-align: center; vertical-align: top; background-color: #99badb"><b><a href="../pp_view_2013/">2013</a></b></span></div></td>
+      <td style="text-align: center; vertical-align: top; "><a href="../pp_view_2014/">2014</a></span></div></td>
 	</tr>
     <tr>
     <td style="left; vertical-align: top; ">Airport View</td>
-    <td style="text-align: center; vertical-align: top"><a href="../apt_view_2012/">2012</a></span></div></td>
-    <td style="text-align: center; vertical-align: top"><a href="../apt_view_2013/">2013</a></span></div></td>
-    <td style="text-align: center; vertical-align: top"><a href="../apt_view_2014/">2014</a></span></div></td>
+    <td style="text-align: center; vertical-align: top; "><a href="../apt_view_2012/">2012</a></span></div></td>
+    <td style="text-align: center; vertical-align: top; "><a href="../apt_view_2013/">2013</a></span></div></td>
+    <td style="text-align: center; vertical-align: top; "><a href="../apt_view_2014/">2014</a></span></div></td>
 	</tr>
     <tr>
       <td colspan="4" rowspan="1" style="background-color: #D9D9DD;text-align: left; vertical-align: top; "><b>Support:</b></td>
@@ -449,7 +451,7 @@ google.setOnLoadCallback(drawVisualization)
    <tr>
       <td colspan="1" rowspan="1" style="text-align: right;width: 300px;"><span style="color: rgb(153, 0, 0)"><b>Select entity here: </b></span></td>
       <td style="text-align: center;"> <div style="float: center;margin-top: 5px " id="control1"></span></div></td>
-	  <td colspan="4" rowspan="1" style="background-color: #D9D9DD;text-align: left; vertical-align: center;"><b><a href="../2018/">Dashboard second reference period (RP2)</a></b></td>
+	  <td colspan="4" rowspan="1" style="background-color: #D9D9DD;text-align: left; vertical-align: center;"><b><a href="../2017/">Dashboard second reference period (RP2)</a></b></td>
     </tr>
   </tbody>
 </table>
@@ -459,14 +461,14 @@ google.setOnLoadCallback(drawVisualization)
     <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
 		<div class="head2">&nbsp;TRAFFIC</div>
-			<div style="text-align: left; vertical-align: top">
+		<div style="text-align: left; vertical-align: top">
 		The data displayed in this section is available in the <a href="../downloads/">download area.</a></div>
 	  </td>
     </tr>
 
 	<tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-	  <div class="head3">&nbsp;IFR flights &nbsp;[January-December]</div>
+	  <div class="head3">&nbsp;IFR flights</div>
 	  </td>
 	</tr>
 	 <tr>
@@ -498,7 +500,7 @@ google.setOnLoadCallback(drawVisualization)
 		<div style="text-align: left; vertical-align: top">
 		<p>There are no results at European wide level.</p>
 		<p>The results at State and ANSP level can be found at:<br>
-			<a href="https://docs.google.com/spreadsheets/d/1tMXgSVH9Wpx2vxpd7XiqWYsxqGVNJPN6pleFFBs66ZE/edit?usp=sharing" target="_blank">EoSM results 2014</a></p>
+			<a href="https://docs.google.com/spreadsheets/d/1xDhXy7p0C_nRprHXXv0kmUfn9q2yOwXp3Xd8BcF44eA/edit?usp=sharing" target="_blank">EoSM results 2013</a></p>
 		<p><small><i>
 		&nbsp;<br>
 		&nbsp;Source: EASA
@@ -511,7 +513,7 @@ google.setOnLoadCallback(drawVisualization)
 		<div style="text-align: left; vertical-align: top">
 		<p>There are no results at European wide level.</p>
 		<p>The results at State and ANSP level can be found at:<br>
-		<a href="https://docs.google.com/spreadsheets/d/1OdGuAQzzqvA1t0_DSuDiWRcVO05--TnPzJbekNjfpIs/edit?usp=sharing" target="_blank">Just culture results 2014</a></p>
+		<a href="https://docs.google.com/spreadsheets/d/16ifLCfQUV0GZousONatmsDKAt26xf69ckczeAYBPaH8/edit?usp=sharing" target="_blank">Just culture results 2013</a></p>
 		<p><small><i>
 		&nbsp;Note that the total number of "NO" answers may not reflect an absence of Just Culture.<br>
 		&nbsp;Source: EASA
@@ -523,7 +525,10 @@ google.setOnLoadCallback(drawVisualization)
       <td style="width: 475px, text-align: center; vertical-align: top; ">
 	  <div class="head4">&nbsp;RAT methodology application &nbsp;&nbsp;
 	  <a href="http://prudata.webfactional.com/wiki/index.php/RAT_methodology_application" target="_blank">(Meta data)</a></div>
-	   <div>&nbsp;[2014 data to be available in Mar./Apr. 2015].</div>
+       <div><br>Results (October/November 2014) at State level can be found at:<br>
+		<a href="https://docs.google.com/spreadsheets/d/11prptMhZIyeRuZ1sgeda_Arx-z-TRZWMF9pr_VA2Dl8/edit?usp=sharing&sheet=RAT 2012&hl=en_GB" target="_blank">RAT application 2013</a></div>
+		<div><small><i>&nbsp;Source: DPS/SSR</small></i>
+		</div>
 	  </td>
       <td style="width: 475px, text-align: center; vertical-align: top; ">
 	  <div class="head4">&nbsp;</div>
@@ -543,7 +548,7 @@ google.setOnLoadCallback(drawVisualization)
     </tr>
 	 <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp;En route ATFM delay KPI&nbsp;[January-December]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="head3">&nbsp;En route ATFM delay KPI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en_route_ATFM_delay_per_flight" target="_blank">(Meta data)</a></div>
 	  </td>
     </tr>
@@ -565,7 +570,7 @@ google.setOnLoadCallback(drawVisualization)
 
 	<tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp;Airport ATFM arrival delay PI&nbsp;[January-December]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="head3">&nbsp;Airport ATFM arrival delay PI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Airport_ATFM_delay" target="_blank">(Meta data)</a></div>
 	  </td>
     </tr>
@@ -587,7 +592,7 @@ google.setOnLoadCallback(drawVisualization)
 
     <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp;ASMA additional time PI&nbsp; [January-December]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="head3">&nbsp;ASMA additional time PI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">(Meta data)</a></div>
 	  </td>
     </tr>
@@ -604,7 +609,7 @@ google.setOnLoadCallback(drawVisualization)
 
 	 <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp;Taxi out additional time PI &nbsp;[January-December]&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="head3">&nbsp;Taxi out additional time PI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">(Meta data)</a></div>
 	  </td>
     </tr>
@@ -632,8 +637,8 @@ google.setOnLoadCallback(drawVisualization)
     <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
 		<div class="head2">&nbsp;ENVIRONMENT</div>
-			<div style="text-align: left; vertical-align: top">
-		The data displayed in this section is available in the <a href="../downloads/">download area.</a></div>
+	     <div style="text-align: left; vertical-align: top">
+		 The data displayed in this section is available in the <a href="../downloads/">download area.</a></div>
 	  </td>
 	 </tr>
 	 <tr>
@@ -647,7 +652,7 @@ google.setOnLoadCallback(drawVisualization)
       <td style="width: 475px, text-align: center; vertical-align: top; ">
 		<div class="head4">&nbsp;Effective use of the civil/military airspace structures PI&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Effective_use_of_the_civil_/_military_airspace_structures" target="_blank">(Meta data)</a></div>
-	     <div><small>Share of time airspace was used when segregated from general air traffic.</small></div></br>
+	     <div><small>Share of time airspace was used when segregated from general air traffic (usage).</small></div></br>
 		<div style="float: top;" id="tbl_civmil_YY"></div>
 		<div><small><i>&nbsp;Source:NSAs</i></small></div>
 	  </td>
@@ -672,7 +677,7 @@ google.setOnLoadCallback(drawVisualization)
     </tr>
 	<tr>
       <td style="width: 475px">
-		<div class="head4">&nbsp;En route (ER) determined unit rate KPI&nbsp;&nbsp;(real terms, 2009)
+		<div class="head4">&nbsp;En route (ER) determined unit rate KPI&nbsp;&nbsp;(annual, real terms, 2009)
 		<a href="http://prudata.webfactional.com/wiki/index.php/Determined_Unit_Rate_for_en_route_Air_Navigation_Services"target="_blank">(Meta data)</a></div>
 	  	<div style="float: left;" id="crt_ertcefDURYY"></div>
 		<div><small><i><small>&nbsp;Source: CRCO; National/FAB performance plans (NPP)</small></i></small></div>
@@ -691,7 +696,7 @@ google.setOnLoadCallback(drawVisualization)
 
 	<tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-	  <div class="head3">&nbsp; En route Determined Unit Rate (DUR) KPI [real terms; 2009 prices]  & En route (ER) service units (SU)&nbsp;&nbsp;
+	  <div class="head3">&nbsp; En route Determined Unit Rate (DUR) KPI [annual, real terms; 2009 prices]  & En route (ER) service units (SU)&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Determined_Unit_Rate_for_en_route_Air_Navigation_Services"target="_blank">(Meta data)</a></div>
 	  <div style="float: left;" id="tbl_ertcefYY1"></div>
 	  <div><small><i><small>&nbsp;Source: National/FAB performance plans (NPP)</small></i></small></div>
@@ -700,7 +705,7 @@ google.setOnLoadCallback(drawVisualization)
 
 	<tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-	  <div class="head3">&nbsp;En route (ER) determined costs [national currency] & Inflation rates&nbsp;&nbsp;
+	  <div class="head3">&nbsp;En route (ER) determined costs [annual, national currency] & Inflation rates&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Determined_Unit_Rate_for_en_route_Air_Navigation_Services"target="_blank">(Meta data)</a></div>
 	  <div style="float: left;" id="tbl_ertcefYY2"></div>
 	  <div><small><i><small>&nbsp;Source: CRCO; National/FAB performance plans (NPP)</small></i></small></div>
@@ -708,7 +713,7 @@ google.setOnLoadCallback(drawVisualization)
     </tr>
 	 <tr>
       <td colspan="2" rowspan="1" style="width: 950px">
-		<div class="head3">&nbsp;Terminal (TR) ANS cost PI [national currency] & Inflation rates&nbsp;&nbsp;
+		<div class="head3">&nbsp;Terminal (TR) ANS cost PI [annual, national currency] & Inflation rates&nbsp;&nbsp;
 		<a href="http://prudata.webfactional.com/wiki/index.php/Terminal_air_navigation_service_costs_and_unit_rates" target="_blank">(Meta data)</a></div>
 	  </td>
     </tr>
