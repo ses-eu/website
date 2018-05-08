@@ -1,8 +1,11 @@
 # for local test (and netlify automatic publishing)
-baseurl = "/"
+#baseurl = "/"
 
 # for EUROCONTROL test website
-# baseurl = "https://www-test.eurocontrol.int/ansperf-test/dataportal/ses-test/"
+#baseurl = "https://www-test.eurocontrol.int/ansperf-test/dataportal/ses-test/"
+
+
+baseurl = "http://www.eurocontrol.int/prudata/dashboard/"
 
 languageCode = "en-us"
 title = "Single European Sky Portal"
@@ -20,7 +23,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 10
 [[menu.main]]
     name = "Dashboard"
-    url = "/dashboard/"
+    url = "/vis/"
     weight = 20
 [[menu.main]]
     name = "Data"
