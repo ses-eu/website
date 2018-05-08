@@ -47,7 +47,6 @@ SES Dashboard:
 
 ## Relevant websites
 
-* [SES Dashboard RP1 (2014)](http://www.eurocontrol.int/prudata/vis/eur_view_2014.html)
-* [SES Dashboard RP2 (2016)](http://www.eurocontrol.int/prudata/vis/rp2_2016.html)
-* [SES Dashboard RP2 (2017)](http://www.eurocontrol.int/prudata/vis/rp2_2017.html)
+* [SES Dashboard RP1 (2014)](http://www.eurocontrol.int/prudata/dashboard/vis/eur_view_2014/)
+* [SES Dashboard RP2 (2017)](http://www.eurocontrol.int/prudata/dashboard/vis/2017/)
 * [PRU mediawiki](http://prudata.webfactional.com/wiki/index.php/Main_Page)
