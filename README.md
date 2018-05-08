@@ -37,11 +37,11 @@ SES Dashboard:
 * RP2 2016 Q2 Release: [https://github.com/ses-eu/website/tree/v2.3.0](https://github.com/ses-eu/website/tree/v2.3.0)
 * RP2 2016 Q3 Release: [https://github.com/ses-eu/website/tree/v2.4.0](https://github.com/ses-eu/website/tree/v2.4.0)
 * RP2 2016 Q4 Release: [https://github.com/ses-eu/website/tree/v2.5.0](https://github.com/ses-eu/website/tree/v2.5.0)
-* RP2 2016 Release: [https://github.com/ses-eu/website/tree/v2.5.1](https://github.com/ses-eu/website/tree/v2.5.1)
+* RP2 2016 Release:    [https://github.com/ses-eu/website/tree/v2.5.1](https://github.com/ses-eu/website/tree/v2.5.1)
 * RP2 2017 Q1 Release: [https://github.com/ses-eu/website/tree/v2.6.0](https://github.com/ses-eu/website/tree/v2.6.0)
 * RP2 2017 Q2 Release: [https://github.com/ses-eu/website/tree/v2.7.0](https://github.com/ses-eu/website/tree/v2.7.0)
 * RP2 2017 Q3 Release: [https://github.com/ses-eu/website/tree/v2.8.0](https://github.com/ses-eu/website/tree/v2.8.0)
-* RP2 2017 Q4 Release: [https://github.com/ses-eu/website/tree/v2.9.0](https://github.com/ses-eu/website/tree/v2.9.0)
+* RP2 2017 Q4 Release: [https://github.com/ses-eu/website/tree/v2.9.1](https://github.com/ses-eu/website/tree/v2.9.1)
 
 
 
