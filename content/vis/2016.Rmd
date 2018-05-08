@@ -4,11 +4,6 @@ date: 2016-01-01
 categories: ["dashboard"]
 ---
 
-
-
-
-
-
 <script type="text/javascript" src="//www.google.com/jsapi"></script><script type="text/javascript"> // load the visualisation API
 google.load('visualization', '1', { packages: ['corechart', 'controls'] });
 </script>
@@ -88,7 +83,7 @@ options: {
 
 
 
-    // EoSM - YY - CHART - [EU_YY]
+  // EoSM - YY - CHART - [EU_YY]
     var crt_EoSMYY_ST = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_EoSMYY_ST',
@@ -110,7 +105,7 @@ options: {
             legend: 'none',
             isStacked: 'true',
             seriesType: 'bars',
-            colors: ['#b3cccc'],
+            colors: ['#7DD2F2'],
             vAxis: {
                 title: 'EoSM score',
                 titleTextStyle: {
@@ -140,7 +135,7 @@ options: {
     crt_EoSMYY_ST.draw();
 
 
-    // EoSM - YY - CHART - [EU_YY]
+  // EoSM - YY - CHART - [EU_YY]
     var crt_EoSMYY_AN = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_EoSMYY_AN',
@@ -162,7 +157,7 @@ options: {
             legend: 'none',
             isStacked: 'true',
             seriesType: 'bars',
-            colors: ['#b3cccc'],
+            colors: ['#7DD2F2'],
             vAxis: {
                 title: 'EoSM score',
                 titleTextStyle: {
@@ -191,7 +186,7 @@ options: {
     });
     crt_EoSMYY_AN.draw();
 
-    // EoSM - YY - CHART - [TABLE FAB]
+  // EoSM - YY - CHART - [TABLE FAB]
     var tbl_EOSM_FAB_1 = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_EOSM_FAB_1',
@@ -209,7 +204,7 @@ options: {
     tbl_EOSM_FAB_1.draw();
 
 
-    // EoSM - YY - CHART - [TABLE STATE LEVEL]
+  // EoSM - YY - CHART - [TABLE STATE LEVEL]
     var tbl_EOSM_STA = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_EOSM_STA',
@@ -226,7 +221,7 @@ options: {
     });
     tbl_EOSM_STA.draw();
 
-    // EoSM - YY - CHART - [TABLE ANSP LEVEL]
+  // EoSM - YY - CHART - [TABLE ANSP LEVEL]
     var tbl_EOSM_ANSP = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_EOSM_ANSP',
@@ -244,7 +239,7 @@ options: {
     tbl_EOSM_ANSP.draw();
 
 
-    // RAT - YY - CHART - [EU_YY]
+  // RAT - YY - CHART - [EU_YY]
     var Y15_crt_RAT = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'Y15_crt_RAT',
@@ -266,7 +261,7 @@ options: {
             legend: 'none',
             isStacked: 'true',
             seriesType: 'bars',
-            colors: ['#b3cccc'],
+            colors: ['#7DD2F2'],
             vAxis: {
                 title: '% severity assessed',
                 titleTextStyle: {
