@@ -1,9 +1,16 @@
-# for local test (and netlify automatic publishing)
+#------- LOCAL DEVELOPMENT/TESTING -------
+# remember ending '/'
 baseurl = "/"
+# see .Rprofile for publishDir, i.e. the place
+# where generated HTML is put (the "public" dir in hugo parlance)
+#-----------------------------------------
 
-# production URL
+
+#--------------- PRODUCTION ---------------
+# remember ending '/'
 # baseurl = "http://www.eurocontrol.int/prudata/dashboard/"
-
+# publishDir = "../ses-portal-generated"
+#-----------------------------------------
 
 # for EUROCONTROL test website
 #baseurl = "https://www-test.eurocontrol.int/ansperf-test/dataportal/ses-test/"
