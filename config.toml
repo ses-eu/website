@@ -2,7 +2,7 @@
 # If your website is supposed to be placed in a subdirectory under a domain name
 # e.g., http://example.com/my-project/ when it is published, you must use
 # `relativeurls = true` in config.toml
-# See below the relevant value for the different chains, loval dev/production
+# See below the relevant value for the different chains, local dev/production
 
 
 #------- LOCAL DEVELOPMENT/TESTING -------
@@ -17,13 +17,15 @@
 #--------------- PRODUCTION ---------------
 # remember ending '/'
 baseurl = "http://www.eurocontrol.int/prudata/dashboard/"
-relativeurls = true
+#relativeurls = true
+relativeurls = false
 # the following is alsready setup in .Rprofile for the project
 # publishDir = "../ses-portal-generated"
 #-----------------------------------------
 
 # for EUROCONTROL test website
 #baseurl = "https://www-test.eurocontrol.int/ansperf-test/dataportal/ses-test/"
+#relativeurls = false
 
 
 
