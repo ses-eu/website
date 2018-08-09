@@ -1,9 +1,9 @@
 ---
-title: "SES Home page"
+title: "Single European Sky Data Portal"
 ---
 
 
-Welcome to the Single European Data Portal.
+Welcome to the Single European Sky Data Portal.
 
 This site is published by the Performance Review Unit (PRU) on behalf of the European Commission.
 Every effort has been made to ensure that the information and analysis contained on this website are
