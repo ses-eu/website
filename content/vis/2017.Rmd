@@ -170,7 +170,7 @@ function drawVisualization() {
     var crt_EoSMYY_ST = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_EoSMYY_ST',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19pB4z4HWfkqmMbq3ViPkTJqcnI-JrFNIvToSR-KoRj4/edit?usp=sharing&sheet=EoSM_State_Score&range=A1:C31',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19pB4z4HWfkqmMbq3ViPkTJqcnI-JrFNIvToSR-KoRj4/edit?usp=sharing&sheet=EoSM_State_Score&range=A1:E31',
         options: {
             width: 475,
             height: 230,
@@ -212,7 +212,7 @@ function drawVisualization() {
             }
         },
         view: {
-            'columns': [0, 2]
+            'columns': [0, 4]
         }
     });
     crt_EoSMYY_ST.draw();
@@ -222,7 +222,7 @@ function drawVisualization() {
     var crt_EoSMYY_AN = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_EoSMYY_AN',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19pB4z4HWfkqmMbq3ViPkTJqcnI-JrFNIvToSR-KoRj4/edit?usp=sharing&sheet=EoSM_ANSP_Score&range=A1:C32',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19pB4z4HWfkqmMbq3ViPkTJqcnI-JrFNIvToSR-KoRj4/edit?usp=sharing&sheet=EoSM_ANSP_Score&range=A1:E32',
         options: {
             width: 475,
             height: 230,
@@ -264,7 +264,7 @@ function drawVisualization() {
             }
         },
         view: {
-            'columns': [0, 2]
+            'columns': [0, 4]
         }
     });
     crt_EoSMYY_AN.draw();
@@ -1042,7 +1042,7 @@ function drawVisualization() {
     var tbl_trcef_state = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_trcef_state',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/133Rt4K9bHWXj1Mj1an4fACbDQVWAFGuuQHwAgkxa81U/edit?usp=sharing&sheet=TRM_CEF_STATE&range=A2:AJ37&hl=en_GB',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/133Rt4K9bHWXj1Mj1an4fACbDQVWAFGuuQHwAgkxa81U/edit?usp=sharing&sheet=TRM_CEF_STATE&range=A2:AJ39&hl=en_GB',
         options: {
             allowHtml: true,
             width: 950,

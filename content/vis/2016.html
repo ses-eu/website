@@ -92,7 +92,7 @@ options: {
     var crt_EoSMYY_ST = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_EoSMYY_ST',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_State_Score&range=A1:C31',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_State_Score&range=A1:D31',
         options: {
             width: 475,
             height: 230,
@@ -134,7 +134,7 @@ options: {
             }
         },
         view: {
-            'columns': [0, 2]
+            'columns': [0, 3]
         }
     });
     crt_EoSMYY_ST.draw();
@@ -144,7 +144,7 @@ options: {
     var crt_EoSMYY_AN = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_EoSMYY_AN',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_ANSP_Score&range=A1:C32',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_ANSP_Score&range=A1:D32',
         options: {
             width: 475,
             height: 230,
@@ -186,7 +186,7 @@ options: {
             }
         },
         view: {
-            'columns': [0, 2]
+            'columns': [0, 3]
         }
     });
     crt_EoSMYY_AN.draw();
@@ -195,7 +195,7 @@ options: {
     var tbl_EOSM_FAB_1 = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_EOSM_FAB_1',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_FAB_MIN_LEV&range=A3:K12',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_FAB_MIN_LEV&range=A3:K12',
         options: {
             header: true,
             allowHtml: true,
@@ -213,7 +213,7 @@ options: {
     var tbl_EOSM_STA = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_EOSM_STA',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_State_MIN_LEV&range=A3:J33',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_State_MIN_LEV&range=A3:J33',
         options: {
             header: true,
             allowHtml: true,
@@ -230,7 +230,7 @@ options: {
     var tbl_EOSM_ANSP = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_EOSM_ANSP',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_ANSP_MIN_LEV&range=A3:J34',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_ANSP_MIN_LEV&range=A3:J34',
         options: {
             header: true,
             allowHtml: true,
@@ -334,72 +334,79 @@ options: {
 
 
 // ENVIRONMENT - Horizontal flight efficiency - MM - CHART
-
     var crt_flteffMM = new google.visualization.ChartWrapper({
         chartType: 'LineChart',
         containerId: 'crt_flteffMM',
-        dataSourceUrl: '//docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
-
-        options:{
-                    width: 450, height: 190,
-                    chartArea: { left: 50, top: 30, width: '55%',height:'50%' },
-                    title: 'Horiz. en-route flight efficiency (monthly)',
-                    titleTextStyle : {color: 'grey', fontSize: 11},
-                     legend: {
-                     position: 'right',
-                     textStyle: { color: 'grey', fontSize: 10 }
-                    },
-
-                    series: {
-                     0: {
-                        type: 'lines',
-                        color: '#C0504D',
-                        lineWidth: 1,
-                        pointSize: 4
-                     },
-                     1: {
-                        type: 'lines',
-                        color: '#5D7CBA',
-                        lineWidth: 1,
-                        pointSize: 4,
-                        pointShape: 'diamond'
-                     },
-                     2: {
-                        type: 'lines',
-                        color: '#C0504D',
-                        lineWidth: 2,
-                        pointSize: 0,
-                        lineDashStyle: [6, 3]
-                     },
-                     3: {
-                        type: 'lines',
-                        color:'#5D7CBA',
-                        lineWidth: 2,
-                        pointSize: 0,
-                        lineDashStyle: [6, 3],
-                     //   pointShape:'diamond'
-                     }
-
-                  },
-                vAxis: {
-                  title: 'Inefficiency (%)',
-                  titleTextStyle: { color: 'grey', fontSize: 10 },
-                  minValue: 0.02,
-                  maxValue: 0.06,
-                  viewWindow: { min: 0.02, max: 0.06 },
-                  format: '0.0%'
-                        },
-                hAxis: {
-                  title: 'Monthly values for the SES-RP2 area',
-                  titleTextStyle: { color: 'grey', fontSize: 10 },
-                  type: 'string',
-                  slantedText: true,
-                  slantedTextAngle: 40,
-                  textStyle: { fontSize: 11 }
-               }
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
+        options: {
+            width: 450,
+            height: 190,
+            chartArea: {
+                left: 50,
+                top: 30,
+                width: '55%',
+                height: '50%'
             },
-            view: { 'columns': [0,1,2,3,4] }
-    }); crt_flteffMM.draw();
+            title: 'Horiz. en-route flight efficiency (monthly)',
+            titleTextStyle: {
+                color: 'grey',
+                fontSize: 11
+            },
+            legend: {
+                position: 'right',
+                textStyle: {
+                    color: 'grey',
+                    fontSize: 10
+                }
+            },
+            series: {
+                0: {
+                    type: 'lines',
+                    color: '#c0504d',
+                    lineWidth: 1,
+                    pointSize: 4,
+                    pointShape: 'diamond'
+                },
+                1: {
+                    type: 'lines',
+                    color: '#5D7CBA',
+                    lineWidth: 1,
+                    pointSize: 3
+                }
+            },
+            vAxis: {
+                title: 'Inefficiency (%)',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 10
+                },
+                minValue: 0.02,
+                maxValue: 0.06,
+                viewWindow: {
+                    min: 0.02,
+                    max: 0.06
+                },
+                format: '0.0%'
+            },
+            hAxis: {
+                title: 'Monthly values for the SES-RP2 area',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 10
+                },
+                type: 'string',
+                slantedText: true,
+                slantedTextAngle: 40,
+                textStyle: {
+                    fontSize: 11
+                }
+            }
+        },
+        view: {
+            'columns': [0, 3, 4]
+        }
+    });
+    crt_flteffMM.draw();
 
 
 // ENVIRONMENT - Horizontal flight efficiency - TABLE
@@ -657,15 +664,12 @@ google.setOnLoadCallback(drawVisualization)
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="//docs.google.com/spreadsheets/d/1Ip-cVibeSuNUR3Hgt_EmfN2hUh-cJyh-gXSy_wKV-20/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -675,9 +679,7 @@ Source: Network Manager
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en_route_ATFM_delay_per_flight" target="_blank">[Meta data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en_route_ATFM_delay_per_flight" target="_blank">[Meta data]</a> </span>
 </div>
 </td>
 </tr>
@@ -719,15 +721,12 @@ Source: Network Manager
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -737,9 +736,7 @@ Source: EASA
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Effectiveness_of_safety_management" target="_blank">[Meta data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/Effectiveness_of_safety_management" target="_blank">[Meta data]</a> </span>
 </div>
 </td>
 </tr>
@@ -795,29 +792,24 @@ Source: EASA
 <tr>
 <td colspan="3" rowspan="1" style="width: 475px, text-align: center; vertical-align: top;">
 <div class="head4">
- RAT methodology application  
-<a href="http://prudata.webfactional.com/wiki/index.php/RAT_methodology_application" target="_blank">(Meta data)</a>
+ RAT methodology application   <a href="http://prudata.webfactional.com/wiki/index.php/RAT_methodology_application" target="_blank">(Meta data)</a>
 </div>
 </td>
 <td colspan="3" rowspan="1" style="width: 475px, text-align: center; vertical-align: top;">
 <div class="head4">
- Reporting of Just Culture   
-<a href="http://prudata.webfactional.com/wiki/index.php/Reporting_of_Just_Culture" target="_blank">(Meta data)</a>
+ Reporting of Just Culture    <a href="http://prudata.webfactional.com/wiki/index.php/Reporting_of_Just_Culture" target="_blank">(Meta data)</a>
 </div>
 </td>
 </tr>
 <tr>
 <td>
 <div class="data-period" style="width: 175px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 150px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/160-P769ewud3-dcR7kwhw6m7g0acg8ldp_9zdYCfm9c/edit?usp=sharing" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="https://docs.google.com/spreadsheets/d/160-P769ewud3-dcR7kwhw6m7g0acg8ldp_9zdYCfm9c/edit?usp=sharing" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -827,15 +819,12 @@ Source: DPS/SSR
 </td>
 <td>
 <div class="data-period" style="width: 175px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 150px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1Ck1CEYiWZnN_C716rH7UHvCe7WXvB52Uhpnc_qLpA64/edit?usp=sharing" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="https://docs.google.com/spreadsheets/d/1Ck1CEYiWZnN_C716rH7UHvCe7WXvB52Uhpnc_qLpA64/edit?usp=sharing" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -853,8 +842,7 @@ Source: EASA
 <td colspan="3" rowspan="1">
 <div style="text-align: left; vertical-align: top">
 <p>
-There are no just culture results at European wide level.
-<br>The 2015 results at State and ANSP level can be found in the download file
+There are no just culture results at European wide level. <br>The 2015 results at State and ANSP level can be found in the download file
 </p>
 <p>
 <small><i> Note that the total number of “NO” answers may not reflect an absence of Just Culture.</i></small>
@@ -887,15 +875,12 @@ There are no just culture results at European wide level.
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="//docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -905,9 +890,7 @@ Source: PRU analysis; Network Manager
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Average_horizontal_en-route_inefficiency" target="_blank">[Meta data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/Average_horizontal_en-route_inefficiency" target="_blank">[Meta data]</a> </span>
 </div>
 </td>
 </tr>
@@ -939,15 +922,12 @@ Source: PRU analysis; Network Manager
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1hLYGdDDyS6-6IXVyblXZiWptQ2FB818qoCn2g0msKas/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="//docs.google.com/spreadsheets/d/1hLYGdDDyS6-6IXVyblXZiWptQ2FB818qoCn2g0msKas/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -957,9 +937,7 @@ Source: PRU analysis; Airports
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">[Meta data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">[Meta data]</a> </span>
 </div>
 </td>
 </tr>
@@ -989,15 +967,12 @@ Source: PRU analysis; Airports
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1MdhOPUqTN4nvVcyU0LsfBJ3uNOGjv7x5O1VzQKekILg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="//docs.google.com/spreadsheets/d/1MdhOPUqTN4nvVcyU0LsfBJ3uNOGjv7x5O1VzQKekILg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -1007,9 +982,7 @@ Source: PRU analysis; Airports; Network Manager
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">[Meta data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">[Meta data]</a> </span>
 </div>
 </td>
 </tr>
@@ -1035,8 +1008,7 @@ Source: PRU analysis; Airports; Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Effective use of the civil / military airspace structures  
-<a href="http://prudata.webfactional.com/wiki/index.php/Effective_use_of_the_civil_/_military_airspace_structures" target="_blank">(Meta data)</a>
+  Effective use of the civil / military airspace structures   <a href="http://prudata.webfactional.com/wiki/index.php/Effective_use_of_the_civil_/_military_airspace_structures" target="_blank">(Meta data)</a>
 </div>
 </td>
 </tr>
@@ -1060,8 +1032,7 @@ Source: PRU analysis; Airports; Network Manager
  Environment PI #4: Rate of planning of conditional routes (CDRs)
 </div>
 <div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><br>
-</span>
+<span style="color: rgb(102, 102, 102);"><br> </span>
 </div>
 </tr>
 <tr>
@@ -1077,8 +1048,7 @@ Source: PRU analysis; Airports; Network Manager
 
 </div>
 <div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><br>
-</span>
+<span style="color: rgb(102, 102, 102);"><br> </span>
 </div>
 </tr>
 </tbody>
@@ -1093,10 +1063,7 @@ Source: PRU analysis; Airports; Network Manager
 <div class="head2">
  CAPACITY
 </div>
-<span style="color:#C0504D;">Please note that software release 20.0 of the Network Manager on 04 April 2016 introduced a change in the computation of ATFM delay for operational purposes. For consistency reasons, ATFM delays on this web page will continue to be based on the methodology used before April 2016. As a result, the data published on this website might deviate from the data directly published by EUROCONTROL for operational purposes.
-See the Meta data for more information on the changes in NM release 20.0.<br><br>
-Changes due to the <a href="http://www.eurocontrol.int/publications/post-operations-performance-adjustment-process" target="_blank">[Post Operations Adjustment Process]</a> will only be taken into account when the full year 2016 is available.
-</span>
+<span style="color:#C0504D;">Please note that software release 20.0 of the Network Manager on 04 April 2016 introduced a change in the computation of ATFM delay for operational purposes. For consistency reasons, ATFM delays on this web page will continue to be based on the methodology used before April 2016. As a result, the data published on this website might deviate from the data directly published by EUROCONTROL for operational purposes. See the Meta data for more information on the changes in NM release 20.0.<br><br> Changes due to the <a href="http://www.eurocontrol.int/publications/post-operations-performance-adjustment-process" target="_blank">[Post Operations Adjustment Process]</a> will only be taken into account when the full year 2016 is available. </span>
 </td>
 </tr>
 <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
@@ -1112,14 +1079,12 @@ Changes due to the <a href="http://www.eurocontrol.int/publications/post-operati
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<p><span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></p>
+<p><span style="color: rgb(102, 102, 102);"> <a href="//docs.google.com/spreadsheets/d/1qrQvx2VBM5ig-HGvIIbHk_kkjJoQa5Wx0QOtC_4xIPE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></p>
 </span>
 </div>
 </td>
@@ -1130,9 +1095,7 @@ Source: Network Manager
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en-route_ATFM_delay_per_flight" target="_blank">[Meta data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en-route_ATFM_delay_per_flight" target="_blank">[Meta data]</a> </span>
 </div>
 </td>
 </tr>
@@ -1164,15 +1127,12 @@ Source: Network Manager
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="//docs.google.com/spreadsheets/d/1_4ov3Bh400d9X2MNkXt8nH3BBpD7ipyhZULbKuGEAI4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -1182,9 +1142,7 @@ Source: PRU analysis; Network Manager
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Airport_ATFM_delay" target="_blank">[Meta data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/Airport_ATFM_delay" target="_blank">[Meta data]</a> </span>
 </div>
 </td>
 </tr>
@@ -1221,15 +1179,12 @@ Source: PRU analysis; Network Manager
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1aXO6pvE4Q6m7auDAGJv2VwXUOUd00-zfdLJbMBRYbkY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="//docs.google.com/spreadsheets/d/1aXO6pvE4Q6m7auDAGJv2VwXUOUd00-zfdLJbMBRYbkY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -1239,9 +1194,7 @@ Source: Network Manager
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/ATFM_slot_adherence" target="_blank">[Meta data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/ATFM_slot_adherence" target="_blank">[Meta data]</a> </span>
 </div>
 </td>
 </tr>
@@ -1270,15 +1223,12 @@ Source: Network Manager
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1fbGRbNRWg6XJyhGIuA-LgacvNGUtdLU_CqbtvP9Wwjo/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="//docs.google.com/spreadsheets/d/1fbGRbNRWg6XJyhGIuA-LgacvNGUtdLU_CqbtvP9Wwjo/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -1288,9 +1238,7 @@ Source: Airports
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/ATC_pre-departure_delay" target="_blank">[Meta data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/ATC_pre-departure_delay" target="_blank">[Meta data]</a> </span>
 </div>
 </td>
 </tr>
@@ -1329,15 +1277,12 @@ Source: Airports
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: January-December</span>
+<span style="color:#C0504D;"> Period: January-December</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing" target="_blank">[Download data]</a>
-</span>
+<span style="color: rgb(102, 102, 102);"> <a href="//docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing" target="_blank">[Download data]</a> </span>
 </div>
 </td>
 <td>
@@ -1347,8 +1292,7 @@ Source: CRCO; EC; PRU analysis
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-</span>
+<span style="color: rgb(102, 102, 102);"> </span>
 </div>
 </td>
 </tr>
@@ -1376,8 +1320,7 @@ Source: CRCO; EC; PRU analysis
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head3">
-  Cost efficiency KPI #1: Determined unit cost (DUC) for en-route ANS   
-<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)"target="_blank">(Meta data)</a>
+  Cost efficiency KPI #1: Determined unit cost (DUC) for en-route ANS    <a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)"target="_blank">(Meta data)</a>
 </div>
 <div style="text-align: left; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">To be provided in line with the scheduled reporting cycle<br>
@@ -1387,8 +1330,7 @@ Source: CRCO; EC; PRU analysis
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head3">
-  Cost efficiency KPI #2: Determined unit cost (DUC) for terminal ANS   
-<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">(Meta data)</a>
+  Cost efficiency KPI #2: Determined unit cost (DUC) for terminal ANS    <a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">(Meta data)</a>
 </div>
 <div style="text-align: left; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">To be provided in line with the scheduled reporting cycle<br>

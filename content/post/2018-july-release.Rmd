@@ -1,0 +1,7 @@
+---
+title: "July 2018 Release"
+date: 2018-07-13
+categories: ["Release"]
+---
+
+* Update of portal up to June 2018

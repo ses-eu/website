@@ -89,7 +89,7 @@ options: {
     var crt_EoSMYY_ST = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_EoSMYY_ST',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_State_Score&range=A1:C31',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_State_Score&range=A1:D31',
         options: {
             width: 475,
             height: 230,
@@ -131,7 +131,7 @@ options: {
             }
         },
         view: {
-            'columns': [0, 2]
+            'columns': [0, 3]
         }
     });
     crt_EoSMYY_ST.draw();
@@ -141,7 +141,7 @@ options: {
     var crt_EoSMYY_AN = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_EoSMYY_AN',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_ANSP_Score&range=A1:C32',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_ANSP_Score&range=A1:D32',
         options: {
             width: 475,
             height: 230,
@@ -183,7 +183,7 @@ options: {
             }
         },
         view: {
-            'columns': [0, 2]
+            'columns': [0, 3]
         }
     });
     crt_EoSMYY_AN.draw();
@@ -192,7 +192,7 @@ options: {
     var tbl_EOSM_FAB_1 = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_EOSM_FAB_1',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_FAB_MIN_LEV&range=A3:K12',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_FAB_MIN_LEV&range=A3:K12',
         options: {
             header: true,
             allowHtml: true,
@@ -210,7 +210,7 @@ options: {
     var tbl_EOSM_STA = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_EOSM_STA',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_State_MIN_LEV&range=A3:J33',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_State_MIN_LEV&range=A3:J33',
         options: {
             header: true,
             allowHtml: true,
@@ -227,7 +227,7 @@ options: {
     var tbl_EOSM_ANSP = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_EOSM_ANSP',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B8pP5iI5fc5rfzqkO7PzXVuRWiP5Shjw5RYSFWr1Kw8/edit?usp=sharing&sheet=EoSM_ANSP_MIN_LEV&range=A3:J34',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1leb0YXcEDIvbQiMJ3bKZcLNxDNrLTSMm3jsmmwr2Lrs/edit?usp=sharing&sheet=EoSM_ANSP_MIN_LEV&range=A3:J34',
         options: {
             header: true,
             allowHtml: true,
@@ -331,72 +331,79 @@ options: {
 
 
 // ENVIRONMENT - Horizontal flight efficiency - MM - CHART
-
-	var crt_flteffMM = new google.visualization.ChartWrapper({
-		chartType: 'LineChart',
-		containerId: 'crt_flteffMM',
-		dataSourceUrl: '//docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
-
-		options:{
-					width: 450, height: 190,
-					chartArea: { left: 50, top: 30, width: '55%',height:'50%' },
-					title: 'Horiz. en-route flight efficiency (monthly)',
-					titleTextStyle : {color: 'grey', fontSize: 11},
-					 legend: {
-                     position: 'right',
-                     textStyle: { color: 'grey', fontSize: 10 }
-					},
-
-					series: {
-                     0: {
-                        type: 'lines',
-                        color: '#C0504D',
-                        lineWidth: 1,
-                        pointSize: 4
-                     },
-                     1: {
-                        type: 'lines',
-                        color: '#5D7CBA',
-                        lineWidth: 1,
-                        pointSize: 4,
-                        pointShape: 'diamond'
-                     },
-                     2: {
-                        type: 'lines',
-                        color: '#C0504D',
-                        lineWidth: 2,
-                        pointSize: 0,
-                        lineDashStyle: [6, 3]
-                     },
-                     3: {
-                        type: 'lines',
-                        color:'#5D7CBA',
-                        lineWidth: 2,
-                        pointSize: 0,
-                        lineDashStyle: [6, 3],
-                     //   pointShape:'diamond'
-                     }
-
-                  },
-				vAxis: {
-                  title: 'Inefficiency (%)',
-                  titleTextStyle: { color: 'grey', fontSize: 10 },
-                  minValue: 0.02,
-                  maxValue: 0.06,
-                  viewWindow: { min: 0.02, max: 0.06 },
-                  format: '0.0%'
-						},
-				hAxis: {
-                  title: 'Monthly values for the SES-RP2 area',
-                  titleTextStyle: { color: 'grey', fontSize: 10 },
-                  type: 'string',
-                  slantedText: true,
-                  slantedTextAngle: 40,
-                  textStyle: { fontSize: 11 }
-               }
+    var crt_flteffMM = new google.visualization.ChartWrapper({
+        chartType: 'LineChart',
+        containerId: 'crt_flteffMM',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1N0EH3rG0k-9ornfJXWWPks8iKBB8LBsx9WyqljHhc8c/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
+        options: {
+            width: 450,
+            height: 190,
+            chartArea: {
+                left: 50,
+                top: 30,
+                width: '55%',
+                height: '50%'
             },
-            view: { 'columns': [0,1,2,3,4] }
-	}); crt_flteffMM.draw();
+            title: 'Horiz. en-route flight efficiency (monthly)',
+            titleTextStyle: {
+                color: 'grey',
+                fontSize: 11
+            },
+            legend: {
+                position: 'right',
+                textStyle: {
+                    color: 'grey',
+                    fontSize: 10
+                }
+            },
+            series: {
+                0: {
+                    type: 'lines',
+                    color: '#c0504d',
+                    lineWidth: 1,
+                    pointSize: 4,
+                    pointShape: 'diamond'
+                },
+                1: {
+                    type: 'lines',
+                    color: '#5D7CBA',
+                    lineWidth: 1,
+                    pointSize: 3
+                }
+            },
+            vAxis: {
+                title: 'Inefficiency (%)',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 10
+                },
+                minValue: 0.02,
+                maxValue: 0.06,
+                viewWindow: {
+                    min: 0.02,
+                    max: 0.06
+                },
+                format: '0.0%'
+            },
+            hAxis: {
+                title: 'Monthly values for the SES-RP2 area',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 10
+                },
+                type: 'string',
+                slantedText: true,
+                slantedTextAngle: 40,
+                textStyle: {
+                    fontSize: 11
+                }
+            }
+        },
+        view: {
+            'columns': [0, 3, 4]
+        }
+    });
+    crt_flteffMM.draw();
 
 
 // ENVIRONMENT - Horizontal flight efficiency - TABLE
