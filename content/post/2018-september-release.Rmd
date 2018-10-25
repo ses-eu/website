@@ -1,0 +1,7 @@
+---
+title: "September 2018 Release"
+date: 2018-10-23
+categories: ["Release"]
+---
+
+* Update of portal up to September 2018
