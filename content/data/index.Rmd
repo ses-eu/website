@@ -26,7 +26,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2018.xlsx][RP2_TRM_CEF_2018]             |
 
 
-[RP2_APT_ASMA_2018]:      /prudata/dashboard/download/2018/RP2_APT_ASMA_2018_Jan_Oct.xlsx
+[RP2_APT_ASMA_2018]:      /download/2018/RP2_APT_ASMA_2018_Jan_Oct.xlsx
 [RP2_APT_ATC_PRE_2018]:   /prudata/dashboard/download/2018/RP2_APT_ATC_PRE_2018_Jan_Oct.xlsx
 [RP2_APT_ATFM_ARR_2018]:  /prudata/dashboard/download/2018/RP2_APT_ATFM_ARR_2018_Jan_Nov.xlsx
 [RP2_APT_ATFM_SLOT_2018]: /prudata/dashboard/download/2018/RP2_APT_ATFM_SLOT_2018_Jan_Nov.xlsx
