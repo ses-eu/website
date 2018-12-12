@@ -27,16 +27,16 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 
 
 [RP2_APT_ASMA_2018]:      /download/2018/RP2_APT_ASMA_2018_Jan_Oct.xlsx
-[RP2_APT_ATC_PRE_2018]:   /prudata/dashboard/download/2018/RP2_APT_ATC_PRE_2018_Jan_Oct.xlsx
-[RP2_APT_ATFM_ARR_2018]:  /prudata/dashboard/download/2018/RP2_APT_ATFM_ARR_2018_Jan_Nov.xlsx
-[RP2_APT_ATFM_SLOT_2018]: /prudata/dashboard/download/2018/RP2_APT_ATFM_SLOT_2018_Jan_Nov.xlsx
-[RP2_APT_TxOut_2018]:     /prudata/dashboard/download/2018/RP2_APT_TxOut_2018_Jan_Oct.xlsx
-[RP2_ERT_ATFM_2018]:      /prudata/dashboard/download/2018/RP2_ERT_ATFM_2018_Jan_Nov.xlsx
-[RP2_ERT_SU_2018]:        /prudata/dashboard/download/2018/RP2_ERT_SU_2018_Jan_Oct.xlsx
-[RP2_Flights_2018]:       /prudata/dashboard/download/2018/RP2_Flights_2018_Jan_Nov.xlsx
-[RP2_FLT_EFF_2018]:       /prudata/dashboard/download/2018/RP2_FLT_EFF_2018_Jan_Nov.xlsx
-[RP2_ERT_CEF_2018]:       /prudata/dashboard/download/2018/RP2_ERT_CEF_2018.xlsx
-[RP2_TRM_CEF_2018]:       /prudata/dashboard/download/2018/RP2_TRM_CEF_2018.xlsx
+[RP2_APT_ATC_PRE_2018]:   /download/2018/RP2_APT_ATC_PRE_2018_Jan_Oct.xlsx
+[RP2_APT_ATFM_ARR_2018]:  /download/2018/RP2_APT_ATFM_ARR_2018_Jan_Nov.xlsx
+[RP2_APT_ATFM_SLOT_2018]: /download/2018/RP2_APT_ATFM_SLOT_2018_Jan_Nov.xlsx
+[RP2_APT_TxOut_2018]:     /download/2018/RP2_APT_TxOut_2018_Jan_Oct.xlsx
+[RP2_ERT_ATFM_2018]:      /download/2018/RP2_ERT_ATFM_2018_Jan_Nov.xlsx
+[RP2_ERT_SU_2018]:        /download/2018/RP2_ERT_SU_2018_Jan_Oct.xlsx
+[RP2_Flights_2018]:       /download/2018/RP2_Flights_2018_Jan_Nov.xlsx
+[RP2_FLT_EFF_2018]:       /download/2018/RP2_FLT_EFF_2018_Jan_Nov.xlsx
+[RP2_ERT_CEF_2018]:       /download/2018/RP2_ERT_CEF_2018.xlsx
+[RP2_TRM_CEF_2018]:       /download/2018/RP2_TRM_CEF_2018.xlsx
 
 
 ## 2017
@@ -59,20 +59,20 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Reporting of Just Culture             | [{{% dwnld_i %}} RP2_SAF_JC_2017.xlsx][RP2_SAF_JC_2017]               |
 
 
-[RP2_APT_ASMA_2017]:      /prudata/dashboard/download/2017/RP2_APT_ASMA_2017.xlsx
-[RP2_APT_ATC_PRE_2017]:   /prudata/dashboard/download/2017/RP2_APT_ATC_PRE_2017.xlsx
-[RP2_APT_ATFM_ARR_2017]:  /prudata/dashboard/download/2017/RP2_APT_ATFM_ARR_2017.xlsx
-[RP2_APT_ATFM_SLOT_2017]: /prudata/dashboard/download/2017/RP2_APT_ATFM_SLOT_2017.xlsx
-[RP2_APT_TxOut_2017]:     /prudata/dashboard/download/2017/RP2_APT_TxOut_2017.xlsx
-[RP2_ERT_ATFM_2017]:      /prudata/dashboard/download/2017/RP2_ERT_ATFM_2017.xlsx
-[RP2_ERT_SU_2017]:        /prudata/dashboard/download/2017/RP2_ERT_SU_2017.xlsx
-[RP2_Flights_2017]:       /prudata/dashboard/download/2017/RP2_Flights_2017.xlsx
-[RP2_FLT_EFF_2017]:       /prudata/dashboard/download/2017/RP2_FLT_EFF_2017.xlsx
-[RP2_TRM_CEF_2017]:       /prudata/dashboard/download/2017/RP2_TRM_CEF_2017.xlsx
-[RP2_ERT_CEF_2017]:        /prudata/dashboard/download/2017/RP2_ERT_CEF_2017.xlsx
-[RP2_SAF_EoSM_2017]:      /prudata/dashboard/download/2017/RP2_SAF_EoSM_2017.xlsx
-[RP2_SAF_RAT_2017]:       /prudata/dashboard/download/2017/RP2_SAF_RAT_2017.xlsx
-[RP2_SAF_JC_2017]:        /prudata/dashboard/download/2017/RP2_SAF_JC_2017.xlsx
+[RP2_APT_ASMA_2017]:      /download/2017/RP2_APT_ASMA_2017.xlsx
+[RP2_APT_ATC_PRE_2017]:   /download/2017/RP2_APT_ATC_PRE_2017.xlsx
+[RP2_APT_ATFM_ARR_2017]:  /download/2017/RP2_APT_ATFM_ARR_2017.xlsx
+[RP2_APT_ATFM_SLOT_2017]: /download/2017/RP2_APT_ATFM_SLOT_2017.xlsx
+[RP2_APT_TxOut_2017]:     /download/2017/RP2_APT_TxOut_2017.xlsx
+[RP2_ERT_ATFM_2017]:      /download/2017/RP2_ERT_ATFM_2017.xlsx
+[RP2_ERT_SU_2017]:        /download/2017/RP2_ERT_SU_2017.xlsx
+[RP2_Flights_2017]:       /download/2017/RP2_Flights_2017.xlsx
+[RP2_FLT_EFF_2017]:       /download/2017/RP2_FLT_EFF_2017.xlsx
+[RP2_TRM_CEF_2017]:       /download/2017/RP2_TRM_CEF_2017.xlsx
+[RP2_ERT_CEF_2017]:       /download/2017/RP2_ERT_CEF_2017.xlsx
+[RP2_SAF_EoSM_2017]:      /download/2017/RP2_SAF_EoSM_2017.xlsx
+[RP2_SAF_RAT_2017]:       /download/2017/RP2_SAF_RAT_2017.xlsx
+[RP2_SAF_JC_2017]:        /download/2017/RP2_SAF_JC_2017.xlsx
 
 
 
@@ -92,16 +92,16 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2016.xlsx][RP2_TRM_CEF_2016]             |
 
 
-[RP2_APT_ASMA_2016]:      /prudata/dashboard/download/2016/RP2_APT_ASMA_2016.xlsx
-[RP2_APT_ATC_PRE_2016]:   /prudata/dashboard/download/2016/RP2_APT_ATC_PRE_2016.xlsx
-[RP2_APT_ATFM_ARR_2016]:  /prudata/dashboard/download/2016/RP2_APT_ATFM_ARR_2016.xlsx
-[RP2_APT_ATFM_SLOT_2016]: /prudata/dashboard/download/2016/RP2_APT_ATFM_SLOT_2016.xlsx
-[RP2_APT_TxOut_2016]:     /prudata/dashboard/download/2016/RP2_APT_TxOut_2016.xlsx
-[RP2_ERT_ATFM_2016]:      /prudata/dashboard/download/2016/RP2_ERT_ATFM_2016.xlsx
-[RP2_ERT_SU_2016]:        /prudata/dashboard/download/2016/RP2_ERT_SU_2016.xlsx
-[RP2_Flights_2016]:       /prudata/dashboard/download/2016/RP2_Flights_2016.xlsx
-[RP2_FLT_EFF_2016]:       /prudata/dashboard/download/2016/RP2_FLT_EFF_2016.xlsx
-[RP2_TRM_CEF_2016]:       /prudata/dashboard/download/2016/RP2_TRM_CEF_2016.xlsx
+[RP2_APT_ASMA_2016]:      /download/2016/RP2_APT_ASMA_2016.xlsx
+[RP2_APT_ATC_PRE_2016]:   /download/2016/RP2_APT_ATC_PRE_2016.xlsx
+[RP2_APT_ATFM_ARR_2016]:  /download/2016/RP2_APT_ATFM_ARR_2016.xlsx
+[RP2_APT_ATFM_SLOT_2016]: /download/2016/RP2_APT_ATFM_SLOT_2016.xlsx
+[RP2_APT_TxOut_2016]:     /download/2016/RP2_APT_TxOut_2016.xlsx
+[RP2_ERT_ATFM_2016]:      /download/2016/RP2_ERT_ATFM_2016.xlsx
+[RP2_ERT_SU_2016]:        /download/2016/RP2_ERT_SU_2016.xlsx
+[RP2_Flights_2016]:       /download/2016/RP2_Flights_2016.xlsx
+[RP2_FLT_EFF_2016]:       /download/2016/RP2_FLT_EFF_2016.xlsx
+[RP2_TRM_CEF_2016]:       /download/2016/RP2_TRM_CEF_2016.xlsx
 
 
 
