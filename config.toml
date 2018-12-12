@@ -8,7 +8,7 @@
 #------- LOCAL DEVELOPMENT/TESTING -------
 # remember ending '/'
 baseurl = "/"
-relativeurls = false
+relativeurls = true
 # see .Rprofile for publishDir, i.e. the place
 # where generated HTML is put (the "public" dir in hugo parlance)
 #-----------------------------------------
