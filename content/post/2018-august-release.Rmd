@@ -1,7 +1,0 @@
----
-title: "August 2018 Release"
-date: 2018-09-14
-categories: ["Release"]
----
-
-* Update of portal up to August 2018
