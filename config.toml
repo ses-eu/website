@@ -17,7 +17,7 @@ relativeurls = false
 #--------------- PRODUCTION ---------------
 # remember ending '/'
 # baseurl = "http://www.eurocontrol.int/prudata/dashboard/"
-#relativeurls = true
+# relativeurls = true
 # relativeurls = false
 # the following is alsready setup in .Rprofile for the project
 # publishDir = "../ses-portal-generated"
