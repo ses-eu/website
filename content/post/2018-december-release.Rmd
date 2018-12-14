@@ -1,0 +1,7 @@
+---
+title: "December 2018 Release"
+date: 2018-12-12
+categories: ["Release"]
+---
+
+* Update of portal up to November 2018
