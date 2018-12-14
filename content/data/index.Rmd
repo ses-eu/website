@@ -19,7 +19,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Adherence to ATFM slots               | [{{% dwnld_i %}} RP2_APT_ATFM_SLOT_2018_Jan_Oct.xlsx][RP2_APT_ATFM_SLOT_2018] |
 | Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP2_APT_TxOut_2018_Jan_Sep.xlsx][RP2_APT_TxOut_2018]         |
 | En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP2_ERT_ATFM_2018_Jan_Oct.xlsx][RP2_ERT_ATFM_2018]           |
-| En-route Service Units                | [{{% dwnld_i %}} RP2_ERT_SU_2018_Jan_Oct.xlsx][RP2_ERT_SU_2018]               |
+| En-route Service Units                | [{{% dwnld_i %}} RP2_ERT_SU_2018_Jan_Nov.xlsx][RP2_ERT_SU_2018]               |
 | Average daily IFR Flight              | [{{% dwnld_i %}} RP2_Flights_2018_Jan_Oct.xlsx][RP2_Flights_2018]             |
 | Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP2_FLT_EFF_2018_Jan_Oct.xlsx][RP2_FLT_EFF_2018]             |
 | En route Cost efficiency              | [{{% dwnld_i %}} RP2_ERT_CEF_2018.xlsx][RP2_ERT_CEF_2018]             |
@@ -32,7 +32,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP2_APT_ATFM_SLOT_2018]: /prudata/dashboard/download/2018/RP2_APT_ATFM_SLOT_2018_Jan_Oct.xlsx
 [RP2_APT_TxOut_2018]:     /prudata/dashboard/download/2018/RP2_APT_TxOut_2018_Jan_Sep.xlsx
 [RP2_ERT_ATFM_2018]:      /prudata/dashboard/download/2018/RP2_ERT_ATFM_2018_Jan_Oct.xlsx
-[RP2_ERT_SU_2018]:        /prudata/dashboard/download/2018/RP2_ERT_SU_2018_Jan_Oct.xlsx
+[RP2_ERT_SU_2018]:        /prudata/dashboard/download/2018/RP2_ERT_SU_2018_Jan_Nov.xlsx
 [RP2_Flights_2018]:       /prudata/dashboard/download/2018/RP2_Flights_2018_Jan_Oct.xlsx
 [RP2_FLT_EFF_2018]:       /prudata/dashboard/download/2018/RP2_FLT_EFF_2018_Jan_Oct.xlsx
 [RP2_ERT_CEF_2018]:       /prudata/dashboard/download/2018/RP2_ERT_CEF_2018.xlsx
