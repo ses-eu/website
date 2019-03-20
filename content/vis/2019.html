@@ -22,7 +22,7 @@ function drawVisualization() {
     var crt_ertfltsYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertfltsYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1HsTV5YziJ0rPIwdPMacmXEY1UZryl6I_TWijApz72KY/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19z9G1N_oBMy2nKaAF6BBTfPGFLiSAaMVM6hpP6aI5Wk/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
         options: {
             width: 450,
             height: 170,
@@ -89,7 +89,7 @@ function drawVisualization() {
     var crt_ertfltsMM = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertfltsMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1HsTV5YziJ0rPIwdPMacmXEY1UZryl6I_TWijApz72KY/edit?usp=sharing&sheet=ERT_FLTS_MM&range=A4:I64&tq=where%20I%3D1',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19z9G1N_oBMy2nKaAF6BBTfPGFLiSAaMVM6hpP6aI5Wk/edit?usp=sharing&sheet=ERT_FLTS_MM&range=A4:I64&tq=where%20I%3D1',
         options: {
             width: 450,
             height: 190,
@@ -155,7 +155,7 @@ function drawVisualization() {
     var tbl_ertflts_YY = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertflts_YY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1HsTV5YziJ0rPIwdPMacmXEY1UZryl6I_TWijApz72KY/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:F15',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19z9G1N_oBMy2nKaAF6BBTfPGFLiSAaMVM6hpP6aI5Wk/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:F15',
         options: {
             allowHtml: false,
             width: 470,
@@ -172,7 +172,7 @@ function drawVisualization() {
     var crt_flteffYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_flteffYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1AjwaFO1aKvKH0voqXWxx6GHTLOTwMqlkEzjLYFyet4Q/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G10',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19P_fbrh7ybfLGtWHRH4sDgUeawBAisT78XqxDBjXtlA/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G10',
         options: {
             width: 450,
             height: 180,
@@ -255,7 +255,7 @@ function drawVisualization() {
     var crt_flteffMM = new google.visualization.ChartWrapper({
         chartType: 'LineChart',
         containerId: 'crt_flteffMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1AjwaFO1aKvKH0voqXWxx6GHTLOTwMqlkEzjLYFyet4Q/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19P_fbrh7ybfLGtWHRH4sDgUeawBAisT78XqxDBjXtlA/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
         options: {
             width: 450,
             height: 190,
@@ -330,7 +330,7 @@ function drawVisualization() {
     var tbl_ert_flteff = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ert_flteff',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1AjwaFO1aKvKH0voqXWxx6GHTLOTwMqlkEzjLYFyet4Q/edit?usp=sharing&sheet=ERT_FLT_EFF_FAB&range=A5:E15&hl=en_GB',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19P_fbrh7ybfLGtWHRH4sDgUeawBAisT78XqxDBjXtlA/edit?usp=sharing&sheet=ERT_FLT_EFF_FAB&range=A5:E15&hl=en_GB',
         options: {
             allowHtml: true,
             width: 470,
@@ -343,11 +343,74 @@ function drawVisualization() {
     });
     tbl_ert_flteff.draw();
 
+  // ENVIRONMENT - ASMA DLY - LOC - TABLE
+    var tbl_ASMAdly_LOC = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_ASMAdly_LOC',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1H9Foe3Br0qSNjx0btP35x1qqJCqhqUswAvz0z6ZheEo/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
+        options: {
+            allowHtml: false,
+            width: 470,
+            height: 280
+        },
+        view: {
+            columns: [0, 5, 1]
+        }
+    });
+    tbl_ASMAdly_LOC.draw();
+    // ENVIRONMENT - ASMA DLY - APT - TABLE
+    var tbl_ASMAdly_APT = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_ASMAdly_APT',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1H9Foe3Br0qSNjx0btP35x1qqJCqhqUswAvz0z6ZheEo/edit?usp=sharing&sheet=ASMA_APT&range=A5:G180',
+        options: {
+            allowHtml: false,
+            width: 470,
+            height: 280
+        },
+        view: {
+            columns: [1, 2, 0, 3]
+        }
+    });
+    tbl_ASMAdly_APT.draw();
+
+  // ENVIRONMENT - TAXI OUT DLY - LOC - TABLE
+    var tbl_txdly_LOC = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_txdly_LOC',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1gycSiTkptlRavLk398lbamtGENIlWQt9-iRYkLLH9JY/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F35',
+        options: {
+            allowHtml: false,
+            width: 470,
+            height: 280
+        },
+        view: {
+            columns: [0, 5, 1]
+        }
+    });
+    tbl_txdly_LOC.draw();
+    // ENVIRONMENT - TAXI OUT DLY - APT - TABLE
+    var tbl_txdly_APT = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_txdly_APT',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1gycSiTkptlRavLk398lbamtGENIlWQt9-iRYkLLH9JY/edit?usp=sharing&sheet=TxOut_APT&range=A5:G180',
+        options: {
+            allowHtml: false,
+            width: 470,
+            height: 280
+        },
+        view: {
+            columns: [1, 2, 0, 3]
+        }
+    });
+    tbl_txdly_APT.draw();
+
+
   // CAPACITY - En-route ATFM delay - YY - CHART
     var crt_ertdlyYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertdlyYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1buOtUloXplHqrnC9ymxFNFSPW-WSKPgBb12Wl2Bh6JI/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:F10',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1ddqJXPoffnnK9-ibatCGPDAIPKMzk0yU6Ry_hUsq2Po/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:F10',
         options: {
             width: 450,
             height: 160,
@@ -401,7 +464,7 @@ function drawVisualization() {
     var crt_ertdlyMM = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertdlyMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1buOtUloXplHqrnC9ymxFNFSPW-WSKPgBb12Wl2Bh6JI/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:G65&tq=where%20G%3D1',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1ddqJXPoffnnK9-ibatCGPDAIPKMzk0yU6Ry_hUsq2Po/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:G65&tq=where%20G%3D1',
         options: {
             width: 450,
             height: 190,
@@ -455,7 +518,7 @@ function drawVisualization() {
     var tbl_ertdly_YYtgt = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertdly_YYtgt',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1buOtUloXplHqrnC9ymxFNFSPW-WSKPgBb12Wl2Bh6JI/edit?usp=sharing&sheet=ERT_ATFM_LOC&range=A5:F15&hl=en_GB',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1ddqJXPoffnnK9-ibatCGPDAIPKMzk0yU6Ry_hUsq2Po/edit?usp=sharing&sheet=ERT_ATFM_LOC&range=A5:F15&hl=en_GB',
         options: {
             allowHtml: false,
             width: 470,
@@ -467,12 +530,11 @@ function drawVisualization() {
     });
     tbl_ertdly_YYtgt.draw();
 
-
   // CAPACITY - Airport ATFM arrival delay - YY - CHART
     var crt_aptATFMsesYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_aptATFMsesYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1HTfP5SBoZ0pn_zMRTsrab-Po2BKWQuhMS6nc52Ar0as/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D10',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B4ebk329Y5Qw2wR-OWy53bFIqbbdw65ISsW6Ebd-kWw/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D10',
         options: {
             width: 450,
             height: 190,
@@ -517,7 +579,7 @@ function drawVisualization() {
     var crt_aptATFMsesMM = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_aptATFMsesMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1HTfP5SBoZ0pn_zMRTsrab-Po2BKWQuhMS6nc52Ar0as/edit?usp=sharing&sheet=APT_ATFM_SES_MM&range=A5:G65&tq=where%20G%3D1',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B4ebk329Y5Qw2wR-OWy53bFIqbbdw65ISsW6Ebd-kWw/edit?usp=sharing&sheet=APT_ATFM_SES_MM&range=A5:G65&tq=where%20G%3D1',
         options: {
             width: 450,
             height: 190,
@@ -571,7 +633,7 @@ function drawVisualization() {
     var tbl_aptATFM_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFM_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1HTfP5SBoZ0pn_zMRTsrab-Po2BKWQuhMS6nc52Ar0as/edit?usp=sharing&sheet=APT_ATFM_LOC&range=A5:G35',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B4ebk329Y5Qw2wR-OWy53bFIqbbdw65ISsW6Ebd-kWw/edit?usp=sharing&sheet=APT_ATFM_LOC&range=A5:G35',
         options: {
             allowHtml: true,
             width: 470,
@@ -587,7 +649,7 @@ function drawVisualization() {
     var tbl_aptATFM_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFM_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1HTfP5SBoZ0pn_zMRTsrab-Po2BKWQuhMS6nc52Ar0as/edit?usp=sharing&sheet=APT_ATFM_APT&range=A5:F180',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1B4ebk329Y5Qw2wR-OWy53bFIqbbdw65ISsW6Ebd-kWw/edit?usp=sharing&sheet=APT_ATFM_APT&range=A5:F180',
         options: {
             allowHtml: true,
             width: 470,
@@ -603,7 +665,7 @@ function drawVisualization() {
     var tbl_aptATFMADH_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFMADH_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1uiI87VbpaAXE0bcKYLw4UkrAch8I73xOBjNFSY2HqCQ/edit?usp=sharing&sheet=APT_ATFM_ADH_LOC&range=A5:B35',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1mjFzilN8tEN8280X56O0jSrpu0NCZVNCBjkky9yWIeA/edit?usp=sharing&sheet=APT_ATFM_ADH_LOC&range=A5:B35',
         options: {
             allowHtml: true,
             width: 470,
@@ -619,7 +681,7 @@ function drawVisualization() {
     var tbl_aptATFMADH_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATFMADH_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1uiI87VbpaAXE0bcKYLw4UkrAch8I73xOBjNFSY2HqCQ/edit?usp=sharing&sheet=APT_ATFM_ADH_APT&range=A5:D180',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1mjFzilN8tEN8280X56O0jSrpu0NCZVNCBjkky9yWIeA/edit?usp=sharing&sheet=APT_ATFM_ADH_APT&range=A5:D180',
         options: {
             allowHtml: true,
             width: 470,
@@ -632,12 +694,44 @@ function drawVisualization() {
     tbl_aptATFMADH_APT.draw();
 
 
+  // CAPACITY - Airport ATC pre-departure LOC - TABLE
+    var tbl_aptATC_LOC = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_aptATC_LOC',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1RJpqIwLDPnty4iJGJs_RnSxCm0Cveby8caug4AE4yqk/edit?usp=sharing&sheet=APT_ATC_PRE_LOC&range=A5:E35',
+        options: {
+            allowHtml: true,
+            width: 470,
+            height: 280
+        },
+        view: {
+            columns: [0, 4, 1]
+        }
+    });
+    tbl_aptATC_LOC.draw();
+
+  // CAPACITY - Airport ATC pre-departure APT - TABLE
+    var tbl_aptATC_APT = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_aptATC_APT',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1RJpqIwLDPnty4iJGJs_RnSxCm0Cveby8caug4AE4yqk/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:F180',
+        options: {
+            allowHtml: true,
+            width: 470,
+            height: 280
+        },
+        view: {
+            columns: [1, 2, 0, 3]
+        }
+    });
+    tbl_aptATC_APT.draw();
+
 
   // ERT SU - TABLE
     var tbl_ertSU = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertSU',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/105jVuf1c6XvCMz3x-O9dQ9L-Kxo2Hbo0FkvnqRHdT9E/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1H5nuRZNjQhSf8H7xsdOlgMpWVLxi4qBEdq5Ssl8PiRE/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
         options: {
             allowHtml: true,
             width: 470,
@@ -653,7 +747,7 @@ function drawVisualization() {
     var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertSUYYvstgt',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/105jVuf1c6XvCMz3x-O9dQ9L-Kxo2Hbo0FkvnqRHdT9E/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1H5nuRZNjQhSf8H7xsdOlgMpWVLxi4qBEdq5Ssl8PiRE/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
         options: {
             width: 475,
             height: 400,
@@ -792,13 +886,13 @@ google.setOnLoadCallback(drawVisualization)
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
 <span style="color:#C0504D;">
-Period: January</span>
+Period: January-February</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1HsTV5YziJ0rPIwdPMacmXEY1UZryl6I_TWijApz72KY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/19z9G1N_oBMy2nKaAF6BBTfPGFLiSAaMVM6hpP6aI5Wk/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -864,20 +958,19 @@ Source: Network Manager
 <div class="head3">
  Environment KPI #1: Horizontal en-route flight efficiency [%]
 </div>
-<span style="color:#C0504D;">Please note that the horizontal flight efficiency data for January is not yet available due to data processing issues. We apologise for any inconvenience caused and will supply the data as soon as it becomes available.</span>
 </td>
 </tr>
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
 <span style="color:#C0504D;">
-Period: January-December</span>
+Period: January-February</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1AjwaFO1aKvKH0voqXWxx6GHTLOTwMqlkEzjLYFyet4Q/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/19P_fbrh7ybfLGtWHRH4sDgUeawBAisT78XqxDBjXtlA/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -915,35 +1008,42 @@ Source: PRU analysis; Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Environment PI #1: Additional taxi-out time [minutes per departure]
+<p>  Environment PI #1: Additional taxi-out time [minutes per departure]</p>
 </div>
 <span style="color:#C0504D;"></span>
-<span style="color:#C0504D;">Please note that the January 2019 data will only be available in mid March</span>
 </td>
 </tr>
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: n/a</span>
+<p><span style="color:#C0504D;"> Period: January</span></p>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<p><span style="color: rgb(102, 102, 102);"></p>
-</span>
+<p><span style="color: rgb(102, 102, 102);"> <a href="https://docs.google.com/spreadsheets/d/1gycSiTkptlRavLk398lbamtGENIlWQt9-iRYkLLH9JY/edit?usp=sharing&hl=en_GB" 
+target="_blank">[Download data]</a> </span></p>
 </div>
 </td>
 <td>
-<div class="data-source" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-Source: PRU analysis; Airports
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<p>Source: PRU analysis; Airports</p>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">[Meta data]</a>
-</span>
+<p><span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">[Meta data]</a> </span></p>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+<div id="tbl_txdly_LOC" style="float: top;">
+
+</div>
+<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+<div id="tbl_txdly_APT" style="float: top;">
+
 </div>
 </td>
 </tr>
@@ -955,36 +1055,48 @@ Source: PRU analysis; Airports
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Environment PI #2: Additional time in terminal airspace [minutes per arrival]
+<p>  Environment PI #2: Additional time in terminal airspace [minutes per arrival]</p>
 </div>
 <span style="color:#C0504D;"></span>
-<span style="color:#C0504D;">Please note that the January 2019 data will only be available in mid March</span>
 </td>
 </tr>
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: n/a</span>
+<p><span style="color:#C0504D;"> Period: January</span></p>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+<p>
 <span style="color: rgb(102, 102, 102);">
-</span>
+</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1H9Foe3Br0qSNjx0btP35x1qqJCqhqUswAvz0z6ZheEo/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a> </span></p>
 </div>
 </td>
 <td>
 <div class="data-source" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-Source: PRU analysis; Airports; Network Manager
+<p>Source: PRU analysis; Airports; Network Manager</p>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">[Meta data]</a>
-</span>
+<p><span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">[Meta data]</a> </span></p>
 </div>
+</td>
+</tr>
+<tr>
+<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+<div id="tbl_ASMAdly_LOC" style="float: top;">
+
+</div>
+<br>
+</td>
+<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+<div id="tbl_ASMAdly_APT" style="float: top">
+
+</div>
+<br>
 </td>
 </tr>
 </tbody>
@@ -1069,13 +1181,13 @@ Source: PRU analysis; Airports; Network Manager
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
 <span style="color:#C0504D;">
-Period: January</span>
+Period: January-February</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<p><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1buOtUloXplHqrnC9ymxFNFSPW-WSKPgBb12Wl2Bh6JI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></p>
+<span style="color: rgb(102, 102, 102);">
+<a href="https://docs.google.com/spreadsheets/d/1ddqJXPoffnnK9-ibatCGPDAIPKMzk0yU6Ry_hUsq2Po/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -1121,13 +1233,13 @@ Source: Network Manager
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
 <span style="color:#C0504D;">
-Period: January</span>
+Period: January-February</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <p><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1HTfP5SBoZ0pn_zMRTsrab-Po2BKWQuhMS6nc52Ar0as/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></p>
+<a href="https://docs.google.com/spreadsheets/d/1B4ebk329Y5Qw2wR-OWy53bFIqbbdw65ISsW6Ebd-kWw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></p>
 </span>
 </div>
 </td>
@@ -1180,13 +1292,13 @@ Source: PRU analysis; Network Manager
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
 <span style="color:#C0504D;">
-Period: January</span>
+Period: January-February</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<p><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1uiI87VbpaAXE0bcKYLw4UkrAch8I73xOBjNFSY2HqCQ/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></p>
+<span style="color: rgb(102, 102, 102);">
+<a href="https://docs.google.com/spreadsheets/d/1mjFzilN8tEN8280X56O0jSrpu0NCZVNCBjkky9yWIeA/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
@@ -1221,34 +1333,41 @@ Source: Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Capacity PI #2: Air traffic control pre-departure delay [min. per dep.]
+<p>  Capacity PI #2: Air traffic control pre-departure delay [min. per dep.]</p>
 </div>
-<span style="color:#C0504D;">Please note that the January 2019 data will only be available in mid March</span>
 </td>
 </tr>
 <tr>
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">
-Period: n/a</span>
+<p><span style="color:#C0504D;"> Period: January</span></p>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<p><span style="color: rgb(102, 102, 102);"></p>
-</span>
+<p><span style="color: rgb(102, 102, 102);"> <a href="https://docs.google.com/spreadsheets/d/1RJpqIwLDPnty4iJGJs_RnSxCm0Cveby8caug4AE4yqk/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a> </span></p>
 </div>
 </td>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-Source: Airports
+<p>Source: Airports</p>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/ATC_pre-departure_delay" target="_blank">[Meta data]</a>
-</span>
+<p><span style="color: rgb(102, 102, 102);"> <a href="http://prudata.webfactional.com/wiki/index.php/ATC_pre-departure_delay" target="_blank">[Meta data]</a> </span></p>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+<div id="tbl_aptATC_LOC" style="float: top;">
+
+</div>
+</td>
+<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+<div id="tbl_aptATC_APT" style="float: top;">
+
 </div>
 </td>
 </tr>
@@ -1275,13 +1394,13 @@ Source: Airports
 <td>
 <div class="data-period" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
 <span style="color:#C0504D;">
-Period: January</span>
+Period: January-February</span>
 </div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/105jVuf1c6XvCMz3x-O9dQ9L-Kxo2Hbo0FkvnqRHdT9E/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1H5nuRZNjQhSf8H7xsdOlgMpWVLxi4qBEdq5Ssl8PiRE/edit?usp=sharing" target="_blank">[Download data]</a>
 </span>
 </div>
 </td>
