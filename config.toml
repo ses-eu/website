@@ -7,8 +7,8 @@
 
 #------- LOCAL DEVELOPMENT/TESTING -------
 # remember ending '/'
-baseurl = "/"
-relativeurls = true
+# baseurl = "/"
+# relativeurls = true
 # see .Rprofile for publishDir, i.e. the place
 # where generated HTML is put (the "public" dir in hugo parlance)
 #-----------------------------------------
@@ -16,9 +16,9 @@ relativeurls = true
 
 #--------------- PRODUCTION ---------------
 # remember ending '/'
-# baseurl = "http://www.eurocontrol.int/prudata/dashboard/"
+baseurl = "http://www.eurocontrol.int/prudata/dashboard/"
 # relativeurls = true
-# relativeurls = false
+relativeurls = false
 # the following is alsready setup in .Rprofile for the project
 # publishDir = "../ses-portal-generated"
 #-----------------------------------------
