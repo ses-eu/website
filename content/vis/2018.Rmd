@@ -345,7 +345,7 @@ function drawVisualization() {
     var tbl_ASMAdly_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ASMAdly_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1dQPM6IatyjsRvBKYlfDBk74wc-Y71S-NdWUUvToP6lA/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1SWEjdnPSoUMjV4ro6sw4IXj_WDXp9pcseavJAF7V5E0/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
         options: {
             allowHtml: false,
             width: 470,
@@ -360,7 +360,7 @@ function drawVisualization() {
     var tbl_ASMAdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ASMAdly_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1dQPM6IatyjsRvBKYlfDBk74wc-Y71S-NdWUUvToP6lA/edit?usp=sharing&sheet=ASMA_APT&range=A5:G180',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1SWEjdnPSoUMjV4ro6sw4IXj_WDXp9pcseavJAF7V5E0/edit?usp=sharing&sheet=ASMA_APT&range=A5:G180',
         options: {
             allowHtml: false,
             width: 470,
@@ -372,12 +372,11 @@ function drawVisualization() {
     });
     tbl_ASMAdly_APT.draw();
 
-
   // ENVIRONMENT - TAXI OUT DLY - LOC - TABLE
     var tbl_txdly_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_txdly_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/17HGy49xgsqD1c7WSFWwtHUXHVTvfIhgNevclLA-Pwt4/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F35',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Jn2vPNrkD_LyG2nBIbbkmgPR5AYmQPElhYXXA5ffzlY/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F35',
         options: {
             allowHtml: false,
             width: 470,
@@ -392,7 +391,7 @@ function drawVisualization() {
     var tbl_txdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_txdly_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/17HGy49xgsqD1c7WSFWwtHUXHVTvfIhgNevclLA-Pwt4/edit?usp=sharing&sheet=TxOut_APT&range=A5:G180',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Jn2vPNrkD_LyG2nBIbbkmgPR5AYmQPElhYXXA5ffzlY/edit?usp=sharing&sheet=TxOut_APT&range=A5:G180',
         options: {
             allowHtml: false,
             width: 470,
@@ -696,7 +695,7 @@ function drawVisualization() {
     var tbl_aptATC_LOC = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATC_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1CVeP70Oe-sbRfPNc5agfiZQhvTrYiMUqSCkcLpnoxsg/edit?usp=sharing&sheet=APT_ATC_PRE_LOC&range=A5:E35',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/101WEkDdcwYKKvrNCoWOEUc-5qATg9TtTBK-r27A2gu8/edit?usp=sharing&sheet=APT_ATC_PRE_LOC&range=A5:E35',
         options: {
             allowHtml: true,
             width: 470,
@@ -712,7 +711,7 @@ function drawVisualization() {
     var tbl_aptATC_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_aptATC_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1CVeP70Oe-sbRfPNc5agfiZQhvTrYiMUqSCkcLpnoxsg/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:F180',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/101WEkDdcwYKKvrNCoWOEUc-5qATg9TtTBK-r27A2gu8/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:F180',
         options: {
             allowHtml: true,
             width: 470,
@@ -983,11 +982,11 @@ Source: PRU analysis; Network Manager</div>
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-November</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/17HGy49xgsqD1c7WSFWwtHUXHVTvfIhgNevclLA-Pwt4/edit?usp=sharing&hl=en_GB" 
+<a href="https://docs.google.com/spreadsheets/d/1Jn2vPNrkD_LyG2nBIbbkmgPR5AYmQPElhYXXA5ffzlY/edit?usp=sharing&hl=en_GB" 
 target="_blank">[Download data]</a>
 </span></div>
 </td>
@@ -1023,12 +1022,12 @@ Source: PRU analysis; Airports</div>
 
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-November</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
 
-<a href="https://docs.google.com/spreadsheets/d/1dQPM6IatyjsRvBKYlfDBk74wc-Y71S-NdWUUvToP6lA/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1SWEjdnPSoUMjV4ro6sw4IXj_WDXp9pcseavJAF7V5E0/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div>
 </td>
 <td>
@@ -1051,45 +1050,7 @@ Source: PRU analysis; Airports; Network Manager</div>
 </tr>
 </tbody>
 </table>
-<br>
-<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
-<tbody>
-<tr>
-<td colspan="4" rowspan="1">
-<div class="head3">&nbsp; Effective use of the civil / military airspace structures&nbsp;&nbsp;
-<a href="http://prudata.webfactional.com/wiki/index.php/Effective_use_of_the_civil_/_military_airspace_structures" target="_blank">(Meta data)</a></div>
-</td>
-</tr>
-<tr>
-<td colspan="4" rowspan="1" style="width: 950px">
-<div style="text-align: left; vertical-align: top;"><span style="color: rgb(102, 102, 102);">&nbsp;To be provided in line with the scheduled reporting cycle</span></div>
-</td>
-</tr>
-<tr>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4">&nbsp;Environment PI #3: Effectiveness of booking procedures for FUA</div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"> </span></div>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4">&nbsp;Environment PI #4: Rate of planning of conditional routes (CDRs)</div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><br>
-</span></div>
-</tr>
-<tr>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4">&nbsp;Environment PI #5: Effective use of CDRs</div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"> </span></div>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4"></div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><br>
-</span></div>
-</tr>
-</tbody>
-</table>
-<br>
+
 </tbody>
 </table>
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
@@ -1097,7 +1058,10 @@ Source: PRU analysis; Airports; Network Manager</div>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head2">&nbsp;CAPACITY</div>
-<span style="color:#C0504D;">Please note that post-operational adjustments are not yet considered. The data will be updated as soon as the post-operational results are available.</span>
+<span style="color:#C0504D;">
+These data take into account post-operations adjustments made to date. The data may be subject to further revision when the process is finalised.
+For more information see also the <a href="http://www.eurocontrol.int/publications/post-operations-performance-adjustment-process" target="_blank">Post Operations Adjustment Process</a> web page.
+</span>
 </td>
 </tr>
 <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
@@ -1105,6 +1069,9 @@ Source: PRU analysis; Airports; Network Manager</div>
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">&nbsp; Capacity KPI #1: En-route ATFM delay per flight [minutes per flight]</div>
+<span style="color:#C0504D;"><small>
+Note: The data may be subject to further revision when the post operations adjustment process is finalised.
+</small></span>
 </div>
 </td>
 </tr>
@@ -1144,7 +1111,9 @@ Source: Network Manager</div>
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">&nbsp; Capacity KPI #2: Airport ATFM arrival delay per flight [min./arr.]</div>
-<span style="color:#C0504D;">Please note that post-operational adjustments are not yet considered. The data will be updated as soon as the post-operational results are available.</span>
+<span style="color:#C0504D;"><small>
+Note: The data may be subject to further revision when the post operations adjustment process is finalised.
+</small></span>
 </td>
 </tr>
 <tr>
@@ -1234,7 +1203,7 @@ Period: January-November</span></div>
 <td>
 
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1CVeP70Oe-sbRfPNc5agfiZQhvTrYiMUqSCkcLpnoxsg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/101WEkDdcwYKKvrNCoWOEUc-5qATg9TtTBK-r27A2gu8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div>
 </td>
 <td>

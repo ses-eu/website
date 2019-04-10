@@ -636,6 +636,61 @@ var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
 		view: {'columns': [0,8,10,12]}
 	}); crt_ertSUYYvstgt.draw();
 
+// ER CEF - STATE - TABLE
+    var tbl_ertcef_state = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_ertcef_state',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Q6DzCPVQP07T2yYBM9O9QjV6QmjGi7ehlMzezI4hsPY/edit?usp=sharing&sheet=ERT_CEF_STATE&range=A2:AJ32&hl=en_GB',
+        options: {
+            allowHtml: true,
+            width: 950,
+            height: 280
+        },
+        view: {columns: [0, 29, 30,31,33,34,35]}
+    });
+    tbl_ertcef_state.draw();
+
+ // ER CEF - FAB - TABLE
+    var tbl_ertcef_fab = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_ertcef_fab',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Q6DzCPVQP07T2yYBM9O9QjV6QmjGi7ehlMzezI4hsPY/edit?usp=sharing&sheet=ERT_CEF_FAB&range=A2:N11&hl=en_GB',
+        options: {
+            allowHtml: true,
+            width: 950,
+            height: 270
+        },
+        view: {columns: [0, 7, 8, 9,11,12,13]}
+    });
+    tbl_ertcef_fab.draw();
+
+ // TRM CEF - TCZ - TABLE
+    var tbl_trcef_state = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_trcef_state',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/11HvNJxV1uOvywak5seqy2CXGEKWl7jUJVdBO_MrE98w/edit?usp=sharing&sheet=TRM_CEF_STATE&range=A2:AJ39&hl=en_GB',
+        options: {
+            allowHtml: true,
+            width: 950,
+            height: 280
+        },
+        view: {columns: [0, 29, 30,31,33,34,35]}
+    });
+    tbl_trcef_state.draw();
+
+ // TRM CEF - FAB - TABLE
+    var tbl_trcef_fab = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_trcef_fab',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/11HvNJxV1uOvywak5seqy2CXGEKWl7jUJVdBO_MrE98w/edit?usp=sharing&sheet=TRM_CEF_FAB&range=A2:N11&hl=en_GB',
+        options: {
+            allowHtml: true,
+            width: 950,
+            height: 270
+        },
+        view: {columns: [0, 7, 8, 9,11,12,13]}
+    });
+    tbl_trcef_fab.draw();
 
 }
 google.setOnLoadCallback(drawVisualization)
@@ -799,7 +854,7 @@ Period: January-December</span></div>
 <td colspan="3" rowspan="1">
 <div style="text-align: left; vertical-align: top">
 <p>There are no just culture results at European wide level.
-<br>The 2015 results at State and ANSP level can be found in the download file</p>
+<br>The 2016 results at State and ANSP level can be found in the download file</p>
 <p><small><i>&nbsp;Note that the total number of "NO" answers may not reflect an absence of Just Culture.</i></small></p>
 </div>
 </td>
@@ -916,50 +971,7 @@ Source: PRU analysis; Airports; Network Manager</div></td>
 <div style="float: top" id="tbl_ASMAdly_APT"></div><br>	</td>
 </tr>
 </tbody>
-</table><br>
-
-
-<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
-<tbody>
-<tr>
-<td colspan="4" rowspan="1">
-<div class="head3">&nbsp; Effective use of the civil / military airspace structures&nbsp;&nbsp;
-<a href="http://prudata.webfactional.com/wiki/index.php/Effective_use_of_the_civil_/_military_airspace_structures" target="_blank">(Meta data)</a></div>
-</td>
-</tr>
-<tr>
-<td colspan="4" rowspan="1" style="width: 950px">
-<div style="text-align: left; vertical-align: top;"><span
-style="color: rgb(102, 102, 102);">&nbsp;To be provided in line with the scheduled reporting cycle</span></div>
-</td>
-</tr>
-
-<tr>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4">&nbsp;Environment PI #3: Effectiveness of booking procedures for FUA</div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"> </span></div>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4">&nbsp;Environment PI #4: Rate of planning of conditional routes (CDRs)</div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><br>
-</span></div>
-</tr>
-
-<tr>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4">&nbsp;Environment PI #5: Effective use of CDRs</div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"> </span></div>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4"></div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><br>
-</span></div>
-</tr>
-
-</tbody>
-</table> <br>
+</table>
 
 </tbody>
 </table>
@@ -1127,6 +1139,7 @@ Source: Airports</div></td>
 
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
+
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head2">&nbsp;COST-EFFICIENCY</div>
@@ -1140,24 +1153,29 @@ Source: Airports</div></td>
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-December</span></div></td>
+Period: January-December</span></div>
+</td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="//docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing" target="_blank">[Download data]</a>
-</span></div></td>
+<a href="https://docs.google.com/spreadsheets/d/1vr98Lgny8K4enpo3NhXVUIS0tqJ0Xf1SonxfeZwnv9g/edit?usp=sharing" target="_blank">[Download data]</a>
+</span></div>
+</td>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-Source: CRCO; EC; PRU analysis </div></td>
+Source: CRCO; EC; PRU analysis </div>
+</td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-</span></div></td>
-
+</span></div>
+</td>
 </tr>
+
 <tr>
-<td colspan="2" rowspan="1"style="width: 475px, text-align: center; vertical-align: top; ">
+<td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
 <div class="head4">&nbsp;En-route TSU: by charging zones (2016)</div>
 <div style="text-align: left; vertical-align: top;">
-<div style="float: top;" id="tbl_ertSU"></div><br>
+<div style="float: top;" id="tbl_ertSU"></div>
+<br>
 </td>
 <td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
 <div class="head4">&nbsp;En-route TSU: actual vs. determined (2016)</div>
@@ -1165,26 +1183,129 @@ Source: CRCO; EC; PRU analysis </div></td>
 <div style="float: top;" id="crt_ertSUYYvstgt"></div>
 </td>
 </tr>
+</tbody>
+</table>
 
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+<tbody>
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+<tbody>
 <tr>
-<td colspan="4" rowspan="1" style="width: 950px">
-<div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route ANS&nbsp;&nbsp;&nbsp;
-<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)"target="_blank">(Meta data)</a></div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">To be provided in line with the scheduled reporting cycle<br> </div>
+<td colspan="4" rowspan="1">
+<div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div>
 </td>
 </tr>
 
+<tr>
+<td>
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
+Period: January-December</span></div>
+</td>
+<td>
+<div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
+<a href="https://docs.google.com/spreadsheets/d/1Q6DzCPVQP07T2yYBM9O9QjV6QmjGi7ehlMzezI4hsPY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+</span></div>
+</td>
+<td>
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+Source: States, CRCO</div>
+</td>
+<td>
+<div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
+<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">[Meta data]</a>
+</span></div>
+</td>
+</tr>
+<br>
 
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
-<div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal ANS&nbsp;&nbsp;&nbsp;
-<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">(Meta data)</a></div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);">To be provided in line with the scheduled reporting cycle<br> </div>
+<span style="color:#C0504D;">The figures shown below are expressed in real term (Euro 2009). The underlying data (currencies, etc.) are available in the download file.
+(D)=Determined ; (A)=Actual
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+
+<tr>
+<td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
+<div id="tbl_ertcef_state"></div>
+</td>
+<br>
+</tr>
+
+<tr>
+<td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
+<div id="tbl_ertcef_fab"></div>
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+<tbody>
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+<tbody>
+<tr>
+<td colspan="4" rowspan="1">
+<div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div>
 </td>
 </tr>
 
+<tr>
+<td>
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
+Period: January-December</span></div>
+</td>
+<td>
+<div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
+<a href="https://docs.google.com/spreadsheets/d/11HvNJxV1uOvywak5seqy2CXGEKWl7jUJVdBO_MrE98w/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+</span></div>
+</td>
+<td>
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+Source: States, CRCO</div>
+</td>
+<td>
+<div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
+<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">[Meta data]</a>
+</span></div>
+</td>
+</tr>
+
+<br>
+<tr>
+<td colspan="4" rowspan="1" style="width: 950px">
+<span style="color:#C0504D;">The figures shown below are expressed in real term (Euro 2009). The underlying data (currencies, etc.) are available in the download file.
+(D)=Determined ; (A)=Actual
+</span>
+</td>
+</tr>
 
 </tbody>
 </table>
+
+<tr>
+<td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
+<div id="tbl_trcef_state"></div>
+</td>
+<br>
+</tr>
+
+<tr>
+<td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
+<div id="tbl_trcef_fab"></div>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+
+
+
+
+
