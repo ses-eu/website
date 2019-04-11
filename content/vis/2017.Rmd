@@ -1234,7 +1234,7 @@ Period: January - December</span></div>
 <td colspan="3" rowspan="1">
 <div style="text-align: left; vertical-align: top">
 <p>There are no just culture results at European wide level.
-<br>The 2015 results at State and ANSP level can be found in the download file</p>
+<br>The 2017 results at State and ANSP level can be found in the download file</p>
 <p><small><i>&nbsp;Note that the total number of "NO" answers may not reflect an absence of Just Culture.</i></small></p>
 </div>
 </td>
@@ -1367,45 +1367,7 @@ Source: PRU analysis; Airports; Network Manager</div>
 </tr>
 </tbody>
 </table>
-<br>
-<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
-<tbody>
-<tr>
-<td colspan="4" rowspan="1">
-<div class="head3">&nbsp; Effective use of the civil / military airspace structures&nbsp;&nbsp;
-<a href="http://prudata.webfactional.com/wiki/index.php/Effective_use_of_the_civil_/_military_airspace_structures" target="_blank">(Meta data)</a></div>
-</td>
-</tr>
-<tr>
-<td colspan="4" rowspan="1" style="width: 950px">
-<div style="text-align: left; vertical-align: top;"><span style="color: rgb(102, 102, 102);">&nbsp;To be provided in line with the scheduled reporting cycle</span></div>
-</td>
-</tr>
-<tr>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4">&nbsp;Environment PI #3: Effectiveness of booking procedures for FUA</div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"> </span></div>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4">&nbsp;Environment PI #4: Rate of planning of conditional routes (CDRs)</div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><br>
-</span></div>
-</tr>
-<tr>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4">&nbsp;Environment PI #5: Effective use of CDRs</div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"> </span></div>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div class="head4"></div>
-<div style="text-align: left; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><br>
-</span></div>
-</tr>
-</tbody>
-</table>
-<br>
+
 </tbody>
 </table>
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
@@ -1413,7 +1375,7 @@ Source: PRU analysis; Airports; Network Manager</div>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head2">&nbsp;CAPACITY</div>
-<span style="color:#C0504D;">These data take into account post-operations adjustments made to date.
+<span style="color:#C0504D;">These data take post-operations adjustments into account.
 </span>
 </td>
 </tr>
@@ -1461,10 +1423,6 @@ Source: Network Manager</div>
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">&nbsp; Capacity KPI #2: Airport ATFM arrival delay per flight [min./arr.]</div>
-<span style="color:#C0504D;"><b><u>
-
-These data take into account post-operations adjustments made to date. They might be subject to further revisions later on in April when the post-operations adjustments process is finalised.</b></u> <br>This section will be updated accordingly. Here is the link to the page where the finalised <a href="http://www.eurocontrol.int/publications/post-operations-performance-adjustment-process" target="_blank">Post Operations Adjustment Process</a> will be posted.
-</span>
 </td>
 </tr>
 <tr>
@@ -1577,8 +1535,10 @@ Source: Airports</div>
 </table>
 <br>
 </table>
+
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
+
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head2">&nbsp;COST-EFFICIENCY</div>
@@ -1588,6 +1548,7 @@ Source: Airports</div>
 <div class="head3">&nbsp; En-route Service Units (TSU)[actual vs. determined]</div>
 </td>
 </tr>
+
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
@@ -1607,6 +1568,7 @@ Source: CRCO; EC; PRU analysis </div>
 </span></div>
 </td>
 </tr>
+
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
 <div class="head4">&nbsp;En-route TSU: by charging zones (2017)</div>
@@ -1623,6 +1585,8 @@ Source: CRCO; EC; PRU analysis </div>
 </tbody>
 </table>
 
+
+
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
 <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
@@ -1632,13 +1596,13 @@ Source: CRCO; EC; PRU analysis </div>
 <div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div>
 </td>
 </tr>
+
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
 Period: January-December</span></div>
 </td>
 <td>
-
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
 <a href="https://docs.google.com/spreadsheets/d/1sLZs7-p6Dkd0ojG0BWWf2z5JvN5Bj6rYK4r4jwSyW0o/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div>
@@ -1654,6 +1618,7 @@ Source: States, CRCO</div>
 </td>
 </tr>
 <br>
+
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <span style="color:#C0504D;">The figures shown below are expressed in real term (Euro 2009). The underlying data (currencies, etc.) are available in the download file.
@@ -1664,6 +1629,7 @@ Source: States, CRCO</div>
 </tbody>
 </table>
 <br>
+
 <tr>
 <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
 <div id="tbl_ertcef_state"></div>
@@ -1671,6 +1637,7 @@ Source: States, CRCO</div>
 <br>
 </tr>
 <br>
+
 <tr>
 <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
 <div id="tbl_ertcef_fab"></div>
@@ -1690,6 +1657,7 @@ Source: States, CRCO</div>
 <span style="color:#C0504D;">As of 2017, two terminal charging zones (TCZ) were established in France (TCZ1 Paris airports and TCZ2 Other airports) and Poland (TCZ1 Warsaw airport and TCZ2 Other airports) instead of one single TCZs comprising 60 airports in France and 15 airports in Poland in 2016.</span>
 </td>
 </tr>
+
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
@@ -1710,6 +1678,7 @@ Source: States, CRCO</div>
 </span></div>
 </td>
 </tr>
+
 <br>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
@@ -1718,21 +1687,25 @@ Source: States, CRCO</div>
 </span>
 </td>
 </tr>
+
 </tbody>
 </table>
 <br>
+
 <tr>
 <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
 <div id="tbl_trcef_state"></div>
 </td>
 <br>
 </tr>
+
 <br>
 <tr>
 <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
 <div id="tbl_trcef_fab"></div>
 </td>
 </tr>
+
 </tbody>
 </table>
 
