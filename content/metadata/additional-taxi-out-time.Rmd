@@ -1,0 +1,363 @@
+---
+title: Additional Taxi-out Time
+categories:
+  - metadata
+  - glossary
+---
+
+<style>
+table, td {
+  border: 1px solid #AAAAAA;
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+}
+
+#disclaimer {
+  background: #EAEAEA;
+}
+</style>
+
+## Contacts
+
+|||
+|---------------------------|------------------------------------------------------------------------------------|
+| Contact organisation      | EUROCONTROL: The European organisation for the safety of air navigation            |
+| Contact organisation unit |	Directorate European Civil-Military Aviation - Performance Review Unit (DECMA/PRU) |
+| Contact name              |	Performance Review Unit - EUROCONTROL                                              |
+| Contact mail address      | 96 Rue de la Fusée<br>1130 Brussels<br>Belgium                                     |
+| Contact e-mail address    | [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int)                  |
+
+## Metadata update
+
+|||
+|-------------------------|-------------------|
+| Metadata last certified | not applicable    |
+| Metadata last update 	  | 01 November 2016  |
+
+
+## Statistical presentation
+
+### Data description
+
+The **additional taxi-out time** is a proxy for the average departure runway queuing time
+on the outbound traffic flow, during congestion periods at airports.
+
+It is the difference between the actual taxi-out time of a flight and a statistically
+determined [unimpeded taxi-out time][utaxi] based on taxi-out times in periods of
+low traffic demand (see also [related methodology documentation][utaximet]). 
+ 
+Uncertainty of take-off clearance time and aircraft arriving time at runway holding stop bars
+makes traffic supply to runways a stochastic phenomenon.
+In order to ensure continuous traffic demand at runways and maximise runway usage,
+a minimum level of queuing is required.
+However, additional time is detrimental to taxi-out efficiency, fuel consumption and environment.
+Therefore, there exists a trade-off between taxi-out efficiency and runway throughput.
+
+When monitoring taxi-out performance at airports, it is to be stressed that the goal is
+not to reduce taxi time to an unimpeded time - as this could negatively impact
+on runway throughput - but rather to reduce additional taxi-out time and associated
+fuel burn to the strict minimum. 
+
+As an output of the ATMAP Group, additional taxi-out time has been in use as a commonly
+agreed proxy for airport inefficiency in the taxi-out phase since 2008 and is compliant
+with the [PI][pi] definition in the EU legislation.
+
+
+### Classification system
+
+Additional taxi-out time is classified per Member State, with a breakdown for each airport
+subject to performance monitoring within the SES performance scheme.
+
+
+### Sector coverage
+
+The measures pertain to the [Air Transport and Air Traffic Management Sector][air-stats]
+of the economy. 
+
+
+### Statistical concepts and definitions
+
+The **Taxi-out time** is defined as the time spent by a flight between its
+actual off-block time (AOBT) and actual take-off time (ATOT).
+
+The [Unimpeded taxi-out time][utaxi] is an average taxi-out time when there is no congestion.
+There is one unimpeded time by departure airport, departure runway and departure stand.
+
+The **Additional taxi-out time** is the difference between the actual taxi-out time and
+the unimpeded taxi-out time.  
+
+
+### Statistical unit
+The statistical unit is the airport. Airport level data is also aggregated to States.
+
+### Statistical population
+The statistical population is the set of airports subject to performance monitoring within the
+SES performance scheme.
+
+### Reference area
+
+The reference area is the [Single European Sky Area][ses-area]. 
+
+
+### Time coverage
+2011 is the first year for which data is presented.
+
+### Base period
+Not applicable.
+
+
+## Unit of Measure
+The additional taxi-out time is measured in minutes per [IFR][ifr] departure [min/dep].
+
+
+## Reference period
+
+* The first reference period (RP1) covers the calendar years 2012 to 2014 inclusive.
+* The second reference period (RP2) covers the calendar years 2015 to 2019 inclusive. 
+
+Unless decided otherwise, the following reference periods shall be of five calendar years. 
+
+## Institutional Mandate
+Legal acts and agreements are established in the 
+[EU IR691/2010|Performance Regulation (691 / 2010)][law] and 
+[Commission Implementing Regulation (EU) No 390 / 2013][law].
+
+
+## Confidentiality
+
+* The information is disseminated in accordance with Article 21 of the
+  [Performance Regulation (691 / 2010)][law].
+* The information is disseminated in accordance with Article 22 of 
+  [Commission Implementing Regulation (EU) No 390 / 2013][law]. 
+
+
+## Release policy
+
+### Release calendar
+Taxi-out additional time is released monthly with yearly aggregates.
+
+### Release calendar access
+Not applicable.
+
+### User access
+Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
+
+
+
+## Frequency of dissemination
+Data is published monthly with the annual performance aggregate being available in January
+of the following year. 
+
+
+## Dissemination format
+Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
+
+## Accessibility of documentation
+
+### Documentation on methodology
+As per the pertaining regulations (see [Institutional Mandate](#institutional-mandate)).<br>
+For technical questions not addressed in [Statistical processing](#statistical-processing)
+please contact: [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int).<br>
+Additional definitions of the terms used in the frame of the this [KPI][kpi]
+are available in the [Metadata page](..).
+
+### Quality documentation
+There is no specific documentation on procedures applied for quality management
+and quality assessment.
+
+
+## Quality Management
+Although data providers are responsible for data quality,
+the [EUROCONTROL Performance Review Unit][pru] performs data validation and quality checks.
+
+### Quality assurance
+Data validation is performed by CODA, on behalf of PRU, on each data delivery by airports,
+and data validation report are returned to the data providers.
+
+### Quality assessment
+
+Raw data is cross-checked with various sources ([Network manager][nm-cfmu], ANSP's,
+airport operators, airport coordinators and air carriers).
+A quality threshold is established, and data that does not pass the quality threshold is rejected.
+
+If a field is found to be blank, it is tried to fill the missing value from an alternative
+data source (i.e. a missing aircraft type in the airport data flow can be filled
+with information from the [Network manager][nm-cfmu].) 
+
+
+### Completeness
+
+The data is collected for all airports subject to performance monitoring within
+the SES performance scheme.
+Data completeness is determined each month as per the above-mentioned quality checks.
+Any missing data is reported to the provider. 
+
+
+
+## Relevance
+
+The information is published for performance monitoring purposes in accordance with
+the relevant EU legislation. 
+
+
+## Accuracy and reliability
+
+### Overall accuracy
+The accuracy of the measure is influenced by the availability of the stand/runway configuration
+and the type of AOBT recording at the airports (manual vs. automated).
+
+
+### Sampling error
+
+There is no sampling and therefore no sampling error. 
+
+
+## Timeliness and punctuality
+### Timeliness
+The information is published each month - in general around 30 days after the end
+of the month in question.
+
+###  Punctuality
+The internal databases are updated daily. The [statistical processing](#statistical-processing)
+is performed once per month.
+
+## Comparability
+### Comparability — geographical
+
+The data is collected centrally by the [EUROCONTROL Performance Review Unit][pru]
+with delegation to [CODA][coda] and computed consistently for all airports
+subject to performance monitoring within the SES performance scheme.
+
+The interpretation of the measure and comparisons across airports require due consideration
+of prevailing local circumstances (airport infrastructure, etc.) 
+
+
+
+### Comparability over time
+Comparisons over time are valid.
+
+## Coherence
+### Coherence — cross domain
+Checks have been carried out with a number of airports and there is generally a good level
+of coherence between the indicator results and the results from performance measurement systems
+of airport operators. 
+
+
+### Coherence — internal
+Data is fully coherent from an internal perspective.
+
+
+
+## Cost and burden
+
+Not available. 
+
+
+## Data revision
+
+Subject to changes (i.e. infrastructure), there might be a need to change
+unimpeded times accordingly.
+
+## Statistical processing
+
+### Source data
+
+In accordance with EU legislation, the data is collected centrally for all the airports
+subject to performance monitoring within the SES performance scheme.
+
+The input variables used for the calculation are detailed in the 
+[Statistical concepts and definitions](#statistical-concepts-and-definitions) section. 
+
+
+### Frequency of data collection
+The data is collected on a daily basis and transmitted for statistical processing
+on a monthly basis. 
+
+
+### Data collection
+
+The data is collected by the [EUROCONTROL Performance Review Unit][pru] and the
+[Central Office for Delay Analysis (CODA)][coda].
+
+
+### Data validation
+
+The data is validation as described in the [Quality Management](#quality-management) section.
+
+
+### Data compilation 
+
+#### Calculation of the indicator
+
+Let 
+
+* $c$, a combination of departure runway and group of stands, as described in the
+  [methodology for unimpeded taxi-out time][utaximet],
+* $f(c)$ a flight characterised by a combination $c$,
+* $\mathrm{AcTXOT}(f(c))$ the actual taxi-out time for a flight $f(c)$, i.e. the elapsed time
+  between the off-block time (AOBT) of the flight $f(c)$ and its actual take-off time (ATOT),
+* $\mathrm{UTXOT}(c)$ the [unimpeded taxi-out time][utaxi] for a combination $c$.
+
+The additional taxi-out time $\mathrm{AdTXOT}(f(c))$ is calculated for each flight $f(c)$
+as the difference between the actual taxi-out time $\mathrm{AcTXOT}(f(c))$ of the flight
+and the [unimpeded taxi-out time][utaxi] $\mathrm{UTXOT}(c)$ :
+
+$$
+\mathrm{AdTXOT}(f(c)) = \mathrm{AcTXOT}(f(c)) - \mathrm{UTXOT}(c)
+$$
+
+The additional taxi-out time $\mathrm{AdTXOT}(c)$ for a given combination $c$ is the average
+of the additional taxi-out time $\mathrm{AdTXOT}(f(c))$ of all the flight $f(c)$
+characterised by that combination $c$.
+
+The additional taxi-out time $\mathrm{AdTXOT}$ for a given airport is the weighted average
+of the additional taxi-out time $\mathrm{AdTXOT}(c)$, for all the combinations $c$
+at that airport with their probability of occurrence.
+
+
+
+
+### Adjustment
+
+Corrections may be made when issues are discovered as described in the
+[Quality Assessment](#quality-assessment) section of this document. 
+
+
+## Comment
+No comments.
+
+<div id="disclaimer">
+<h3>Disclaimer</h3>
+
+This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible. Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.
+<br>
+The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB. The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend the information provided at any time and without prior notice. 
+</div>
+
+
+[ansp]: https://ansperformance.eu/acronym/ansp/ "ANSP"
+[ansp-ses-rp1]: `r htmltools::HTML('{{< relref "/metadata/ansp-ses-rp1.md" >}}')` "ANSPs - SES RP1"
+[atfm-delay]: https://ansperformance.eu/definition/atfm-delay/ "ATFM Delay"
+[air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
+[coda]: https://www.eurocontrol.int/articles/ir691-data-collection-process "CODA"
+[ctot]: https://ansperformance.eu/acronym/ctot/ "CTOT"
+[etot]: https://ansperformance.eu/acronym/etot/ "ETOT"
+[fab]: https://ansperformance.eu/acronym/fab/ "FAB"
+[fmp]: https://ansperformance.eu/acronym/fmp/ "FMP"
+[kpi]: https://ansperformance.eu/acronym/kpi/ "KPI"
+[ifr]: https://ansperformance.eu/acronym/ifr/ "IFR"
+[law]: https://ansperformance.eu/bibliography/legislation/ "Legislation"
+[nm-cfmu]: https://ansperformance.eu/acronym/nm-cfmu/ "NM"
+[pi]: https://ansperformance.eu/acronym/pi/ "PI"
+[pru]: https://ansperformance.eu/about/us/ "PRU"
+[refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
+[regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
+[ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
+[uasma]: https://ansperformance.eu/definition/unimpeded-asma-time/ "Unimpeded ASMA Time"
+[uasmamet]: https://ansperformance.eu/methodology/unimpeded-asma-time/ "Unimpeded ASMA Time - Methodology"
+[utaxi]: https://ansperformance.eu/definition/unimpeded-taxi-out-time/ "Unimpeded Taxi-out Time"
+[utaximet]: https://ansperformance.eu/methodology/unimpeded-taxi-out-time/ "Unimpeded Taxi-out Time - Methodology"
+
+

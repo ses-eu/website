@@ -1,7 +1,0 @@
----
-title: "Metadata"
----
-
-
-* [Metadata](http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019))
-* [Glossary](http://prudata.webfactional.com/wiki/index.php/Category:Glossary)
