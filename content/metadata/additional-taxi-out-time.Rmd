@@ -355,6 +355,7 @@ The information may be copied in whole or in part providing that the copyright n
 [refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
 [regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
 [ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
+[ses-portal]: `r htmltools::HTML('{{< relref "/" >}}')` "SES Data Portal"
 [uasma]: https://ansperformance.eu/definition/unimpeded-asma-time/ "Unimpeded ASMA Time"
 [uasmamet]: https://ansperformance.eu/methodology/unimpeded-asma-time/ "Unimpeded ASMA Time - Methodology"
 [utaxi]: https://ansperformance.eu/definition/unimpeded-taxi-out-time/ "Unimpeded Taxi-out Time"

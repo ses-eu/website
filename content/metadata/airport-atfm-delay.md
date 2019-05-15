@@ -18,7 +18,7 @@ td {
   background: #EAEAEA;
 }
 
-note {
+.note {
   foreground: red;
   background: #E5E5E5;
   border: dashed;
@@ -347,3 +347,5 @@ The information may be copied in whole or in part providing that the copyright n
 [pru]: https://ansperformance.eu/about/us/ "PRU"
 [ansp-ses-rp1]: {{< relref "/metadata/ansp-ses-rp1.md" >}} "ANSPs - SES RP1"
 [nm20]: https://ansperformance.eu/library/NM_20_FB750_Delay_Calculation_improvements.pdf "REA Message"
+[ses-portal]: {{< relref "/" >}} "SES Data Portal"
+
