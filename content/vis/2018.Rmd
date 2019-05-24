@@ -166,6 +166,213 @@ function drawVisualization() {
     tbl_ertflts_YY.draw();
 
 
+  // EoSM - YY - CHART - [EU_YY]
+    var crt_EoSMYY_ST = new google.visualization.ChartWrapper({
+        chartType: 'ComboChart',
+        containerId: 'crt_EoSMYY_ST',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_State_Score&range=A1:F31',
+        options: {
+            width: 475,
+            height: 230,
+            chartArea: {
+                left: 50,
+                top: 30,
+                width: '85%',
+                height: '50%'
+            },
+            title: 'Effectiveness of Safety Management score (State level)',
+            titleTextStyle: {
+                color: 'grey',
+                fontSize: 12
+            },
+            legend: 'none',
+            isStacked: 'true',
+            seriesType: 'bars',
+            colors: ['#7DD2F2'],
+            vAxis: {
+                title: 'EoSM score',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 11
+                }
+            },
+            hAxis: {
+                title: 'EASA verified results',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 11
+                },
+                type: 'string',
+                slantedText: true,
+                slantedTextAngle: 90,
+                textStyle: {
+                    color: 'grey',
+                    fontSize: 10
+                }
+            }
+        },
+        view: {
+            'columns': [0, 5]
+        }
+    });
+    crt_EoSMYY_ST.draw();
+
+
+  // EoSM - YY - CHART - [EU_YY]
+    var crt_EoSMYY_AN = new google.visualization.ChartWrapper({
+        chartType: 'ComboChart',
+        containerId: 'crt_EoSMYY_AN',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_ANSP_Score&range=A1:F32',
+        options: {
+            width: 475,
+            height: 230,
+            chartArea: {
+                left: 50,
+                top: 30,
+                width: '85%',
+                height: '50%'
+            },
+            title: 'Effectiveness of Safety Management score (ANSP level)',
+            titleTextStyle: {
+                color: 'grey',
+                fontSize: 12
+            },
+            legend: 'none',
+            isStacked: 'true',
+            seriesType: 'bars',
+            colors: ['#7DD2F2'],
+            vAxis: {
+                title: 'EoSM score',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 11
+                }
+            },
+            hAxis: {
+                title: 'Verified by NSAs',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 11
+                },
+                type: 'string',
+                slantedText: true,
+                slantedTextAngle: 90,
+                textStyle: {
+                    color: 'grey',
+                    fontSize: 10
+                }
+            }
+        },
+        view: {
+            'columns': [0, 5]
+        }
+    });
+    crt_EoSMYY_AN.draw();
+
+  // EoSM - YY - CHART - [TABLE FAB]
+    var tbl_EOSM_FAB_1 = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_EOSM_FAB_1',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_FAB_MIN_LEV&range=A3:K12',
+        options: {
+            header: true,
+            allowHtml: true,
+            width: 950,
+            height: 150
+        },
+        view: {
+            columns: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        }
+    });
+    tbl_EOSM_FAB_1.draw();
+
+
+  // EoSM - YY - CHART - [TABLE STATE LEVEL]
+    var tbl_EOSM_STA = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_EOSM_STA',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_State_MIN_LEV&range=A3:J33',
+        options: {
+            header: true,
+            allowHtml: true,
+            width: 950,
+            height: 150
+        },
+        view: {
+            columns: [1, 3, 4, 5, 6, 7, 8, 9]
+        }
+    });
+    tbl_EOSM_STA.draw();
+
+  // EoSM - YY - CHART - [TABLE ANSP LEVEL]
+    var tbl_EOSM_ANSP = new google.visualization.ChartWrapper({
+        chartType: 'Table',
+        containerId: 'tbl_EOSM_ANSP',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_ANSP_MIN_LEV&range=A3:J34',
+        options: {
+            header: true,
+            allowHtml: true,
+            width: 950,
+            height: 150
+        },
+        view: {
+            columns: [1, 3, 4, 5, 6, 7, 8, 9]
+        }
+    });
+    tbl_EOSM_ANSP.draw();
+
+  // RAT - YY - CHART - [EU_YY]
+    var Y15_crt_RAT = new google.visualization.ChartWrapper({
+        chartType: 'ComboChart',
+        containerId: 'Y15_crt_RAT',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1F74qjFgYwWJsmMpwnGkyMpDRCbUwiPHRq3F0lN4nE5Y/edit?usp=sharing&sheet=SES_RP2&range=A1:B6',
+        options: {
+            width: 475,
+            height: 230,
+            chartArea: {
+                left: 50,
+                top: 30,
+                width: '85%',
+                height: '50%'
+            },
+            title: ' % severity assessed with RAT (EU RP2 States)',
+            titleTextStyle: {
+                color: 'grey',
+                fontSize: 12
+            },
+            legend: 'none',
+            isStacked: 'true',
+            seriesType: 'bars',
+            colors: ['#7DD2F2'],
+            vAxis: {
+                title: '% severity assessed',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 11
+                }
+            },
+            hAxis: {
+                title: 'The State level results can be found in the download file',
+                titleTextStyle: {
+                    color: 'grey',
+                    fontSize: 11
+                },
+                type: 'string',
+                //slantedText:true,
+                //slantedTextAngle: 0,
+                textStyle: {
+                    color: 'grey',
+                    fontSize: 11
+                }
+            }
+        },
+        view: {
+            'columns': [0, 1]
+        }
+    });
+    Y15_crt_RAT.draw();
+
+
   // ENVIRONMENT - Horizontal flight efficiency - YY - CHART
     var crt_flteffYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
@@ -909,22 +1116,138 @@ Source: Network Manager</div>
 </tbody>
 </table>
 
-
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
-
 
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head2">&nbsp;SAFETY</div>
-<span style="color:#C0504D;">To be provided in line with the scheduled reporting cycle.</span>
 </td>
 </tr>
 <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+<tbody>
+<tr>
+<td colspan="4" rowspan="1">
+<div class="head3">&nbsp; Safety KPI #1: Effectiveness of safety management (EoSM)</div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
+Period: January-December</span></div>
+</td>
+<td>
+<div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
+<a href="https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing" target="_blank">[Download data]</a>
+</span></div>
+</td>
+<td>
+<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
+Source: EASA</div>
+</td>
+<td>
+<div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
+<a href="http://prudata.webfactional.com/wiki/index.php/Effectiveness_of_safety_management" target="_blank">[Meta data]</a>
+</span></div>
+</td>
+</tr>
+<tr>
+<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+<div style="float: top;" id="crt_EoSMYY_ST"></div>
+<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+<div style="float: top;" id="crt_EoSMYY_AN"></div>
+</td>
+</tr>
+<tr>
+<td colspan="4" rowspan="1" style="width: 950px; vertical-align: top;">
+<div><b>FAB level</b></div>
+<div style="float: top;" id="tbl_EOSM_FAB_1"></div>
+</tr>
+<br>
+<tr>
+<td colspan="4" rowspan="1" style="width: 950px; vertical-align: top;">
+<br>
+<div><b>State level</b></div>
+<div style="float: top;" id="tbl_EOSM_STA"></div>
+</td>
+</tr>
+<tr>
+<td colspan="4" rowspan="1" style="width: 950px; vertical-align: top;">
+<br>
+<div><b>ANSP level</b></div>
+<div style="float: top;" id="tbl_EOSM_ANSP"></div>
+</td>
+<br>
+</tr>
+</tbody>
+</table>
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+<tbody>
+<br>
+<tr>
+<td colspan="3" rowspan="1" style="width: 475px, text-align: center; vertical-align: top;">
+<div class="head4">&nbsp;RAT methodology application&nbsp;&nbsp;
+<a href="http://prudata.webfactional.com/wiki/index.php/RAT_methodology_application" target="_blank">(Meta data)</a></div>
+</td>
+<td colspan="3" rowspan="1" style="width: 475px, text-align: center; vertical-align: top;">
+<div class="head4">&nbsp;Reporting of Just Culture &nbsp;&nbsp;
+<a href="http://prudata.webfactional.com/wiki/index.php/Reporting_of_Just_Culture" target="_blank">(Meta data)</a> </div>
+</td>
+</tr>
+<tr>
+<td>
+<div style="width: 175px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
+Period: January - December</span></div>
+</td>
+<td>
+<div style="width: 150px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
+<a href="https://docs.google.com/spreadsheets/d/1F74qjFgYwWJsmMpwnGkyMpDRCbUwiPHRq3F0lN4nE5Y/edit?usp=sharing" target="_blank">[Download data]</a>
+</span></div>
+</td>
+<td>
+<div style="width: 125px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: DPS/SSR</div>
+</td>
+<td>
+<div style="width: 175px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
+Period: January - December</span></div>
+</td>
+<td>
+<div style="width: 150px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
+<a href="https://docs.google.com/spreadsheets/d/1060iRZFQtVJABHGxuZp0VLYd5NMJi85me3k_Liv2JKM/edit?usp=sharing" target="_blank">[Download data]</a>
+</span></div>
+</td>
+<td>
+<div style="width: 125px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: EASA</div>
+</td>
+</tr>
+<tr>
+<td colspan="3" rowspan="1">
+<div style="float: top;" id="Y15_crt_RAT"></div>
+</td>
+<td colspan="3" rowspan="1">
+<div style="text-align: left; vertical-align: top">
+<p>There are no just culture results at European wide level.
+<br>The 2018 results at State and ANSP level can be found in the download file</p>
+<p><small><i>&nbsp;Note that the total number of "NO" answers may not reflect an absence of Just Culture.</i></small></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
 
 
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
