@@ -1,0 +1,455 @@
+---
+title: RAT methodology application
+categories:
+  - metadata
+  - glossary
+---
+
+<style>
+table, td {
+  border: 1px solid #AAAAAA;
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+}
+
+#disclaimer {
+  background: #EAEAEA;
+}
+
+#note {
+  foreground: red;
+  background: #E5E5E5;
+  border: dashed;
+}
+
+</style>
+
+## Contacts
+
+|||
+|---------------------------|------------------------------------------------------------------------------------|
+| Contact organisation      | EUROCONTROL: The European organisation for the safety of air navigation            |
+| Contact organisation unit |	Directorate European Civil-Military Aviation - Performance Review Unit (DECMA/PRU) |
+| Contact name              |	Performance Review Unit - EUROCONTROL                                              |
+| Contact mail address      | 96 Rue de la Fusée<br>1130 Brussels<br>Belgium                                     |
+| Contact e-mail address    | [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int)                  |
+
+## Metadata update
+
+|||
+|-------------------------|-------------------|
+| Metadata last certified | not applicable    |
+| Metadata last update 	  | 01 November 2016  |
+
+
+## Statistical presentation
+
+### Data description
+
+EU legislation requests EU Member States to use the  Severity classification based on the
+RAT methodology in order to allow a harmonised reporting of severity assessment of
+Separation Minima Infringements, Runway Incursions and ATM Specific Technical Events.
+
+
+#### ref. Annex to ED Decision 2014/035/R
+
+* [AMC4 SKPI GENERAL DESCRIPTION](http://easa.europa.eu/system/files/dfu/Annex%20to%20ED%20Decision%202014-035-R.pdf)
+  
+The Severity classification based on the RAT methodology follows the principle of evaluating
+several criteria and allocating a certain score to each criterion, depending on how severe
+each criterion is evaluated to be.
+
+Each criterion should have a limited number of options with corresponding scores.
+Some criteria have an ATM Ground and an ATM Airborne component and both scores should be
+counted when evaluating the ATM Overall score.
+Other criteria should be only relevant either for ATM Ground or ATM Airborne.
+
+The overall score for severity of an occurrence should be the sum of the scores allocated
+to each applicable individual criterion.
+The overall score for the severity of an occurrence should be built from the sum of the
+score allocated to the risk of collision/proximity (itself a sum of the score allocated
+to the separation and the score allocated to the rate of closure) and
+the degree of controllability over the incident.
+
+For ATM-specific occurrences (i.e. technical occurrences affecting the capability to
+provide safe ATM/ANS services) the criteria which should be considered are the service affected,
+service/function provided, operational function, type of failure, extension of the failure and
+its scope and duration.
+
+The severity of occurrences reported by Member States should be the ATM Overall severity.
+
+For ATM-specific occurrences, the ATM Overall coincides with ATM Ground severity.
+
+Member States should ensure that arrangements are in place for the ATM Overall severity score to
+be reported.
+
+
+#### ref. Annex to ED Decision 2014/035/R
+
+* [AMC8 SKPI RAT METHODOLOGY](http://easa.europa.eu/system/files/dfu/Annex%20to%20ED%20Decision%202014-035-R.pdf)
+
+The Member States’ points of contact, established in accordance with Directive 2003 / 42 / EC and
+Commission Regulation (EC) No 1330 / 2007, should collect verified information regarding the
+application of the "Severity classification based on the RAT methodology"for the
+reported occurrences within the scope of Commission Regulation (EU) No 691 / 2010 as
+amended by Regulation (EU) No 1216 / 2011.
+
+The collection of information relevant to the use of the "Severity classification based on
+the RAT methodology"should make use of existing safety data reporting mechanisms with
+enhancements where needed.
+
+When the Member States report on the monitoring of the performance plans and targets,
+they should report the percentage of occurrences the severity of which has been evaluated by
+the use of the RAT methodology.
+
+
+The following attached graphics are consistent with the EASA AMC/GM material and provide:
+
+* an [overview of the main components of the "Severity classification based on the RAT methodology"](/images/marksheet-overview.jpg); and,
+* an [example of a marksheet to make the severity assessment in accordance with the RAT methodology](example-of-severity-marksheet.jpg).
+
+Further information is available in the
+[EASA Acceptable Means of Compliance and Guidance Material (EASA AMC/GM)][easa-mat].
+
+[easa-mat]: http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI
+
+
+_Note: **Member States could decide to use different means of reporting.** 
+They could use the [AST][ast]/ESARR2 data reporting mechanism which is already available.
+It should be noted that the European Central Repository (ECR) will remain the central source of
+safety information in the EU.
+Therefore, compatibility with the ECCAIRS system, the software tool used for the ECR,
+is an important criteria.
+Member States could decide to report the RAT methodology utilisation through  the ECCAIRS 5
+custom attribute on nationaml level.
+However, the reporting of RAT methodology utilisation through ECR is still under development.
+Furthermore, in the near future, States could have the possibility to report aggregate values on
+the RAT utilisation methodology via the EASA web-interface.
+**A new medata version will be released as soon as there are changes in the reporting mechanisms.**_
+
+
+
+### Classification system
+
+The share of safety occurrences, for which severity has been assessed using the RAT methodology,
+can be provided by:
+
+* accountable entity;
+* State; and,
+* at European level. 
+
+
+### Sector coverage
+
+The measures pertain to the [Air Transport and Air Traffic Management Sector][air-stats]
+of the economy. 
+
+
+### Statistical concepts and definitions
+
+When data on safety occurrences is submitted, States are requested to report
+"Severity classification based on the RAT methodology".
+One possible means of reporting is through the [AST][ast]/ESARR2: Example of RAT reporting).
+Other examples of reporting will be made available as soon as they are available.
+
+The indicator is expressed as a percentage and rounded to the last digit
+(i.e. 95, 55, 56, etc., but no digits after the comma). 
+
+
+
+### Statistical unit
+The statistical unit is the State.
+
+The application of the "Severity classification based on the RAT methodology"
+by accountable entity can be computed by the NSA. 
+
+### Statistical population
+The statistical population comprises the States in the [Single European Sky Area][ses-area].
+
+### Reference area
+
+The reference area is the [Single European Sky Area][ses-area]. 
+
+
+### Time coverage
+2012 is the first year for which data is presented.
+
+### Base period
+Not applicable.
+
+
+## Unit of Measure
+Share of occurrences for which severity has been assessed using the
+"Severity classification based on the RAT methodology" for a given group of
+safety occurrences (expressed in %). 
+
+
+## Reference period
+
+* The first reference period (RP1) covers the calendar years 2012 to 2014 inclusive.
+* The second reference period (RP2) covers the calendar years 2015 to 2019 inclusive. 
+
+Unless decided otherwise, the following reference periods shall be of five calendar years. 
+
+## Institutional Mandate
+Provisions are established in:
+
+* [Single Sky Framework Regulation (EC) 549 / 2004 as amended by Regulation (EC) 1070 / 2009](https://eur-lex.europa.eu/eli/reg/2004/549/oj);
+* [Commission Implementing Regulation (EU) No 390 / 2013](https://eur-lex.europa.eu/eli/reg_impl/2013/590/oj);
+* [Performance Regulation (691 / 2010) as amended by Regulation (EU) 1216 / 2011](https://eur-lex.europa.eu/eli/reg/2011/1216/oj);
+* [EASA Basic Regulation (EC) No 216 / 2008](http://www.easa.europa.eu/approvals-and-standardisation/docs/syllabi/Syllabus_216_General_05032009.pdf);
+* [EASA Standardisation Inspection (EU) 736 / 2006](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2006:129:0010:0015:EN:PDF ); and,
+* [EASA AMC/GM for Safety KPIs, issued by EASA in coordination with PRB](http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI).
+
+
+## Confidentiality
+
+* The information is disseminated in accordance with Article 21 of the
+  [Performance Regulation (691 / 2010)][law].
+* The information is disseminated in accordance with Article 22 of 
+  [Commission Implementing Regulation (EU) No 390 / 2013][law]. 
+
+
+## Release policy
+
+### Release calendar
+The data is released twice a year. In April and October.
+
+### Release calendar access
+Not applicable.
+
+### User access
+Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
+
+
+
+## Frequency of dissemination
+Information is disseminated twice a year as soon as the data is verified.
+
+
+## Dissemination format
+Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
+
+## Accessibility of documentation
+
+Documentation on methodology is available at
+[EASA Acceptable means of compliance and guidance material](http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI).
+
+
+## Quality Management
+
+The legal framework for quality management is established by EU legislation.
+
+The assessment of data quality can be checked through two different practices:
+
+* The comparison between data reported at the level of individual occurrences (e.g. AST or ECR )
+  and the aggregated level (e.g. via the EASA website once available).
+* The monitoring of effective implementation of the "Severity classification based on the
+  RAT methodology " by EASA and NSAs.
+
+The effective use of the _"Severity classification based on the RAT methodology"_
+can be checked through:
+
+* the on-going compliance audits of NSA on ANSPs;
+* the standardisation inspections of EASA on Member States.
+* information available through other sources (PRB, NM, etc.)
+
+
+### Quality assurance
+
+The following information could be checked in the framework of quality assurance:
+
+* the complete list of all entities which are mandated to conduct investigations for
+  incidents less than serious;
+* the availability of tools to implement the "Severity classification based on the RAT methodology "
+  in each entity which are mandated to conduct investigations;
+* the availability of qualified and trained staff to use the RAT methodology and tools;
+* samples of incidents whose severity has been assessed with the RAT methodology; and,
+* the demonstration that the RAT methodology utilisation to assess severity is properly
+  reported with one of the possible means (e.g. through [AST][ast]/ESARR2).
+
+
+### Quality assessment
+
+The standard quality criteria is based on the effective use of the risk analysis methodology.
+
+If the Severity classification based on the RAT methodology is not effectively used,
+the reporting of its utilisation in [AST][ast] becomes partially or completely invalid.
+
+
+## Relevance
+
+The information is published for performance monitoring purposes in accordance with
+the relevant EU legislation. 
+
+### Completeness
+The data is collected for the entire [Single European Sky Area][ses-area].
+
+## Accuracy and reliability
+
+### Overall accuracy
+The overall accuracy is estimated in two ways:
+
+* the degree of effective implementation, and
+* standard quality checks before and after data processing.
+
+
+### Sampling error
+
+There is no sampling and therefore no sampling error. 
+
+
+## Timeliness and punctuality
+### Timeliness
+AST
+: When the usage of the _"Severity classification based on the RAT methodology"_
+    is collected through AST, data are published in preliminary and final status.
+  
+    Data are available in April and October of each year.
+    Data in April refer to the year - 2 in final status, and year - 1 in preliminary status;
+    while Data in October refer to the year - 1 in final status.
+
+ECR
+: To be developed
+
+
+###  Punctuality
+When reporting through AST/ESARR2, the data is provided by the States/ANSPs in March and September
+and are displayed to the public in April and October.
+
+## Comparability
+### Comparability — geographical
+Geographical comparability is valid.
+
+### Comparability over time
+Comparisons over time are valid.
+
+## Coherence
+### Coherence — cross domain
+It should be expected that Member States reports are coherent across the
+different reporting mechanisms. A fundamental enabler is the compatibility of reporting mechanisms.
+
+### Coherence — internal
+The data is assumed to be internally coherent as provided.
+
+## Cost and burden
+
+Not available. 
+
+
+## Data revision
+
+AST 
+: Preliminary data (April) in AST will be updated 6 months later (October of the same year)
+
+ECR 
+: to be developed
+
+
+## Statistical processing
+
+### Source data
+
+#### ref. Annex to ED Decision 2014 / 035 / R
+
+* AMC 8 SKPI p.52 (Verification mechanism)
+
+The Member States’ points of contact, established in accordance with Directive 2003 / 42 / EC
+and Commission Regulation (EC) No 1330 / 2007, should collect verified information regarding
+the application of the "Severity classification based on the RAT methodology"
+for the reported occurrences within the scope of Commission Regulation (EU) No 691 / 2010
+as amended by Regulation (EU) No 1216 / 2011.
+
+The collection of information relevant to the use of the
+"Severity classification based on the RAT methodology" should make use of existing safety data
+reporting mechanisms with enhancements where needed.
+
+
+
+### Frequency of data collection
+AST
+: When the data is collected through the [AST][ast]/ESARR2 template,
+    the periodicity of collection is twice a year .
+
+    * end of April (final data for the year n-2; e.g. April 2012 final for 2010);
+    * end of September (final data for year n-2 and provisional data for the year n-1;
+      e.g. October 2012 final for 2011).
+
+ECR
+: To be developed.
+
+
+### Data collection
+
+AST
+: The [AST]'s which contain are collected through the EUROCONTROL AST Focal Points.
+
+ECR
+: to be developed
+
+EASA website interface
+: to be developed
+
+
+### Data validation
+
+Before publishing data on the utilisation of the Severity classification based on the
+RAT methodology, the PRB seeks advices from:
+
+* EASA;
+* EUROCONTROL DPS; and,
+* the Network Manager.
+
+For each Member State, based on inputs received, the PRB makes an overall qualitative assessment of:
+
+* the effective implementation of the "Severity classification based on the RAT methodology"; and,
+* the percent of safety occurrences where the "Severity classification based on the RAT methodology"
+  was used.
+
+
+
+### Data compilation 
+
+The the share of safety occurrences for which the
+"Severity classification based on the RAT methodology" is computed for each group.
+
+### Adjustment
+
+Not applicable.
+
+
+## Comment
+No comments.
+
+<div id="disclaimer">
+<h3>Disclaimer</h3>
+
+This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible. Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.
+<br>
+The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB. The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend the information provided at any time and without prior notice. 
+</div>
+
+[air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
+[ansp]: https://ansperformance.eu/acronym/ansp/ "ANSP"
+[ansp-ses-rp1]: {{< relref "/metadata/ansp-ses-rp1.md" >}} "ANSPs - SES RP1"
+[ast]: https://ansperformance.eu/acronym/ast/ "AST"
+[atfm-delay]: https://ansperformance.eu/definition/atfm-delay/ "ATFM Delay"
+[coda]: https://www.eurocontrol.int/articles/central-office-delay-analysis-coda "CODA"
+[ctot]: https://ansperformance.eu/acronym/ctot/ "CTOT"
+[etot]: https://ansperformance.eu/acronym/etot/ "ETOT"
+[fab]: https://ansperformance.eu/acronym/fab/ "FAB"
+[fir]: https://ansperformance.eu/acronym/fir/ "FIR"
+[fmp]: https://ansperformance.eu/acronym/fmp/ "FMP"
+[kpi]: https://ansperformance.eu/acronym/kpi/ "KPI"
+[ifr]: https://ansperformance.eu/acronym/ifr/ "IFR"
+[law]: https://ansperformance.eu/bibliography/legislation/ "Legislation"
+[nm-cfmu]: https://ansperformance.eu/acronym/nm-cfmu/ "NM"
+[nm20]: https://ansperformance.eu/library/NM_20_FB750_Delay_Calculation_improvements.pdf "REA Message"
+[pru]: https://ansperformance.eu/about/us/ "PRU"
+[refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
+[regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
+[ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
+[ses-portal]: {{< relref "/" >}} "SES Data Portal"
+
