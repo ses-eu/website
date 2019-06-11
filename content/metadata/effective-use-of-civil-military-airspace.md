@@ -1,0 +1,418 @@
+---
+title:  Effective use of the civil / military airspace structures
+Jump to: navigation, search 
+categories:
+  - metadata
+  - glossary
+slug: effective-use-of-civil-military-airspace
+---
+
+<style>
+table, td {
+  border: 1px solid #AAAAAA;
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+}
+
+#disclaimer {
+  background: #EAEAEA;
+}
+
+.note {
+  foreground: red;
+  background: #E5E5E5;
+  border: dashed;
+}
+
+</style>
+
+## Contacts
+
+|||
+|---------------------------|------------------------------------------------------------------------------------|
+| Contact organisation      | EUROCONTROL: The European organisation for the safety of air navigation            |
+| Contact organisation unit |	Directorate European Civil-Military Aviation - Performance Review Unit (DECMA/PRU) |
+| Contact name              |	Performance Review Unit - EUROCONTROL                                              |
+| Contact mail address      | 96 Rue de la Fusée<br>1130 Brussels<br>Belgium                                     |
+| Contact e-mail address    | [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int)                  |
+
+## Metadata update
+
+|||
+|-------------------------|-------------------|
+| Metadata last certified | not applicable    |
+| Metadata last update 	  | 01 November 2016  |
+
+
+## Statistical presentation
+
+### Data description
+
+The indicators described in this section address the effective use of the civil/military
+airspace structures.
+
+[Commission Regulation (EU) No 691 / 2010][law] laying down a performance scheme for
+air navigation services and network functions (the "performance regulation") requires
+the monitoring of the effective use of civil/military airspace structures during
+the first reference period, with target setting being foreseen for the second reference period.
+
+The performance regulation states in Annex IV that national authorities shall provide data
+in support to tasks referred to in Article 4(1 )(m) and (n) of
+[Commission Regulation (EC) No 2150 / 2005 of 23 December 2005][law] laying down common rules
+for the flexible use of airspace (FUA).
+Furthermore, the performance regulation states that this data shall be provided on an annual basis.
+
+In view of the fact that Article 4(1) (m) and (n) of
+[Commission Regulation (EC) No 2150 / 2005][law] already requires Member States to assess
+the performance of flexible use of airspace operations, and archive data on the requests,
+allocation and actual use of airspace structures, it is expected that the data required is
+already available at a national level, most probably in the Airspace Management Cells, the AMCs.
+
+The intention is to monitor the number of hours that [special use airspace (SUA)][sua]
+has been reserved for restriction or segregation from general air traffic;
+the number of hours that it was subsequently used for such activity.
+Additionally, the number of hours that previously reserved airspace were returned for
+use by general air traffic, with a notification period of three hours or more, shall be monitored.
+
+The two indicators described above, are known as [Booking and Release Procedures][book].
+
+To balance the performance measurement, we will also report on the
+[Utilisation of Conditional Routes][ucr] by general air traffic.     
+
+
+### Classification system
+
+#### Booking and Release Procedures
+
+The data is measured for individual [SUAs][sua] but is reported as an aggregated EU wide statistic.
+
+#### Utilisation of Conditional Routes
+This data is measured for individual [CDRs][cdr] but is reported as an aggregated
+[ECAC][ecac] wide statistic.
+
+### Sector coverage
+
+The measures pertain to the [Air Transport and Air Traffic Management Sector][air-stats]
+of the economy. 
+
+
+### Statistical concepts and definitions
+
+**[Booking and Release Procedures][book]** are shown as ratios of the total amount of time that
+airspace was allocated for an activity requiring the restriction or segregation of other traffic.
+
+**[Utilisation of Conditional Routes][ucr]** is shown using the [FUA][fua]
+Indicator [Rate of Aircraft Interested (RAI)][rai].
+
+
+### Statistical unit
+**Booking and Release Procedures** are computed for individual Special Use Airspace (SUA).
+The individual SUA data is aggregated into an EU wide statistic.
+
+**Use of Conditional Routes** is based on the last filed flight plan of each flight,
+and on individual CDRs. The individual data is aggregated into an ECAC wide statistic.
+
+### Statistical population
+
+The statistical population comprises all special use airspace ([SUA][sua]) volumes
+in the [Single European Sky Area][ses-area].
+
+_National authorities are requested to report on [SUA][sua]s that have an impact on IFR traffic,
+for example where:
+
+* activation of the [SUA][sua] impacts the available ATC capacity of the surrounding airspace;
+* activation of the [SUA][sua] impacts the availability of Conditional Routes ([CDR][cdr]s);
+* the [SUA][sua] is located in an area of [Free Route Airspace][fra]._
+
+
+The statistical population comprises all [CDR][cdr]1 and [CDR][cdr]2 conditional routes in
+the ECAC area.
+
+
+
+### Reference area
+
+Booking and Release Procedures pertains to the [Single European Sky Area][ses-area]. 
+
+Use of Conditional Routes pertains to the [ECAC area][ecac].
+
+
+### Time coverage
+
+The data will be presented from January until December, inclusive,
+for each calendar year beginning with 2012. 
+
+### Base period
+Not applicable.
+
+
+## Unit of Measure
+**Booking and Release Procedures** is measured in time and is presented as a ratio.
+
+**Utilisation of Conditional Routes** is measured as the number of flight plans and
+is presented as a ratio.
+
+
+## Reference period
+
+* The first reference period (RP1) covers the calendar years 2012 to 2014 inclusive.
+* The second reference period (RP2) covers the calendar years 2015 to 2019 inclusive. 
+
+Unless decided otherwise, the following reference periods shall be of five calendar years.
+
+
+## Institutional Mandate
+Legal acts and agreements are established in:
+
+* [Performance Regulation (691 / 2010)][law]
+* [Commission Implementing Regulation (EU) No 390 / 2013][law]
+* [FUA Regulation (EC) No 2150 / 2005][law]
+
+
+## Confidentiality
+
+* The information is disseminated in accordance with Article 21 of the
+  [Performance Regulation (691 / 2010)][law].
+* The information is disseminated in accordance with Article 22 of the 
+  [Commission Implementing Regulation (EU) No 390 / 2013][law]. 
+
+
+
+
+## Release policy
+
+### Release calendar
+The aggregated data is released annually. 
+
+### Release calendar access
+Not applicable.
+
+### User access
+Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
+
+
+
+## Frequency of dissemination
+The aggregated data is disseminated annually. 
+
+
+## Dissemination format
+Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
+
+## Accessibility of documentation
+
+### Documentation on methodology
+As per the pertaining regulations (see [Institutional Mandate](#institutional-mandate)).<br>
+For technical questions not addressed in [Statistical processing](#statistical-processing)
+please contact: [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int).<br>
+Additional definitions of the terms used in the frame of the this [KPI][kpi]
+are available in the [Metadata page](..).
+
+### Quality documentation
+There is no specific documentation on procedures applied for quality management
+and quality assessment.
+
+
+
+## Quality Management
+
+
+### Quality assurance
+
+#### Booking and Release Procedures
+The data is provided by the Member States and as such it is their responsibility to
+perform any quality assurance activities.
+
+#### Utilisation of Conditional Routes
+The data is provided by the [Network Manager][nm-cfmu] and as such it is their responsibility
+to perform any quality assurance activities.
+
+
+### Quality assessment
+
+None.
+
+
+### Completeness
+
+#### Booking and Release Procedures
+The data should be collected for the entire [Single European Sky Area][ses-area], however,
+this has not yet been validated by the individual Member States.
+
+#### Utilisation of Conditional Routes
+The data is collected for the entire [ECAC][ecac] region.
+
+
+
+## Relevance
+
+The information is published for performance monitoring purposes in accordance with the
+relevant EU legislation. 
+
+
+
+## Accuracy and reliability
+
+### Overall accuracy
+
+#### Booking and Release Procedures
+It is acknowledged that, for many reasons, there will be differences between the actual time
+of use of an SUA and the recorded time of use.
+Such reasons can include safety buffers between the starting time of the booking and
+ensuring the area is cleared before commencing activities.
+In addition there can be differences due to early termination of the activity without ATC or
+the network being informed.
+A third source of errors is likely to arise in the process of recording the times,
+collating the aggregated times and reporting these to the European Commission via the PRU.
+Despite these and similar errors, since this indicator is at such a high level,
+it is expected to be sufficiently accurate for its purpose.
+
+#### Utilisation of Conditional Routes
+The metric assumes that the shortest distance is in fact the optimal route.
+However, it may be that the optimal route is not that which is shortest in distance,
+due to route charges, wind or [ATFM delay][atfm-delay].
+The metric also assumes that the CDR was available at the actual time of flight,
+although this metric is calculated post-ops using aggregated data.
+Despite these and similar errors, since this indicator is at such a high level,
+it is expected to be sufficiently accurate for its purpose.
+
+### Sampling error
+There is no sampling and therefore no sampling error. 
+
+
+
+## Timeliness and punctuality
+### Timeliness
+
+To be determined.
+
+
+###  Punctuality
+To be determined.
+
+
+
+## Comparability
+### Comparability — geographical
+The indicator does not change from one State to another, therefore it is comparable over
+geographical areas.
+
+### Comparability over time
+Comparison over time is valid. 
+
+## Coherence
+### Coherence — cross domain
+The aggregated values computed here are from information made available to the
+[EUROCONTROL Performance Review Unit][pru].
+If the indicators are calculated at local level using information that is only available
+locally then they will most likely differ considerably.
+
+### Coherence — internal
+Data is fully coherent from an internal perspective. 
+
+## Cost and burden
+
+Not available. 
+
+
+## Data revision
+
+The data revision policy has not yet been defined.
+
+
+
+
+## Statistical processing
+
+### Source data
+
+#### Booking and Release Procedures
+The SES Member States provide the following data via electronic means:
+
+* Specific SUA Reference,
+* Sum of number of hours allocated (AUP),
+* Sum of number of hours still allocated at H-3,
+* Sum of number of initially allocated hours used,
+* Ad hoc (Procedure 3) hours allocated (UUP) (optionally provided),
+* Ad hoc (Procedure 3) hours used (optionally provided).
+
+#### Utilisation of Conditional Routes
+The [Network Manager][nm-cfmu] provides this data via electronic means.
+
+
+
+
+### Frequency of data collection
+Data are collected on a daily basis but provided to the [EUROCONTROL Performance Review Unit][pru]
+in annual aggregates.
+
+
+
+### Data collection
+
+Data are collected and compiled by the Member States, [EUROCONTROL][pru] and
+the [Network Manager][nm-cfmu].
+
+
+### Data validation
+
+Data validation is done by the data providers.
+
+
+### Data compilation 
+
+The data providers aggregate the data. 
+
+
+### Adjustment
+None.
+
+
+
+## Comment
+To date only fourteen States have provided details for the person responsible for providing
+the required data.
+
+<div id="disclaimer">
+<h3>Disclaimer</h3>
+
+This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible. Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.
+<br>
+The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB. The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend the information provided at any time and without prior notice. 
+</div>
+
+
+[air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
+[ansp]: https://ansperformance.eu/acronym/ansp/ "ANSP"
+[ansp-ses-rp1]: {{< relref "/metadata/ansp-ses-rp1.md" >}} "ANSPs - SES RP1"
+[atfm-delay]: https://ansperformance.eu/definition/atfm-delay/ "ATFM Delay"
+[book]: {{< relref "/metadata/booking-and-release-procedures.md" >}} "Booking and Release Procedures"
+[cdr]: https://ansperformance.eu/acronym/cdr/ "CDR"
+[coda]: https://www.eurocontrol.int/articles/central-office-delay-analysis-coda "CODA"
+[ctot]: https://ansperformance.eu/acronym/ctot/ "CTOT"
+[ecac]: https://ansperformance.eu/acronym/ecac/ "ECAC"
+[etot]: https://ansperformance.eu/acronym/etot/ "ETOT"
+[fab]: https://ansperformance.eu/acronym/fab/ "FAB"
+[fir]: https://ansperformance.eu/acronym/fir/ "FIR"
+[fmp]: https://ansperformance.eu/acronym/fmp/ "FMP"
+[fra]: https://ansperformance.eu/acronym/fra/ "FRA"
+[ftfm]: https://ansperformance.eu/acronym/ftfm/ "FTFM"
+[fua]: https://ansperformance.eu/acronym/fua/ "FUA"
+[gcd]:https://ansperformance.eu/acronym/gcd/ "Great Circle Distance"
+[kpi]: https://ansperformance.eu/acronym/kpi/ "KPI"
+[hfe-meth]: https://ansperformance.eu/methodology/horizontal-flight-efficiency-pi/ "HFE Methodology"
+[ifr]: https://ansperformance.eu/acronym/ifr/ "IFR"
+[law]: https://ansperformance.eu/bibliography/legislation/ "Legislation"
+[nm-cfmu]: https://ansperformance.eu/acronym/nm-cfmu/ "NM"
+[nm20]: https://ansperformance.eu/library/NM_20_FB750_Delay_Calculation_improvements.pdf "REA Message"
+[pru]: https://ansperformance.eu/about/us/ "PRU"
+[rai]: {{< relref "/metadata/rate-of-aircraft-interested.md" >}}   "Rate of Aircraft Interested"
+[refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
+[regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
+[ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
+[ses-portal]: {{< relref "/" >}} "SES Data Portal"
+[sua]: https://ansperformance.eu/acronym/sua/ "SUA"
+[ucr]: {{< relref "/metadata/utilisation-of-conditional-routes.md" >}}   "Utilisation of Conditional Routes"
+
