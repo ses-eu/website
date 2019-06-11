@@ -892,7 +892,7 @@ Source: Network Manager</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en_route_ATFM_delay_per_flight" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp2.md" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -957,7 +957,7 @@ Source: PRU analysis; Network Manager</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Average_horizontal_en-route_inefficiency" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/average-horizontal-en-route-inefficiency.md" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -996,7 +996,7 @@ Source: PRU analysis; Airports</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Additional_time_in_taxi-out_phase" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/additional-taxi-out-time.html" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -1036,7 +1036,7 @@ Source: PRU analysis; Airports; Network Manager</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Arrival_sequencing_and_metering_area_%28ASMA%29_additional_time" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -1092,7 +1092,7 @@ Source: Network Manager</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Minutes_of_en-route_ATFM_delay_per_flight" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp2.md" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -1133,7 +1133,7 @@ Source: PRU analysis; Network Manager</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/Airport_ATFM_delay" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/airport-atfm-delay.md" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -1175,7 +1175,7 @@ Source: Network Manager</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/ATFM_slot_adherence" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/atfm-slot-adherence.md" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -1212,7 +1212,7 @@ Source: Airports</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/ATC_pre-departure_delay" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/atc-pre-departure-delay.md" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -1301,7 +1301,7 @@ Source: States, CRCO</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/rp2.md" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -1359,7 +1359,7 @@ Source: States, CRCO</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href="http://prudata.webfactional.com/wiki/index.php/RP2_(2015-2019)" target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/rp2.md" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
