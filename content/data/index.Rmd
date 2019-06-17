@@ -13,33 +13,33 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
-| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP2_APT_ASMA_2019_Jan_Mar.xlsx][RP2_APT_ASMA_2019]           |
-| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP2_APT_ATC_PRE_2019_Jan_Mar.xlsx][RP2_APT_ATC_PRE_2019]     |
-| Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP2_APT_ATFM_ARR_2019_Jan_Apr.xlsx][RP2_APT_ATFM_ARR_2019]   |
-| Adherence to ATFM slots               | [{{% dwnld_i %}} RP2_APT_ATFM_SLOT_2019_Jan_Apr.xlsx][RP2_APT_ATFM_SLOT_2019] |
-| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP2_APT_TxOut_2019_Jan_Mar.xlsx][RP2_APT_TxOut_2019]         |
-| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP2_ERT_ATFM_2019_Jan_Apr.xlsx][RP2_ERT_ATFM_2019]           |
-| En-route Service Units                | [{{% dwnld_i %}} RP2_ERT_SU_2019_Jan_Apr.xlsx][RP2_ERT_SU_2019]               |
-| Average daily IFR Flight              | [{{% dwnld_i %}} RP2_Flights_2019_Jan_Apr.xlsx][RP2_Flights_2019]             |
-| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP2_FLT_EFF_2019_Jan_Apr.xlsx][RP2_FLT_EFF_2019]             |
+| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP2_APT_ASMA_2019_Jan_Apr.xlsx][RP2_APT_ASMA_2019]           |
+| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP2_APT_ATC_PRE_2019_Jan_Apr.xlsx][RP2_APT_ATC_PRE_2019]     |
+| Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP2_APT_ATFM_ARR_2019_Jan_May.xlsx][RP2_APT_ATFM_ARR_2019]   |
+| Adherence to ATFM slots               | [{{% dwnld_i %}} RP2_APT_ATFM_SLOT_2019_Jan_May.xlsx][RP2_APT_ATFM_SLOT_2019] |
+| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP2_APT_TxOut_2019_Jan_Apr.xlsx][RP2_APT_TxOut_2019]         |
+| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP2_ERT_ATFM_2019_Jan_May.xlsx][RP2_ERT_ATFM_2019]           |
+| En-route Service Units                | [{{% dwnld_i %}} RP2_ERT_SU_2019_Jan_May.xlsx][RP2_ERT_SU_2019]               |
+| Average daily IFR Flight              | [{{% dwnld_i %}} RP2_Flights_2019_Jan_May.xlsx][RP2_Flights_2019]             |
+| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP2_FLT_EFF_2019_Jan_May.xlsx][RP2_FLT_EFF_2019]             |
 | En route Cost efficiency              | - data to be available soon             |
 | Terminal Cost efficiency              | - data to be available soon             |
 
 
-[RP2_APT_ASMA_2019]:      ../download/2019/RP2_APT_ASMA_2019_Jan_Mar.xlsx
-[RP2_APT_ATC_PRE_2019]:   ../download/2019/RP2_APT_ATC_PRE_2019_Jan_Mar.xlsx
-[RP2_APT_TxOut_2019]:     ../download/2019/RP2_APT_TxOut_2019_Jan_Mar.xlsx
-[RP2_APT_ATFM_ARR_2019]:  ../download/2019/RP2_APT_ATFM_ARR_2019_Jan_Apr.xlsx
-[RP2_APT_ATFM_SLOT_2019]: ../download/2019/RP2_APT_ATFM_SLOT_2019_Jan_Apr.xlsx
-[RP2_ERT_ATFM_2019]:      ../download/2019/RP2_ERT_ATFM_2019_Jan_Apr.xlsx
-[RP2_ERT_SU_2019]:        ../download/2019/RP2_ERT_SU_2019_Jan_Apr.xlsx
-[RP2_Flights_2019]:       ../download/2019/RP2_Flights_2019_Jan_Apr.xlsx
-[RP2_FLT_EFF_2019]:       ../download/2019/RP2_FLT_EFF_2019_Jan_Apr.xlsx
+[RP2_APT_ASMA_2019]:      ../download/2019/RP2_APT_ASMA_2019_Jan_Apr.xlsx
+[RP2_APT_ATC_PRE_2019]:   ../download/2019/RP2_APT_ATC_PRE_2019_Jan_Apr.xlsx
+[RP2_APT_TxOut_2019]:     ../download/2019/RP2_APT_TxOut_2019_Jan_Apr.xlsx
+[RP2_APT_ATFM_ARR_2019]:  ../download/2019/RP2_APT_ATFM_ARR_2019_Jan_May.xlsx
+[RP2_APT_ATFM_SLOT_2019]: ../download/2019/RP2_APT_ATFM_SLOT_2019_Jan_May.xlsx
+[RP2_ERT_ATFM_2019]:      ../download/2019/RP2_ERT_ATFM_2019_Jan_May.xlsx
+[RP2_ERT_SU_2019]:        ../download/2019/RP2_ERT_SU_2019_Jan_May.xlsx
+[RP2_Flights_2019]:       ../download/2019/RP2_Flights_2019_Jan_May.xlsx
+[RP2_FLT_EFF_2019]:       ../download/2019/RP2_FLT_EFF_2019_Jan_May.xlsx
 [RP2_ERT_CEF_2019]:       ../download/2019/RP2_ERT_CEF_2019_Apr.xlsx
 [RP2_TRM_CEF_2019]:       ../download/2019/RP2_TRM_CEF_2019_Apr.xlsx
 
 
-## 2018 (Please note that the post operational adjustments are not yet included)
+## 2018 (post operational adjustments are taken into account (Status 29 April 2019))
 
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
@@ -54,7 +54,9 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP2_FLT_EFF_2018_Jan_Dec.xlsx][RP2_FLT_EFF_2018]             |
 | En route Cost efficiency              | [{{% dwnld_i %}} RP2_ERT_CEF_2018.xlsx][RP2_ERT_CEF_2018]             |
 | Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2018.xlsx][RP2_TRM_CEF_2018]             |
-
+| Effectiveness of Safety Management    | [{{% dwnld_i %}} RP2_SAF_EoSM_2018.xlsx][RP2_SAF_EoSM_2018]           |
+| RAT Methodology Application           | [{{% dwnld_i %}} RP2_SAF_RAT_2018.xlsx][RP2_SAF_RAT_2018]             |
+| Reporting of Just Culture             | [{{% dwnld_i %}} RP2_SAF_JC_2018.xlsx][RP2_SAF_JC_2018]               |
 
 [RP2_APT_ASMA_2018]:      ../download/2018/RP2_APT_ASMA_2018_Jan_Dec.xlsx
 [RP2_APT_ATC_PRE_2018]:   ../download/2018/RP2_APT_ATC_PRE_2018_Jan_Dec.xlsx
@@ -67,7 +69,9 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP2_FLT_EFF_2018]:       ../download/2018/RP2_FLT_EFF_2018_Jan_Dec.xlsx
 [RP2_ERT_CEF_2018]:       ../download/2018/RP2_ERT_CEF_2018.xlsx
 [RP2_TRM_CEF_2018]:       ../download/2018/RP2_TRM_CEF_2018.xlsx
-
+[RP2_SAF_EoSM_2018]:      ../download/2018/RP2_SAF_EoSM_2018.xlsx
+[RP2_SAF_RAT_2018]:       ../download/2018/RP2_SAF_RAT_2018.xlsx
+[RP2_SAF_JC_2018]:        ../download/2018/RP2_SAF_JC_2018.xlsx
 
 ## 2017
 
