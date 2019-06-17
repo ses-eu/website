@@ -39,7 +39,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP2_TRM_CEF_2019]:       ../download/2019/RP2_TRM_CEF_2019_Apr.xlsx
 
 
-## 2018 (Please note that the post operational adjustments are not yet included)
+## 2018 (post operational adjustments are taken into account (Status 29 April 2019))
 
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
@@ -54,7 +54,9 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP2_FLT_EFF_2018_Jan_Dec.xlsx][RP2_FLT_EFF_2018]             |
 | En route Cost efficiency              | [{{% dwnld_i %}} RP2_ERT_CEF_2018.xlsx][RP2_ERT_CEF_2018]             |
 | Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2018.xlsx][RP2_TRM_CEF_2018]             |
-
+| Effectiveness of Safety Management    | [{{% dwnld_i %}} RP2_SAF_EoSM_2018.xlsx][RP2_SAF_EoSM_2018]           |
+| RAT Methodology Application           | [{{% dwnld_i %}} RP2_SAF_RAT_2018.xlsx][RP2_SAF_RAT_2018]             |
+| Reporting of Just Culture             | [{{% dwnld_i %}} RP2_SAF_JC_2018.xlsx][RP2_SAF_JC_2018]               |
 
 [RP2_APT_ASMA_2018]:      ../download/2018/RP2_APT_ASMA_2018_Jan_Dec.xlsx
 [RP2_APT_ATC_PRE_2018]:   ../download/2018/RP2_APT_ATC_PRE_2018_Jan_Dec.xlsx
@@ -67,7 +69,9 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP2_FLT_EFF_2018]:       ../download/2018/RP2_FLT_EFF_2018_Jan_Dec.xlsx
 [RP2_ERT_CEF_2018]:       ../download/2018/RP2_ERT_CEF_2018.xlsx
 [RP2_TRM_CEF_2018]:       ../download/2018/RP2_TRM_CEF_2018.xlsx
-
+[RP2_SAF_EoSM_2018]:      ../download/2017/RP2_SAF_EoSM_2018.xlsx
+[RP2_SAF_RAT_2018]:       ../download/2017/RP2_SAF_RAT_2018.xlsx
+[RP2_SAF_JC_2018]:        ../download/2017/RP2_SAF_JC_2018.xlsx
 
 ## 2017
 
