@@ -69,9 +69,9 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP2_FLT_EFF_2018]:       ../download/2018/RP2_FLT_EFF_2018_Jan_Dec.xlsx
 [RP2_ERT_CEF_2018]:       ../download/2018/RP2_ERT_CEF_2018.xlsx
 [RP2_TRM_CEF_2018]:       ../download/2018/RP2_TRM_CEF_2018.xlsx
-[RP2_SAF_EoSM_2018]:      ../download/2017/RP2_SAF_EoSM_2018.xlsx
-[RP2_SAF_RAT_2018]:       ../download/2017/RP2_SAF_RAT_2018.xlsx
-[RP2_SAF_JC_2018]:        ../download/2017/RP2_SAF_JC_2018.xlsx
+[RP2_SAF_EoSM_2018]:      ../download/2018/RP2_SAF_EoSM_2018.xlsx
+[RP2_SAF_RAT_2018]:       ../download/2018/RP2_SAF_RAT_2018.xlsx
+[RP2_SAF_JC_2018]:        ../download/2018/RP2_SAF_JC_2018.xlsx
 
 ## 2017
 
