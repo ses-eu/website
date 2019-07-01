@@ -1,0 +1,7 @@
+---
+title: "July 2019 Release"
+date: 2019-07-15
+categories: ["Release"]
+---
+
+* Update of portal up to June 2019
