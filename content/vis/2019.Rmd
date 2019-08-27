@@ -1235,7 +1235,7 @@ Source: Airports</div>
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-Jun</span></div>
+Period: January-Jul</span></div>
 </td>
 <td>
 
