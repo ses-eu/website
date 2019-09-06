@@ -37,7 +37,7 @@ The main changes I made to the original hugo-lithium-theme are:
 
 1. Improved Hugo's built-in Disqus template, so that you can actually the comments even when you are previewing the website locally.
 
-1. Replaced the variable `.Permalink` with `.RelPermalink`, and function `absURL` with `relURL` where necessary. It is a bad idea to use full absolute links (with the protocol and domain) in general. For example, `.Permalink` and `absURL` may generate URLs of the form `http://www.example.com/foo/bar.html`, but `/foo/bar.html` is more portable.
+1. Replaced the variable `.Permalink` with `.RelPermalink`, and function `absURL` with `relURL` where necessary. It is a bad idea to use full absolute links (with the protocol and domain) in general. For example, `.Permalink` and `absURL` may generate URLs of the form `https://www.example.com/foo/bar.html`, but `/foo/bar.html` is more portable.
 
 ## License
 
