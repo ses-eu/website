@@ -109,5 +109,5 @@ before the questionnaires and their results are submitted to EASA.
 ANSPs should assign a focal point for the purpose of the verification process.
 
 A detailed description of the EoSM indicator and data requirements are available from the
-[EASA Acceptable Means of Compliance and Guidance Material (EASA AMC/GM)](http://easa.europa.eu/system/files/dfu/Annex%20to%20ED%20Decision%202014-035-R.pdf#SKPI).
+[EASA Acceptable Means of Compliance and Guidance Material (EASA AMC/GM)](https://easa.europa.eu/system/files/dfu/Annex%20to%20ED%20Decision%202014-035-R.pdf#SKPI).
 

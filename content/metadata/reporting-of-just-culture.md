@@ -49,8 +49,8 @@ td, th {
 ### Data description
 
 #### ref. EASA Annex to ED Decision 2014 / 035 / R
-* [AMC9 SKPI Just Culture reporting at State level](http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r)
-* [AMC10 SKPI Just Culture reporting at ANSP level](http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r)
+* [AMC9 SKPI Just Culture reporting at State level](https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r)
+* [AMC10 SKPI Just Culture reporting at ANSP level](https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r)
 
 
 **Reporting of Just culture|Just Culture (JC)** aims at identifying possible obstacles and
@@ -64,7 +64,7 @@ In accordance with EU legislation, States and [ANSP]s are required to complete a
 which measures the level of presence and corresponding level of absence of Just Culture.
 
 A detailed description of the indicator and data requirements are available from the
-[EASA Acceptable Means of Compliance and Guidance Material (EASA AMC/GM)](http://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI). <br>
+[EASA Acceptable Means of Compliance and Guidance Material (EASA AMC/GM)](https://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI). <br>
 
 **Disclaimer**<br>
 Just Culture is studied for the first time at European level. 
@@ -96,7 +96,7 @@ of the economy.
 ### Statistical concepts and definitions
 
 The metrics are based on two questionnaires (State and ANSP level) published in the
-[EASA AMC/GM documents](http://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI).
+[EASA AMC/GM documents](https://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI).
 
 |                                   | Policy and its implementation   | Legal/judiciary | Occurrence reporting and investigation |
 |-----------------------------------|---------------------------------|-----------------|----------------------------------------|
@@ -157,9 +157,9 @@ Provisions are established in:
 * [Single Sky Framework Regulation (EC) 549/2004][law];
 * [Commission Implementing Regulation (EU) No 390 / 2013][law];
 * [Performance Regulation (691 / 2010)][law];
-* [EASA Basic Regulation (EC) No 216 / 2008](http://www.easa.europa.eu/approvals-and-standardisation/docs/syllabi/Syllabus_216_General_05032009.pdf);
-* [EASA Standardisation Inspection (EU) 736 / 2006](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2006:129:0010:0015:EN:PDF); and, 
-* [EASA AMC/GM for Safety KPIs, issued by EASA in coordination with PRB](http://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI).
+* [EASA Basic Regulation (EC) No 216 / 2008](https://www.easa.europa.eu/approvals-and-standardisation/docs/syllabi/Syllabus_216_General_05032009.pdf);
+* [EASA Standardisation Inspection (EU) 736 / 2006](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2006:129:0010:0015:EN:PDF); and, 
+* [EASA AMC/GM for Safety KPIs, issued by EASA in coordination with PRB](https://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI).
 
 
 ## Confidentiality
@@ -194,7 +194,7 @@ Information is disseminated to the general public via the [SES Data Portal][ses-
 ## Accessibility of documentation
 
 Documentation on methodology is available at
-[EASA Acceptable means of compliance and guidance material](http://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI).
+[EASA Acceptable means of compliance and guidance material](https://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI).
 
 
 ## Quality Management
@@ -226,7 +226,7 @@ either there is a specific organisation or the existing oversight organisation i
 verify the questionnaire.
 The uniformity of NSA verification output across Europe is maintained through:
 
-* the [AMC/GM material published by EASA](http://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI);
+* the [AMC/GM material published by EASA](https://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI);
 * the FAQ EASA web-page;
 * the EASA helpdesk; and,
 * the organisation of workshops and/or bilateral meetings.
@@ -375,5 +375,5 @@ The information may be copied in whole or in part providing that the copyright n
 [regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
 [ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
 [ses-portal]: {{< relref "/" >}} "SES Data Portal"
-[slQ]: http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r "State Level Questionnaire"
-[alQ]: http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r "ANSP Level Questionnaire"
+[slQ]: https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r "State Level Questionnaire"
+[alQ]: https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r "ANSP Level Questionnaire"

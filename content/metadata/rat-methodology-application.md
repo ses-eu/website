@@ -55,7 +55,7 @@ Separation Minima Infringements, Runway Incursions and ATM Specific Technical Ev
 
 #### ref. Annex to ED Decision 2014/035/R
 
-* [AMC4 SKPI GENERAL DESCRIPTION](http://easa.europa.eu/system/files/dfu/Annex%20to%20ED%20Decision%202014-035-R.pdf)
+* [AMC4 SKPI GENERAL DESCRIPTION](https://easa.europa.eu/system/files/dfu/Annex%20to%20ED%20Decision%202014-035-R.pdf)
   
 The Severity classification based on the RAT methodology follows the principle of evaluating
 several criteria and allocating a certain score to each criterion, depending on how severe
@@ -88,7 +88,7 @@ be reported.
 
 #### ref. Annex to ED Decision 2014/035/R
 
-* [AMC8 SKPI RAT METHODOLOGY](http://easa.europa.eu/system/files/dfu/Annex%20to%20ED%20Decision%202014-035-R.pdf)
+* [AMC8 SKPI RAT METHODOLOGY](https://easa.europa.eu/system/files/dfu/Annex%20to%20ED%20Decision%202014-035-R.pdf)
 
 The Member States’ points of contact, established in accordance with Directive 2003 / 42 / EC and
 Commission Regulation (EC) No 1330 / 2007, should collect verified information regarding the
@@ -113,7 +113,7 @@ The following attached graphics are consistent with the EASA AMC/GM material and
 Further information is available in the
 [EASA Acceptable Means of Compliance and Guidance Material (EASA AMC/GM)][easa-mat].
 
-[easa-mat]: http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI
+[easa-mat]: https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI
 
 
 _Note: **Member States could decide to use different means of reporting.** 
@@ -199,9 +199,9 @@ Provisions are established in:
 * [Single Sky Framework Regulation (EC) 549 / 2004 as amended by Regulation (EC) 1070 / 2009](https://eur-lex.europa.eu/eli/reg/2004/549/oj);
 * [Commission Implementing Regulation (EU) No 390 / 2013](https://eur-lex.europa.eu/eli/reg_impl/2013/590/oj);
 * [Performance Regulation (691 / 2010) as amended by Regulation (EU) 1216 / 2011](https://eur-lex.europa.eu/eli/reg/2011/1216/oj);
-* [EASA Basic Regulation (EC) No 216 / 2008](http://www.easa.europa.eu/approvals-and-standardisation/docs/syllabi/Syllabus_216_General_05032009.pdf);
-* [EASA Standardisation Inspection (EU) 736 / 2006](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2006:129:0010:0015:EN:PDF ); and,
-* [EASA AMC/GM for Safety KPIs, issued by EASA in coordination with PRB](http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI).
+* [EASA Basic Regulation (EC) No 216 / 2008](https://www.easa.europa.eu/approvals-and-standardisation/docs/syllabi/Syllabus_216_General_05032009.pdf);
+* [EASA Standardisation Inspection (EU) 736 / 2006](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2006:129:0010:0015:EN:PDF ); and,
+* [EASA AMC/GM for Safety KPIs, issued by EASA in coordination with PRB](https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI).
 
 
 ## Confidentiality
@@ -235,7 +235,7 @@ Information is disseminated to the general public via the [SES Data Portal][ses-
 ## Accessibility of documentation
 
 Documentation on methodology is available at
-[EASA Acceptable means of compliance and guidance material](http://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI).
+[EASA Acceptable means of compliance and guidance material](https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI).
 
 
 ## Quality Management

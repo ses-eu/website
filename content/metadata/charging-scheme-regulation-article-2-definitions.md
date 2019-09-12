@@ -83,6 +83,6 @@ _VFR_ means Visual Flight Rules, as defined in Annex 2 of the
 
 [ercharge]: {{< relref "en-route-ans-unit-rate.md" >}} "En-route ANS unit rate"
 [law]: https://ansperformance.eu/bibliography/legislation/ "Legislation"
-[reg549_2004]: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:2004R0549:20091204:EN:PDF "Regulation (EC) No 549/2004"
-[reg550_2004]: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:2004R0550:20091204:EN:PDF "Regulation (EC) No 550/2004"
+[reg549_2004]: https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:2004R0549:20091204:EN:PDF "Regulation (EC) No 549/2004"
+[reg550_2004]: https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:2004R0550:20091204:EN:PDF "Regulation (EC) No 550/2004"
 [trate]: https://ansperformance.eu/definition/terminal-ans-unit-rate/ "Terminal ANS Unit Rate"

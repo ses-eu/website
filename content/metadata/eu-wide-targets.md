@@ -35,4 +35,4 @@ setting the EU-wide performance targets and alert thresholds for the period 2012
 
 [prb-targets]: https://www.eurocontrol.int/sites/default/files/field_tabs/content/documents/single-sky/pru/performance-targets/rp1-eu-wide-targets-report-27092010.pdf "Proposed EU-wide performance targets for the period 2012-2014 (September 2010)"
 
-[ec-decision]: http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2011:048:0016:0018:EN:PDF "EC Decision"
+[ec-decision]: https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2011:048:0016:0018:EN:PDF "EC Decision"
