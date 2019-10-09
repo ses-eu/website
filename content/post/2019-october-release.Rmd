@@ -1,0 +1,7 @@
+---
+title: "October 2019 Release"
+date: 2019-10-09
+categories: ["Release"]
+---
+
+* Update of portal up to September 2019
