@@ -4,1070 +4,46 @@ date: 2018-01-01
 categories: ["dashboard"]
 aliases:
   - /rp2_2018.html
+extrajs: [
+  "/javascript/load_google.js",
+  "/javascript/draw_vis.js",
+  "/javascript/2018/crt_ertfltsYY_18.js",
+  "/javascript/2018/crt_ertfltsMM_18.js",
+  "/javascript/2018/tbl_ertfltsYY_18.js",
+  "/javascript/2018/crt_flteffYY_18.js",
+  "/javascript/2018/crt_flteffMM_18.js",
+  "/javascript/2018/tbl_ert_flteff_18.js",
+  "/javascript/2018/tbl_txdly_LOC_18.js",
+  "/javascript/2018/tbl_txdly_APT_18.js",
+  "/javascript/2018/tbl_ASMAdly_LOC_18.js",
+  "/javascript/2018/tbl_ASMAdly_APT_18.js",
+  "/javascript/2018/crt_ertdlyYY_18.js",
+  "/javascript/2018/crt_ertdlyMM_18.js",
+  "/javascript/2018/tbl_ertdly_YYtgt_18.js",
+  "/javascript/2018/crt_aptATFMsesYY_18.js",
+  "/javascript/2018/crt_aptATFMsesMM_18.js",
+  "/javascript/2018/tbl_aptATFM_LOC_18.js",
+  "/javascript/2018/tbl_aptATFM_APT_18.js",
+  "/javascript/2018/tbl_aptATFMADH_LOC_18.js",
+  "/javascript/2018/tbl_aptATFMADH_APT_18.js",
+  "/javascript/2018/tbl_aptATC_LOC_18.js",
+  "/javascript/2018/tbl_aptATC_APT_18.js",
+  "/javascript/2018/tbl_ertSU_18.js",
+  "/javascript/2018/crt_ertSUYYvstgt_18.js",
+  "/javascript/2018/crt_EoSMYY_AN_18.js",
+  "/javascript/2018/crt_EoSMYY_ST_18.js",
+  "/javascript/2018/tbl_EOSM_ANSP_18.js",
+  "/javascript/2018/tbl_EOSM_FAB1_18.js",
+  "/javascript/2018/tbl_EOSM_STA_18.js",
+  "/javascript/2018/crt_RAT_18.js",
+  "/javascript/2018/tbl_trcef_fab_18.js",
+  "/javascript/2018/tbl_trcef_state_18.js",
+  "/javascript/2018/tbl_ertcef_fab_18.js",
+  "/javascript/2018/tbl_ertcef_state_18.js",
+  ]
 ---
 
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
-<script type="text/javascript">
-// load the visualisation API
-google.load('visualization', '1', {
-    packages: ['corechart', 'controls']
-});
-</script>
-<script type="text/javascript">
-function drawVisualization() {
-
-  // TRAFFIC - ERT FLTS - YY - CHART
-    var crt_ertfltsYY = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_ertfltsYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hiScCg5aNIvMaocT8yUQCsKtInJXfQeS9cyvSaa9Er8/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
-        options: {
-            width: 450,
-            height: 170,
-            chartArea: {
-                left: 80,
-                top: 30,
-                width: '60%',
-                height: '65%'
-            },
-            title: 'Average daily IFR flights (EU-wide)',
-            titleTextStyle: {
-                color: '#1F1F2E',
-                fontSize: 12
-            },
-            legend: 'none',
-            series: {
-                0: {
-                    type: 'bars',
-                    color: '#7DD2F2',
-                    targetAxisIndex: 0
-                },
-                1: {
-                    type: 'lines',
-                    color: '#B89470',
-                    lineWidth: 2,
-                    pointSize: 7,
-                    targetAxisIndex: 1
-                }
-            },
-            vAxes: {
-                0: {
-                    title: 'Avg. daily IFR flights',
-                    titleTextStyle: {
-                        color: '#1F1F2E',
-                        fontSize: 11
-                    },
-                    minValue: 0.00,
-                    textStyle: {
-                        color: '#1F1F2E'
-                    }
-                },
-                1: {
-                    title: 'year on year (%)',
-                    titleTextStyle: {
-                        color: '#1F1F2E',
-                        fontSize: 11
-                    },
-                    maxValue: 0.04,
-                    textStyle: {
-                        color: '#B89470'
-                    }
-                }
-            }
-        },
-        view: {
-            columns: [0, 3, 4],
-            rows: [0, 1, 2, 3, 4]
-        }
-    });
-    crt_ertfltsYY.draw();
-
-
-  // TRAFFIC - ERT FLTS - MM - CHART
-    var crt_ertfltsMM = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_ertfltsMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hiScCg5aNIvMaocT8yUQCsKtInJXfQeS9cyvSaa9Er8/edit?usp=sharing&sheet=ERT_FLTS_MM&range=A4:I64&tq=where%20I%3D1',
-        options: {
-            width: 450,
-            height: 190,
-            chartArea: {
-                left: 80,
-                top: 30,
-                width: '60%',
-                height: '60%'
-            },
-            title: 'Avg. daily IFR flights',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 12
-            },
-            legend: 'none',
-            series: {
-                0: {
-                    type: 'bars',
-                    color: '#7DD2F2',
-                    targetAxisIndex: 0
-                },
-                1: {
-                    type: 'lines',
-                    color: '#B89470',
-                    lineWidth: 2,
-                    pointSize: 6,
-                    targetAxisIndex: 1
-                }
-            },
-            vAxes: {
-                0: {
-                    title: 'Avg. daily IFR flights',
-                    titleTextStyle: {
-                        color: '#1F1F2E',
-                        fontSize: 11
-                    },
-                    minValue: 0.00,
-                    textStyle: {
-                        color: '#1F1F2E'
-                    }
-                },
-                1: {
-                    title: 'cum. change vs. prev. year (%)',
-                    titleTextStyle: {
-                        color: '#1F1F2E',
-                        fontSize: 11
-                    },
-                    maxValue: 0.04,
-                    textStyle: {
-                        color: '#B89470'
-                    }
-                }
-            }
-        },
-        view: {
-            columns: [2, 6, 7]
-        }
-    });
-    crt_ertfltsMM.draw();
-
-
-  // TRAFFIC - ERT FLTS - TABLE
-    var tbl_ertflts_YY = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_ertflts_YY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hiScCg5aNIvMaocT8yUQCsKtInJXfQeS9cyvSaa9Er8/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:F15',
-        options: {
-            allowHtml: false,
-            width: 470,
-            height: 340
-        },
-        view: {
-            columns: [0, 3, 4, 5]
-        }
-    });
-    tbl_ertflts_YY.draw();
-
-
-  // EoSM - YY - CHART - [EU_YY]
-    var crt_EoSMYY_ST = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_EoSMYY_ST',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_State_Score&range=A1:F31',
-        options: {
-            width: 475,
-            height: 230,
-            chartArea: {
-                left: 50,
-                top: 30,
-                width: '85%',
-                height: '50%'
-            },
-            title: 'Effectiveness of Safety Management score (State level)',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 12
-            },
-            legend: 'none',
-            isStacked: 'true',
-            seriesType: 'bars',
-            colors: ['#7DD2F2'],
-            vAxis: {
-                title: 'EoSM score',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 11
-                }
-            },
-            hAxis: {
-                title: 'EASA verified results',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 11
-                },
-                type: 'string',
-                slantedText: true,
-                slantedTextAngle: 90,
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            }
-        },
-        view: {
-            'columns': [0, 5]
-        }
-    });
-    crt_EoSMYY_ST.draw();
-
-
-  // EoSM - YY - CHART - [EU_YY]
-    var crt_EoSMYY_AN = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_EoSMYY_AN',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_ANSP_Score&range=A1:F32',
-        options: {
-            width: 475,
-            height: 230,
-            chartArea: {
-                left: 50,
-                top: 30,
-                width: '85%',
-                height: '50%'
-            },
-            title: 'Effectiveness of Safety Management score (ANSP level)',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 12
-            },
-            legend: 'none',
-            isStacked: 'true',
-            seriesType: 'bars',
-            colors: ['#7DD2F2'],
-            vAxis: {
-                title: 'EoSM score',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 11
-                }
-            },
-            hAxis: {
-                title: 'Verified by NSAs',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 11
-                },
-                type: 'string',
-                slantedText: true,
-                slantedTextAngle: 90,
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            }
-        },
-        view: {
-            'columns': [0, 5]
-        }
-    });
-    crt_EoSMYY_AN.draw();
-
-  // EoSM - YY - CHART - [TABLE FAB]
-    var tbl_EOSM_FAB_1 = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_EOSM_FAB_1',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_FAB_MIN_LEV&range=A3:K12',
-        options: {
-            header: true,
-            allowHtml: true,
-            width: 950,
-            height: 150
-        },
-        view: {
-            columns: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-        }
-    });
-    tbl_EOSM_FAB_1.draw();
-
-
-  // EoSM - YY - CHART - [TABLE STATE LEVEL]
-    var tbl_EOSM_STA = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_EOSM_STA',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_State_MIN_LEV&range=A3:J33',
-        options: {
-            header: true,
-            allowHtml: true,
-            width: 950,
-            height: 150
-        },
-        view: {
-            columns: [1, 3, 4, 5, 6, 7, 8, 9]
-        }
-    });
-    tbl_EOSM_STA.draw();
-
-  // EoSM - YY - CHART - [TABLE ANSP LEVEL]
-    var tbl_EOSM_ANSP = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_EOSM_ANSP',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hVbkaAroiO-uo6hDSZYZ1nF5qExhJ6TwQKRTDcz-uk4/edit?usp=sharing&sheet=EoSM_ANSP_MIN_LEV&range=A3:J34',
-        options: {
-            header: true,
-            allowHtml: true,
-            width: 950,
-            height: 150
-        },
-        view: {
-            columns: [1, 3, 4, 5, 6, 7, 8, 9]
-        }
-    });
-    tbl_EOSM_ANSP.draw();
-
-  // RAT - YY - CHART - [EU_YY]
-    var Y15_crt_RAT = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'Y15_crt_RAT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1F74qjFgYwWJsmMpwnGkyMpDRCbUwiPHRq3F0lN4nE5Y/edit?usp=sharing&sheet=SES_RP2&range=A1:B6',
-        options: {
-            width: 475,
-            height: 230,
-            chartArea: {
-                left: 50,
-                top: 30,
-                width: '85%',
-                height: '50%'
-            },
-            title: ' % severity assessed with RAT (EU RP2 States)',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 12
-            },
-            legend: 'none',
-            isStacked: 'true',
-            seriesType: 'bars',
-            colors: ['#7DD2F2'],
-            vAxis: {
-                title: '% severity assessed',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 11
-                }
-            },
-            hAxis: {
-                title: 'The State level results can be found in the download file',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 11
-                },
-                type: 'string',
-                //slantedText:true,
-                //slantedTextAngle: 0,
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 11
-                }
-            }
-        },
-        view: {
-            'columns': [0, 1]
-        }
-    });
-    Y15_crt_RAT.draw();
-
-
-  // ENVIRONMENT - Horizontal flight efficiency - YY - CHART
-    var crt_flteffYY = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_flteffYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1AjwaFO1aKvKH0voqXWxx6GHTLOTwMqlkEzjLYFyet4Q/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G10',
-        options: {
-            width: 450,
-            height: 180,
-            chartArea: {
-                left: 50,
-                top: 30,
-                width: '55%',
-                height: '60%'
-            },
-            title: 'Horiz. en-route flight efficiency (yearly)',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 11
-            },
-            legend: {
-                position: 'right',
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            },
-            series: {
-                1: {
-                    type: 'lines',
-                    color: '#5D7CBA',
-                    lineWidth: 1,
-                    pointSize: 3
-                },
-                0: {
-                    type: 'lines',
-                    color: '#5D7CBA',
-                    lineWidth: 1,
-                    lineDashStyle: [6, 3]
-                },
-                3: {
-                    type: 'lines',
-                    color: '#c0504d',
-                    lineWidth: 1,
-                    pointSize: 4,
-                    pointShape: 'diamond',
-                },
-                2: {
-                    type: 'lines',
-                    color: '#C0504D',
-                    lineWidth: 1,
-                    lineDashStyle: [6, 3]
-                }
-            },
-            vAxis: {
-                title: 'Inefficiency (%)',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                },
-                minValue: 0.02,
-                maxValue: 0.06,
-                viewWindow: {
-                    min: 0.02,
-                    max: 0.06
-                },
-                format: '0.0%'
-            },
-            hAxis: {
-                title: 'Annual values for the SES-RP2 area',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            }
-        },
-        view: {
-            columns: [1, 3, 4, 5, 6],
-            rows: [0, 1, 2, 3, 4]
-        }
-    });
-    crt_flteffYY.draw();
-
-
-  // ENVIRONMENT - Horizontal flight efficiency - MM - CHART
-    var crt_flteffMM = new google.visualization.ChartWrapper({
-        chartType: 'LineChart',
-        containerId: 'crt_flteffMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1AjwaFO1aKvKH0voqXWxx6GHTLOTwMqlkEzjLYFyet4Q/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
-        options: {
-            width: 450,
-            height: 190,
-            chartArea: {
-                left: 50,
-                top: 30,
-                width: '55%',
-                height: '50%'
-            },
-            title: 'Horiz. en-route flight efficiency (monthly)',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 11
-            },
-            legend: {
-                position: 'right',
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            },
-            series: {
-                0: {
-                    type: 'lines',
-                    color: '#c0504d',
-                    lineWidth: 1,
-                    pointSize: 4,
-                    pointShape: 'diamond'
-                },
-                1: {
-                    type: 'lines',
-                    color: '#5D7CBA',
-                    lineWidth: 1,
-                    pointSize: 3
-                }
-            },
-            vAxis: {
-                title: 'Inefficiency (%)',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                },
-                minValue: 0.02,
-                maxValue: 0.06,
-                viewWindow: {
-                    min: 0.02,
-                    max: 0.06
-                },
-                format: '0.0%'
-            },
-            hAxis: {
-                title: 'Monthly values for the SES-RP2 area',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                },
-                type: 'string',
-                slantedText: true,
-                slantedTextAngle: 40,
-                textStyle: {
-                    fontSize: 11
-                }
-            }
-        },
-        view: {
-            'columns': [0, 3, 4]
-        }
-    });
-    crt_flteffMM.draw();
-
-  // ENVIRONMENT - Horizontal flight efficiency - TABLE
-    var tbl_ert_flteff = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_ert_flteff',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1AjwaFO1aKvKH0voqXWxx6GHTLOTwMqlkEzjLYFyet4Q/edit?usp=sharing&sheet=ERT_FLT_EFF_FAB&range=A5:E15&hl=en_GB',
-        options: {
-            allowHtml: true,
-            width: 470,
-            height: 360,
-            //style: {fontSize: 9}
-        },
-        view: {
-            columns: [0, 2, 3, 4]
-        }
-    });
-    tbl_ert_flteff.draw();
-
-  // ENVIRONMENT - ASMA DLY - LOC - TABLE
-    var tbl_ASMAdly_LOC = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_ASMAdly_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1SWEjdnPSoUMjV4ro6sw4IXj_WDXp9pcseavJAF7V5E0/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
-        options: {
-            allowHtml: false,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [0, 5, 1]
-        }
-    });
-    tbl_ASMAdly_LOC.draw();
-    // ENVIRONMENT - ASMA DLY - APT - TABLE
-    var tbl_ASMAdly_APT = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_ASMAdly_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1SWEjdnPSoUMjV4ro6sw4IXj_WDXp9pcseavJAF7V5E0/edit?usp=sharing&sheet=ASMA_APT&range=A5:G180',
-        options: {
-            allowHtml: false,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [1, 2, 0, 3]
-        }
-    });
-    tbl_ASMAdly_APT.draw();
-
-  // ENVIRONMENT - TAXI OUT DLY - LOC - TABLE
-    var tbl_txdly_LOC = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_txdly_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Jn2vPNrkD_LyG2nBIbbkmgPR5AYmQPElhYXXA5ffzlY/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F35',
-        options: {
-            allowHtml: false,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [0, 5, 1]
-        }
-    });
-    tbl_txdly_LOC.draw();
-    // ENVIRONMENT - TAXI OUT DLY - APT - TABLE
-    var tbl_txdly_APT = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_txdly_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Jn2vPNrkD_LyG2nBIbbkmgPR5AYmQPElhYXXA5ffzlY/edit?usp=sharing&sheet=TxOut_APT&range=A5:G180',
-        options: {
-            allowHtml: false,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [1, 2, 0, 3]
-        }
-    });
-    tbl_txdly_APT.draw();
-
-  // CAPACITY - En-route ATFM delay - YY - CHART
-    var crt_ertdlyYY = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_ertdlyYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1mYI1UNp8jWrYmPxjg0-y6CMvjvSVsaSSjjXKmHneEQo/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:F10',
-        options: {
-            width: 450,
-            height: 160,
-            chartArea: {
-                left: 50,
-                top: 30,
-                width: '55%',
-                height: '60%'
-            },
-            title: 'En-route ATFM delays (SES RP2 area)',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 11
-            },
-            legend: {
-                position: 'right',
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            },
-            isStacked: 'true',
-            series: {
-                1: {
-                    type: 'bars',
-                    color: '#7DD2F2'
-                },
-                0: {
-                    type: 'lines',
-                    color: 'D80032',
-                    lineWidth: 0.5,
-                    pointSize: 7
-                }
-            },
-            vAxis: {
-                title: 'minutes per flight',
-                format: '0.00',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            }
-        },
-        view: {
-            'columns': [0, 4, 1]
-        }
-    });
-    crt_ertdlyYY.draw();
-
-  // CAPACITY - En-route ATFM delay - MM - CHART
-    var crt_ertdlyMM = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_ertdlyMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1mYI1UNp8jWrYmPxjg0-y6CMvjvSVsaSSjjXKmHneEQo/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:G65&tq=where%20G%3D1',
-        options: {
-            width: 450,
-            height: 190,
-            chartArea: {
-                left: 80,
-                top: 30,
-                width: '60%',
-                height: '60%'
-            },
-            title: 'En-route ATFM delays (SES RP2 Area)',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 11
-            },
-            legend: {
-                position: 'right',
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            },
-            isStacked: 'true',
-            series: {
-                0: {
-                    type: 'lines',
-                    color: '#5D7CBA',
-                    lineWidth: 1,
-                    pointSize: 6
-                },
-                1: {
-                    type: 'bars',
-                    color: '#7DD2F2'
-                }
-            },
-            vAxis: {
-                title: 'minutes per flight',
-                format: '0.00',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            }
-        },
-        view: {
-            'columns': [1, 5, 2]
-        }
-    });
-    crt_ertdlyMM.draw();
-
-  // ERT ATFM DLY - YY EU wide - TABLE
-    var tbl_ertdly_YYtgt = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_ertdly_YYtgt',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1mYI1UNp8jWrYmPxjg0-y6CMvjvSVsaSSjjXKmHneEQo/edit?usp=sharing&sheet=ERT_ATFM_LOC&range=A5:F15&hl=en_GB',
-        options: {
-            allowHtml: false,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [0, 1, 4, 5]
-        }
-    });
-    tbl_ertdly_YYtgt.draw();
-
-
-  // CAPACITY - Airport ATFM arrival delay - YY - CHART
-    var crt_aptATFMsesYY = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_aptATFMsesYY',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zGSfKcWwkWzntORgUrWG4n09VVtNG3cWQtKNViwiAwk/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D10',
-        options: {
-            width: 450,
-            height: 190,
-            chartArea: {
-                left: 80,
-                top: 30,
-                width: '60%',
-                height: '60%'
-            },
-            title: 'Airport ATFM arrival delays (SES-RP2 airports)',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 11
-            },
-            legend: {
-                position: 'right',
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            },
-            isStacked: 'true',
-            seriesType: 'bars',
-            colors: ['#7DD2F2'],
-            vAxis: {
-                title: 'minutes per arrival',
-                format: '0.00',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            }
-        },
-        view: {
-            columns: [0, 1],
-            rows: [0, 1, 2, 3, 4]
-        }
-    });
-    crt_aptATFMsesYY.draw();
-
-  // CAPACITY - Airport ATFM arrival delay - MM - CHART
-    var crt_aptATFMsesMM = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_aptATFMsesMM',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zGSfKcWwkWzntORgUrWG4n09VVtNG3cWQtKNViwiAwk/edit?usp=sharing&sheet=APT_ATFM_SES_MM&range=A5:G65&tq=where%20G%3D1',
-        options: {
-            width: 450,
-            height: 190,
-            chartArea: {
-                left: 80,
-                top: 30,
-                width: '60%',
-                height: '60%'
-            },
-            title: 'Airport arr. ATFM delays (SES-RP2 airports)',
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 11
-            },
-            legend: {
-                position: 'right',
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            },
-            isStacked: 'true',
-            series: {
-                0: {
-                    type: 'lines',
-                    color: '#5D7CBA',
-                    lineWidth: 1,
-                    pointSize: 6
-                },
-                1: {
-                    type: 'bars',
-                    color: '#7DD2F2'
-                }
-            },
-            vAxis: {
-                title: 'minutes per arrival',
-                format: '0.00',
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            }
-        },
-        view: {
-            'columns': [1, 5, 2]
-        }
-    });
-    crt_aptATFMsesMM.draw();
-
-  // CAPACITY - Airport ATFM arrival delay - LOC - TABLE
-    var tbl_aptATFM_LOC = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_aptATFM_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zGSfKcWwkWzntORgUrWG4n09VVtNG3cWQtKNViwiAwk/edit?usp=sharing&sheet=APT_ATFM_LOC&range=A5:G35',
-        options: {
-            allowHtml: true,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [0, 1, 2, 3, 4]
-        }
-    });
-    tbl_aptATFM_LOC.draw();
-
-  // CAPACITY - Airport ATFM arrival delay - APT - TABLE
-    var tbl_aptATFM_APT = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_aptATFM_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zGSfKcWwkWzntORgUrWG4n09VVtNG3cWQtKNViwiAwk/edit?usp=sharing&sheet=APT_ATFM_APT&range=A5:F180',
-        options: {
-            allowHtml: true,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [1, 2, 0, 3]
-        }
-    });
-    tbl_aptATFM_APT.draw();
-
-  // CAPACITY - Airport ATFM slot adherence LOC - TABLE
-    var tbl_aptATFMADH_LOC = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_aptATFMADH_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1nrNr3HaDou6A3k3GkTNwRRIGxwHq0vSDIp1sT1i_gxM/edit?usp=sharing&sheet=APT_ATFM_ADH_LOC&range=A5:B35',
-        options: {
-            allowHtml: true,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [0, 1]
-        }
-    });
-    tbl_aptATFMADH_LOC.draw();
-
-  // CAPACITY - Airport ATFM slot adherence APT - TABLE
-    var tbl_aptATFMADH_APT = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_aptATFMADH_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1nrNr3HaDou6A3k3GkTNwRRIGxwHq0vSDIp1sT1i_gxM/edit?usp=sharing&sheet=APT_ATFM_ADH_APT&range=A5:D180',
-        options: {
-            allowHtml: true,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [1, 2, 0, 3]
-        }
-    });
-    tbl_aptATFMADH_APT.draw();
-
-  // CAPACITY - Airport ATC pre-departure LOC - TABLE
-    var tbl_aptATC_LOC = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_aptATC_LOC',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/101WEkDdcwYKKvrNCoWOEUc-5qATg9TtTBK-r27A2gu8/edit?usp=sharing&sheet=APT_ATC_PRE_LOC&range=A5:E35',
-        options: {
-            allowHtml: true,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [0, 4, 1]
-        }
-    });
-    tbl_aptATC_LOC.draw();
-
-  // CAPACITY - Airport ATC pre-departure APT - TABLE
-    var tbl_aptATC_APT = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_aptATC_APT',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/101WEkDdcwYKKvrNCoWOEUc-5qATg9TtTBK-r27A2gu8/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:F180',
-        options: {
-            allowHtml: true,
-            width: 470,
-            height: 280
-        },
-        view: {
-            columns: [1, 2, 0, 3]
-        }
-    });
-    tbl_aptATC_APT.draw();
-
-
-  // ERT SU - TABLE
-    var tbl_ertSU = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_ertSU',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1MECT8lZll6Dgo_k_E6co33vcgmV3pl3sR35N11nLhCQ/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
-        options: {
-            allowHtml: true,
-            width: 470,
-            height: 400
-        },
-        view: {
-            columns: [0, 3, 6, 8, 5]
-        }
-    });
-    tbl_ertSU.draw();
-
-  // ERT SU - YY - CHART vs target - [EU_YY]
-    var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
-        chartType: 'ComboChart',
-        containerId: 'crt_ertSUYYvstgt',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1MECT8lZll6Dgo_k_E6co33vcgmV3pl3sR35N11nLhCQ/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I36',
-        options: {
-            width: 475,
-            height: 400,
-            chartArea: {
-                left: 55,
-                top: 30,
-                width: '80%',
-                height: '50%'
-            },
-            titleTextStyle: {
-                color: 'grey',
-                fontSize: 12
-            },
-            legend: {
-                position: 'bottom',
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            },
-            series: {
-                0: {
-                    type: 'bars',
-                    color: '#7DD2F2'
-                }
-            },
-            vAxis: {
-                title: 'actual vs. determined ERT SU',
-                format: '0%',
-                viewWindow: {
-                    min: -0.05,
-                    max: 0.35
-                },
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 11
-                },
-                titleTextStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            },
-            hAxis: {
-                slantedTextAngle: 90,
-                textStyle: {
-                    color: 'grey',
-                    fontSize: 10
-                }
-            }
-        },
-        view: {
-            'columns': [0, 8]
-        }
-    });
-    crt_ertSUYYvstgt.draw();
-
-
- // ER CEF - STATE - TABLE
-    var tbl_ertcef_state = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_ertcef_state',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1NvqF2OiMmsH7LB01Or8_wrDCwq6cvwU6ysqyIMeG2MM/edit?usp=sharing&sheet=ERT_CEF_STATE&range=A2:AJ32&hl=en_GB',
-        options: {
-            allowHtml: true,
-            width: 950,
-            height: 280
-        },
-        view: {columns: [0, 29, 30,31,33,34,35]}
-    });
-    tbl_ertcef_state.draw();
-
- // ER CEF - FAB - TABLE
-    var tbl_ertcef_fab = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_ertcef_fab',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1NvqF2OiMmsH7LB01Or8_wrDCwq6cvwU6ysqyIMeG2MM/edit?usp=sharing&sheet=ERT_CEF_FAB&range=A2:N11&hl=en_GB',
-        options: {
-            allowHtml: true,
-            width: 950,
-            height: 270
-        },
-        view: {columns: [0, 7, 8, 9,11,12,13]}
-    });
-    tbl_ertcef_fab.draw();
-
- // TRM CEF - TCZ - TABLE
-    var tbl_trcef_state = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_trcef_state',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Ub4oNRxPbE0wAIxWJ2wLmsmebHmvNQKiCAyVhCzjDlk/edit?usp=sharing&sheet=TRM_CEF_STATE&range=A2:AJ39&hl=en_GB',
-        options: {
-            allowHtml: true,
-            width: 950,
-            height: 280
-        },
-        view: {columns: [0, 29, 30,31,33,34,35]}
-    });
-    tbl_trcef_state.draw();
-
- // TRM CEF - FAB - TABLE
-    var tbl_trcef_fab = new google.visualization.ChartWrapper({
-        chartType: 'Table',
-        containerId: 'tbl_trcef_fab',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Ub4oNRxPbE0wAIxWJ2wLmsmebHmvNQKiCAyVhCzjDlk/edit?usp=sharing&sheet=TRM_CEF_FAB&range=A2:N11&hl=en_GB',
-        options: {
-            allowHtml: true,
-            width: 950,
-            height: 270
-        },
-        view: {columns: [0, 7, 8, 9,11,12,13]}
-    });
-    tbl_trcef_fab.draw();
-
-}
-google.setOnLoadCallback(drawVisualization)
-</script>
 
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
@@ -1105,10 +81,10 @@ Source: Network Manager</div>
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: left;" id="crt_ertfltsYY"></div>
-<div style="float: left;" id="crt_ertfltsMM"></div>
+<div style="float: left;" id="crt_ertfltsYY_18"></div>
+<div style="float: left;" id="crt_ertfltsMM_18"></div>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_ertflts_YY"></div>
+<div style="float: top;" id="tbl_ertflts_YY_18"></div>
 </tr>
 </tbody>
 </table>
@@ -1157,29 +133,29 @@ Source: EASA</div>
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="crt_EoSMYY_ST"></div>
+<div style="float: top;" id="crt_EoSMYY_ST_18"></div>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="crt_EoSMYY_AN"></div>
+<div style="float: top;" id="crt_EoSMYY_AN_18"></div>
 </td>
 </tr>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px; vertical-align: top;">
 <div><b>FAB level</b></div>
-<div style="float: top;" id="tbl_EOSM_FAB_1"></div>
+<div style="float: top;" id="tbl_EOSM_FAB1_18"></div>
 </tr>
 <br>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px; vertical-align: top;">
 <br>
 <div><b>State level</b></div>
-<div style="float: top;" id="tbl_EOSM_STA"></div>
+<div style="float: top;" id="tbl_EOSM_STA_18"></div>
 </td>
 </tr>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px; vertical-align: top;">
 <br>
 <div><b>ANSP level</b></div>
-<div style="float: top;" id="tbl_EOSM_ANSP"></div>
+<div style="float: top;" id="tbl_EOSM_ANSP_18"></div>
 </td>
 <br>
 </tr>
@@ -1226,7 +202,7 @@ Period: January - December</span></div>
 </tr>
 <tr>
 <td colspan="3" rowspan="1">
-<div style="float: top;" id="Y15_crt_RAT"></div>
+<div style="float: top;" id="crt_RAT_18"></div>
 </td>
 <td colspan="3" rowspan="1">
 <div style="text-align: left; vertical-align: top">
@@ -1240,14 +216,6 @@ Period: January - December</span></div>
 </table>
 </tbody>
 </table>
-
-
-
-
-
-
-
-
 
 
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
@@ -1286,10 +254,10 @@ Source: PRU analysis; Network Manager</div>
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: left;" id="crt_flteffYY"></div>
-<div style="float: left;" id="crt_flteffMM"></div>
+<div style="float: left;" id="crt_flteffYY_18"></div>
+<div style="float: left;" id="crt_flteffMM_18"></div>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_ert_flteff"></div>
+<div style="float: top;" id="tbl_ert_flteff_18"></div>
 </tr>
 </tbody>
 </table>
@@ -1325,9 +293,9 @@ Source: PRU analysis; Airports</div>
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_txdly_LOC"></div>
+<div style="float: top;" id="tbl_txdly_LOC_18"></div>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_txdly_APT"></div>
+<div style="float: top;" id="tbl_txdly_APT_18"></div>
 </td>
 </tr>
 </tbody>
@@ -1365,10 +333,10 @@ Source: PRU analysis; Airports; Network Manager</div>
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_ASMAdly_LOC"></div>
+<div style="float: top;" id="tbl_ASMAdly_LOC_18"></div>
 <br> </td>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top" id="tbl_ASMAdly_APT"></div>
+<div style="float: top" id="tbl_ASMAdly_APT_18"></div>
 <br> </td>
 </tr>
 </tbody>
@@ -1418,10 +386,10 @@ Source: Network Manager</div>
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: left;" id="crt_ertdlyYY"></div>
-<div style="float: left;" id="crt_ertdlyMM"></div>
+<div style="float: left;" id="crt_ertdlyYY_18"></div>
+<div style="float: left;" id="crt_ertdlyMM_18"></div>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_ertdly_YYtgt"></div>
+<div style="float: top;" id="tbl_ertdly_YYtgt_18"></div>
 </tr>
 </tbody>
 </table>
@@ -1456,15 +424,15 @@ Source: PRU analysis; Network Manager</div>
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: left;" id="crt_aptATFMsesYY"></div>
+<div style="float: left;" id="crt_aptATFMsesYY_18"></div>
 <br>
 <br>
-<div style="float: top;" id="tbl_aptATFM_LOC"></div>
+<div style="float: top;" id="tbl_aptATFM_LOC_18"></div>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: left;" id="crt_aptATFMsesMM"></div>
+<div style="float: left;" id="crt_aptATFMsesMM_18"></div>
 <br>
 <br>
-<div style="float: top;" id="tbl_aptATFM_APT"></div>
+<div style="float: top;" id="tbl_aptATFM_APT_18"></div>
 </tr>
 </tbody>
 </table>
@@ -1498,9 +466,9 @@ Source: Network Manager</div>
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_aptATFMADH_LOC"></div>
+<div style="float: top;" id="tbl_aptATFMADH_LOC_18"></div>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_aptATFMADH_APT"></div>
+<div style="float: top;" id="tbl_aptATFMADH_APT_18"></div>
 </tr>
 </tbody>
 </table>
@@ -1535,10 +503,10 @@ Source: Airports</div>
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_aptATC_LOC"></div>
+<div style="float: top;" id="tbl_aptATC_LOC_18"></div>
 </td>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div style="float: top;" id="tbl_aptATC_APT"></div>
+<div style="float: top;" id="tbl_aptATC_APT_18"></div>
 </td>
 </tr>
 </tbody>
@@ -1580,13 +548,13 @@ Source: CRCO; EC; PRU analysis </div>
 <td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
 <div class="head4">&nbsp;En-route TSU: by charging zones (2017)</div>
 <div style="text-align: left; vertical-align: top;">
-<div style="float: top;" id="tbl_ertSU"></div>
+<div style="float: top;" id="tbl_ertSU_18"></div>
 <br>
 </td>
 <td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
 <div class="head4">&nbsp;En-route TSU: actual vs. determined (2017)</div>
 <div style="text-align: left; vertical-align: top;">
-<div style="float: top;" id="crt_ertSUYYvstgt"></div>
+<div style="float: top;" id="crt_ertSUYYvstgt_18"></div>
 </td>
 </tr>
 </tbody>
@@ -1635,14 +603,14 @@ Source: States, CRCO</div>
 <br>
 <tr>
 <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
-<div id="tbl_ertcef_state"></div>
+<div id="tbl_ertcef_state_18"></div>
 </td>
 <br>
 </tr>
 <br>
 <tr>
 <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
-<div id="tbl_ertcef_fab"></div>
+<div id="tbl_ertcef_fab_18"></div>
 </td>
 </tr>
 </tbody>
@@ -1693,14 +661,14 @@ Source: States, CRCO</div>
 <br>
 <tr>
 <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
-<div id="tbl_trcef_state"></div>
+<div id="tbl_trcef_state_18"></div>
 </td>
 <br>
 </tr>
 <br>
 <tr>
 <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
-<div id="tbl_trcef_fab"></div>
+<div id="tbl_trcef_fab_18"></div>
 </td>
 </tr>
 </tbody>

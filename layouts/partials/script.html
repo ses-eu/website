@@ -1,0 +1,3 @@
+{{- range .Params.extrajs }}
+<script src="{{ . | relURL }}" type="text/javascript"></script>
+{{- end }}
