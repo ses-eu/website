@@ -5,7 +5,7 @@
 var tbl_ASMAdly_LOC = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ASMAdly_LOC_19',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1qJNlHQmPPO3-nWkejUY47a0GdbdOQReYUKqd-BMhu1U/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1QiQ656Qs6dKVfWlbSypztrY3tvHCUtu0ew14n4CwcZE/edit?usp=sharing&sheet=ASMA_LOC&range=A5:F35',
     options: {
         allowHtml: false,
         width: 470,
