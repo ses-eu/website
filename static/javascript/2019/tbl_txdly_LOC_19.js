@@ -4,7 +4,7 @@
 var tbl_txdly_LOC = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_txdly_LOC_19',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1dh8-BXoWl_3fx8JBxUPcHjYw3OdZTEKm6mnyGH0qmUE/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F35',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1qmH-SPzzGZhsNVlGNLVnGU09fL5z6xW8FvDXGx7oD0o/edit?usp=sharing&sheet=TxOut_LOC&range=A5:F35',
     options: {
         allowHtml: false,
         width: 470,
