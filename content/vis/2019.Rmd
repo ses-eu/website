@@ -51,11 +51,11 @@ extrajs: [
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-November</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1S_-qda_TKxT0VTwQeM17bfhgEw7bC15mWBxhnnhfnHU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1uO67qKc4l7OZEKcMDRi5DjzJ7mEWYUUGHGFRonNJ_hY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div>
 </td>
 <td>
@@ -118,11 +118,11 @@ Source: Network Manager</div>
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-November</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1zD8bEj0dBzfRTVk8GtPimONgx4s51i21wH0CBwQXulE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1Dk1vD4mPBZU1Ve3Wjxx1cHrBjV6O7T025vb4wVskPbo/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div>
 </td>
 <td>
@@ -156,11 +156,11 @@ Source: PRU analysis; Network Manager</div>
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-October</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1qmH-SPzzGZhsNVlGNLVnGU09fL5z6xW8FvDXGx7oD0o/edit?usp=sharing&hl=en_GB" 
+<a href="https://docs.google.com/spreadsheets/d/1STzOX3jmEDKzXg3Bdqj958gciCLyGXwbgBLqVre6qQM/edit?usp=sharing&hl=en_GB" 
 target="_blank">[Download data]</a>
 </span></div>
 </td>
@@ -196,12 +196,12 @@ Source: PRU analysis; Airports</div>
 
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-October</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
 
-<a href="https://docs.google.com/spreadsheets/d/1QiQ656Qs6dKVfWlbSypztrY3tvHCUtu0ew14n4CwcZE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1EJDkwzupnXTKW5DgMO5wAszl8k_So0sqW0MDfRjXZE0/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div>
 </td>
 <td>
@@ -247,11 +247,11 @@ The data will be updated as soon as the post-operational results are available.<
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-November</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1FVhe49MgbYRmeVjPGeIe93mWWg_MaZNA7HxjnY8T4_4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1Mad91puR9PE579vqCbCyI2tgxC7otKnVXBDqlIyleaU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 
 </span></div>
 </td>
@@ -285,11 +285,11 @@ Source: Network Manager</div>
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-November</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1-ukLGFyRcKF9TWtYikBKObXudooRhp7odR5NLJmoLCE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1X0QgDGaN-NaHRgMthUS5UXfzPgYN42QiVG-ZQYa0VX4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 
 </span></div>
 </td>
@@ -329,11 +329,11 @@ Source: PRU analysis; Network Manager</div>
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-November</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1az6CqN0NN07jjyY43jj0ZvYOj91t7NeoaxcANS7dGpM/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1Wult0WrytVHaIeu_OsmBNt-YAX2aesUjz3mSY2mX3VA/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 
 </span></div>
 </td>
@@ -366,11 +366,11 @@ Source: Network Manager</div>
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-October</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1oiUhANmZY6zMvvC9AHnCb96hye3VjQ3A4vq3VE-mTOc/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1RvmgvIWhdyjRWM4IazWKXB4stMFd6zIuYZXyF1JNVhM/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span></div>
 </td>
 <td>
@@ -412,12 +412,12 @@ Source: Airports</div>
 <tr>
 <td>
 <div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
-Period: January-November</span></div>
+Period: January-December</span></div>
 </td>
 <td>
 
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1vUMJ4pfnAQ8ouA7S4SEsNEpGIqX6h9f61wh02TLk5qY/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1zrW4kOrrvSxeYecGwB51tCN6lBCuGuOHaS17-jtf9AY/edit?usp=sharing" target="_blank">[Download data]</a>
 </span></div>
 </td>
 <td>
