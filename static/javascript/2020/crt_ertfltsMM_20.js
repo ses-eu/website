@@ -4,8 +4,8 @@
 // TRAFFIC - ERT FLTS - MM - CHART
 var crt_ertfltsMM = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
-    containerId: 'crt_ertfltsMM_19',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Mad91puR9PE579vqCbCyI2tgxC7otKnVXBDqlIyleaU/edit?usp=sharing&sheet=ERT_FLTS_MM&range=A4:I64&tq=where%20I%3D1',
+    containerId: 'crt_ertfltsMM_20',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zVAE-QMzogbB2kbdp7ZetY4c_goOWZrUG4CAS_leLzg/edit?usp=sharing&sheet=ERT_FLTS_MM&range=A4:I76&tq=where%20I%3D1',
     options: {
         width: 450,
         height: 190,
