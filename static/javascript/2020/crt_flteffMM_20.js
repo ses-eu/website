@@ -5,15 +5,15 @@
 var crt_flteffMM = new google.visualization.ChartWrapper({
     chartType: 'LineChart',
     containerId: 'crt_flteffMM_20',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1gyKwYegNMj31KXb4t9Rm_-c5gN0RRQEEusDJJA4iIHk/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:F65&tq=where%20F%3D1',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1gyKwYegNMj31KXb4t9Rm_-c5gN0RRQEEusDJJA4iIHk/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:E113&tq=where%20E%3D1',
     options: {
         width: 450,
         height: 190,
         chartArea: {
             left: 50,
-            top: 30,
-            width: '55%',
-            height: '50%'
+            top: 20,
+            width: '60%',
+            height: '60%'
         },
         title: 'Horiz. en-route flight efficiency (monthly)',
         titleTextStyle: {
@@ -30,16 +30,22 @@ var crt_flteffMM = new google.visualization.ChartWrapper({
         series: {
             0: {
                 type: 'lines',
-                color: '#c0504d',
+                color: '#5D7CBA',
                 lineWidth: 1,
-                pointSize: 4,
-                pointShape: 'diamond'
+                pointSize: 2
             },
             1: {
                 type: 'lines',
-                color: '#5D7CBA',
+                color: '#339933',
                 lineWidth: 1,
-                pointSize: 3
+                pointSize: 2
+            },
+            2: {
+                type: 'lines',
+                color: '#C0504D',
+                lineWidth: 1,
+                pointSize: 4,
+                pointShape: 'diamond'
             }
         },
         vAxis: {
@@ -49,15 +55,15 @@ var crt_flteffMM = new google.visualization.ChartWrapper({
                 fontSize: 10
             },
             minValue: 0.02,
-            maxValue: 0.06,
+            maxValue: 0.05,
             viewWindow: {
                 min: 0.02,
-                max: 0.06
+                max: 0.05
             },
             format: '0.0%'
         },
         hAxis: {
-            title: 'Monthly values for the SES-RP2 area',
+            title: 'Monthly values for the SES area',
             titleTextStyle: {
                 color: 'grey',
                 fontSize: 10
@@ -71,7 +77,7 @@ var crt_flteffMM = new google.visualization.ChartWrapper({
         }
     },
     view: {
-        'columns': [0, 3, 4]
+        'columns': [0,1,2,3]
     }
 });
 crt_flteffMM.draw();
