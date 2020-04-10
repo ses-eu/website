@@ -20,19 +20,20 @@ extrajs: [
   "/javascript/2020/tbl_ASMAdly_APT_20.js",
   "/javascript/2020/tbl_cdo_LOC_20.js",
   "/javascript/2020/tbl_cdo_APT_20.js",
-  "/javascript/2019/crt_ertdlyYY_19.js",
-  "/javascript/2019/crt_ertdlyMM_19.js",
-  "/javascript/2019/tbl_ertdly_YYtgt_19.js",
-  "/javascript/2019/crt_aptATFMsesYY_19.js",
-  "/javascript/2019/crt_aptATFMsesMM_19.js",
-  "/javascript/2019/tbl_aptATFM_LOC_19.js",
-  "/javascript/2019/tbl_aptATFM_APT_19.js",
-  "/javascript/2019/tbl_aptATFMADH_LOC_19.js",
-  "/javascript/2019/tbl_aptATFMADH_APT_19.js",
-  "/javascript/2019/tbl_aptATC_LOC_19.js",
-  "/javascript/2019/tbl_aptATC_APT_19.js",
-  "/javascript/2019/tbl_ertSU_19.js",
-  "/javascript/2019/crt_ertSUYYvstgt_19.js",
+  "/javascript/2020/crt_ertdlyYY_20.js",
+  "/javascript/2020/crt_ertdlyMM_20.js",
+  "/javascript/2020/tbl_ertdly_FAB_20.js",
+  "/javascript/2020/tbl_ertdly_LOC_20.js",
+  "/javascript/2020/crt_aptATFM_YY_20.js",
+  "/javascript/2020/crt_aptATFM_MM_20.js",
+  "/javascript/2020/tbl_aptATFM_LOC_20.js",
+  "/javascript/2020/tbl_aptATFM_APT_20.js",
+  "/javascript/2020/tbl_aptATFMADH_LOC_20.js",
+  "/javascript/2020/tbl_aptATFMADH_APT_20.js",
+  "/javascript/2020/tbl_aptATC_LOC_20.js",
+  "/javascript/2020/tbl_aptATC_APT_20.js",
+  "/javascript/2020/tbl_ertSU_20.js",
+  "/javascript/2020/crt_ertSUYYvstgt_20.js",
   ]
 ---
 
@@ -113,7 +114,29 @@ Source: Network Manager
 <div class="head2">
  SAFETY
 </div>
-<span style="color:#C0504D;">To be provided in line with the scheduled reporting cycle.</span>
+<small><span style="color:#C0504D;">
+To be provided in line with the scheduled reporting cycle:
+<ul>
+<li>
+SKPI#1: Effectiveness of Safety Management (EoSM)
+</li>
+<li>
+SPI#1: Separation Minima Infringements (SMI)
+</li>
+<li>
+SPI#2: Separation Minima Infringements (SMI) with any contributions from ATS or CNS
+</li>
+<li>
+SPI#3: Runway Incursions (RI)
+</li>
+<li>
+SPI#4: Runway Incursions with any contribution from ATS or CNS
+</li>
+<li>
+SPI#5: Application of automatic safety data recording
+</li>
+</ul>
+</small></span>
 </td>
 </tr>
 </tbody>
@@ -134,8 +157,25 @@ Source: Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
- Environment KPI #1: Horizontal en-route flight efficiency [%]
+ Environment: Horizontal en-route flight efficiency [%]
 </div>
+</td>
+</tr>
+<tr>
+<td colspan="4" rowspan="1" style="width: 950px">
+<small><span>
+<ul>
+<li>
+EKPI#1: KEA - Avg. horizontal en-route flight efficiency (actual trajectory)
+</li>
+<li>
+EPI#1: KEP - Avg. horizontal en-route flight efficiency (last filed flight plan)
+</li>
+<li>
+EPI#2: KES - Avg. horizontal en-route flight efficiency (shortest constrained trajectory)
+</li>
+</ul>
+</small></span>
 </td>
 </tr>
 <tr>
@@ -189,7 +229,7 @@ Source: PRU analysis; Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Environment PI #1: Additional taxi-out time [minutes per departure]
+  Environment EPI #3: Additional taxi-out time [min per dep.] - (airports &gt;80k movements)
 </div>
 <span style="color:#C0504D;"></span>
 </td>
@@ -206,7 +246,7 @@ Source: PRU analysis; Network Manager
 </div>
 </td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div class="data-source" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
 Source: PRU analysis; Airports
 </div>
 </td>
@@ -237,7 +277,7 @@ Source: PRU analysis; Airports
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Environment PI #2: Additional time in terminal airspace [minutes per arrival]
+  Environment EPI #4: Additional time in terminal airspace [min per arr.] - (airports &gt;80k movements)
 </div>
 <span style="color:#C0504D;"></span>
 </td>
@@ -284,7 +324,7 @@ Source: PRU analysis; Airports; Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Environment PI #3: Share of arrivals applying CDO [% arrivals]
+  Environment EPI #5: Share of arrivals applying CDO [% arrivals] - (all included airports)
 </div>
 <span style="color:#C0504D;"></span>
 </td>
@@ -332,7 +372,7 @@ Source: PRU analysis; Airports; Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Environment PI #4: Effective use of reserved or segregated airspace
+  Environment EPI #6: Effective use of reserved or segregated airspace
 </div>
 <span style="color:#C0504D;"></span>
 </td>
@@ -348,7 +388,7 @@ Source: PRU analysis; Airports; Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Environment PI #5: Rate of planning via available airspace structures (reserved or seg. and CDRs)
+  Environment EPI #7: Rate of planning via available airspace structures (reserved or seg. and CDRs)
 </div>
 <span style="color:#C0504D;"></span>
 </td>
@@ -364,7 +404,7 @@ Source: PRU analysis; Airports; Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Environment PI #6: Rate of using available airspace structures (reserved or segregated and CDRs)
+  EnvironmentE PI #8: Rate of using available airspace structures (reserved or segregated and CDRs)
 </div>
 <span style="color:#C0504D;"></span>
 </td>
@@ -398,7 +438,7 @@ Source: PRU analysis; Airports; Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Capacity KPI #1: En-route ATFM delay per flight [minutes per flight]
+  Capacity CKPI #1: En-route ATFM delay per flight [minutes per flight]
 </div>
 </td>
 </tr>
@@ -410,12 +450,12 @@ Source: PRU analysis; Airports; Network Manager
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1Mad91puR9PE579vqCbCyI2tgxC7otKnVXBDqlIyleaU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span>
+<span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1fKlBIZEdhZ8sfFo9wczgb9PmBZkn3MQDzBkwq9oeQE4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span>
 </div>
 </td>
 <td>
 <div class="data-source" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-Source: Network Manager
+Source: PRU analysis; Network Manager
 </div>
 </td>
 <td>
@@ -426,15 +466,18 @@ Source: Network Manager
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div id="crt_ertdlyYY_19" style="float: left;">
+<div id="crt_ertdlyYY_20" style="float: left;">
 
 </div>
-<div id="crt_ertdlyMM_19" style="float: left;">
+<div id="tbl_ertdly_FAB_20" style="float: left;">
 
 </div>
 </td>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div id="tbl_ertdly_YYtgt_19" style="float: top;">
+<div id="crt_ertdlyMM_20" style="float: left;">
+
+</div>
+<div id="tbl_ertdly_LOC_20" style="float: top;">
 
 </div>
 </td>
@@ -448,7 +491,7 @@ Source: Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Capacity KPI #2: Airport ATFM arrival delay per flight [min./arr.]
+  Capacity CKPI #2: Airport ATFM arrival delay per flight [min./arr.]
 </div>
 </td>
 </tr>
@@ -460,7 +503,7 @@ Source: Network Manager
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1X0QgDGaN-NaHRgMthUS5UXfzPgYN42QiVG-ZQYa0VX4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span>
+<span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1dbVbw8wOyO0J41Vs0yT21fX2Q-eW9iOHoFeqst92zSI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span>
 </div>
 </td>
 <td>
@@ -476,18 +519,18 @@ Source: PRU analysis; Network Manager
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div id="crt_aptATFMsesYY_19" style="float: left;">
+<div id="crt_aptATFM_YY_20" style="float: left;">
 
 </div>
-<div id="tbl_aptATFM_LOC_19" style="float: left;">
+<div id="tbl_aptATFM_LOC_20" style="float: left;">
 
 </div>
 </td>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div id="crt_aptATFMsesMM_19" style="float: left;">
+<div id="crt_aptATFM_MM_20" style="float: left;">
 
 </div>
-<div id="tbl_aptATFM_APT_19" style="float: top;">
+<div id="tbl_aptATFM_APT_20" style="float: top;">
 
 </div>
 </td>
@@ -502,7 +545,7 @@ Source: PRU analysis; Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Capacity PI #1: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]
+  Capacity CPI #2: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]
 </div>
 </td>
 </tr>
@@ -514,7 +557,7 @@ Source: PRU analysis; Network Manager
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1Wult0WrytVHaIeu_OsmBNt-YAX2aesUjz3mSY2mX3VA/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span>
+<span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1OKJQV9CWt_fr-FgHUZFZ_juJV_m5CjhvyiR61U0RfsE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span>
 </div>
 </td>
 <td>
@@ -530,12 +573,12 @@ Source: Network Manager
 </tr>
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div id="tbl_aptATFMADH_LOC_19" style="float: top;">
+<div id="tbl_aptATFMADH_LOC_20" style="float: top;">
 
 </div>
 </td>
 <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div id="tbl_aptATFMADH_APT_19" style="float: top;">
+<div id="tbl_aptATFMADH_APT_20" style="float: top;">
 
 </div>
 </td>
@@ -549,7 +592,7 @@ Source: Network Manager
 <tr>
 <td colspan="4" rowspan="1">
 <div class="head3">
-  Capacity PI #2: Air traffic control pre-departure delay [min. per dep.]
+  Capacity CPI #3: Air traffic control pre-departure delay [min. per dep.] <br>   Capacity CPI #4: Average time of all cause-departure delay per flight [min. per dep.]
 </div>
 </td>
 </tr>
@@ -565,7 +608,7 @@ Source: Network Manager
 </div>
 </td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div class="data-source" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
 Source: Airports
 </div>
 </td>
@@ -576,13 +619,8 @@ Source: Airports
 </td>
 </tr>
 <tr>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div id="tbl_aptATC_LOC_19" style="float: top;">
-
-</div>
-</td>
-<td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-<div id="tbl_aptATC_APT_19" style="float: top;">
+<td colspan="4" rowspan="1">
+<div id="tbl_aptATC_APT_20" style="float: top;">
 
 </div>
 </td>
@@ -590,7 +628,6 @@ Source: Airports
 </tbody>
 </table>
 </table>
-<p><br></p>
 <!-- COST-EFFICIENCY-->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
@@ -619,11 +656,11 @@ Source: Airports
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
-<span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1zrW4kOrrvSxeYecGwB51tCN6lBCuGuOHaS17-jtf9AY/edit?usp=sharing" target="_blank">[Download data]</a></span>
+<span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1UcVE4awuEJWX_qXfQ_2_J4GCzv_4t5Cr3dllHwWowdI/edit?usp=sharing" target="_blank">[Download data]</a></span>
 </div>
 </td>
 <td>
-<div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+<div class="data-source" style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
 Source: CRCO; EC; PRU analysis
 </div>
 </td>
@@ -636,17 +673,17 @@ Source: CRCO; EC; PRU analysis
 <tr>
 <td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
 <div class="head4">
- En-route TSU: by charging zones (2019)
+ En-route TSU: by charging zones (2020)
 </div>
-<div id="tbl_ertSU_19" style="float: top;">
+<div id="tbl_ertSU_20" style="float: top;">
 
 </div>
 </td>
 <td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
 <div class="head4">
- En-route TSU: actual vs. determined (2019)
+ En-route TSU: actual vs. determined (2020)
 </div>
-<div id="crt_ertSUYYvstgt_19" style="float: top;">
+<div id="crt_ertSUYYvstgt_20" style="float: top;">
 
 </div>
 </td>
