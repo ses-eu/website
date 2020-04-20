@@ -9,7 +9,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 
 ---
 
-## 2019 (Please note that the post operational adjustments are not yet included)
+## 2019 (post operational adjustments are taken into account (Status 16 April 2020))
 
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
@@ -26,7 +26,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Terminal Cost efficiency              | - data to be available soon             |
 
 
-[RP2_APT_ASMA_2019]:      ../download/2019/RP2_APT_ASMA_2019_Jan_Nov.xlsx
+[RP2_APT_ASMA_2019]:      ../download/2019/RP2_APT_ASMA_2019_Jan_Dec.xlsx
 [RP2_APT_ATC_PRE_2019]:   ../download/2019/RP2_APT_ATC_PRE_2019_Jan_Dec.xlsx
 [RP2_APT_TxOut_2019]:     ../download/2019/RP2_APT_TxOut_2019_Jan_Dec.xlsx
 [RP2_APT_ATFM_ARR_2019]:  ../download/2019/RP2_APT_ATFM_ARR_2019_Jan_Dec.xlsx

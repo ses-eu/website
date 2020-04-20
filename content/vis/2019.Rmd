@@ -232,8 +232,10 @@ Source: PRU analysis; Airports; Network Manager</div>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head2">&nbsp;CAPACITY</div>
-<span style="color:#C0504D;">Please note that post-operational adjustments are not yet considered.<br> 
-The data will be updated as soon as the post-operational results are available.</span>
+<span style="color:#C0504D;">
+These data take into account post-operations adjustments (Status 16 April 2020).
+For more information see also the <a href="https://www.eurocontrol.int/service/post-operations-performance-adjustment" target="_blank">Post Operations Adjustment Process</a> web page.
+</span>
 </td>
 </tr>
 <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">

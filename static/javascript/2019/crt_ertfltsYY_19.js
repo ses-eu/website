@@ -4,7 +4,7 @@
       var crt_ertfltsYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
         containerId: 'crt_ertfltsYY_19',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Be_qKjrZbK-OskF2l54bmpC8ZuNgP_DK4df2u5LoLYo/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1uO67qKc4l7OZEKcMDRi5DjzJ7mEWYUUGHGFRonNJ_hY/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
         options: {
             width: 450,
             height: 170,
