@@ -1,0 +1,7 @@
+---
+title: "April 2020 Release"
+date: 2020-04-20
+categories: ["Release"]
+---
+
+* Update of 2019 ATFM delay data with post operational adjustments

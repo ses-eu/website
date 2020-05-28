@@ -30,6 +30,10 @@ extrajs: [
   "/javascript/2019/tbl_aptATC_APT_19.js",
   "/javascript/2019/tbl_ertSU_19.js",
   "/javascript/2019/crt_ertSUYYvstgt_19.js",
+  "/javascript/2019/tbl_trcef_fab_19.js",
+  "/javascript/2019/tbl_trcef_state_19.js",
+  "/javascript/2019/tbl_ertcef_fab_19.js",
+  "/javascript/2019/tbl_ertcef_state_19.js",
   ]
 ---
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
@@ -232,8 +236,10 @@ Source: PRU analysis; Airports; Network Manager</div>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
 <div class="head2">&nbsp;CAPACITY</div>
-<span style="color:#C0504D;">Please note that post-operational adjustments are not yet considered.<br> 
-The data will be updated as soon as the post-operational results are available.</span>
+<span style="color:#C0504D;">
+These data take into account post-operations adjustments (Status 16 April 2020).
+For more information see also the <a href="https://www.eurocontrol.int/service/post-operations-performance-adjustment" target="_blank">Post Operations Adjustment Process</a> web page.
+</span>
 </td>
 </tr>
 <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
@@ -445,30 +451,73 @@ Source: CRCO; EC; PRU analysis </div>
 </tbody>
 </table>
 
-<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
-<tbody>
-<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
-<tbody>
-<tr>
-<td colspan="4" rowspan="1">
-<div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div>
-<span style="color:#C0504D;">To be updated soon</span>
-</td>
-</tr>
-</tbody>
-</table>
-<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
-<tbody>
-<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
-<tbody>
-<tr>
-<td colspan="4" rowspan="1">
 
-<div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div>
-<span style="color:#C0504D;">To be updated soon</span>
-</td>
-</tr>
-</tbody>
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+      <tbody>
+        <tr>
+          <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div></td>
+        </tr>
+        <tr>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">
+              Period: January-December 2019</span></div></td>
+          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
+              <a href="https://docs.google.com/spreadsheets/d/1aZLiB6_90_J0Yo1imG3yn8TwHP0uKRUSt8otZwqgCRs/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">Source: States, CRCO</div></td>
+          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/rp2.md" >}}' target="_blank">[Meta data]</a></span></div></td>
+        </tr>
+<br>
+        <tr>
+          <td colspan="4" rowspan="1" style="width: 950px"><span style="color:#C0504D;"><small>The figures shown below are expressed in real term (Euro 2009). The underlying data (currencies, etc.) are available in the download file. (D)=Determined ; (A)=Actual</small></span></td>
+        </tr>
+    </tbody>
+  </table>
+<br>
+        <tr>
+          <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
+            <div id="tbl_ertcef_state_19"></div></td>
+      <br>
+        </tr>
+      <br>
+        <tr>
+          <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;">
+            <div id="tbl_ertcef_fab_19"></div></td>
+        </tr>
+  </tbody>
+</table>
+
+
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+      <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+        <tbody>
+          <tr>
+            <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div></td>
+          </tr>
+          <tr>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December 2019</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);">
+            <a href="https://docs.google.com/spreadsheets/d/1I4h02dUnT-4JrLK6Z_xrOtgIjH-paf3CtDnkWuprifk/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">Source: States, CRCO</div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/rp2.md" >}}' target="_blank">[Meta data]</a></span></div></td>
+          </tr>
+      <br>
+          <tr>
+            <td colspan="4" rowspan="1" style="width: 950px"><span style="color:#C0504D;"><small>The figures shown below are expressed in real term (Euro 2009). The underlying data (currencies, etc.) are available in the download file. (D)=Determined ; (A)=Actual</small></span></td>
+          </tr>
+      </tbody>
+    </table>
+<br>
+      <tr>
+        <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;"><div id="tbl_trcef_state_19"></div></td>
+      <br>
+      </tr>
+      <br>
+      <tr>
+        <td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;"><div id="tbl_trcef_fab_19"></div></td>
+      </tr>
+    </tbody>
 </table>
 
 <script src="//d3js.org/d3.v3.min.js" type="text/javascript"></script>

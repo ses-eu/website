@@ -351,7 +351,7 @@ Source: PRU analysis; Airports; Network Manager</div>
 <div class="head2">&nbsp;CAPACITY</div>
 <span style="color:#C0504D;">
 These data take into account post-operations adjustments (Status 29 April 2019).
-For more information see also the <a href="httpS://www.eurocontrol.int/publications/post-operations-performance-adjustment-process" target="_blank">Post Operations Adjustment Process</a> web page.
+For more information see also the <a href="https://www.eurocontrol.int/service/post-operations-performance-adjustment" target="_blank">Post Operations Adjustment Process</a> web page.
 </span>
 </td>
 </tr>
@@ -593,8 +593,8 @@ Source: States, CRCO</div>
 <br>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
-<span style="color:#C0504D;">The figures shown below are expressed in real term (Euro 2009). The underlying data (currencies, etc.) are available in the download file.
-(D)=Determined ; (A)=Actual
+<span style="color:#C0504D;"><small>The figures shown below are expressed in real term (Euro 2009). The underlying data (currencies, etc.) are available in the download file.
+(D)=Determined ; (A)=Actual</small>
 </span>
 </td>
 </tr>
@@ -625,7 +625,7 @@ Source: States, CRCO</div>
 <td colspan="4" rowspan="1">
 
 <div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div>
-<span style="color:#C0504D;">As of 2017, two terminal charging zones (TCZ) were established in France (TCZ1 Paris airports and TCZ2 Other airports) and Poland (TCZ1 Warsaw airport and TCZ2 Other airports) instead of one single TCZs comprising 60 airports in France and 15 airports in Poland in 2016.</span>
+<span style="color:#C0504D;"><small>As of 2017, two terminal charging zones (TCZ) were established in France (TCZ1 Paris airports and TCZ2 Other airports) and Poland (TCZ1 Warsaw airport and TCZ2 Other airports) instead of one single TCZs comprising 60 airports in France and 15 airports in Poland in 2016.</small></span>
 </td>
 </tr>
 <tr>
@@ -651,8 +651,8 @@ Source: States, CRCO</div>
 <br>
 <tr>
 <td colspan="4" rowspan="1" style="width: 950px">
-<span style="color:#C0504D;">The figures shown below are expressed in real term (Euro 2009). The underlying data (currencies, etc.) are available in the download file.
-(D)=Determined ; (A)=Actual
+<span style="color:#C0504D;"><small>The figures shown below are expressed in real term (Euro 2009). The underlying data (currencies, etc.) are available in the download file.
+(D)=Determined ; (A)=Actual</small>
 </span>
 </td>
 </tr>

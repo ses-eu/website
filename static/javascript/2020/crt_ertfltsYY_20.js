@@ -3,8 +3,8 @@
     // TRAFFIC - ERT FLTS - YY - CHART
       var crt_ertfltsYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',
-        containerId: 'crt_ertfltsYY_19',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1uO67qKc4l7OZEKcMDRi5DjzJ7mEWYUUGHGFRonNJ_hY/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E10',
+        containerId: 'crt_ertfltsYY_20',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1zVAE-QMzogbB2kbdp7ZetY4c_goOWZrUG4CAS_leLzg/edit?usp=sharing&sheet=ERT_FLTS_YY&range=A5:E15',
         options: {
             width: 450,
             height: 170,
@@ -61,7 +61,7 @@
         },
         view: {
             columns: [0, 3, 4],
-            rows: [0, 1, 2, 3, 4]
+            rows: [0, 1, 2, 3, 4,5,6,7,8,9]
         }
     });
     crt_ertfltsYY.draw();    
