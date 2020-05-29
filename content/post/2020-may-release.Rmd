@@ -1,0 +1,7 @@
+---
+title: "May 2020 Release"
+date: 2020-05-28
+categories: ["Release"]
+---
+
+* Update of 2019 Safety data

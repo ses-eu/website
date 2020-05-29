@@ -23,7 +23,10 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Average daily IFR Flight              | [{{% dwnld_i %}} RP2_Flights_2019_Jan_Dec.xlsx][RP2_Flights_2019]             |
 | Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP2_FLT_EFF_2019_Jan_Dec.xlsx][RP2_FLT_EFF_2019]             |
 | En route Cost efficiency              | [{{% dwnld_i %}} RP2_ERT_CEF_2019.xlsx][RP2_ERT_CEF_2019]             |
-| Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2019.xlsx][RP2_TRM_CEF_2019] 
+| Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2019.xlsx][RP2_TRM_CEF_2019]             |
+| Effectiveness of Safety Management    | [{{% dwnld_i %}} RP2_SAF_EoSM_2019.xlsx][RP2_SAF_EoSM_2019]           |
+| RAT Methodology Application           | [{{% dwnld_i %}} RP2_SAF_RAT_2019.xlsx][RP2_SAF_RAT_2019]             |
+| Reporting of Just Culture             | [{{% dwnld_i %}} RP2_SAF_JC_2019.xlsx][RP2_SAF_JC_2019]               |
 
 
 [RP2_APT_ASMA_2019]:      ../download/2019/RP2_APT_ASMA_2019_Jan_Dec.xlsx
@@ -37,6 +40,9 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP2_FLT_EFF_2019]:       ../download/2019/RP2_FLT_EFF_2019_Jan_Dec.xlsx
 [RP2_ERT_CEF_2019]:       ../download/2019/RP2_ERT_CEF_2019.xlsx
 [RP2_TRM_CEF_2019]:       ../download/2019/RP2_TRM_CEF_2019.xlsx
+[RP2_SAF_EoSM_2019]:      ../download/2019/RP2_SAF_EoSM_2019.xlsx
+[RP2_SAF_RAT_2019]:       ../download/2019/RP2_SAF_RAT_2019.xlsx
+[RP2_SAF_JC_2019]:        ../download/2019/RP2_SAF_JC_2019.xlsx
 
 
 ## 2018 (post operational adjustments are taken into account (Status 29 April 2019))
