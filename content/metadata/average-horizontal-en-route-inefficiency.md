@@ -1,5 +1,5 @@
 ---
-title: Determined Unit Rate for en route Air Navigation Services
+title: Average Horizontal En-route Inefficiency
 categories:
   - metadata
   - glossary
@@ -48,25 +48,16 @@ td {
 
 ### Data description
 
-The measure addresses the costs for the provision of en route air navigation services.
+The measure provides an indication of the flight efficiency en route.
 
-In accordance with [EU IR691 / 2010][law], [Single European Sky Area][ses-area] States are required
-to adopt performance targets contributing adequately to and consistent with
-the [EU wide targets]. The cost efficiency KPI for the first reference period is the Determined Unit Rate for en route Air Navigation Services.
+The **Average Horizontal En-route Flight Efficiency** indicator compares the length of the
+en-route part of flight trajectories with a corresponding portion of the [Great Circle][gcd]
+(defined with respect to the [reference area][#reference-area]).
+‘En-route’ is defined as the distance flown outside a circle of 40 NM around the airport.
 
-The en route ANS Determined Unit Rate is defined as the en route determined costs (in real terms) divided by the total en route service units. The yearly values of the determined costs are fixed in advance, for the entire reference period. While monitoring performance, the en route actual unit cost (en route actual costs/actual en route service units) is compared against the determined unit rate.
-
-It must be noted that the determined en route unit rates differ from the actual en route unit rates charged to users in application of the Charging Regulation which also takes into account, where applicable:
-
-* the application of the difference between forecast and actual inflation,
-* the carry-overs resulting from the implementation of the traffic risk-sharing,
-* the carry-overs from the previous reference period resulting from the implementation of the cost risk-sharing,
-* bonuses and penalties resulting from the financial incentives to the achievement of capacity performance targets,
-* the over or under recoveries incurred by Member States up to the year 2011 included (for the first two reference periods),
-* a deduction of the costs of VFR flights,
-* a deduction for income from other revenues, where applicable. 
-    
-    
+In the first reference period (2012-14) the calculation of the KPI is based on the
+[Filed Tactical Flight Model (FTFM)][ftfm] which corresponds to the last filed flight plan
+(see also [Horizontal flight efficiency calculations][hfe-meth]).  
 
 
 ### Classification system

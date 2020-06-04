@@ -12,7 +12,7 @@
         height: 280
     },
     view: {
-        columns: [1, 2, 0, 3]
+        columns: [1, 0, 3]
     }
 });
 tbl_aptATFMADH_APT.draw();

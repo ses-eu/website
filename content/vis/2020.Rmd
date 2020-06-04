@@ -50,7 +50,7 @@ extrajs: [
         <td colspan="4" rowspan="1"><div class="head3">&nbsp; Average daily IFR flights</div></td>
         </tr>
         <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-May</span></div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1zVAE-QMzogbB2kbdp7ZetY4c_goOWZrUG4CAS_leLzg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Network Manager</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp2.md" >}}' target="_blank">[Meta data]</a></span></div></td>
@@ -134,14 +134,13 @@ extrajs: [
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Environment EPI #3: Additional taxi-out time [min per dep.] - (airports >80k movements)</div><span style="color:#C0504D;"></span></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-February</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1fXoQx06mOmoE2hQdAbaQUvq46g2oxUO79yy5TOF8Rqg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-taxi-out-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
           <tr>
-            <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;"><div style="float: top;" id="tbl_txdly_LOC_20"></div></td>
-            <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;"><div style="float: top;" id="tbl_txdly_APT_20"></div></td>
+            <td colspan="4" rowspan="1" style="vertical-align: top;"><div id="tbl_txdly_APT_20"></div></td>
           </tr> 
           </tbody>
         </table><br>
@@ -152,17 +151,16 @@ extrajs: [
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Environment EPI #4: Additional time in terminal airspace [min per arr.] - (airports >80k movements)</div><span style="color:#C0504D;"></span></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-February</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1iJMjzm8HngS2leefogF2CUCb1SRwsuTlg2fKajMzio8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
           <tr>
-            <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;"><div style="float: top;" id="tbl_ASMAdly_LOC_20"></div></td>
-            <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;"><div style="float: top" id="tbl_ASMAdly_APT_20"></div></td>
+            <td colspan="4" rowspan="1" style="vertical-align: top;"><div id="tbl_ASMAdly_APT_20"></div></td>
           </tr>
           </tbody>
-        </table>
+        </table>  <br>
     <!-- Share of arrivals applying CDO -->
         <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
           <tbody>
@@ -170,14 +168,13 @@ extrajs: [
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Environment EPI #5: Share of arrivals applying CDO [% arrivals] - (all included airports)</div><span style="color:#C0504D;"></span></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-May</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1TjRT0KGZIhfusSSC2vVw26MGjGCR-az74UkRycY-OhY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
           <tr>
-            <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;"><div style="float: top;" id="tbl_cdo_LOC_20"></div></td>
-            <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;"><div style="float: top" id="tbl_cdo_APT_20"></div></td>
+            <td colspan="4" rowspan="1" style="vertical-align: top;"><div id="tbl_cdo_APT_20"></div></td>
           </tr>
           </tbody>
         </table><br>
@@ -220,18 +217,18 @@ extrajs: [
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CKPI #1: En-route ATFM delay per flight [minutes per flight]</div></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-May</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1fKlBIZEdhZ8sfFo9wczgb9PmBZkn3MQDzBkwq9oeQE4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp2.md" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
           <tr>
             <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-                <div style="float: left;" id="crt_ertdlyYY_20"></div>
-                <div style="float: left;" id="tbl_ertdly_FAB_20"></div></td>
+                <div id="crt_ertdlyYY_20"></div><br>
+                <div id="tbl_ertdly_FAB_20"></div></td>
             <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-                <div style="float: left;" id="crt_ertdlyMM_20"></div>
-                <div style="float: top;" id="tbl_ertdly_LOC_20"></div></td>
+                <div id="crt_ertdlyMM_20"></div><br>
+                <div id="tbl_ertdly_LOC_20"></div></td>
           </tr>
           </tbody>
         </table>  <br>
@@ -242,18 +239,18 @@ extrajs: [
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CKPI #2: Airport ATFM arrival delay per flight [min./arr.]</div></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-May</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1dbVbw8wOyO0J41Vs0yT21fX2Q-eW9iOHoFeqst92zSI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/airport-atfm-delay.md" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
           <tr>
             <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-                <div style="float: left;" id="crt_aptATFM_YY_20"></div>
-                <div style="float: left;" id="tbl_aptATFM_LOC_20"></div></td>
+                <div id="crt_aptATFM_YY_20"></div><br>
+                <div id="tbl_aptATFM_LOC_20"></div></td>
             <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-                <div style="float: left;" id="crt_aptATFM_MM_20"></div>
-                <div style="float: top;" id="tbl_aptATFM_APT_20"></div></td>
+                <div id="crt_aptATFM_MM_20"></div><br>
+                <div id="tbl_aptATFM_APT_20"></div></td>
           </tr>
           </tbody>
         </table>
@@ -265,7 +262,7 @@ extrajs: [
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #2: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]</div></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-May</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1OKJQV9CWt_fr-FgHUZFZ_juJV_m5CjhvyiR61U0RfsE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/atfm-slot-adherence.md" >}}' target="_blank">[Meta data]</a></span></div></td>
@@ -331,7 +328,7 @@ extrajs: [
        <table style="text-align: left; width: 950px;" border="0" cellpadding="1" cellspacing="1">
        <tbody>
             <tr>
-              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div><span style="color:#C0504D;">To be updated when data is available</span></td>
+              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div><span style="color:#C0504D;"><small>To be updated when data is available</small></span></td>
             </tr>
       </tbody>
      </table>
@@ -339,7 +336,7 @@ extrajs: [
        <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
             <tbody>
             <tr>
-              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div><span style="color:#C0504D;">To be updated when data is available</span></td>
+              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div><span style="color:#C0504D;"><small>To be updated when data is available</small></span></td>
             </tr>
         </tbody>
       </table>

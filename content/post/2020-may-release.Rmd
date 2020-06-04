@@ -4,4 +4,4 @@ date: 2020-05-28
 categories: ["Release"]
 ---
 
-* Update of 2019 Safety data
+* Addition of RP3 dashboard, including data up to May 2020
