@@ -112,18 +112,18 @@ extrajs: [
             </small></span></td>
         </tr>
         <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Ref. date: 30. April</span></div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1gyKwYegNMj31KXb4t9Rm_-c5gN0RRQEEusDJJA4iIHk/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Network Manager</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/average-horizontal-en-route-inefficiency.md" >}}' target="_blank">[Meta data]</a></span></div></td>
         </tr>
         <tr>
             <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-                <div style="float: left;" id="crt_flteffYY_20"></div><br>
-                <div style="float: left;" id="tbl_ert_flteff_Fab_20"></div></td>
+                <div id="crt_flteffYY_20"></div><br>
+                <div id="tbl_ert_flteff_Fab_20"></div></td>
             <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-                <div style="float: left;" id="crt_flteffMM_20"></div><br>
-                <div style="float: top;" id="tbl_ert_flteff_Loc_20"></div></td>
+                <div id="crt_flteffMM_20"></div><br>
+                <div id="tbl_ert_flteff_Loc_20"></div></td>
           </tr>
           </tbody>
         </table><br>
@@ -168,7 +168,7 @@ extrajs: [
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Environment EPI #5: Share of arrivals applying CDO [% arrivals] - (all included airports)</div><span style="color:#C0504D;"></span></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-May</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-April</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1TjRT0KGZIhfusSSC2vVw26MGjGCR-az74UkRycY-OhY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
@@ -280,11 +280,11 @@ extrajs: [
       <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
         <tbody>
         <tr>
-          <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #3: Air traffic control pre-departure delay [min. per dep.] <br>&nbsp; &nbsp;Capacity CPI #4: Average time of all cause-departure delay per flight [min. per dep.] </div></td>
+          <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #3: Air traffic control pre-departure delay [min. per dep.] - (airports >80k movements)<br>&nbsp; &nbsp;Capacity CPI #4: Average time of all cause-departure delay per flight [min. per dep.] - (airports >80k movements)</div></td>
         </tr>
         <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-February</span></div></td>
-          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1RvmgvIWhdyjRWM4IazWKXB4stMFd6zIuYZXyF1JNVhM/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
+          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1-gbHGXi7UUCog22vJ2teXDomIvvRG9yHtvl4oBQVbTk/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Airports</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/atc-pre-departure-delay.md" >}}' target="_blank">[Meta data]</a></span></div></td>
         </tr>
@@ -294,8 +294,7 @@ extrajs: [
         </tr>
         </tbody>
       </table>
-</table>
-
+</table><br>
 <!-- COST-EFFICIENCY-->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
@@ -309,7 +308,7 @@ extrajs: [
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; En-route Service Units (TSU)[actual vs. determined]</div></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-March</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-April</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1UcVE4awuEJWX_qXfQ_2_J4GCzv_4t5Cr3dllHwWowdI/edit?usp=sharing" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: CRCO; EC; PRU analysis </div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"></span></div></td>

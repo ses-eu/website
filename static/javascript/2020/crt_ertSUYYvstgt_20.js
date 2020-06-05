@@ -35,10 +35,10 @@
         vAxis: {
             title: 'actual vs. determined ERT SU',
             format: '0%',
-            viewWindow: {
-                min: -0.05,
-                max: 0.35
-            },
+         //   viewWindow: {
+         //       min: -0.05,
+         //       max: 0.35
+         //   },
             textStyle: {
                 color: 'grey',
                 fontSize: 11
