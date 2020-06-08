@@ -12,7 +12,7 @@
         height: 280
     },
     view: {
-        columns: [1, 2, 0, 3, 5, 7]
+        columns: [0, 2, 3, 5, 7]
     }
 });
 tbl_aptATC_APT.draw();     

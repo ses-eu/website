@@ -70,7 +70,7 @@
             format: '0.0%'
         },
         hAxis: {
-            title: 'Annual values for the SES area',
+            title: 'SES area (12 months rolling)',
             titleTextStyle: {
                 color: 'grey',
                 fontSize: 10
