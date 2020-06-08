@@ -76,15 +76,15 @@ extrajs: [
         <tbody>
     <tr>
             <td colspan="4" rowspan="1" style="width: 950px"><div class="head2">&nbsp;SAFETY</div><small><span style="color:#C0504D;">
-            To be provided in line with the scheduled reporting cycle:
-            <ul>
+            To be provided in line with the scheduled reporting cycle.
+       <!--   <ul>
               <li>SKPI#1: Effectiveness of Safety Management (EoSM)</li>
               <li>SPI#1: Separation Minima Infringements (SMI)</li>
               <li>SPI#2: Separation Minima Infringements (SMI) with any contributions from ATS or CNS</li>
               <li>SPI#3: Runway Incursions (RI)</li>
               <li>SPI#4: Runway Incursions with any contribution from ATS or CNS</li>
               <li>SPI#5: Application of automatic safety data recording</li>
-            </ul>  
+            </ul>  -->
             </small></span></td>
   </tr>
   </tbody>
@@ -171,7 +171,7 @@ extrajs: [
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-April</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1TjRT0KGZIhfusSSC2vVw26MGjGCR-az74UkRycY-OhY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports; Network Manager</div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"> </span></div></td>
           </tr>
           <tr>
             <td colspan="4" rowspan="1" style="vertical-align: top;"><div id="tbl_cdo_APT_20"></div></td>
@@ -194,7 +194,7 @@ extrajs: [
             <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>Data not yet available. The section will be updated as soon as the data is available.</span></div></small></td>
           </tr>
           <tr>
-            <td colspan="4" rowspan="1"><div class="head3">&nbsp; EnvironmentE PI #8: Rate of using available airspace structures (reserved or segregated and CDRs)</div><span style="color:#C0504D;"></span></td>
+            <td colspan="4" rowspan="1"><div class="head3">&nbsp; Environment EPI #8: Rate of using available airspace structures (reserved or segregated and CDRs)</div><span style="color:#C0504D;"></span></td>
           </tr>
           <tr>
             <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>Data not yet available. The section will be updated as soon as the data is available.</span></div></small></td>

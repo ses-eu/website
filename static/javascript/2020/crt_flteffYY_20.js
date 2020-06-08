@@ -70,7 +70,7 @@
             format: '0.0%'
         },
         hAxis: {
-            title: 'SES area (12 months rolling',
+            title: 'SES area (12 months rolling)',
             titleTextStyle: {
                 color: 'grey',
                 fontSize: 10
