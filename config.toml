@@ -33,7 +33,11 @@ relativeurls = false
 languageCode = "en-us"
 title = "Single European Sky Portal"
 theme = "hugo-lithium"
-googleAnalytics = "UA-61343306-1"
+
+#######   DO NOT ACTIVATE VIA THE THEME            #########
+#######   EUROCONTROL CSP DOES NOT ALLOW INLINE JS #########
+#######   see relevant load_google_analytics.js    #########
+googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
