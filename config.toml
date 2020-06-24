@@ -33,7 +33,7 @@ relativeurls = false
 languageCode = "en-us"
 title = "Single European Sky Portal"
 theme = "hugo-lithium"
-googleAnalytics = ""
+googleAnalytics = "UA-61343306-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
