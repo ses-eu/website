@@ -79,10 +79,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.1"
 
     [params.logo]
-    url = "ses-performance-logo.png"
+    image = "ses-performance-logo.png"
     width = ""
     height = "32"
     alt = "Single European Sky logo"
+
+    [params.poweredBy]
+#    image = "powered-by-eurocontrol-logo.png"
+#    url = "https://www.eurocontrol.int/"
+#    width = ""
+#    height = "56"
+#    alt = "EUROCONTROL"
 
     [params.logofooter]
     image = "logo-ce-horizontal-en-quadri-lr.png"

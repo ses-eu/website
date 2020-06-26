@@ -1,14 +1,24 @@
 <nav class="nav">
   <a href="{{ "/" | relURL }}" class="nav-logo">
-    <img src="{{ print "images/" .Site.Params.logo.url | relURL }}"
+    <img src="{{ print "images/" .Site.Params.logo.image | relURL }}"
          width="{{ .Site.Params.logo.width }}"
          height="{{ .Site.Params.logo.height }}"
          alt="{{ .Site.Params.logo.alt }}">
   </a>
+  &nbsp; &nbsp; &nbsp;
+  <a href="{{ .Site.Params.poweredBy.url }}" class="nav-logo">
+    <img src="{{ print "images/" .Site.Params.poweredBy.image | relURL }}"
+         width="{{ .Site.Params.poweredBy.width }}"
+         height="{{ .Site.Params.poweredBy.height }}"
+         alt="{{ .Site.Params.poweredBy.alt }}"
+         style="padding-left: 15px">
+  </a>
 
   <ul class="nav-links">
     {{ range .Site.Menus.main }}
-    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    <li>
+      <a href="{{ .URL }}">{{ .Pre }}<span>{{safeHTML .Name}}</span>{{.Post}}</a>
+    </li>
     {{ end }}
   </ul>
 </nav>
