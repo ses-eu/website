@@ -85,7 +85,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Single European Sky logo"
 
     [params.logofooter]
-    url = "logo-ce-horizontal-en-quadri-lr.png"
+    image = "logo-ce-horizontal-en-quadri-lr.png"
+    url = "https://webgate.ec.europa.eu/eusinglesky/node_en"
     width = "w6"
     height = "h2"
     alt = "European Commission logo"

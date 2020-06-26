@@ -1,10 +1,12 @@
       <footer class="footer">
         <ul class="footer-links">
           <li>
-            <span>
-              {{ .Site.Params.logofooter.description }}<img src="{{ print "images/" .Site.Params.logofooter.url | relURL }}" class="dib {{ .Site.Params.logofooter.width }} {{ .Site.Params.logofooter.height }} br-10" alt="{{ .Site.Params.logofooter.alt }}">
-                     &copy; {{ now.Format "2006"}}&nbsp;<b class="ttu">{{ .Site.Params.owner.shortname }}</b>, All Rights Reserved
-                  </span>
+            <a href="{{ .Site.Params.logofooter.url }}" target="_blank">
+              <span>
+                {{ .Site.Params.logofooter.description }}<img src="{{ print "images/" .Site.Params.logofooter.image | relURL }}" class="dib {{ .Site.Params.logofooter.width }} {{ .Site.Params.logofooter.height }} br-10" alt="{{ .Site.Params.logofooter.alt }}">
+                       &copy; {{ now.Format "2006"}}&nbsp;<b class="ttu">{{ .Site.Params.owner.shortname }}</b>, All Rights Reserved
+              </span>
+            </a>
           </li>
           <li>
             <a href="{{ .Site.Params.PrivacyURL }}" target="_blank">Privacy statement</a>
