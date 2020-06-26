@@ -67,6 +67,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     description = "Single European Sky Portal."
+    privacyURL = "https://www.eurocontrol.int/info/privacy-and-website-terms-use"
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
