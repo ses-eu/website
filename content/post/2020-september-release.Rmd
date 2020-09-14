@@ -1,6 +1,6 @@
 ---
 title: "September 2020 Release"
-date: 2020-09-17
+date: 2020-09-16
 categories: ["Release"]
 ---
 
