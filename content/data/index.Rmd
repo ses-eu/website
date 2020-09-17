@@ -14,7 +14,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
 | Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP3_APT_ASMA_2029_Jan_Jul.xlsx][RP3_APT_ASMA_2020]           |
-| Share of arrivals applying CDO        | [{{% dwnld_i %}} RP3_APT_CDO_2020_Jan_Jun.xlsx][RP3_CCO_CDO_2020]             |
+| Share of arrivals applying CDO        | [{{% dwnld_i %}} RP3_APT_CDO_2020_Jan_Aug.xlsx][RP3_CCO_CDO_2020]             |
 | Airport Pre-departure Delay           | [{{% dwnld_i %}} RP3_APT_ATC_PRE_2020_Jan_Jul.xlsx][RP3_APT_ATC_PRE_2020]     |
 | Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP3_APT_ATFM_ARR_2020_Jan_Aug.xlsx][RP3_APT_ATFM_ARR_2020]   |
 | Adherence to ATFM slots               | [{{% dwnld_i %}} RP3_APT_ATFM_SLOT_2020_Jan_Aug.xlsx][RP3_APT_ATFM_SLOT_2020] |
@@ -34,7 +34,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP3_ERT_SU_2020]:        ../download/2020/RP3_ERT_SU_2020_Jan_Aug.xlsx
 [RP3_Flights_2020]:       ../download/2020/RP3_Flights_2020_Jan_Aug.xlsx
 [RP3_FLT_EFF_2020]:       ../download/2020/RP3_FLT_EFF_2020_Jan_Aug.xlsx
-[RP3_CCO_CDO_2020]:       ../download/2020/RP3_APT_CDO_2020_Jan_Jun.xlsx
+[RP3_CCO_CDO_2020]:       ../download/2020/RP3_APT_CDO_2020_Jan_Aug.xlsx
 
 
 
