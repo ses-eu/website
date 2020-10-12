@@ -85,11 +85,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     alt = "Single European Sky logo"
 
     [params.poweredBy]
-#    image = "powered-by-eurocontrol-logo.png"
-#    url = "https://www.eurocontrol.int/"
-#    width = ""
-#    height = "56"
-#    alt = "EUROCONTROL"
+    image = "powered-by-eurocontrol-logo.png"
+    url = "https://www.eurocontrol.int/"
+    width = ""
+    height = "56"
+    alt = "EUROCONTROL"
 
     [params.logofooter]
     image = "logo-ce-horizontal-en-quadri-lr.png"
