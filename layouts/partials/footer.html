@@ -14,6 +14,11 @@
           <li>
             <a href="{{ .Site.RSSLink | relURL }}" type="application/rss+xml" target="_blank">RSS feed</a>
           </li>
+          <li>
+            <a href="{{ .Site.Params.poweredByFooter.url }}" target="_blank">
+              <img src="{{ print "images/" .Site.Params.poweredByFooter.image | relURL }}" class="dib {{ .Site.Params.poweredByFooter.width }} {{ .Site.Params.poweredByFooter.height }} br-10" alt="{{ .Site.Params.poweredByFooter.alt }}">
+            </a>
+          </li>
         </ul>
       </footer>
 
