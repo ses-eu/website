@@ -6,8 +6,9 @@ This Portal is published by the Performance Review Unit (PRU) on behalf of the E
 Every effort has been made to ensure that the information and analysis contained on this website are
 as accurate and complete as possible.
 Despite these precautions, should you find any errors or inconsistencies we would be grateful
-if you could please bring them to the Performance Review Unit’s attention. 
+if you could please bring them to the [Performance Review Unit](mailto:PRU-Support@eurocontrol.int)’s attention. 
 
+If you want to know more about PRU's work, please visit the [Aviation Intelligence portal](https://ansperformance.eu/).
 
 ## Disclaimer
 

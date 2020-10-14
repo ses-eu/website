@@ -91,6 +91,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #    height = "56"
 #    alt = "EUROCONTROL"
 
+    [params.poweredByFooter]
+    image = "euctrl-logo-wide-poweredby.svg"
+    url = "https://www.eurocontrol.int/"
+    width = ""
+    height = "h2"
+    alt = "EUROCONTROL"
+
     [params.logofooter]
     image = "logo-ce-horizontal-en-quadri-lr.png"
     url = "https://webgate.ec.europa.eu/eusinglesky/node_en"
