@@ -1,11 +1,11 @@
 (function() {
     function dv(){
-
+    
 // ENVIRONMENT - Horizontal flight efficiency - TABLE
 var tbl_ert_flteff = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ert_flteff_Loc_20',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1M1DHbsEifizqgHF4srKrF3aZcz-lGtwEzfSUw6BiWj8/edit?usp=sharing&sheet=ERT_FLT_EFF_LOC&range=A5:F34&hl=en_GB',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/16PMjS_6U9QrNiTt1WKGW5Es1AyejxCJJHdLrg0g29ag/edit?usp=sharing&sheet=ERT_FLT_EFF_LOC&range=A5:F34&hl=en_GB',
     options: {
         allowHtml: true,
         width: 460,
