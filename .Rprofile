@@ -6,7 +6,8 @@
 
 options(
   blogdown.ext = ".Rmd",
-  blogdown.publishDir = "../ses-portal-generated"
+  blogdown.publishDir = "../ses-portal-generated",
+  blogdown.serve_site.startup = FALSE
 )
 
 # in .Rprofile of the website project
