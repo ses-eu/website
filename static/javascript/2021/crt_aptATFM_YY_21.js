@@ -41,7 +41,7 @@
     },
     view: {
         columns: [0, 1],
-        rows: [0, 1, 2, 3, 4]
+        
     }
 });
 crt_aptATFMsesYY.draw();      
