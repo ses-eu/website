@@ -92,27 +92,27 @@ extrajs: [
   <tbody>
   <tr>
   <td colspan="4" rowspan="1" style="width: 950px"><div class="head2">&nbsp; ENVIRONMENT</div></td>
-  </tr>
-    <!-- Horizontal en-route flight efficiency-->
-  <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
-  <tbody>
-    <tr>
-      <td colspan="4" rowspan="1"><div class="head3">&nbsp;Environment: Horizontal en-route flight efficiency [%]</div></td>
-       </tr>
+   </tr>
+   <!-- Horizontal en-route flight efficiency-->
+   <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+     <tbody>
         <tr>
-        <td colspan="4" rowspan="1" style="width: 950px"><small><span>
+       <td colspan="4" rowspan="1"><div class="head3">&nbsp;Environment: Horizontal en-route flight efficiency [%]</div></td>
+        </tr>
+         <tr>
+         <td colspan="4" rowspan="1" style="width: 950px"><small><span>
             <ul>
               <li>EKPI#1: KEA - Avg. horizontal en-route flight efficiency (actual trajectory)</li>
               <li>EPI#1: KEP - Avg. horizontal en-route flight efficiency (last filed flight plan)</li>
               <li>EPI#2: KES - Avg. horizontal en-route flight efficiency (shortest constrained trajectory)</li>
             </ul></small></span></td>
-        </tr>
-        <tr>
+         </tr>
+         <tr>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Ref. date: 31. Mar. 2021</span></div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1wBguss8KxWUx_hLigzE9XW-TyFtJQzsP2IBrPoWTgdk/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Network Manager</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/average-horizontal-en-route-inefficiency.md" >}}' target="_blank">[Meta data]</a></span></div></td>
-        </tr>
+         </tr>
         <tr>
             <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
                 <div id="crt_flteffYY_21"></div><br>
@@ -122,7 +122,7 @@ extrajs: [
                 <div id="tbl_ert_flteff_Loc_21"></div></td>
           </tr>
           </tbody>
-        </table><br>
+     </table><br>
    <!-- Additional taxi-out time-->
         <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
           <tbody>
