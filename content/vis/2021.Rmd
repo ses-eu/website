@@ -34,14 +34,14 @@ extrajs: [
 ---
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
 
-<small><span style="color:#C0504D;">Last update: 17 Mar. 2021</small></span>
+<small><span style="color:#C0504D;">Last update: 12 Apr. 2021</small></span>
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
   <tr>
-    <td colspan="2" rowspan="1" style="width: 950px"><div class="head2">&nbsp;Traffic</div></td>
+  <td colspan="2" rowspan="1" style="width: 950px"><div class="head2">&nbsp;Traffic</div></td>
   </tr>
-      <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+    <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
         <tbody>
         <tr>
         <td colspan="4" rowspan="1"><div class="head3">&nbsp; Average daily IFR flights</div></td>
@@ -91,22 +91,21 @@ extrajs: [
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
   <tr>
-    <td colspan="4" rowspan="1" style="width: 950px"><div class="head2">&nbsp; ENVIRONMENT</div></td>
+  <td colspan="4" rowspan="1" style="width: 950px"><div class="head2">&nbsp; ENVIRONMENT</div></td>
   </tr>
     <!-- Horizontal en-route flight efficiency-->
-      <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
-        <tbody>
+  <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4" rowspan="1"><div class="head3">&nbsp;Environment: Horizontal en-route flight efficiency [%]</div></td>
+       </tr>
         <tr>
-          <td colspan="4" rowspan="1"><div class="head3">&nbsp;Environment: Horizontal en-route flight efficiency [%]</div></td>
-        </tr>
-        <tr>
-          <td colspan="4" rowspan="1" style="width: 950px"><small><span>
+        <td colspan="4" rowspan="1" style="width: 950px"><small><span>
             <ul>
               <li>EKPI#1: KEA - Avg. horizontal en-route flight efficiency (actual trajectory)</li>
               <li>EPI#1: KEP - Avg. horizontal en-route flight efficiency (last filed flight plan)</li>
               <li>EPI#2: KES - Avg. horizontal en-route flight efficiency (shortest constrained trajectory)</li>
-            </ul>  
-            </small></span></td>
+            </ul></small></span></td>
         </tr>
         <tr>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Ref. date: 31. Mar. 2021</span></div></td>
