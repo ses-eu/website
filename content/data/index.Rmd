@@ -37,7 +37,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP3_CCO_CDO_2021]:       ../download/2021/RP3_APT_CDO_2021_Jan_Mar.xlsx
 
 
-## 2020 (post operational adjustments are not yet taken into account)
+## 2020 (post operational adjustments are taken into account (Status 07 April 2021))
 
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
