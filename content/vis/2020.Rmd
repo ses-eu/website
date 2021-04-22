@@ -34,34 +34,34 @@ extrajs: [
 ---
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
 
-<small><span style="color:#C0504D;">Last update: 15 Feb. 2021</small></span>
-<!-- TRAFFIC -->
+<small><span style="color:#C0504D;">Last update: 22 Apr. 2021</small></span>
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
-  <tbody>
-  <tr>
-    <td colspan="2" rowspan="1" style="width: 950px"><div class="head2">&nbsp;Traffic</div></td>
-  </tr>
-      <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
-        <tbody>
-        <tr>
-        <td colspan="4" rowspan="1"><div class="head3">&nbsp; Average daily IFR flights</div></td>
-        </tr>
-        <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December</span></div></td>
-          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1kF6KGfa4eBoh8rpdyzvJXhfigLKR8coSbi-R5nQTMF0/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Network Manager</div></td>
-          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp2.md" >}}' target="_blank">[Meta data]</a></span></div></td>
-        </tr>     
-        <tr>
-          <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-            <div id="crt_cap_ert_YY"></div>
-            <div style="float: left;" id="crt_ertfltsYY_20"></div>
-            <div style="float: left;" id="crt_ertfltsMM_20"></div></td>
-          <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
-          <div style="float: top;" id="tbl_ertfltsYY_20"></div></td>
-        </tr>
-      </tbody>
-      </table>
+<!-- TRAFFIC -->
+<tbody>
+<tr>
+  <td colspan="2" rowspan="1" style="width: 950px"><div class="head2">&nbsp;Traffic</div></td>
+ </tr>
+  <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+    <tbody>
+    <tr>
+    <td colspan="4" rowspan="1"><div class="head3">&nbsp; Average daily IFR flights</div></td>
+    </tr>
+    <tr>
+      <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December</span></div></td>
+      <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1kF6KGfa4eBoh8rpdyzvJXhfigLKR8coSbi-R5nQTMF0/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+      <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Network Manager</div></td>
+      <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp2.md" >}}' target="_blank">[Meta data]</a></span></div></td>
+    </tr>     
+    <tr>
+      <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+        <div id="crt_cap_ert_YY"></div>
+        <div style="float: left;" id="crt_ertfltsYY_20"></div>
+        <div style="float: left;" id="crt_ertfltsMM_20"></div></td>
+        <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
+        <div style="float: top;" id="tbl_ertfltsYY_20"></div></td>
+    </tr>
+    </tbody>
+  </table>
 </tbody>
 </table>
 
@@ -105,9 +105,8 @@ extrajs: [
               <li>EKPI#1: KEA - Avg. horizontal en-route flight efficiency (actual trajectory)</li>
               <li>EPI#1: KEP - Avg. horizontal en-route flight efficiency (last filed flight plan)</li>
               <li>EPI#2: KES - Avg. horizontal en-route flight efficiency (shortest constrained trajectory)</li>
-            </ul>  
-            </small></span></td>
-        </tr>
+            </ul></small></span></td>
+      </tr>
         <tr>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Ref. date: 31. December</span></div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1fWpgy16BHtsMU_kRLpcQOl79oDOdPe0ftYH-xiLkQfE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
@@ -211,7 +210,7 @@ extrajs: [
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
     <tr>
-      <td colspan="4" rowspan="1" style="width: 950px"><div class="head2">&nbsp;CAPACITY</div><span style="color:#C0504D;"><small>Please note that post-operational adjustments are not yet considered. The data will be updated as soon as the post-operational results are available.</span></small></td>
+      <td colspan="4" rowspan="1" style="width: 950px"><div class="head2">&nbsp;CAPACITY</div><span style="color:#C0504D;"><small>These data take into account post-operations adjustments (Status 07 April 2021). For more information see also the <a href="https://www.eurocontrol.int/service/post-operations-performance-adjustment" target="_blank">Post Operations Adjustment Process</span></small></td>
     </tr>
       <!-- EN-ROUTE ATFM DELAYS-->
        <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">

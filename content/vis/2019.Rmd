@@ -107,7 +107,7 @@ extrajs: [
                   <td colspan="4" rowspan="1" style="width: 950px; vertical-align: top;"><br><div><b>ANSP level</b></div><div style="float: top;" id="tbl_EOSM_ANSP_19"></div></td>
                 </tr>
               </table>
-                <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+              <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
                   <tr>
                     <td colspan="3" rowspan="1" style="width: 475px, text-align: center; vertical-align: top;"><div class="head4">&nbsp;RAT methodology application&nbsp;&nbsp;<a href='{{< relref "/metadata/rat-methodology-application.md" >}}' target="_blank">(Meta data)</a></div></td>
                     <td colspan="3" rowspan="1" style="width: 475px, text-align: center; vertical-align: top;"><div class="head4">&nbsp;Reporting of Just Culture &nbsp;&nbsp;<a href='{{< relref "/metadata/reporting-of-just-culture.md" >}}' target="_blank">(Meta data)</a> </div></td>
