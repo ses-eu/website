@@ -5,14 +5,14 @@
   var tbl_aptATC_APT = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_aptATC_APT_21',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1vCdEiwpZPsFTaFPaSMlTj1r8D3gNr94yx8N2gkvL6hA/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:H57',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1-3EWBRNEOYZL3CxzzVuPZaf1JEYdWLJYBV3LO0UIjpg/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:I47',
     options: {
         allowHtml: true,
         width: 950,
         height: 280
     },
     view: {
-        columns: [0, 2, 3, 5, 7]
+        columns: [0, 2, 3, 5, 8]
     }
 });
 tbl_aptATC_APT.draw();     
