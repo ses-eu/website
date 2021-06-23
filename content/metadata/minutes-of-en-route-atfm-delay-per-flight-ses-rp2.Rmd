@@ -1,5 +1,5 @@
 ---
-title: Minutes of en route ATFM delay per flight - RP1
+title: Minutes of en route ATFM delay per flight - RP2
 categories:
   - metadata
   - glossary
@@ -12,10 +12,6 @@ table, td {
 }
 td {
   padding: 5px;
-}
-
-#disclaimer {
-  background: #EAEAEA;
 }
 </style>
 
@@ -34,13 +30,20 @@ td {
 |||
 |-------------------------|-------------------|
 | Metadata last certified | not applicable    |
-| Metadata last posted 	  | 12 September 2012 |
-| Metadata last update 	  | 20 July 2012      |
+| Metadata last posted 	  | 01 November 2016  |
+| Metadata last update 	  | 01 November 2016      |
 
 
 ## Statistical presentation
 
 ### Data description
+
+<div class="note">
+Please note that software release 20.0 of the Network Manager on 04 April 2016 introduced a
+change in the computation of ATFM delay for operational purposes.
+ATFM delays on this web page are based on this new computation from 04 April 2016 onwards.
+See the Source data section below for more information on the changes in NM release 20.0.
+</div>
 
 The measure provides an indication of [ATFM delays][atfm-delay] on the ground due to
 constraints en-route.
@@ -62,7 +65,8 @@ The resulting ATFM delays are calculated as the difference between the estimated
 calculated from the filed flight plan including updates and the calculated take-off time
 allocated by the central unit of ATFM.
 The reason for the regulation is indicated by the responsible Flow Management Position (FMP).
-The delay is attributed to the most constraining ATC unit. 
+The delay is attributed to the FIR containing the reference location of the most constraining
+capacity constraint.  
 
 **En route ATFM delay** has been in use as a commonly agreed proxy for en route capacity shortfalls
 since 1999.
@@ -71,15 +75,27 @@ and is compliant with the [KPI][kpi] definition in the EU legislation.
 
 
 ### Classification system
-En route ATFM delay per flight is classified per [Air Navigation Services Provider][ansp]
+En route ATFM delay per flight is classified per Flight Information Region ([FIR][fir])
 and per [Functional Airspace Block][fab] within the [Single European Sky Area][ses-area].
 
-For the monitoring of National/FAB Performance targets, the performance of the [ANSP][ansp]
-designated as the accountable entity in the performance plan is considered.
-This is extended to a group of [ANSP][ansp]s in the case of a [FAB][fab]
-Performance Plans and targets.
-It should be noted that the areas of responsibility of the individual [ANSP][ansp]s
-are not necessarily coincidental with the geographical boundaries of the State.  
+For the monitoring of National/FAB Performance targets, the FAB is considered as
+the aggregation of the individual FIRs belonging to the Member state within the FAB as per the
+following table:
+
+
+| FAB Name | FIRs included | FMPs |
+|----------|---------------|------|
+| Baltic FAB | EPWWFIR, EYVLFIR, EYVLUIR | EPWW2012, EYVCFMP, EPWWFMP |
+| BLUE MED FAB | LCCCFIR, LCCCUIR, LGGGFIR, LGGGUIR, LIBBFIR, LIBBUIR, LIMMFIR, LIMMUIR, LIRRFIR, LIRRUIR, LMMMFIR, LMMMUIR | LIBBFMP, LGGGFMP, LGMDFMP, LCCCFMP, LMMMFMP, LIRRFMPS, LIRRFMPN, LIRRFMPC, LIMMFMP, LIMMFMPA, LIMMFMPE, LIMMFMPT, LIMMFMPW, LIPPFMP, LIPPFMP1, LIRRFMP |
+| DANUBE FAB | LBSRFIR, LRBBFIR | LBSRFMP1, LRBBFMP1, LRBBFMP2, LRBCFMP, LRCKFMP, LRCLFMP, LBSRFMP2, LRARFMP, LBWRFMP, LBSRFMP,LRBBFMP |
+| DK-SE FAB | EKDKFIR, ESAAFIR | EKDKFMPE, EKDKFMPW, ESMMFMP, ESMMLOW, ESOSFMP, ESUNFMP, EKDKFMP, EKCHTMA |
+| FABEC | EBBUFIR, EBURUIR, EDGGFIR, EDMMFIR, EDUUUIR, EDVVUIR, EDWWFIR, EHAAFIR, LFBBFIR, LFEEFIR, LFFFFIR, LFFFUIR, LFMMFIR, LFRRFIR, LSASFIR, LSASUIR | EBBUFMP, EDBBFMP, EDBBFMP1, EDFFFMP, EDGGFMP1, EDGGFMP2, EDLLFMP, EDLLFMP1, EDMERGE, EDMMFMP, EDMMFMPA, EDMMFMPE, EDMMFMPN, EDMMFMPS, EDUUFMP, EDUUFMPC, EDUUFMPE, EDUUFMPS, EDUUFMPW, EDWWFMP, EDYYFMP, EHAAFMP, LFBBAPP, LFBBFMP, LFBBFMPL, LFBBFMPU, LFBBNU, LFBBSU, LFEEAPP, LFEEFMP, LFFFAD, LFFFFMP, LFFFFMPE, LFFFFMPW, LFMMAPP, LFMMEL, LFMMEU, LFMMFMP, LFMMFMPE, LFMMFMPL, LFMMFMPU, LFMMFMPW, LFMMWL, LFMMWU, LFRRAPP, LFRRFMP, LSAZCTL, LSAGFMP, LSAGFMPL, LSAGFMPU, LSAGLFMP, LSAGUFMP, LSAZFMP, LSAZLFMP, LSAZCFL, LFRRFMP1 |
+| FAB CE (SES RP2) | LDZOFIR, LHCCFIR, LJLAFIR, LKAAFIR, LOVVFIR, LZBBFIR | LJLAFMP, LOVVFMP, LZBBFMP, LKAAFMPU, LKAAFMPL, LKAAFMP, LDZOFMP, LHCCFMP |
+| NEFAB | EETTFIR, EFINFIR, EFINUIR, ENOBFIR, ENORFIR, EVRRFIR | EVRRFMP, ENTRFMP, ENSVFMP, ENOSFMP, ENBDFMP, EFPSFMP, EFINFMP, EETTFMP, EFESFMP, ENOSEFMP, ENOSWFMP |
+| SW FAB | GCCCFIR, GCCCUIR, LECBFIR, LECBUIR, LECMFIR, LECMUIR, LPPCFIR | LECBFMP1, LECMFMPN, LECMFMPS, LECPFMP, GCCCFMP, LECBFMP, LECSFMP, LPPCFMP, LECMFMP |
+| UK-Ireland FAB | EGPXFIR, EGPXUIR, EGTTFIR, EGTTUIR, EISNFIR, EISNUIR | EGTCFMP, EIDWFMP, EGTTOLYM, EGTTFMP1, EGTTFMP, EGTCOLYM, EISNFMP, EGPXFMP1, EGPXFMP, EGCCFMP |  
+
+
 
 ### Sector coverage
 
@@ -106,7 +122,8 @@ Flights
 the most penalizing [ATFM regulation][regu] which affects it.
 Depending of the type and the entity responsible for the [reference location][refloc] protected by
 the [ATFM regulation][regu] the [ATFM delay][atfm-delay] is classified as  either an airport or
-an en route [ATFM delay][atfm-delay] and attributed to the relevant [ANSP][ansp].
+an en route [ATFM delay][atfm-delay] and attributed to the  [FIR][fir] containing the
+[reference location][refloc].
 
 Each ATFM regulation also comprises a designator referring to the cause of delay
 which can be used in further analysis.
@@ -278,6 +295,11 @@ En route ATFM delay per flight targets
 
 Actual en route ATFM delay
 : The [Network Manager][nm-cfmu] provides this data.
+: Please note that the delays caused by READY to Depart (REA) messages and ATFM slot extensions
+  were excluded from the ATFM delay computation with NM release 20 (4 April 2016) which reduces
+  the overall amount of computed ATFM delay.
+: More information on the adjusted ATFM delay computation as of NM release 20.0
+  from 4 April can be found here: [NM release 20.0 - 4 April 2016 - FB750-Delay Calculation improvements][nm20].
 
 Actual Number of [IFR][ifr] flights
 : The [Network Manager][nm-cfmu] provides this data.
@@ -298,10 +320,9 @@ Data validation is the responsibility of the [Network Manager][nm-cfmu].
 
 ### Data compilation 
 
-The [Network Manager][nm-cfmu] aggregates the data for the different operational units
-which refer to specific [ANSP][ansp]s.
-The [ANSP][ansp]s monitored during the first reference period are referred to
-as the [SES RP1 ANSPs][ansp-ses-rp1].
+The [Network Manager][nm-cfmu] aggregates the data for the different FIRs.
+The [FIR][fir]s monitored during the second reference period are referred to
+as the SES RP2 Area.
 
 ### Adjustment
 Corrections may be made when issues are discovered as described in the
@@ -312,17 +333,15 @@ There are no systematic adjustments applied to this data.
 ## Comment
 No comments.
 
-<div id="disclaimer">
-<h3>Disclaimer</h3>
+### Disclaimer {.disclaimer}
 
 This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible. Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.
-<br>
+
 The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB. The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend the information provided at any time and without prior notice. 
-</div>
+
 
 [air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
 [ansp]: https://ansperformance.eu/acronym/ansp/ "ANSP"
-[ansp-ses-rp1]: {{< relref "/metadata/ansp-ses-rp1.md" >}} "ANSPs - SES RP1"
 [atfm-delay]: https://ansperformance.eu/definition/atfm-delay/ "ATFM Delay"
 [coda]: https://www.eurocontrol.int/articles/central-office-delay-analysis-coda "CODA"
 [ctot]: https://ansperformance.eu/acronym/ctot/ "CTOT"
@@ -339,4 +358,5 @@ The information may be copied in whole or in part providing that the copyright n
 [refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
 [regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
 [ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
-[ses-portal]: {{< relref "/" >}} "SES Data Portal"
+[ses-portal]: ../../ "SES Data Portal"
+

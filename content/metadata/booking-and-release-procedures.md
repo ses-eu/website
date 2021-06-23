@@ -5,16 +5,6 @@ categories:
   - glossary
 ---
 
-<style>
-table, td {
-  border: 1px solid #bfbdbd;
-  border-collapse: collapse;
-}
-td {
-  padding: 5px;
-}
-</style>
-
 The indicator "Booking and Release Procedures" monitors the actual use of [SUAs][sua]
 compared to the number of hours that they were notified as being restricted or
 segregated from general air traffic.

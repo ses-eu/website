@@ -13,10 +13,6 @@ table, td {
 td {
   padding: 5px;
 }
-
-#disclaimer {
-  background: #EAEAEA;
-}
 </style>
 
 ## Contacts
@@ -160,7 +156,7 @@ and quality assessment.
 ## Quality Management
 
 ### Quality assurance
-Data validation is performed by CODA, on behalf of PRU, on each data delivery by airports,
+Data validation is performed by the Central Office for Delay Analysis (CODA), on behalf of PRU, on each data delivery by airports,
 and data validation report are returned to the data providers.
 
 ### Quality assessment
@@ -215,8 +211,8 @@ is performed once per month.
 ## Comparability
 ### Comparability — geographical
 
-The data is collected centrally by the [EUROCONTROL Performance Review Unit][pru]
-with delegation to [CODA][coda] and computed consistently for all airports
+The data is collected centrally by the [EUROCONTROL Performance Review Unit (PRU)][pru]
+with delegation to the Central Office for Delay Analysis (CODA) and computed consistently for all airports
 subject to performance monitoring within the SES performance scheme.
 
 The interpretation of the measure and comparisons across airports require due consideration
@@ -267,8 +263,8 @@ on a monthly basis.
 
 ### Data collection
 
-The data is collected by the [EUROCONTROL Performance Review Unit][pru] and the
-[Central Office for Delay Analysis (CODA)][coda].
+The data is collected by the [EUROCONTROL Performance Review Unit (PRU)][pru] and the
+Central Office for Delay Analysis (CODA).
 
 
 ### Data validation
@@ -317,13 +313,11 @@ Corrections may be made when issues are discovered as described in the
 ## Comment
 No comments.
 
-<div id="disclaimer">
-<h3>Disclaimer</h3>
+### Disclaimer {.disclaimer}
 
 This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible. Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.
-<br>
+
 The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB. The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend the information provided at any time and without prior notice. 
-</div>
 
 
 [uasma]: https://ansperformance.eu/definition/unimpeded-asma-time/ "Unimpeded ASMA Time"
@@ -344,5 +338,5 @@ The information may be copied in whole or in part providing that the copyright n
 [refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
 [regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
 [ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
-[ses-portal]: `r htmltools::HTML('{{< relref / >}}')` "SES Data Portal"
+[ses-portal]: https://www.eurocontrol.int/prudata/dashboard/ "SES Data Portal"
 
