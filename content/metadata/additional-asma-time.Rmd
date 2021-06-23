@@ -326,13 +326,13 @@ The information may be copied in whole or in part providing that the copyright n
 </div>
 
 
+[uasma]: https://ansperformance.eu/definition/unimpeded-asma-time/ "Unimpeded ASMA Time"
+[uasmamet]: https://ansperformance.eu/methodology/unimpeded-asma-time/ "Unimpeded ASMA Time - Methodology"
 [ansp]: https://ansperformance.eu/acronym/ansp/ "ANSP"
-[ansp-ses-rp1]: `r htmltools::HTML('{{< relref "/metadata/ansp-ses-rp1.md" >}}')` "ANSPs - SES RP1"
 [atfm-delay]: https://ansperformance.eu/definition/atfm-delay/ "ATFM Delay"
 [air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
 [coda]: https://www.eurocontrol.int/articles/ir691-data-collection-process "CODA"
 [ctot]: https://ansperformance.eu/acronym/ctot/ "CTOT"
-[data]: `r htmltools::HTML('{{< relref "/data/index.html" >}}')` "Data - SES Data Portal"
 [etot]: https://ansperformance.eu/acronym/etot/ "ETOT"
 [fab]: https://ansperformance.eu/acronym/fab/ "FAB"
 [fmp]: https://ansperformance.eu/acronym/fmp/ "FMP"
@@ -344,6 +344,5 @@ The information may be copied in whole or in part providing that the copyright n
 [refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
 [regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
 [ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
-[ses-portal]: `r htmltools::HTML('{{< relref "/" >}}')` "SES Data Portal"
-[uasma]: https://ansperformance.eu/definition/unimpeded-asma-time/ "Unimpeded ASMA Time"
-[uasmamet]: https://ansperformance.eu/methodology/unimpeded-asma-time/ "Unimpeded ASMA Time - Methodology"
+[ses-portal]: `r htmltools::HTML('{{< relref / >}}')` "SES Data Portal"
+
