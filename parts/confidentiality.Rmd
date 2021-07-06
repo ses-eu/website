@@ -1,0 +1,11 @@
+* The information is disseminated in accordance with Article 21 of the
+  [Performance Regulation (691 / 2010)][law2010/691].
+* The information is disseminated in accordance with Article 22 of 
+  [Commission Implementing Regulation (EU) No 390 / 2013][law2013/390]. 
+* The information is disseminated in accordance with Article 38 of 
+  [Commission Implementing Regulation (EU) 2019/317][law2019/317].
+
+
+[law2010/691]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R0691 "Commission Regulation (EU) No 691/2010"
+[law2013/390]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0390 "Commission Implementing Regulation (EU) No 390/2013"
+[law2019/317]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0317 "Commission Implementing Regulation (EU) 2019/317"

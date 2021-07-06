@@ -5,32 +5,31 @@ categories:
   - glossary
 ---
 
-<style>
-table, td {
-  border: 1px solid #AAAAAA;
-  border-collapse: collapse;
-}
-td {
-  padding: 5px;
-}
-</style>
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('static', 'css', 'table.css'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 ## Contacts
 
-|||
-|---------------------------|------------------------------------------------------------------------------------|
-| Contact organisation      | EUROCONTROL: The European organisation for the safety of air navigation            |
-| Contact organisation unit |	Directorate European Civil-Military Aviation - Performance Review Unit (DECMA/PRU) |
-| Contact name              |	Performance Review Unit - EUROCONTROL                                              |
-| Contact mail address      | 96 Rue de la Fusée<br>1130 Brussels<br>Belgium                                     |
-| Contact e-mail address    | [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int)                  |
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'contacts.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
 
 ## Metadata update
 
-|||
-|-------------------------|-------------------|
-| Metadata last certified | not applicable    |
-| Metadata last update 	  | 01 November 2016  |
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'metadata-update.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ## Statistical presentation
@@ -56,8 +55,12 @@ Additional ASMA time is classified per Member State, with a breakdown for each a
 
 ### Sector coverage
 
-The measures pertain to the [Air Transport and Air Traffic Management Sector][air-stats]
-of the economy. 
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'sector-coverage.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ### Statistical concepts and definitions
@@ -75,10 +78,14 @@ The **Additional ASMA time** is the difference between the actual ASMA transit t
 the unimpeded ASMA time calculated for non-congested conditions. 
 
 
+
 ### Statistical unit
+
 The statistical unit is the airport. Airport level data is also aggregated to States.
 
+
 ### Statistical population
+
 The statistical population is the set of airports subject to performance monitoring within the
 SES performance scheme.
 
@@ -87,39 +94,53 @@ SES performance scheme.
 The reference area is the [Single European Sky Area][ses-area]. 
 
 
+
 ### Time coverage
+
 2011 is the first year for which data is presented.
 
+
 ### Base period
+
 Not applicable.
 
 
+
 ## Unit of Measure
+
 The additional ASMA time is measured in minutes per [IFR][ifr] arrival [min/arr].
 
 
 ## Reference period
 
-* The first reference period (RP1) covers the calendar years 2012 to 2014 inclusive.
-* The second reference period (RP2) covers the calendar years 2015 to 2019 inclusive. 
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'reference-period.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
-Unless decided otherwise, the following reference periods shall be of five calendar years. 
+
 
 ## Institutional Mandate
-Legal acts and agreements are established in the 
-[EU IR691/2010|Performance Regulation (691 / 2010)][law2010/691], 
-[Commission Implementing Regulation (EU) No 390 / 2013][law2013/390] and
-[Commission Implementing Regulation (EU) 2019/317][law2019/317].
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'institutional-mandate.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ## Confidentiality
 
-* The information is disseminated in accordance with Article 21 of the
-  [Performance Regulation (691 / 2010)][law2010/691].
-* The information is disseminated in accordance with Article 22 of 
-  [Commission Implementing Regulation (EU) No 390 / 2013][law2013/390]. 
-* The information is disseminated in accordance with Article 38 of 
-  [Commission Implementing Regulation (EU) 2019/317][law2019/317].
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'confidentiality.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
 
 
 ## Release policy
@@ -316,18 +337,21 @@ Corrections may be made when issues are discovered as described in the
 ## Comment
 No comments.
 
+
 ### Disclaimer {.disclaimer}
 
-This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible. Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.
-
-The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB. The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend the information provided at any time and without prior notice. 
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'disclaimer.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 [uasma]: https://ansperformance.eu/definition/unimpeded-asma-time/ "Unimpeded ASMA Time"
 [uasmamet]: https://ansperformance.eu/methodology/unimpeded-asma-time/ "Unimpeded ASMA Time - Methodology"
 [ansp]: https://ansperformance.eu/acronym/ansp/ "ANSP"
 [atfm-delay]: https://ansperformance.eu/definition/atfm-delay/ "ATFM Delay"
-[air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
 [coda]: https://www.eurocontrol.int/articles/ir691-data-collection-process "CODA"
 [ctot]: https://ansperformance.eu/acronym/ctot/ "CTOT"
 [etot]: https://ansperformance.eu/acronym/etot/ "ETOT"
@@ -335,9 +359,6 @@ The information may be copied in whole or in part providing that the copyright n
 [fmp]: https://ansperformance.eu/acronym/fmp/ "FMP"
 [kpi]: https://ansperformance.eu/acronym/kpi/ "KPI"
 [ifr]: https://ansperformance.eu/acronym/ifr/ "IFR"
-[law2010/691]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R0691 "Commission Regulation (EU) No 691/2010"
-[law2013/390]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0390 "Commission Implementing Regulation (EU) No 390/2013"
-[law2019/317]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0317 "Commission Implementing Regulation (EU) 2019/317"
 [nm-cfmu]: https://ansperformance.eu/acronym/nm-cfmu/ "NM"
 [pru]: https://ansperformance.eu/about/us/ "PRU"
 [refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
