@@ -1,0 +1,16 @@
+Legal acts and agreements are established in
+
+* [Regulation (EC) N o 549/2004 of the European Parliament and of the Council][law204/549];
+* [Commission Implementing Regulation (EU) No 390 / 2013][law2013/390];
+* [EU IR691/2010|Performance Regulation (691 / 2010)][law2010/691];
+* [Regulation (EC) No 216/2008 of the European Parliament and of the Council][law216/2008];
+* [Commission Regulation (EC) No 736/2006][law7366/2006]; and,
+* [EASA AMC/GM for Safety KPIs, issued by EASA in coordination with PRB][easaKPI].
+
+
+[law2004/549]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004R0549-20091204 "Regulation (EC) N o 549/2004 of the European Parliament and of the Council"
+[law2010/691]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R0691 "Commission Regulation (EU) No 691/2010"
+[law2013/390]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0390 "Commission Implementing Regulation (EU) No 390/2013"
+[law2008/216]: https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX:32008R0216 "Regulation (EC) No 216/2008 of the European Parliament and of the Council"
+[law2006/736]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006R0736 "Commission Regulation (EC) No 736/2006"
+[easaKPI]: https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r#SKPI "EASA AMC/GM for Safety KPIs, issued by EASA in coordination with PRB"
