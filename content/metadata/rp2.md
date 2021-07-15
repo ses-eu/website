@@ -6,9 +6,10 @@ categories:
 slug: rp2
 ---
 
-
 The second reference period (RP2) covers the calendar years 2015 to 2019 inclusive.
 
+# Legal context
+Implementing Regulations (EU) [No 390/2013][no390_2013] and (EU) [No 391/2013][no391_2013].
 
 # RP2 SES States
 
@@ -116,10 +117,12 @@ The measure addresses the costs for the provision of terminal air navigation ser
 [atasma]: {{< relref "/metadata/additional-asma-time.html" >}} "Additional time in the Arrival Sequencing and Metering Area (ASMA)"
 [atot]: {{< relref "/metadata/additional-taxi-out-time.html" >}} "Additional taxi-out time"
 [eucmil]: {{< relref "/metadata/effective-use-of-civil-military-airspace.md" >}} "Effective use of the civil / military airspace structures"
-[merd]: {{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp2.md" >}} "Minutes of en route ATFM delay per flight"
+[merd]: {{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight.Rmd" >}} "Minutes of en route ATFM delay per flight"
 [aptd]: {{< relref "/metadata/airport-atfm-delay.md" >}} "Airport ATFM delay"
 [aslot]: {{< relref "/metadata/atfm-slot-adherence.md" >}} "Adherence to ATFM slots"
 [atcpd]: {{< relref "/metadata/atc-pre-departure-delay.md" >}} "Air traffic control pre-departure delay"
+[no390_2013]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0390 "IR 390/2019"
+[no391_2013]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0391 "IR 391/2019"
 [ducer]: https://google.com "Determined unit cost (DUC) for en route ANS"
 [duct]: https://google.com "Determined unit cost (DUC) for terminal ANS"
 

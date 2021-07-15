@@ -102,7 +102,7 @@ The measure addresses the costs for the provision of terminal air navigation ser
 [atasma]: {{< relref "/metadata/additional-asma-time.html" >}} "Additional time in the Arrival Sequencing and Metering Area (ASMA)"
 [atot]: {{< relref "/metadata/additional-taxi-out-time.html" >}} "Additional taxi-out time"
 [eucmil]: {{< relref "/metadata/effective-use-of-civil-military-airspace.md" >}} "Effective use of the civil / military airspace structures"
-[merd]: {{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp1.md" >}} "Minutes of en route ATFM delay per flight"
+[merd]: {{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight.Rmd" >}} "Minutes of en route ATFM delay per flight"
 [aptd]: {{< relref "/metadata/airport-atfm-delay.md" >}} "Airport ATFM delay"
 [aslot]: {{< relref "/metadata/atfm-slot-adherence.md" >}} "Adherence to ATFM slots"
 [atcpd]: {{< relref "/metadata/atc-pre-departure-delay.md" >}} "Air traffic control pre-departure delay"

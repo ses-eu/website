@@ -1,11 +1,11 @@
 ---
-title: Minutes of en route ATFM delay per flight - RP2
+title: Minutes of en route ATFM delay per flight
 categories:
   - metadata
   - glossary
 ---
 
-<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<script src="/prudata/dashboard/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
 <style>
@@ -68,18 +68,11 @@ td {
 <h2>Statistical presentation</h2>
 <div id="data-description" class="section level3">
 <h3>Data description</h3>
-<div class="note">
-<p>Please note that software release 20.0 of the Network Manager on 04 April 2016 introduced a
-change in the computation of ATFM delay for operational purposes.
-ATFM delays on this web page are based on this new computation from 04 April 2016 onwards.
-See the Source data section below for more information on the changes in NM release 20.0.</p>
-</div>
 <p>The measure provides an indication of <a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay">ATFM delays</a> on the ground due to
 constraints en-route.</p>
 <p>In accordance with EU legislation, <a href="https://ansperformance.eu/definition/ses-area/" title="SES Area">Single European Sky Area</a> States are required to
 adopt performance targets contributing adequately to and be consistent with the EU wide targets.
-The capacity <a href="https://ansperformance.eu/acronym/kpi/" title="KPI">KPI</a> for the first <a href="#reference-period">reference period</a> is the
-<a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay"><em>en route ATFM delay per flight</em></a>.</p>
+The capacity <a href="https://ansperformance.eu/acronym/kpi/" title="KPI">KPI</a> is the <a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay"><em>en route ATFM delay per flight</em></a>.</p>
 <p>In Europe, when traffic demand is anticipated to exceed the available capacity in en route centres
 or at airports, Air Traffic Control (ATC) units may request the local
 Flow Management Position (<a href="https://ansperformance.eu/acronym/fmp/" title="FMP">FMP</a>) to instigate an Air Traffic Flow Management (ATFM) measure,
@@ -101,72 +94,17 @@ and is compliant with the <a href="https://ansperformance.eu/acronym/kpi/" title
 </div>
 <div id="classification-system" class="section level3">
 <h3>Classification system</h3>
-<p>En route ATFM delay per flight is classified per Flight Information Region (<a href="https://ansperformance.eu/acronym/fir/" title="FIR">FIR</a>)
-and per <a href="https://ansperformance.eu/acronym/fab/" title="FAB">Functional Airspace Block</a> within the <a href="https://ansperformance.eu/definition/ses-area/" title="SES Area">Single European Sky Area</a>.</p>
-<p>For the monitoring of National/FAB Performance targets, the FAB is considered as
-the aggregation of the individual FIRs belonging to the Member state within the FAB as per the
-following table:</p>
-<table>
-<colgroup>
-<col width="32%" />
-<col width="48%" />
-<col width="19%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>FAB Name</th>
-<th>FIRs included</th>
-<th>FMPs</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Baltic FAB</td>
-<td>EPWWFIR, EYVLFIR, EYVLUIR</td>
-<td>EPWW2012, EYVCFMP, EPWWFMP</td>
-</tr>
-<tr class="even">
-<td>BLUE MED FAB</td>
-<td>LCCCFIR, LCCCUIR, LGGGFIR, LGGGUIR, LIBBFIR, LIBBUIR, LIMMFIR, LIMMUIR, LIRRFIR, LIRRUIR, LMMMFIR, LMMMUIR</td>
-<td>LIBBFMP, LGGGFMP, LGMDFMP, LCCCFMP, LMMMFMP, LIRRFMPS, LIRRFMPN, LIRRFMPC, LIMMFMP, LIMMFMPA, LIMMFMPE, LIMMFMPT, LIMMFMPW, LIPPFMP, LIPPFMP1, LIRRFMP</td>
-</tr>
-<tr class="odd">
-<td>DANUBE FAB</td>
-<td>LBSRFIR, LRBBFIR</td>
-<td>LBSRFMP1, LRBBFMP1, LRBBFMP2, LRBCFMP, LRCKFMP, LRCLFMP, LBSRFMP2, LRARFMP, LBWRFMP, LBSRFMP,LRBBFMP</td>
-</tr>
-<tr class="even">
-<td>DK-SE FAB</td>
-<td>EKDKFIR, ESAAFIR</td>
-<td>EKDKFMPE, EKDKFMPW, ESMMFMP, ESMMLOW, ESOSFMP, ESUNFMP, EKDKFMP, EKCHTMA</td>
-</tr>
-<tr class="odd">
-<td>FABEC</td>
-<td>EBBUFIR, EBURUIR, EDGGFIR, EDMMFIR, EDUUUIR, EDVVUIR, EDWWFIR, EHAAFIR, LFBBFIR, LFEEFIR, LFFFFIR, LFFFUIR, LFMMFIR, LFRRFIR, LSASFIR, LSASUIR</td>
-<td>EBBUFMP, EDBBFMP, EDBBFMP1, EDFFFMP, EDGGFMP1, EDGGFMP2, EDLLFMP, EDLLFMP1, EDMERGE, EDMMFMP, EDMMFMPA, EDMMFMPE, EDMMFMPN, EDMMFMPS, EDUUFMP, EDUUFMPC, EDUUFMPE, EDUUFMPS, EDUUFMPW, EDWWFMP, EDYYFMP, EHAAFMP, LFBBAPP, LFBBFMP, LFBBFMPL, LFBBFMPU, LFBBNU, LFBBSU, LFEEAPP, LFEEFMP, LFFFAD, LFFFFMP, LFFFFMPE, LFFFFMPW, LFMMAPP, LFMMEL, LFMMEU, LFMMFMP, LFMMFMPE, LFMMFMPL, LFMMFMPU, LFMMFMPW, LFMMWL, LFMMWU, LFRRAPP, LFRRFMP, LSAZCTL, LSAGFMP, LSAGFMPL, LSAGFMPU, LSAGLFMP, LSAGUFMP, LSAZFMP, LSAZLFMP, LSAZCFL, LFRRFMP1</td>
-</tr>
-<tr class="even">
-<td>FAB CE (SES RP2)</td>
-<td>LDZOFIR, LHCCFIR, LJLAFIR, LKAAFIR, LOVVFIR, LZBBFIR</td>
-<td>LJLAFMP, LOVVFMP, LZBBFMP, LKAAFMPU, LKAAFMPL, LKAAFMP, LDZOFMP, LHCCFMP</td>
-</tr>
-<tr class="odd">
-<td>NEFAB</td>
-<td>EETTFIR, EFINFIR, EFINUIR, ENOBFIR, ENORFIR, EVRRFIR</td>
-<td>EVRRFMP, ENTRFMP, ENSVFMP, ENOSFMP, ENBDFMP, EFPSFMP, EFINFMP, EETTFMP, EFESFMP, ENOSEFMP, ENOSWFMP</td>
-</tr>
-<tr class="even">
-<td>SW FAB</td>
-<td>GCCCFIR, GCCCUIR, LECBFIR, LECBUIR, LECMFIR, LECMUIR, LPPCFIR</td>
-<td>LECBFMP1, LECMFMPN, LECMFMPS, LECPFMP, GCCCFMP, LECBFMP, LECSFMP, LPPCFMP, LECMFMP</td>
-</tr>
-<tr class="odd">
-<td>UK-Ireland FAB</td>
-<td>EGPXFIR, EGPXUIR, EGTTFIR, EGTTUIR, EISNFIR, EISNUIR</td>
-<td>EGTCFMP, EIDWFMP, EGTTOLYM, EGTTFMP1, EGTTFMP, EGTCOLYM, EISNFMP, EGPXFMP1, EGPXFMP, EGCCFMP</td>
-</tr>
-</tbody>
-</table>
+<p>En route ATFM delay per flight is classified per:</p>
+<ul>
+<li><a href="https://ansperformance.eu/definition/ses-area/" title="SES Area">Single European Sky Area</a></li>
+<li><a href="https://ansperformance.eu/acronym/fab/" title="FAB">Functional Airspace Block</a></li>
+<li><a href="https://ansperformance.eu/acronym/fir/" title="FIR">Flight Information Region - FIR</a></li>
+<li><a href="https://ansperformance.eu/acronym/ansp/" title="ANSP">Air Navigation Services Provider</a></li>
+</ul>
+<p>It should be noted that the areas of responsibility of the individual <a href="https://ansperformance.eu/acronym/ansp/" title="ANSP">ANSP</a>s
+are not necessarily coincidental with the geographical boundaries of the State.</p>
+<p>For the monitoring of National/FAB Performance targets, the <a href="https://ansperformance.eu/acronym/fab/" title="FAB">FAB</a> is considered as
+the aggregation of the individual <a href="https://ansperformance.eu/acronym/fir/" title="FIR">FIRs</a> belonging to the Member state within the FAB.</p>
 </div>
 <div id="sector-coverage" class="section level3">
 <h3>Sector coverage</h3>
@@ -233,6 +171,7 @@ which can be used in further analysis.</p>
 <ul>
 <li>The first reference period (RP1) covers the calendar years 2012 to 2014 inclusive.</li>
 <li>The second reference period (RP2) covers the calendar years 2015 to 2019 inclusive.</li>
+<li>The third reference period (RP3) covers the calendar years 2020 to 2024 inclusive.</li>
 </ul>
 <p>Unless decided otherwise, the following reference periods shall be of five calendar years.</p>
 </div>
@@ -321,8 +260,7 @@ the relevant EU legislation.</p>
 <h2>Accuracy and reliability</h2>
 <div id="overall-accuracy" class="section level3">
 <h3>Overall accuracy</h3>
-<p>The en route <a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay">ATFM delay</a> is the delay calculated by the central unit of ATFM
-as defined in <a href="https://ansperformance.eu/bibliography/legislation/" title="Legislation">Commission Regulation (EU) No 255 / 2010</a>.
+<p>The en route <a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay">ATFM delay</a> is the delay calculated by the <a href="https://ansperformance.eu/acronym/nm-cfmu/" title="NM">Network Manager</a>.
 This calculation is based on a well established methodology, which has been in place since 1999.</p>
 <p>It is assumed that the data provided is accurate, given the caveats mentioned in sections
 <a href="#quality-assurance">Quality assurance</a> and
@@ -387,27 +325,19 @@ rather than flight plan.</p>
 <h2>Statistical processing</h2>
 <div id="source-data" class="section level3">
 <h3>Source data</h3>
-<dl>
-<dt>En route ATFM delay per flight targets</dt>
-<dd>The EU-wide target is an average of 0.5 minutes per flight ATFM en route delay in 2014
-and for all years in RP2 (2015-2019)
-</dd>
-<dd>National or <a href="https://ansperformance.eu/acronym/fab/" title="FAB">FAB</a> performance targets are contained within the respective performance plans.
-</dd>
-<dt>Actual en route ATFM delay</dt>
-<dd>The <a href="https://ansperformance.eu/acronym/nm-cfmu/" title="NM">Network Manager</a> provides this data.
-</dd>
-<dd>Please note that the delays caused by READY to Depart (REA) messages and ATFM slot extensions
-were excluded from the ATFM delay computation with NM release 20 (4 April 2016) which reduces
-the overall amount of computed ATFM delay.
-</dd>
-<dd>More information on the adjusted ATFM delay computation as of NM release 20.0
-from 4 April can be found here: <a href="https://ansperformance.eu/library/NM_20_FB750_Delay_Calculation_improvements.pdf" title="REA Message">NM release 20.0 - 4 April 2016 - FB750-Delay Calculation improvements</a>.
-</dd>
-<dt>Actual Number of <a href="https://ansperformance.eu/acronym/ifr/" title="IFR">IFR</a> flights</dt>
-<dd>The <a href="https://ansperformance.eu/acronym/nm-cfmu/" title="NM">Network Manager</a> provides this data.
-</dd>
-</dl>
+<p>Actual en route ATFM delay</p>
+<ul>
+<li>Data provided by the <a href="https://ansperformance.eu/acronym/nm-cfmu/" title="NM">Network Manager</a>.</li>
+</ul>
+<p>Actual Number of <a href="https://ansperformance.eu/acronym/ifr/" title="IFR">IFR</a> flights</p>
+<ul>
+<li>Data provided by the <a href="https://ansperformance.eu/acronym/nm-cfmu/" title="NM">Network Manager</a>.</li>
+</ul>
+<p>Please note that, for operational purposes, the delays caused by READY to Depart (REA) messages
+and ATFM slot extensions were excluded from the ATFM delay computation with NM release 20 (4 April 2016)
+which reduces the overall amount of computed ATFM delay.
+More information on the adjusted ATFM delay computation as of NM release 20.0
+from 4 April can be found here: <a href="https://ansperformance.eu/library/NM_20_FB750_Delay_Calculation_improvements.pdf" title="REA Message">NM release 20.0 - 4 April 2016 - FB750-Delay Calculation improvements</a>.</p>
 </div>
 <div id="frequency-of-data-collection" class="section level3">
 <h3>Frequency of data collection</h3>
@@ -423,15 +353,51 @@ from 4 April can be found here: <a href="https://ansperformance.eu/library/NM_20
 </div>
 <div id="data-compilation" class="section level3">
 <h3>Data compilation</h3>
-<p>The <a href="https://ansperformance.eu/acronym/nm-cfmu/" title="NM">Network Manager</a> aggregates the data for the different FIRs.
-The <a href="https://ansperformance.eu/acronym/fir/" title="FIR">FIR</a>s monitored during the second reference period are referred to
-as the SES RP2 Area.</p>
+<p>The data can be aggregated at different levels.</p>
+<table>
+<colgroup>
+<col width="34%" />
+<col width="17%" />
+<col width="48%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Reference period</th>
+<th>EU wide</th>
+<th>Local</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../rp1/" title="RP1">RP1</a></td>
+<td>SES RP1 area</td>
+<td><a href="https://ansperformance.eu/acronym/fab/" title="FAB">Functional Airspace Block</a>, <a href="https://ansperformance.eu/acronym/ansp/" title="ANSP">Air Navigation Services Provider</a></td>
+</tr>
+<tr class="even">
+<td><a href="../rp2/" title="RP2">RP2</a></td>
+<td>SES RP2 area</td>
+<td><a href="https://ansperformance.eu/acronym/fab/" title="FAB">Functional Airspace Block</a>, Country <a href="https://ansperformance.eu/acronym/fir/" title="FIR">FIR</a></td>
+</tr>
+<tr class="odd">
+<td><a href="../rp3/" title="RP3">RP3</a></td>
+<td>SES RP3 area</td>
+<td><a href="https://ansperformance.eu/acronym/fab/" title="FAB">Functional Airspace Block</a>, <a href="https://ansperformance.eu/acronym/ansp/" title="ANSP">Air Navigation Services Provider</a></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div id="adjustment" class="section level3">
 <h3>Adjustment</h3>
 <p>Corrections may be made when issues are discovered as described in the
 <a href="#quality-assessment">Quality Assessment section of this document</a>.</p>
-<p>There are no systematic adjustments applied to this data.</p>
+<div id="post-operations-performance-adjustment" class="section level4">
+<h4>Post-operations performance adjustment</h4>
+<p>The post-operations performance adjustment process allows operational stakeholders to notify national and European
+authorities of problems related to air traffic flow management (ATFM) delay measurement, classification and assignment.
+The main output of this process is a separate performance dataset, which will include the approved changes.
+This dataset is available for performance scheme and local management reporting.
+<a href="https://www.eurocontrol.int/service/post-operations-performance-adjustment" title="Post-operations performance adjustment">More information on the post-operations performance adjustment process can be found here</a></p>
+</div>
 </div>
 </div>
 <div id="comment" class="section level2">
@@ -442,4 +408,7 @@ as the SES RP2 Area.</p>
 <p>This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible. Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.</p>
 <p>The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB. The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend the information provided at any time and without prior notice.</p>
 </div>
+</div>
+<div id="section" class="section level2">
+<h2></h2>
 </div>

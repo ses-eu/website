@@ -146,28 +146,27 @@ is presented as a ratio.
 
 ## Reference period
 
-* The first reference period (RP1) covers the calendar years 2012 to 2014 inclusive.
-* The second reference period (RP2) covers the calendar years 2015 to 2019 inclusive. 
-
-Unless decided otherwise, the following reference periods shall be of five calendar years.
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'reference-period.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ## Institutional Mandate
-Legal acts and agreements are established in:
 
-* [Performance Regulation (691 / 2010)][law]
-* [Commission Implementing Regulation (EU) No 390 / 2013][law]
-* [FUA Regulation (EC) No 2150 / 2005][law]
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'institutional-mandate.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ## Confidentiality
 
-* The information is disseminated in accordance with Article 21 of the
-  [Performance Regulation (691 / 2010)][law].
-* The information is disseminated in accordance with Article 22 of the 
-  [Commission Implementing Regulation (EU) No 390 / 2013][law]. 
-
-
+The information is disseminated in accordance with the relevant SES legislation. 
 
 
 ## Release policy

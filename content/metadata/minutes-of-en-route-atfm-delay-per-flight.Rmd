@@ -1,5 +1,5 @@
 ---
-title: Minutes of en route ATFM delay per flight - RP2
+title: Minutes of en route ATFM delay per flight
 categories:
   - metadata
   - glossary
@@ -36,20 +36,12 @@ cat(res, sep = '\n')
 
 ### Data description
 
-::: {.note}
-Please note that software release 20.0 of the Network Manager on 04 April 2016 introduced a
-change in the computation of ATFM delay for operational purposes.
-ATFM delays on this web page are based on this new computation from 04 April 2016 onwards.
-See the Source data section below for more information on the changes in NM release 20.0.
-:::
-
 The measure provides an indication of [ATFM delays][atfm-delay] on the ground due to
 constraints en-route.
 
 In accordance with EU legislation, [Single European Sky Area][ses-area] States are required to
 adopt performance targets contributing adequately to and be consistent with the EU wide targets.
-The capacity [KPI][kpi] for the first [reference period](#reference-period) is the
-[*en route ATFM delay per flight*][atfm-delay].
+The capacity [KPI][kpi] is the [*en route ATFM delay per flight*][atfm-delay].
 
 In Europe, when traffic demand is anticipated to exceed the available capacity in en route centres
 or at airports, Air Traffic Control (ATC) units may request the local
@@ -73,27 +65,18 @@ and is compliant with the [KPI][kpi] definition in the EU legislation.
 
 
 ### Classification system
-En route ATFM delay per flight is classified per Flight Information Region ([FIR][fir])
-and per [Functional Airspace Block][fab] within the [Single European Sky Area][ses-area].
+En route ATFM delay per flight is classified per:
 
-For the monitoring of National/FAB Performance targets, the FAB is considered as
-the aggregation of the individual FIRs belonging to the Member state within the FAB as per the
-following table:
+* [Single European Sky Area][ses-area] 
+* [Functional Airspace Block][fab] 
+* [Flight Information Region - FIR][fir]
+* [Air Navigation Services Provider][ansp] 
 
+It should be noted that the areas of responsibility of the individual [ANSP][ansp]s
+are not necessarily coincidental with the geographical boundaries of the State.  
 
-| FAB Name | FIRs included | FMPs |
-|----------|---------------|------|
-| Baltic FAB | EPWWFIR, EYVLFIR, EYVLUIR | EPWW2012, EYVCFMP, EPWWFMP |
-| BLUE MED FAB | LCCCFIR, LCCCUIR, LGGGFIR, LGGGUIR, LIBBFIR, LIBBUIR, LIMMFIR, LIMMUIR, LIRRFIR, LIRRUIR, LMMMFIR, LMMMUIR | LIBBFMP, LGGGFMP, LGMDFMP, LCCCFMP, LMMMFMP, LIRRFMPS, LIRRFMPN, LIRRFMPC, LIMMFMP, LIMMFMPA, LIMMFMPE, LIMMFMPT, LIMMFMPW, LIPPFMP, LIPPFMP1, LIRRFMP |
-| DANUBE FAB | LBSRFIR, LRBBFIR | LBSRFMP1, LRBBFMP1, LRBBFMP2, LRBCFMP, LRCKFMP, LRCLFMP, LBSRFMP2, LRARFMP, LBWRFMP, LBSRFMP,LRBBFMP |
-| DK-SE FAB | EKDKFIR, ESAAFIR | EKDKFMPE, EKDKFMPW, ESMMFMP, ESMMLOW, ESOSFMP, ESUNFMP, EKDKFMP, EKCHTMA |
-| FABEC | EBBUFIR, EBURUIR, EDGGFIR, EDMMFIR, EDUUUIR, EDVVUIR, EDWWFIR, EHAAFIR, LFBBFIR, LFEEFIR, LFFFFIR, LFFFUIR, LFMMFIR, LFRRFIR, LSASFIR, LSASUIR | EBBUFMP, EDBBFMP, EDBBFMP1, EDFFFMP, EDGGFMP1, EDGGFMP2, EDLLFMP, EDLLFMP1, EDMERGE, EDMMFMP, EDMMFMPA, EDMMFMPE, EDMMFMPN, EDMMFMPS, EDUUFMP, EDUUFMPC, EDUUFMPE, EDUUFMPS, EDUUFMPW, EDWWFMP, EDYYFMP, EHAAFMP, LFBBAPP, LFBBFMP, LFBBFMPL, LFBBFMPU, LFBBNU, LFBBSU, LFEEAPP, LFEEFMP, LFFFAD, LFFFFMP, LFFFFMPE, LFFFFMPW, LFMMAPP, LFMMEL, LFMMEU, LFMMFMP, LFMMFMPE, LFMMFMPL, LFMMFMPU, LFMMFMPW, LFMMWL, LFMMWU, LFRRAPP, LFRRFMP, LSAZCTL, LSAGFMP, LSAGFMPL, LSAGFMPU, LSAGLFMP, LSAGUFMP, LSAZFMP, LSAZLFMP, LSAZCFL, LFRRFMP1 |
-| FAB CE (SES RP2) | LDZOFIR, LHCCFIR, LJLAFIR, LKAAFIR, LOVVFIR, LZBBFIR | LJLAFMP, LOVVFMP, LZBBFMP, LKAAFMPU, LKAAFMPL, LKAAFMP, LDZOFMP, LHCCFMP |
-| NEFAB | EETTFIR, EFINFIR, EFINUIR, ENOBFIR, ENORFIR, EVRRFIR | EVRRFMP, ENTRFMP, ENSVFMP, ENOSFMP, ENBDFMP, EFPSFMP, EFINFMP, EETTFMP, EFESFMP, ENOSEFMP, ENOSWFMP |
-| SW FAB | GCCCFIR, GCCCUIR, LECBFIR, LECBUIR, LECMFIR, LECMUIR, LPPCFIR | LECBFMP1, LECMFMPN, LECMFMPS, LECPFMP, GCCCFMP, LECBFMP, LECSFMP, LPPCFMP, LECMFMP |
-| UK-Ireland FAB | EGPXFIR, EGPXUIR, EGTTFIR, EGTTUIR, EISNFIR, EISNUIR | EGTCFMP, EIDWFMP, EGTTOLYM, EGTTFMP1, EGTTFMP, EGTCOLYM, EISNFMP, EGPXFMP1, EGPXFMP, EGCCFMP |  
-
-
+For the monitoring of National/FAB Performance targets, the [FAB][fab] is considered as
+the aggregation of the individual [FIRs][fir] belonging to the Member state within the FAB.
 
 ### Sector coverage
 
@@ -120,6 +103,7 @@ Flights
 : Each flight is only counted once, regardless of its trajectory.
 
 #### Attribution of Delay
+
 [ATFM delay][atfm-delay] to which a flight is subjected is defined to have as cause
 the most penalizing [ATFM regulation][regu] which affects it.
 Depending of the type and the entity responsible for the [reference location][refloc] protected by
@@ -130,12 +114,12 @@ an en route [ATFM delay][atfm-delay] and attributed to the  [FIR][fir] containin
 Each ATFM regulation also comprises a designator referring to the cause of delay
 which can be used in further analysis.
 
-
-
 ### Statistical unit
+
 The statistical unit is the State/ANSP to which the ATFM delays are attributed.
 
 ### Statistical population
+
 The statistical population comprises the States in the [Single European Sky Area][ses-area].
 
 ### Reference area
@@ -144,26 +128,25 @@ The reference area is the Single European Sky Area.
 
 
 ### Time coverage
+
 2012 is the first year for which data is presented.
 
 ### Base period
+
 Not applicable.
 
-
 ## Unit of Measure
+
 The en route [ATFM delay][atfm-delay] is measured in minutes per [IFR][ifr] flight.
 
 
 ## Reference period
-
 ```{r, echo=FALSE, results='asis'}
 res <- knitr::knit_child(
   here::here('parts', 'reference-period.Rmd'),
   quiet = TRUE)
 cat(res, sep = '\n')
 ```
-
-
 
 ## Institutional Mandate
 
@@ -174,7 +157,6 @@ res <- knitr::knit_child(
 cat(res, sep = '\n')
 ```
 
-
 ## Confidentiality
 
 ```{r, echo=FALSE, results='asis'}
@@ -184,31 +166,33 @@ res <- knitr::knit_child(
 cat(res, sep = '\n')
 ```
 
-
 ## Release policy
 
 ### Release calendar
+
 En route [ATFM delay][atfm-delay] data is released 12 times per year, once per month.
 
 ### Release calendar access
+
 Not applicable.
 
 ### User access
+
 Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
 
-
-
 ## Frequency of dissemination
+
 En route ATFM data is published monthly with the annual performance aggregate being available
 in January of the following year.
 
-
 ## Dissemination format
+
 Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
 
 ## Accessibility of documentation
 
 ### Documentation on methodology
+
 As per the pertaining regulations (see [Institutional Mandate](#institutional-mandate)).<br>
 For technical questions not addressed in [Statistical processing](#statistical-processing)
 please contact: [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int).<br>
@@ -216,12 +200,14 @@ Additional definitions of the terms used in the frame of the this [KPI][kpi]
 are available in the [Metadata page](..).
 
 ### Quality documentation
+
 There is no specific documentation on procedures applied for quality management
 and quality assessment.
 
 ## Quality Management
 
 ### Quality assurance
+
 The data is provided by the [Network Manager][nm-cfmu] and as such it is their
 responsibility to perform any quality assurance activities.
 
@@ -238,36 +224,39 @@ The information is published for performance monitoring purposes in accordance w
 the relevant EU legislation. 
 
 ### Completeness
+
 The data is collected for the entire [Single European Sky Area][ses-area].
 
 ## Accuracy and reliability
 
 ### Overall accuracy
-The en route [ATFM delay][atfm-delay] is the delay calculated by the central unit of ATFM
-as defined in [Commission Regulation (EU) No 255 / 2010][law].
+
+The en route [ATFM delay][atfm-delay] is the delay calculated by the [Network Manager][nm-cfmu].
 This calculation is based on a well established methodology, which has been in place since 1999.
 
 It is assumed that the data provided is accurate, given the caveats mentioned in sections
 [Quality assurance](#quality-assurance) and
 [Quality assessment](#quality-assessment).
 
-
 ### Sampling error
 
 There is no sampling and therefore no sampling error. 
 
-
 ## Timeliness and punctuality
+
 ### Timeliness
+
 The full set of Minutes of en route [ATFM delay][atfm-delay] per flight is published each month
 - in general between 14 and 16 days after the end of the month in question.
 
 ###  Punctuality
+
 The internal databases are updated daily. The [statistical processing](#statistical-processing)
 is performed once per month.
 
 ## Comparability
 ### Comparability — geographical
+
 The data is collected centrally by the [Network Manager][nm-cfmu] and
 computed consistently throughout the entire [Single European Sky Area][ses-area]
 which allows comparisons across different units.
@@ -277,6 +266,7 @@ Comparisons over time are valid.
 
 ## Coherence
 ### Coherence — cross domain
+
 [ATFM delay][atfm-delay] is calculated relative to the flight plan. 
 
 Although not fully cohered, the delay reported by aircraft operators to CODA
@@ -286,12 +276,12 @@ It should be noted that the delay reported by aircraft operators relates to airl
 rather than flight plan.
 
 ### Coherence — internal
+
 Data is fully coherent from an internal perspective.
 
 ## Cost and burden
 
 Not available. 
-
 
 ## Data revision
 
@@ -301,49 +291,57 @@ The data revision policy has not yet been defined.
 
 ### Source data
 
-En route ATFM delay per flight targets
-: The EU-wide target is an average of 0.5 minutes per flight ATFM en route delay in 2014
-  and for all years in RP2 (2015-2019)
-: National or [FAB][fab] performance targets are contained within the respective performance plans.
-
 Actual en route ATFM delay
-: The [Network Manager][nm-cfmu] provides this data.
-: Please note that the delays caused by READY to Depart (REA) messages and ATFM slot extensions
-  were excluded from the ATFM delay computation with NM release 20 (4 April 2016) which reduces
-  the overall amount of computed ATFM delay.
-: More information on the adjusted ATFM delay computation as of NM release 20.0
-  from 4 April can be found here: [NM release 20.0 - 4 April 2016 - FB750-Delay Calculation improvements][nm20].
+
+* Data provided by the [Network Manager][nm-cfmu].
 
 Actual Number of [IFR][ifr] flights
-: The [Network Manager][nm-cfmu] provides this data.
+
+* Data provided by the [Network Manager][nm-cfmu].
+
+Please note that, for operational purposes, the delays caused by READY to Depart (REA) messages 
+and ATFM slot extensions were excluded from the ATFM delay computation with NM release 20 (4 April 2016) 
+which reduces the overall amount of computed ATFM delay.
+More information on the adjusted ATFM delay computation as of NM release 20.0
+from 4 April can be found here: [NM release 20.0 - 4 April 2016 - FB750-Delay Calculation improvements][nm20].
 
 ### Frequency of data collection
-Data is collected for each individual flight in real time.
 
+Data is collected for each individual flight in real time.
 
 ### Data collection
 
 Data is collected and compiled by the [Network Manager][nm-cfmu].
 
-
 ### Data validation
 
 Data validation is the responsibility of the [Network Manager][nm-cfmu].
 
-
 ### Data compilation 
 
-The [Network Manager][nm-cfmu] aggregates the data for the different FIRs.
-The [FIR][fir]s monitored during the second reference period are referred to
-as the SES RP2 Area.
+The data can be aggregated at different levels. 
+
+| Reference period | EU wide | Local                   |
+|------------------|---------|-------------------------|
+| [RP1][rp1] | SES RP1 area | [Functional Airspace Block][fab], [Air Navigation Services Provider][ansp] |
+| [RP2][rp2] | SES RP2 area | [Functional Airspace Block][fab], Country [FIR][fir]|
+| [RP3][rp3] | SES RP3 area | [Functional Airspace Block][fab], [Air Navigation Services Provider][ansp] |
 
 ### Adjustment
+
 Corrections may be made when issues are discovered as described in the
 [Quality Assessment section of this document](#quality-assessment).
 
-There are no systematic adjustments applied to this data.
+#### Post-operations performance adjustment
+
+The post-operations performance adjustment process allows operational stakeholders to notify national and European 
+authorities of problems related to air traffic flow management (ATFM) delay measurement, classification and assignment.
+The main output of this process is a separate performance dataset, which will include the approved changes. 
+This dataset is available for performance scheme and local management reporting.
+[More information on the post-operations performance adjustment process can be found here][postops] 
 
 ## Comment
+
 No comments.
 
 ### Disclaimer {.disclaimer}
@@ -354,6 +352,13 @@ res <- knitr::knit_child(
   quiet = TRUE)
 cat(res, sep = '\n')
 ```
+
+
+##
+
+
+
+
 
 
 [air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
@@ -367,6 +372,9 @@ cat(res, sep = '\n')
 [fmp]: https://ansperformance.eu/acronym/fmp/ "FMP"
 [kpi]: https://ansperformance.eu/acronym/kpi/ "KPI"
 [ifr]: https://ansperformance.eu/acronym/ifr/ "IFR"
+[rp1]: ../rp1/ "RP1"
+[rp2]: ../rp2/ "RP2"
+[rp3]: ../rp3/ "RP3"
 [law]: https://ansperformance.eu/bibliography/legislation/ "Legislation"
 [nm-cfmu]: https://ansperformance.eu/acronym/nm-cfmu/ "NM"
 [nm20]: https://ansperformance.eu/library/NM_20_FB750_Delay_Calculation_improvements.pdf "REA Message"
@@ -375,4 +383,4 @@ cat(res, sep = '\n')
 [regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
 [ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
 [ses-portal]: ../../ "SES Data Portal"
-
+[postops]: https://www.eurocontrol.int/service/post-operations-performance-adjustment "Post-operations performance adjustment"

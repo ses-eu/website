@@ -21,7 +21,6 @@ res <- knitr::knit_child(
 cat(res, sep = '\n')
 ```
 
-
 ## Metadata update
 
 ```{r, echo=FALSE, results='asis'}
@@ -31,11 +30,9 @@ res <- knitr::knit_child(
 cat(res, sep = '\n')
 ```
 
-
 ## Statistical presentation
 
 ### Data description
-
 The **additional taxi-out time** is a proxy for the average departure runway queuing time
 on the outbound traffic flow, during congestion periods at airports.
 
@@ -61,10 +58,8 @@ with the [PI][pi] definition in the EU legislation.
 
 
 ### Classification system
-
 Additional taxi-out time is classified per Member State, with a breakdown for each airport
 subject to performance monitoring within the SES performance scheme.
-
 
 ### Sector coverage
 
@@ -75,9 +70,7 @@ res <- knitr::knit_child(
 cat(res, sep = '\n')
 ```
 
-
 ### Statistical concepts and definitions
-
 The **Taxi-out time** is defined as the time spent by a flight between its
 actual off-block time (AOBT) and actual take-off time (ATOT).
 
@@ -89,19 +82,14 @@ the unimpeded taxi-out time.
 
 
 ### Statistical unit
-
 The statistical unit is the airport. Airport level data is also aggregated to States.
-
 
 ### Statistical population
 The statistical population is the set of airports subject to performance monitoring within the
 SES performance scheme.
 
-
 ### Reference area
-
 The reference area is the [Single European Sky Area][ses-area]. 
-
 
 ### Time coverage
 2011 is the first year for which data is presented.
@@ -109,10 +97,8 @@ The reference area is the [Single European Sky Area][ses-area].
 ### Base period
 Not applicable.
 
-
 ## Unit of Measure
 The additional taxi-out time is measured in minutes per [IFR][ifr] departure [min/dep].
-
 
 ## Reference period
 
@@ -122,8 +108,6 @@ res <- knitr::knit_child(
   quiet = TRUE)
 cat(res, sep = '\n')
 ```
-
-
 
 ## Institutional Mandate
 
@@ -144,7 +128,6 @@ res <- knitr::knit_child(
 cat(res, sep = '\n')
 ```
 
-
 ## Release policy
 
 ### Release calendar
@@ -157,11 +140,9 @@ Not applicable.
 Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
 
 
-
 ## Frequency of dissemination
 Data is published monthly with the annual performance aggregate being available in January
 of the following year. 
-
 
 ## Dissemination format
 Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
@@ -179,7 +160,6 @@ are available in the [Metadata page](..).
 There is no specific documentation on procedures applied for quality management
 and quality assessment.
 
-
 ## Quality Management
 Although data providers are responsible for data quality,
 the [EUROCONTROL Performance Review Unit][pru] performs data validation and quality checks.
@@ -189,7 +169,6 @@ Data validation is performed by the Central Office for Delay Analysis (CODA), on
 and data validation report are returned to the data providers.
 
 ### Quality assessment
-
 Raw data is cross-checked with various sources ([Network manager][nm-cfmu], ANSP's,
 airport operators, airport coordinators and air carriers).
 A quality threshold is established, and data that does not pass the quality threshold is rejected.
@@ -200,16 +179,13 @@ with information from the [Network manager][nm-cfmu].)
 
 
 ### Completeness
-
 The data is collected for all airports subject to performance monitoring within
 the SES performance scheme.
 Data completeness is determined each month as per the above-mentioned quality checks.
 Any missing data is reported to the provider. 
 
 
-
 ## Relevance
-
 The information is published for performance monitoring purposes in accordance with
 the relevant EU legislation. 
 
@@ -222,7 +198,6 @@ and the type of AOBT recording at the airports (manual vs. automated).
 
 
 ### Sampling error
-
 There is no sampling and therefore no sampling error. 
 
 
@@ -246,7 +221,6 @@ The interpretation of the measure and comparisons across airports require due co
 of prevailing local circumstances (airport infrastructure, etc.) 
 
 
-
 ### Comparability over time
 Comparisons over time are valid.
 
@@ -256,26 +230,20 @@ Checks have been carried out with a number of airports and there is generally a 
 of coherence between the indicator results and the results from performance measurement systems
 of airport operators. 
 
-
 ### Coherence — internal
 Data is fully coherent from an internal perspective.
 
-
-
 ## Cost and burden
-
 Not available. 
 
 
 ## Data revision
-
 Subject to changes (i.e. infrastructure), there might be a need to change
 unimpeded times accordingly.
 
 ## Statistical processing
 
 ### Source data
-
 In accordance with EU legislation, the data is collected centrally for all the airports
 subject to performance monitoring within the SES performance scheme.
 
@@ -289,13 +257,11 @@ on a monthly basis.
 
 
 ### Data collection
-
 The data is collected by the [EUROCONTROL Performance Review Unit (PRU)][pru] and the
 Central Office for Delay Analysis (CODA).
 
 
 ### Data validation
-
 The data is validation as described in the [Quality Management](#quality-management) section.
 
 
@@ -329,17 +295,13 @@ of the additional taxi-out time $\mathrm{AdTXOT}(c)$, for all the combinations $
 at that airport with their probability of occurrence.
 
 
-
-
 ### Adjustment
-
 Corrections may be made when issues are discovered as described in the
 [Quality Assessment](#quality-assessment) section of this document. 
 
 
 ## Comment
 No comments.
-
 
 ### Disclaimer {.disclaimer}
 

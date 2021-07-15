@@ -38,8 +38,7 @@ cat(res, sep = '\n')
 The measure addresses the costs for the provision of terminal air navigation services.
 
 The European Commission is required to collect, consolidate and monitor [Terminal ANS Costs][tcost]
-and [Terminal ANS Unit Rate][trate] by the [EU Performance Regulation (EU IR691 / 2010)][law] and
-in accordance with [ EC Charging Scheme (EC 1794 / 2006)][law]. 
+and the [Terminal ANS Unit Rate][trate]. 
 
 The [EC Charging Scheme (EC 1794 / 2006)][law] for air navigation services contributes
 to greater transparency in the determination, imposition and enforcement of charges

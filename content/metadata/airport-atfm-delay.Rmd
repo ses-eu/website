@@ -222,10 +222,8 @@ The data is collected for the entire [Single European Sky Area][ses-area].
 ## Accuracy and reliability
 
 ### Overall accuracy
-The Airport [ATFM delay][atfm-delay] is the delay calculated as defined in
-[Commission Regulation (EU) No 255 / 2010][law].
+The Airport [ATFM delay][atfm-delay] is the delay calculated as defined in SES legislation. 
 This calculation is based on a well established methodology, which has been in place since 2009. 
-
 
 
 ## Timeliness and punctuality
@@ -282,16 +280,6 @@ The data for the calculation of this indicator is provided by the [Network Manag
 > the overall amount of computed ATFM delay.
 > More information on the adjusted ATFM delay computation as of NM release 20.0
 > from 4 April can be found here: [NM release 20.0 - 4 April 2016 - FB750-Delay Calculation improvements][nm20].
-
-::: {.note}
-For consistency reasons, the ATFM delay computation used for the
-SES Performance Scheme in RP2 (2015-2019) continues to be based on 
-the old methodology which includes delays from READY to Depart (REA)messages and
-ATFM slot extensions.
-This leads to differences between the ATFM delay data in the SES performance scheme and
-the reporting for operational purposes as published by NM and the PRU.
-:::
-
 
 
 ### Frequency of data collection

@@ -16,7 +16,6 @@ td {
 </style>
 
 
-
 The ANSPs that are monitored during the first reference period are: 
 
 | ANSP_NAME |
