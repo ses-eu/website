@@ -217,3 +217,12 @@
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
+.disclaimer {
+  background: #EAEAEA;
+}
+.note {
+  foreground: red;
+  background: #E5E5E5;
+  border: dashed;
+}

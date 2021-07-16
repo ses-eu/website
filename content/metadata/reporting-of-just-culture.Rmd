@@ -5,43 +5,31 @@ categories:
   - glossary
 ---
 
-<style>
-table, td, th {
-  border: 1px solid #AAAAAA;
-  border-collapse: collapse;
-}
-td, th {
-  padding: 5px;
-}
-
-#disclaimer {
-  background: #EAEAEA;
-}
-
-.note {
-  foreground: red;
-  background: #E5E5E5;
-  border: dashed;
-}
-
-</style>
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('static', 'css', 'table.css'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 ## Contacts
 
-|||
-|---------------------------|------------------------------------------------------------------------------------|
-| Contact organisation      | EUROCONTROL: The European organisation for the safety of air navigation            |
-| Contact organisation unit |	Directorate European Civil-Military Aviation - Performance Review Unit (DECMA/PRU) |
-| Contact name              |	Performance Review Unit - EUROCONTROL                                              |
-| Contact mail address      | 96 Rue de la Fusée<br>1130 Brussels<br>Belgium                                     |
-| Contact e-mail address    | [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int)                  |
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'contacts.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
 
 ## Metadata update
 
-|||
-|-------------------------|-------------------|
-| Metadata last certified | not applicable    |
-| Metadata last update 	  | 01 November 2016  |
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'metadata-update.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ## Statistical presentation
@@ -89,8 +77,12 @@ in each of the three areas.
 
 ### Sector coverage
 
-The measures pertain to the [Air Transport and Air Traffic Management Sector][air-stats]
-of the economy. 
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'sector-coverage.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ### Statistical concepts and definitions
@@ -146,28 +138,33 @@ Answers provided by the States/ANSPs.
 
 ## Reference period
 
-* The first reference period (RP1) covers the calendar years 2012 to 2014 inclusive.
-* The second reference period (RP2) covers the calendar years 2015 to 2019 inclusive. 
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'reference-period.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
-Unless decided otherwise, the following reference periods shall be of five calendar years. 
+
 
 ## Institutional Mandate
-Provisions are established in:
 
-* [Single Sky Framework Regulation (EC) 549/2004][law];
-* [Commission Implementing Regulation (EU) No 390 / 2013][law];
-* [Performance Regulation (691 / 2010)][law];
-* [EASA Basic Regulation (EC) No 216 / 2008](https://www.easa.europa.eu/approvals-and-standardisation/docs/syllabi/Syllabus_216_General_05032009.pdf);
-* [EASA Standardisation Inspection (EU) 736 / 2006](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2006:129:0010:0015:EN:PDF); and, 
-* [EASA AMC/GM for Safety KPIs, issued by EASA in coordination with PRB](https://easa.europa.eu/document-library/acceptable-means-of-compliance-and-guidance-materials/skpi-amcgm-issue-2#SKPI).
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'institutional-mandate-safety.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ## Confidentiality
 
-* The information is disseminated in accordance with Article 21 of 
-  [Performance Regulation (691 / 2010)][law]. 
-* The information is disseminated in accordance with Article 22 of 
-  [Commission Implementing Regulation (EU) No 390 / 2013][law]. 
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'confidentiality.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ## Release policy
@@ -346,18 +343,20 @@ Not applicable.
 ## Comment
 No comments.
 
-<div id="disclaimer">
-<h3>Disclaimer</h3>
+### Disclaimer {.disclaimer}
 
-This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible. Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.
-<br>
-The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB. The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend the information provided at any time and without prior notice. 
-</div>
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'disclaimer.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
 
 
 [air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
 [ansp]: https://ansperformance.eu/acronym/ansp/ "ANSP"
-[ansp-ses-rp1]: {{< relref "/metadata/ansp-ses-rp1.md" >}} "ANSPs - SES RP1"
+[ansp-ses-rp1]: ..//ansp-ses-rp1/ "ANSPs - SES RP1"
 [atfm-delay]: https://ansperformance.eu/definition/atfm-delay/ "ATFM Delay"
 [coda]: https://www.eurocontrol.int/articles/central-office-delay-analysis-coda "CODA"
 [ctot]: https://ansperformance.eu/acronym/ctot/ "CTOT"
@@ -374,6 +373,6 @@ The information may be copied in whole or in part providing that the copyright n
 [refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
 [regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
 [ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
-[ses-portal]: {{< relref "/" >}} "SES Data Portal"
+[ses-portal]: ../../ "SES Data Portal"
 [slQ]: https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r "State Level Questionnaire"
 [alQ]: https://easa.europa.eu/document-library/agency-decisions/ed-decision-2014035r "ANSP Level Questionnaire"

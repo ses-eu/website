@@ -1,5 +1,5 @@
 ---
-title: Terminal air navigation service costs and unit rates
+title: Average Horizontal En-route Inefficiency
 categories:
   - metadata
   - glossary
@@ -13,17 +13,6 @@ table, td {
 td {
   padding: 5px;
 }
-
-#disclaimer {
-  background: #EAEAEA;
-}
-
-.note {
-  foreground: red;
-  background: #E5E5E5;
-  border: dashed;
-}
-
 </style>
 
 ## Contacts
@@ -48,44 +37,24 @@ td {
 
 ### Data description
 
-The measure addresses the costs for the provision of terminal air navigation services.
+The measure provides an indication of the flight efficiency en route.
 
-The European Commission is required to collect, consolidate and monitor [Terminal ANS Costs][tcost]
-and [Terminal ANS Unit Rate][trate] by the [EU Performance Regulation (EU IR691 / 2010)][law] and
-in accordance with [ EC Charging Scheme (EC 1794 / 2006)][law]. 
+The **Average Horizontal En-route Flight Efficiency** indicator compares the length of the
+en-route part of flight trajectories with a corresponding portion of the [Great Circle][gcd]
+(defined with respect to the [reference area][#reference-area]).
+‘En-route’ is defined as the distance flown outside a circle of 40 NM around the airport.
 
-The [EC Charging Scheme (EC 1794 / 2006)][law] for air navigation services contributes
-to greater transparency in the determination, imposition and enforcement of charges
-to airspace users and also contributes to the cost efficiency of providing air navigation services
-and to efficiency of flights, while maintaining an optimum safety level. 
-
-The cost of air navigation services comprise for the most part, two elements:
-
-* en-route costs,
-* terminal costs.
-
-The cost of terminal services is related to the following services:
-
-* airport control services, airport flight information services including
-  air traffic advisory services, and alerting services;
-* air traffic services related to the approach and departure of aircraft within
-  a certain distance of an airport on the basis of operational requirements;
-* an appropriate allocation of all other air navigation services components,
-  reflecting a proportionate attribution between en-route and terminal services.
-
-The concepts of terminal ANS costs and unit rates are linked by the [charges][tcharge]
-paid by airspace users.
-These charges are equal to the total number of service units multiplied by the terminal unit rate.
+In the first reference period (2012-14) the calculation of the KPI is based on the
+[Filed Tactical Flight Model (FTFM)][ftfm] which corresponds to the last filed flight plan
+(see also [Horizontal flight efficiency calculations][hfe-meth]).  
 
 
 ### Classification system
 
-Terminal air navigation services costs and unit rates are classified per
-[Terminal Charging Zone][csdefs] within the [Single European Sky Area][ses-area].
+Average horizontal en route inefficiency is calculated for the [reference area](#reference-area).
 
-Each Terminal Charging Zone belongs to a single State in the zone.
-
-
+Complementary to the EU-wide KPI, a number of additional
+[Horizontal flight efficiency calculations][hfe-meth] are carried out for monitoring purposes. 
 
 ### Sector coverage
 
@@ -95,20 +64,19 @@ of the economy.
 
 ### Statistical concepts and definitions
 
-All cost values are expressed as:
-
-* Euro or National currencies outside the Euro area,
-* costs in [Real terms][reaterms],
-* costs in [Nominal terms][nomterms].
+Of interest for the calculation are the [Great Circle][gcd] [reference area](#reference-area)
+end-points (referred to as onset and terminus) and the couple(s) of entry/exit points in the
+[measured area](#statistical-unit) of the en-route portion of the flight model
+(i.e., excluding a 40 NM circle around the airports).
+More details are provided in [Horizontal flight efficiency calculations][hfe-meth]. 
 
 
 ### Statistical unit
-The statistical unit is the 
-[Terminal Charging Zone][csdefs].
+The statistical unit is a geographical area. 
 
 ### Statistical population
-The statistical population comprises the [Terminal Charging Zone][csdefs]s the
-[Single European Sky Area][ses-area].
+The statistical population comprises only one geographic area in RP1: the [Single European Sky Area][ses-area].
+In RP2 it includes units at the local level (e.g., FABs). 
 
 
 ### Reference area
@@ -118,32 +86,33 @@ The reference area is the [Single European Sky Area][ses-area].
 
 ### Time coverage
 
-Actual Costs are measured over the period 2012 to the year before the current year. 
+Data is available from 2011.
 
 ### Base period
-2009 is the base year for the calculation of cost series in [Real terms][reaterms].
+Not applicable.
+
 
 ## Unit of Measure
-Costs and unit rates are measured in:
-
-* Local currency in [nominal terms][nomterms],
-* Local currency in [real terms][reaterms], 
-* EUR in [real terms][reaterms].
-
-Real terms values are corrected for inflation relative to the [base year](#base-period).
+The KPI is presented as a percentage.
 
 ## Reference period
 
-* The first reference period (RP1) covers the calendar years 2012 to 2014 inclusive.
-* The second reference period (RP2) covers the calendar years 2015 to 2019 inclusive. 
-
-Unless decided otherwise, the following reference periods shall be of five calendar years.
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'reference-period.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ## Institutional Mandate
-Legal acts and agreements are established in the
-[Performance Regulation (691 / 2010)][law] and the
-[Charging Regulation (1794 / 2006)][law].
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'institutional-mandate.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
 
 
 ## Confidentiality
@@ -159,7 +128,7 @@ Legal acts and agreements are established in the
 ## Release policy
 
 ### Release calendar
-The Terminal ANS costs and unit rates are released twice a year.  
+The indicator values are released monthly. 
 
 ### Release calendar access
 Not applicable.
@@ -170,7 +139,8 @@ Information is disseminated to the general public via the [SES Data Portal][ses-
 
 
 ## Frequency of dissemination
-The Terminal ANS costs and unit rates are published on a yearly basis. 
+Data is published monthly with the annual performance aggregate being available in January
+of the following year.
 
 
 ## Dissemination format
@@ -196,20 +166,22 @@ and quality assessment.
 
 ### Quality assurance
 
-The data is provided by the concerned States and as such it is their responsibility
-to perform any quality assurance activities. 
+The data is provided by the [Network Manager][nm-cfmu] and as such it is their
+responsibility to perform any quality assurance activities.
 
 EUROCONTROL is not responsible for the procedures and processes used in the production of this data. 
 
 
 ### Quality assessment
 
-EUROCONTROL performs systematic checks to verify that totals do indeed equal the sum of their parts.
-However, if discrepancies are found, they are simply reported to data provider who may or may
-not make corrections.
+Data is validated by random quality checks, e.g. missing data for given a day, adherent data, etc.
+Any issues are reported to the [Network manager][nm-cfmu] who works with the EUROCONTROL
+Performance Review Unit to resolve them. 
 
-EUROCONTROL does not change data elements nor does it prevent the publication of data that
-failed to verify the checks.
+### Completeness
+
+It is assumed that the [Network Manager][nm-cfmu] provides complete data for the entire
+[Single European Sky Area][ses-area].
 
 
 ## Relevance
@@ -222,8 +194,9 @@ relevant EU legislation.
 ## Accuracy and reliability
 
 ### Overall accuracy
-This data is provided by the States and displayed as provided.
-It is assumed that the States have provided perfectly accurate data. 
+This data is provided by the Network manager and apart from the basic consistency checks,
+it is assumed that the data is accurate.  
+
 
 ### Sampling error
 There is no sampling and therefore no sampling error. 
@@ -233,30 +206,25 @@ There is no sampling and therefore no sampling error.
 ## Timeliness and punctuality
 ### Timeliness
 
-The latest data displayed represents costs and rates that are at least eleven months old.  
+The data is published each month - in general between 14 and 16 days after
+the end of the month in question.  
 
 
 ###  Punctuality
-The data is provided by the States in June and November and is displayed to the public at
-the end of November. 
+To be determined.
 
 
 
 ## Comparability
 ### Comparability — geographical
-Depending on the State, [terminal charging zone][csdefs]s may include from one to more
-than sixty airports, which would tend to reduce the validity of geographical comparison.
+Not applicable: there is only one reference area. 
 
 ### Comparability over time
-The exact composition of a given [terminal charging zone][csdefs] may vary over time,
-e.g. changes in the number of airports concerned, which would tend to reduce the
-comparability over time. 
-
-
+It is assumed that this highly aggregated indicator will remain comparable over time.
 
 ## Coherence
 ### Coherence — cross domain
-Generally, data should be coherent with ATM Cost-effectiveness (ACE) information.
+Generally, data should be similar to flight efficiency data published in other sources.
 
 ### Coherence — internal
 The data is assumed to be internally coherent as provided. 
@@ -277,65 +245,57 @@ The data revision policy has not yet been defined.
 
 ### Source data
 
-#### Forecast Data
-
-**Terminal ANS costs and related data**
-: National/[FAB] performance plans adopted by the States for the first [reference period][csdefs].
-
-**Exchange rates (2009)**
-: National/[FAB] performance plans adopted by the States for the first [reference period][csdefs].
-
-**Inflation rates**
-: Forecast data: National/[FAB] performance plans adopted by the States for the first [reference period][csdefs]. 
+The source data is provided by the [Network Manager][nm-cfmu] and is processed by EUROCONTROL. 
 
 
 
 ### Frequency of data collection
-The data is collected twice a year (June & November).
+The data is collected daily.
 
 
 
 ### Data collection
 
-Air navigation service providers are required to fill a reporting table for each terminal
-charging zone under their responsibility and supply it to the 
-European Commission ([Charging Regulation (EC 1794 / 2006)][law]). 
+The [Network Manager][nm-cfmu] provides information concerning several different
+Flight models and their intersections with airspaces of interest, such as the TMA areas
+around the airports and the FIRs. 
 
 
 ### Data validation
-The data is validated by the States/data providers under their own responsibility. 
+
+The data is validation as described in the [Quality Management](#quality-management) section.
 
 
 ### Data compilation 
 
-The data provided is loaded into a database at EUROCONTROL but no aggregation or
-modification is performed. 
+Computation of the en route section and the quantities needed for the computation of the KPI are
+performed at EUROCONTROL and stored in a local database.
+
+The calculation of the KPI in the 1st reference period (2012-14) is based on the
+[Filed Tactical Flight Model (FTFM)][ftfm] which corresponds to the last filed flight plan
+(see also [Horizontal flight efficiency calculations][hfe-meth]). 
 
 
 
 
 ### Adjustment
-No adjustments are performed on this data.
+No adjustments are performed on this data, although invalid data elements are rejected.
 
 
 
 ## Comment
 No comments.
 
-<div id="disclaimer">
-<h3>Disclaimer</h3>
+### Disclaimer {.disclaimer}
 
 This data is published by the Performance Review Body (PRB) of the Single European Sky. Every effort has been made to ensure that the information and analysis contained on this website are as accurate and complete as possible. Despite these precautions, should you find any errors or inconsistencies we would be grateful if you could please bring them to the Performance Review Unit’s attention.
-<br>
+
 The information may be copied in whole or in part providing that the copyright notice and disclaimer are included. The information may not be modified without prior written permission from the PRB. The views expressed herein do not necessarily reflect the official views or policy of EUROCONTROL or of the European Commission, which make no warranty, either implied or express, for the information contained on this website, neither do they assume any legal liability or responsibility for the accuracy, completeness or usefulness of this information. The PRB reserves the right to change or amend the information provided at any time and without prior notice. 
-</div>
 
 
 [air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
 [ansp]: https://ansperformance.eu/acronym/ansp/ "ANSP"
-[ansp-ses-rp1]: {{< relref "/metadata/ansp-ses-rp1.md" >}} "ANSPs - SES RP1"
 [atfm-delay]: https://ansperformance.eu/definition/atfm-delay/ "ATFM Delay"
-[csdefs]: {{< relref "charging-scheme-regulation-article-2-definitions.md" >}} "Charging Scheme Regulation Article 2 definitions"
 [coda]: https://www.eurocontrol.int/articles/central-office-delay-analysis-coda "CODA"
 [ctot]: https://ansperformance.eu/acronym/ctot/ "CTOT"
 [etot]: https://ansperformance.eu/acronym/etot/ "ETOT"
@@ -350,14 +310,8 @@ The information may be copied in whole or in part providing that the copyright n
 [law]: https://ansperformance.eu/bibliography/legislation/ "Legislation"
 [nm-cfmu]: https://ansperformance.eu/acronym/nm-cfmu/ "NM"
 [nm20]: https://ansperformance.eu/library/NM_20_FB750_Delay_Calculation_improvements.pdf "REA Message"
-[nomterms]: {{< relref "nominal-terms.md" >}} "Nominal terms"
 [pru]: https://ansperformance.eu/about/us/ "PRU"
 [refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
 [regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
-[reaterms]: {{< relref "real-terms.md" >}} "Real terms"
 [ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
-[ses-portal]: {{< relref "/" >}} "SES Data Portal"
-[tcost]: {{< relref "terminal-ans-costs.md" >}} "Terminal ANS Costs"
-[trate]: https://ansperformance.eu/definition/terminal-ans-unit-rate/ "Terminal ANS Unit Rate"
-[tcharge]: {{< relref "terminal-ans-costs.md" >}} "Terminal ANS Unit Rate"
-
+[ses-portal]: https://www.eurocontrol.int/prudata/dashboard/ "SES Data Portal"

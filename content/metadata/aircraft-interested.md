@@ -12,4 +12,4 @@ For more information, see the
 [EUROCONTROL Guidelines for Airspace Management - the ASM Handbook][asm].
 
 
-[asm]: https://www.eurocontrol.int/news/asm-handbook-reliable-guide-seamless-collaborative-airspace-management "The ASM Handbook"
+[asm]: https://www.eurocontrol.int/publication/european-route-network-improvement-plan-ernip-part-3 "The ASM Handbook"

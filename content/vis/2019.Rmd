@@ -44,6 +44,8 @@ extrajs: [
 ---
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
 
+The data and indicators for [reference period 2][ref2] are in accordance with Implementing Regulations (EU) [No 390/2013][no390_2013] and (EU) [No 391/2013][no391_2013].
+
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
   <tr>
@@ -58,7 +60,7 @@ extrajs: [
       <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December</span></div></td>
       <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1uO67qKc4l7OZEKcMDRi5DjzJ7mEWYUUGHGFRonNJ_hY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
       <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Network Manager</div></td>
-      <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp2.md" >}}' target="_blank">[Meta data]</a></span></div></td>
+      <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight.Rmd" >}}' target="_blank">[Meta data]</a></span></div></td>
     </tr>
     <tr>
       <td colspan="2" rowspan="1" style="width: 475px; vertical-align: top;">
@@ -291,7 +293,7 @@ Source: Network Manager</div>
 </td>
 <td>
 <div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);">
-<a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight-ses-rp2.md" >}}' target="_blank">[Meta data]</a>
+<a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight.Rmd" >}}' target="_blank">[Meta data]</a>
 </span></div>
 </td>
 </tr>
@@ -546,3 +548,9 @@ Source: CRCO; EC; PRU analysis </div>
 
 <script src="//d3js.org/d3.v3.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+
+
+[no317_2019]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.056.01.0001.01.ENG "IR 317/2019"
+[no390_2013]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0390 "IR 390/2019"
+[no391_2013]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0391 "IR 391/2019"
+[ref2]: ../../metadata/rp2/ "Reference Period 2"
