@@ -1,11 +1,11 @@
 (function() {
     function dv(){
-
- // TRAFFIC - ERT FLTS - TABLE
+        
+ // TRAFFIC - ERT FLTS - TABLE 
     var tbl_ertflts_YY = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertfltsYY_21',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/12yfMMqcQOkXn82sd1nBTAespS6WikvSy5vnnfY9Iu1g/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:F34',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/15t9A1n_RAf8EJav-MOOnOY8ot05c5uWUmmtlc9Q9rqM/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:F34',
         options: {
             allowHtml: false,
             width: 470,

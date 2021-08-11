@@ -1,0 +1,12 @@
+---
+title: "August 2021 Release"
+date: 2021-08-12
+categories: ["Release"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<ul>
+<li>Update of portal up to July 2021</li>
+</ul>

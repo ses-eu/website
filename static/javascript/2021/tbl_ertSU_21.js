@@ -1,11 +1,10 @@
 (function() {
     function dv(){
-     
-  // ERT SU - TABLE
+
   var tbl_ertSU = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ertSU_21',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/12HBZ7DhtvFvX81PFSDF52XDuXqKFtoKmAoYdbRqsR5Y/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I35',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1U5hGY6df3-XkMc2UCtBcje3iySuh04YnSen5QgWQvV0/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I35',
     options: {
         allowHtml: true,
         width: 470,
