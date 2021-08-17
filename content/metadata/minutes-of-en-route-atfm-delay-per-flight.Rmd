@@ -108,8 +108,7 @@ Flights
 the most penalizing [ATFM regulation][regu] which affects it.
 Depending of the type and the entity responsible for the [reference location][refloc] protected by
 the [ATFM regulation][regu] the [ATFM delay][atfm-delay] is classified as  either an airport or
-an en route [ATFM delay][atfm-delay] and attributed to the  [FIR][fir] containing the
-[reference location][refloc].
+an en route [ATFM delay][atfm-delay] and attributed to airport or en route facilities.
 
 Each ATFM regulation also comprises a designator referring to the cause of delay
 which can be used in further analysis.
@@ -333,12 +332,9 @@ Corrections may be made when issues are discovered as described in the
 [Quality Assessment section of this document](#quality-assessment).
 
 #### Post-operations performance adjustment
-
-The post-operations performance adjustment process allows operational stakeholders to notify national and European 
-authorities of problems related to air traffic flow management (ATFM) delay measurement, classification and assignment.
+The post-operations performance adjustment process is a means of enhancing operational ATFM delay data used in the Single European Sky performance scheme. It allows operational stakeholders to notify national and European authorities of problems related to air traffic flow management (ATFM) delay measurement, classification and assignment.
 The main output of this process is a separate performance dataset, which will include the approved changes. 
-This dataset is available for performance scheme and local management reporting.
-[More information on the post-operations performance adjustment process can be found here][postops] 
+[Read more about the post-operations performance adjustment process][postops].
 
 ## Comment
 
