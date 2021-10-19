@@ -36,7 +36,7 @@ extrajs: [
 
 The data and indicators for [reference period 3][ref3] are in accordance with [Commission Implementing Regulation (EU) 2019/317][no317_2019] of 11 February 2019 laying down a performance and charging scheme in the single European sky.
 
-<small><span style="color:#C0504D;">Last update: 12. October 2021</small></span>
+<small><span style="color:#C0504D;">Last update: 19. October 2021</small></span>
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
@@ -131,9 +131,9 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <tr>
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Environment EPI #3: Additional taxi-out time [min per dep.] - (airports >80k movements)</div><span style="color:#C0504D;"></span></td>
           </tr>
-         <tr>
+        <!--<tr>
           <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>Data for August 2021 will only be available as of November 2021. This section will be updated as soon as the data is available.</span></div></small></td>
-        </tr>
+        </tr>-->
          <tr>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-August</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/13AkyOIK1nLcTgOTAuMavFF8kaiC6twssJrcKCeEFH1c/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
@@ -151,14 +151,14 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <tr>
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Environment EPI #4: Additional time in terminal airspace [min per arr.] - (airports >80k movements)</div><span style="color:#C0504D;"></span></td>
           </tr>
-         <tr>
+        <!--<tr>
           <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>Data for August 2021 will only be available as of November 2021. This section will be updated as soon as the data is available.</span></div></small></td>
-          </tr> 
+          </tr>-->
         <tr>
           <td colspan="4" rowspan="1" style="width: 950px"></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-July</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-August</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1eAfT7Gs-iHie9iw-qhXSONdN2fiWWNz6gkHvMcYJFOQ/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
@@ -295,14 +295,14 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
         <tr>
           <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #3: Air traffic control pre-departure delay [min. per dep.] - (airports >80k movements)<br>&nbsp; &nbsp;Capacity CPI #4: Average time of all cause-departure delay per flight [min. per dep.] - (airports >80k movements)</div></td>
         </tr>
-        <tr>
+       <!-- <tr>
           <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>Data for August 2021 will only be available as of November 2021. This section will be updated as soon as the data is available.</span></div></small></td>
-        </tr>
+        </tr>-->
         <tr>
           <td colspan="4" rowspan="1" style="width: 950px"></td>
         </tr>
         <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-July</span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-August</span></div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/16kZP4Wkgrt9erTYL5U-yaQfrmAJVhSb66y1p3AzrFSo/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Airports</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/atc-pre-departure-delay.md" >}}' target="_blank">[Meta data]</a></span></div></td>
