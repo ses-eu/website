@@ -1,6 +1,6 @@
 ---
-title: "May 2020 Release"
-date: 2020-05-28
+title: "November 2021 Release"
+date: 2021-11-15
 categories: ["Release"]
 ---
 
@@ -8,5 +8,5 @@ categories: ["Release"]
 
 
 <ul>
-<li>Update of 2019 Safety data</li>
+<li>Update of portal up to October 2021</li>
 </ul>
