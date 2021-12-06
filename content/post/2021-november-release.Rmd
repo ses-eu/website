@@ -1,0 +1,12 @@
+---
+title: "November 2021 Release"
+date: 2021-11-15
+categories: ["Release"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<ul>
+<li>Update of portal up to October 2021</li>
+</ul>
