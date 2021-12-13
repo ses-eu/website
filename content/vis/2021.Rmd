@@ -36,7 +36,7 @@ extrajs: [
 
 The data and indicators for [reference period 3][ref3] are in accordance with [Commission Implementing Regulation (EU) 2019/317][no317_2019] of 11 February 2019 laying down a performance and charging scheme in the single European sky.
 
-<small><span style="color:#C0504D;">Last update: 15. December 2021</small></span>
+<small><span style="color:#C0504D;">Last update: 14. December 2021</small></span>
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
@@ -272,7 +272,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #2: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]</div></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1ODEWCBe8emvti65c9-vzS2aB2lXP5vroxpBhe2O4zz8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/atfm-slot-adherence.md" >}}' target="_blank">[Meta data]</a></span></div></td>
