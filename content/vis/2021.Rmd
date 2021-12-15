@@ -36,7 +36,7 @@ extrajs: [
 
 The data and indicators for [reference period 3][ref3] are in accordance with [Commission Implementing Regulation (EU) 2019/317][no317_2019] of 11 February 2019 laying down a performance and charging scheme in the single European sky.
 
-<small><span style="color:#C0504D;">Last update: 15. November 2021</small></span>
+<small><span style="color:#C0504D;">Last update: 14. December 2021</small></span>
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
@@ -49,8 +49,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
         <td colspan="4" rowspan="1"><div class="head3">&nbsp; Average daily IFR flights</div></td>
         </tr>
         <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
-          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1OqJ2nR-KiGvtTtBT4-jacYPxQ627gJr3bNy3ZkQfsH4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
+          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/13hVZG2UyCFxITOu6KApK9HNKNJxI21I96NPnVnqvdCU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Network Manager</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight.Rmd" >}}' target="_blank">[Meta data]</a></span></div></td>
         </tr>     
@@ -110,8 +110,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
             </ul></small></span></td>
          </tr>
          <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Ref. date: 31. Oct. 2021</span></div></td>
-          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1f7x3VvUuL-KPw1h3P7jB4CqvR3oO3sJPzgRKlSXld1I/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Ref. date: 30. Nov. 2021</span></div></td>
+          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1Ltbx6LqrMZPvwRN2T0d3gVAm9THhYNU3R8IE8W4ds1E/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Network Manager</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/average-horizontal-en-route-inefficiency.md" >}}' target="_blank">[Meta data]</a></span></div></td>
          </tr>
@@ -135,8 +135,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>Data for August 2021 will only be available as of November 2021. This section will be updated as soon as the data is available.</span></div></small></td>
         </tr>-->
          <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-September</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1euaA5zcVbCxNcNeUQUOC38ZsKQgTbUt7OBGICzNQA7Y/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/13lZ12XGkMV2o3mxjehNknud4G62HQ8Pn08wYHl91npw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-taxi-out-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
@@ -158,8 +158,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <td colspan="4" rowspan="1" style="width: 950px"></td>
         </tr>
         <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-September</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/111_cmvA1iaR1lfbHUwjvFStUASfc3_iI2OkL7Yv7H4g/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/11b39PsNTOm41AoARBjwYbGaAQE-G2Oz8nWrk-bOZsp4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
         </tr>
@@ -178,8 +178,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>Data for September is not yet available due to processing issues. The section will be updated as soon as the data is available.</span></div></small></td>
           </tr> -->
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1rgORMtomT35IfKwmkC-UqGipvkzGOzNfnedkaRzpJgE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1QTHbTVbZ45-BVRFEVqXoVQO85Iwsk4vICz4RCh0_1RI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"> </span></div></td>
           </tr>
@@ -227,8 +227,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CKPI #1: En-route ATFM delay per flight [minutes per flight]</div></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1Ph0KVgmOIeTen2suUnrbEnSlEjkmwTPAhe5HbyAN9Hs/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1A4cnENIzc_oTLBJbHWQuK8ryQGop27_H2Y2hB2wPYEE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight.md" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
@@ -249,8 +249,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CKPI #2: Airport ATFM arrival delay per flight [min./arr.]</div></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1qC3NV2FySRG_i-9aoliYZceoviYJObZb5ziqU00ijH8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1amnhyyeHGpKbjXWQEjwvpFrsQ3Dg74gaaYIuQqf5K54/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/airport-atfm-delay.md" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
@@ -272,8 +272,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #2: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]</div></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/186Hx948qVwvcBLkGURhYvrrUvGWzElZGibPhF-osj3A/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1ODEWCBe8emvti65c9-vzS2aB2lXP5vroxpBhe2O4zz8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/atfm-slot-adherence.md" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
@@ -299,8 +299,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <td colspan="4" rowspan="1" style="width: 950px"></td>
         </tr>
         <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-September</span></div></td>
-          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1vD1Dl_InH-_qJzaW53sdQlpXK9iIgkL_8pcqvlq4wmc/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
+          <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1vAO7jyXnM9B8-IL9SDsBP5azSnA3fDIW_DnBpoOBVEo/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Airports</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/atc-pre-departure-delay.md" >}}' target="_blank">[Meta data]</a></span></div></td>
         </tr>
@@ -324,8 +324,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; En-route Service Units (TSU)[actual vs. determined]</div></td>
           </tr>
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-October</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1Uvc3BM4ofuQ9CFJgWyPdWF76Qnkhs_bpg03qZVP-lrc/edit?usp=sharing" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/18dv4HTrvteU4dZLd1FXtSrL7YGaz2fx8PiDvtwkVqqQ/edit?usp=sharing" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: CRCO; EC; PRU analysis </div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"></span></div></td>
           </tr>
