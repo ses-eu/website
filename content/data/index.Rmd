@@ -9,25 +9,52 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 
 ---
 
+## 2022 (post operational adjustments are not yet taken into account)
+
+Please note that the following January 2022 data will only be available with the next release in March: Taxi-out additional time, ASMA additional time, ATC pre-departure delays, all departure delays.  
+
+| Description                           |  Files/Link                                                           |
+|---------------------------------------|-----------------------------------------------------------------------|
+| Share of arrivals applying CDO        | [{{% dwnld_i %}} RP3_APT_CDO_2022_Jan.xlsx][RP3_CCO_CDO_2022]             |
+| Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP3_APT_ATFM_ARR_2022_Jan.xlsx][RP3_APT_ATFM_ARR_2022]   |
+| Adherence to ATFM slots               | [{{% dwnld_i %}} RP3_APT_ATFM_SLOT_2022_Jan.xlsx][RP3_APT_ATFM_SLOT_2022] |
+| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP3_ERT_ATFM_2022_Jan.xlsx][RP3_ERT_ATFM_2022]           |
+| Average daily IFR Flight              | [{{% dwnld_i %}} RP3_Flights_2022_Jan.xlsx][RP3_Flights_2022]             |
+| En-route Service Units                | [{{% dwnld_i %}} RP3_ERT_SU_2022_Jan.xlsx][RP3_ERT_SU_2022]               |
+| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP3_FLT_EFF_2022_Jan.xlsx][RP3_FLT_EFF_2022]             |          |
+           |
+
+[RP3_APT_ASMA_2022]:      ../download/2022/RP3_APT_ASMA_2022_Jan.xlsx
+[RP3_APT_ATC_PRE_2022]:   ../download/2022/RP3_APT_ATC_PRE_2022_Jan.xlsx
+[RP3_APT_TxOut_2022]:     ../download/2022/RP3_APT_TxOut_2022_Jan.xlsx
+[RP3_APT_ATFM_ARR_2022]:  ../download/2022/RP3_APT_ATFM_ARR_2022_Jan.xlsx
+[RP3_APT_ATFM_SLOT_2022]: ../download/2022/RP3_APT_ATFM_SLOT_2022_Jan.xlsx
+[RP3_ERT_ATFM_2022]:      ../download/2022/RP3_ERT_ATFM_2022_Jan.xlsx
+[RP3_ERT_SU_2022]:        ../download/2022/RP3_ERT_SU_2022_Jan.xlsx
+[RP3_Flights_2022]:       ../download/2022/RP3_Flights_2022_Jan.xlsx
+[RP3_FLT_EFF_2022]:       ../download/2022/RP3_FLT_EFF_2022_Jan.xlsx
+[RP3_CCO_CDO_2022]:       ../download/2022/RP3_APT_CDO_2022_Jan.xlsx
+
+
 ## 2021 (post operational adjustments are not yet taken into account)
 
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
-| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP3_APT_ASMA_2021_Jan_Nov.xlsx][RP3_APT_ASMA_2021]             |
+| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP3_APT_ASMA_2021_Jan_Dec.xlsx][RP3_APT_ASMA_2021]             |
 | Share of arrivals applying CDO        | [{{% dwnld_i %}} RP3_APT_CDO_2021_Jan_Dec.xlsx][RP3_CCO_CDO_2021]             |
-| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP3_APT_ATC_PRE_2021_Jan_Nov.xlsx][RP3_APT_ATC_PRE_2021]         |
+| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP3_APT_ATC_PRE_2021_Jan_Dec.xlsx][RP3_APT_ATC_PRE_2021]         |
 | Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP3_APT_ATFM_ARR_2021_Jan_Dec.xlsx][RP3_APT_ATFM_ARR_2021]   |
 | Adherence to ATFM slots               | [{{% dwnld_i %}} RP3_APT_ATFM_SLOT_2021_Jan_Dec.xlsx][RP3_APT_ATFM_SLOT_2021] |
-| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP3_APT_TxOut_2021_Jan_Nov.xlsx][RP3_APT_TxOut_2021]         |
+| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP3_APT_TxOut_2021_Jan_Dec.xlsx][RP3_APT_TxOut_2021]         |
 | En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP3_ERT_ATFM_2021_Jan_Dec.xlsx][RP3_ERT_ATFM_2021]           |
 | En-route Service Units                | [{{% dwnld_i %}} RP3_ERT_SU_2021_Jan_Dec.xlsx][RP3_ERT_SU_2021]               |
 | Average daily IFR Flight              | [{{% dwnld_i %}} RP3_Flights_2021_Jan_Dec.xlsx][RP3_Flights_2021]             |
 | Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP3_FLT_EFF_2021_Jan_Dec.xlsx][RP3_FLT_EFF_2021]             |          |
            |
 
-[RP3_APT_ASMA_2021]:      ../download/2021/RP3_APT_ASMA_2021_Jan_Nov.xlsx
-[RP3_APT_ATC_PRE_2021]:   ../download/2021/RP3_APT_ATC_PRE_2021_Jan_Nov.xlsx
-[RP3_APT_TxOut_2021]:     ../download/2021/RP3_APT_TxOut_2021_Jan_Nov.xlsx
+[RP3_APT_ASMA_2021]:      ../download/2021/RP3_APT_ASMA_2021_Jan_Dec.xlsx
+[RP3_APT_ATC_PRE_2021]:   ../download/2021/RP3_APT_ATC_PRE_2021_Jan_Dec.xlsx
+[RP3_APT_TxOut_2021]:     ../download/2021/RP3_APT_TxOut_2021_Jan_Dec.xlsx
 [RP3_APT_ATFM_ARR_2021]:  ../download/2021/RP3_APT_ATFM_ARR_2021_Jan_Dec.xlsx
 [RP3_APT_ATFM_SLOT_2021]: ../download/2021/RP3_APT_ATFM_SLOT_2021_Jan_Dec.xlsx
 [RP3_ERT_ATFM_2021]:      ../download/2021/RP3_ERT_ATFM_2021_Jan_Dec.xlsx
