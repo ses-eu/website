@@ -1,6 +1,6 @@
 ---
-title: "May 2020 Release"
-date: 2020-05-28
+title: "March 2022 Release"
+date: 2022-03-17
 categories: ["Release"]
 ---
 
@@ -8,5 +8,5 @@ categories: ["Release"]
 
 
 <ul>
-<li>Update of 2019 Safety data</li>
+<li>Update of portal up to February 2022</li>
 </ul>
