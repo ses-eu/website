@@ -26,8 +26,7 @@ relativeurls = false
 #baseurl = "https://www-test.eurocontrol.int/ansperf-test/dataportal/ses-test/"
 #relativeurls = false
 
-
-
+#
 
 
 languageCode = "en-us"
@@ -40,6 +39,7 @@ theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+disableKinds = ["RSS"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"

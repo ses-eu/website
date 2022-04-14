@@ -7,7 +7,8 @@
 options(
   blogdown.ext = ".Rmd",
   blogdown.publishDir = "../ses-portal-generated",
-  blogdown.serve_site.startup = FALSE
+  blogdown.serve_site.startup = FALSE,
+  blogdown.hugo.version = "0.92.1"
 )
 
 # in .Rprofile of the website project
