@@ -334,7 +334,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
        <table style="text-align: left; width: 950px;" border="0" cellpadding="1" cellspacing="1">
        <tbody>
             <tr>
-              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div><span style="color:#C0504D;"><small>To be updated when data is available</small></span></td>
+              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div><span style="color:#C0504D;"><small>The combined 2020 and 2021 cost data is available on the</small></span><a href='{{< relref "/vis/2021.Rmd" >}}' target="_blank"> 2021 Dashboard</a></td>
             </tr>
       </tbody>
      </table>
@@ -342,7 +342,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
        <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
             <tbody>
             <tr>
-              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div><span style="color:#C0504D;"><small>To be updated when data is available</small></span></td>
+              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div><span style="color:#C0504D;"><small> The combined 2020 and 2021 cost data is available on the</small></span><a href='{{< relref "/vis/2021.Rmd" >}}' target="_blank"> 2021 Dashboard</a></td>
             </tr>
         </tbody>
       </table>

@@ -30,13 +30,15 @@ extrajs: [
   "/javascript/2021/tbl_aptATC_APT_21.js",
   "/javascript/2021/tbl_ertSU_21.js",
   "/javascript/2021/crt_ertSUYYvstgt_21.js",
+  "/javascript/2021/tbl_ertcef_21.js",
+  "/javascript/2021/tbl_trcef_21.js",
   ]
 ---
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
 
 The data and indicators for [reference period 3][ref3] are in accordance with [Commission Implementing Regulation (EU) 2019/317][no317_2019] of 11 February 2019 laying down a performance and charging scheme in the single European sky.
 
-<small><span style="color:#C0504D;">Last update: 13. April 2022</small></span>
+<small><span style="color:#C0504D;">Last update: 14. April 2022</small></span>
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
   <tbody>
@@ -135,7 +137,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>Data for August 2021 will only be available as of November 2021. This section will be updated as soon as the data is available.</span></div></small></td>
         </tr>-->
          <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/14rPN5WmyTXMN2aM-Zo48JK7sHZ0eVa0KAOdQU_JD3b8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-taxi-out-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
@@ -158,7 +160,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <td colspan="4" rowspan="1" style="width: 950px"></td>
         </tr>
         <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December</span></div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1Y397CS6bf7jV0asjZpDw1hecbT6_8cgRY7krXxdi7Y4/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
@@ -299,7 +301,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <td colspan="4" rowspan="1" style="width: 950px"></td>
         </tr>
         <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-November</span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December</span></div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1WW-Xqv1uCnPrsYC14vevz9l60voi5tivGDQprvLx57w/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Airports</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/atc-pre-departure-delay.md" >}}' target="_blank">[Meta data]</a></span></div></td>
@@ -313,12 +315,11 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
 </table><br>
 <!-- COST-EFFICIENCY-->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
-  <tbody>
   <tr>
     <td colspan="4" rowspan="1" style="width: 950px"><div class="head2">&nbsp;COST-EFFICIENCY</div></td>
   </tr>
    <!-- EN-ROUTE SERVICE UNITS-->
-      <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+   <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
         <tbody>
           <tr>
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; En-route Service Units (TSU)[actual vs. determined]</div></td>
@@ -338,24 +339,20 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
               <div style="float: top;" id="crt_ertSUYYvstgt_21"></div></td>
           </tr>
         </tbody>
-      </table> <br>
+      </table>
     <!-- DETERMINED UNIT COSTS FOR EN ROUTE ANS-->
        <table style="text-align: left; width: 950px;" border="0" cellpadding="1" cellspacing="1">
-       <tbody>
-            <tr>
-              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div><span style="color:#C0504D;"><small>To be updated when data is available</small></span></td>
-            </tr>
-      </tbody>
-     </table>
+        <tr><td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div></td></tr><br>
+        <tr><td colspan="4" rowspan="1"><span style="color:#C0504D;"><small>The en-route ANS costs in the table covers the period 2020 and 2021.</span><a href="https://docs.google.com/spreadsheets/d/1gp3bvboRGK2ne_KNm6Y0S1lPXL953R9GmsP1ytkrX2c/edit?usp=sharing" target="_blank"> The underlying data are available in the download file.</a></small></td></tr>
+        <tr><td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;"><div id="tbl_ertcef_21"></div></td></tr>
+     </table><br>
      <!-- DETERMINED UNIT COSTS FOR TERMINAL ANS-->
        <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
-            <tbody>
-            <tr>
-              <td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div><span style="color:#C0504D;"><small>To be updated when data is available</small></span></td>
-            </tr>
-        </tbody>
+        <tr><td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div></td></tr><br>
+        <tr><td colspan="4" rowspan="1"><span style="color:#C0504D;"><small>The termial ANS costs in the table covers the period 2020 and 2021.</span><a href="https://docs.google.com/spreadsheets/d/1UFycNGPlOXpwtRzwSHtOj9fd2UM5l08_naNCbskWeGw/edit?usp=sharing" target="_blank"> The underlying data are available in the download file.</a></small></td></tr>
+        <tr><td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;"><div id="tbl_trcef_21"></div></td></tr>
       </table>
-  </tbody>
+
 </table>
 
 <script src="//d3js.org/d3.v3.min.js" type="text/javascript"></script>
