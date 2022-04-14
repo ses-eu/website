@@ -4,7 +4,7 @@
   var tbl_ertSU = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ertSU_22',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1wYE9ggIdxdIhrQdNTaUOfIh7u1opgCy6eIOcZ0mKEEw/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I35',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1LIwTkEh2Vr2_SJsZVZutO94ctWYtPyjfzegtQNLNJ-g/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I35',
     options: {
         allowHtml: true,
         width: 470,
