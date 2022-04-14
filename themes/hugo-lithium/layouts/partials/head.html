@@ -23,9 +23,10 @@
 <meta property="keywords" content ="{{ delimit .Keywords ", " }}">
 {{ end }}
 
-{{ if .RSSLink }}
+<!--{{ if .RSSLink }}
 <link href="{{ .RSSLink | relURL }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-{{ end }}
+{{ end }}-->
+
 {{ partial "head_highlightjs" . }}
 <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" media="all">
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}" media="all">
