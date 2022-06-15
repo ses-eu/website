@@ -5,7 +5,7 @@
 var crt_ertdlyMM = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
     containerId: 'crt_ertdlyMM_22',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1dwGFK-i6SMD-MeyNWfbfsbQt05eJD_cZ7mjcG6J_j8E/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:F65&tq=where%20F%3D1',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1-oySHrMwc6Swzor5G-0tIzDTksS8el65wwtwDA_iU4s/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:F65&tq=where%20F%3D1',
     options: {
         width: 450,
         height: 190,
