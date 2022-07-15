@@ -5,7 +5,7 @@
     var tbl_ertflts_YY = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_ertfltsYY_22',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1rV6J5JJBjwkA4QF5YKT_OVjDxYuagln-cfsqLvhZcDU/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:F34',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1kiWFOgNNmvO47VcOL1LCLdUBgV11SoAOw5qG1-I116s/edit?usp=sharing&sheet=ERT_FLTS_LOC&range=A5:F34',
         options: {
             allowHtml: false,
             width: 470,
