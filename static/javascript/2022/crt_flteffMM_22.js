@@ -5,7 +5,7 @@
 var crt_flteffMM = new google.visualization.ChartWrapper({
     chartType: 'LineChart',
     containerId: 'crt_flteffMM_22',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1DNr73Et51QLjiwLi-fDi--9XlZ5ZwgZE8L1fhwRKaBo/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:E113&tq=where%20E%3D1',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1IMaDVZ_j2ok021GUxpViOxUTHhTdk0JkKs7ra_Wqc7A/edit?usp=sharing&sheet=FLT_EFF_MM&range=A5:E113&tq=where%20E%3D1',
     options: {
         width: 450,
         height: 190,
