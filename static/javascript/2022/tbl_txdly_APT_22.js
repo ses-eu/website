@@ -5,7 +5,7 @@
     var tbl_txdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_txdly_APT_22',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1QR6VNa_iTPimRtkhytz4q7bwEcYcO1hMssezrJp_rBA/edit?usp=sharing&sheet=TxOut_APT&range=A5:G47',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1dyoF9SQLvlEzOx8DwQ_WjO6iU-Sc-bQ1O5kHuygmNE8/edit?usp=sharing&sheet=TxOut_APT&range=A5:G47',
         options: {
             allowHtml: false,
             width: 950,
