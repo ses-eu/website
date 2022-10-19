@@ -1,0 +1,12 @@
+---
+title: "October 2022 Release"
+date: 2022-10-17
+categories: ["Release"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<ul>
+<li>Update of portal up to September 2022</li>
+</ul>
