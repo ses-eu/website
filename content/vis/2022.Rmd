@@ -333,10 +333,10 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           </tr>
           <tr>
             <td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
-              <div class="head4">&nbsp;En-route TSU: by charging zones (2021)</div>
+              <div class="head4">&nbsp;En-route TSU: by charging zones (2022)</div>
               <div style="float: top;" id="tbl_ertSU_22"></div></td>
             <td colspan="2" rowspan="1" style="width: 475px, text-align: center; vertical-align: top; ">
-              <div class="head4">&nbsp;En-route TSU: actual vs. determined (2021)</div>
+              <div class="head4">&nbsp;En-route TSU: actual vs. determined (2022)</div>
               <div style="float: top;" id="crt_ertSUYYvstgt_22"></div></td>
           </tr>
         </tbody>
