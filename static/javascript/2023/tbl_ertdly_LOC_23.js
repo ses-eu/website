@@ -5,7 +5,7 @@
   var tbl_ertdly_YYtgt = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ertdly_LOC_23',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1u6zNsiGli-VxyZ9TsoZU3AXWb0_AqD4beVb7E4Womxc/edit?usp=sharing&sheet=ERT_ATFM_LOC&range=A5:F34&hl=en_GB',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1ZrfTbNRcoAvVTUOjak3MzZXQTnPjmR9c7dTpXoJGEbo/edit?usp=sharing&sheet=ERT_ATFM_LOC&range=A5:F34&hl=en_GB',
     options: {
         allowHtml: false,
         width: 470,
