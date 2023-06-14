@@ -33,7 +33,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP3_CCO_CDO_2023]:       ../download/2023/RP3_APT_CDO_2023_Jan_Apr.xlsx
 
 
-## 2022 (post operational adjustments are not yet taken into account) 
+## 2022
 
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
