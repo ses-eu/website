@@ -5,7 +5,7 @@
 var tbl_ert_flteff = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ert_flteff_Loc_23',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/15PrRibMeo1bSBDGDiwupE7D6l8odhugguQeTR7Ch_s4/edit?usp=sharing&sheet=ERT_FLT_EFF_LOC&range=A5:F33&hl=en_GB',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/123hcGWHVBvetOWLaUKlzpSE3w-pSZr0RPxdKNZ0vY-c/edit?usp=sharing&sheet=ERT_FLT_EFF_LOC&range=A5:F33&hl=en_GB',
     options: {
         allowHtml: true,
         width: 460,
