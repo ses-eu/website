@@ -1,0 +1,12 @@
+---
+title: "November 2023 Release"
+date: 2023-11-17
+categories: ["Release"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<ul>
+<li>Update of portal up to October 2023</li>
+</ul>
