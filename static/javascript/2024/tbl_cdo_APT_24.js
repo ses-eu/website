@@ -1,18 +1,18 @@
 (function() {
     function dv(){
-     
-        // ENVIRONMENT - TAXI OUT DLY - APT - TABLE
+    
+        // ENVIRONMENT - SHARE OF CDO FLIGHTS - APT - TABLE
     var tbl_txdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
-        containerId: 'tbl_txdly_APT_23',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Xb8j87_1qNylWEebDCn3d009ASUG8nlmyyB6PDjxhiU/edit?usp=sharing&sheet=TxOut_APT&range=A5:G47',
+        containerId: 'tbl_cdo_APT_24',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1CTEMPn1dAGO5OVXvAp_0nqjAz_VisftWxGJT3Y5ExgA/edit?usp=sharing&sheet=CDO_APT&range=A5:F155',
         options: {
             allowHtml: false,
             width: 950,
             height: 280
         },
         view: {
-            columns: [0, 2, 3, 4, 6]
+            columns: [0, 2, 3, 4, 5]
         }
     });
     tbl_txdly_APT.draw();
