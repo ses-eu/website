@@ -36,7 +36,7 @@ extrajs: [
 
 The data and indicators for [reference period 3][ref3] are in accordance with [Commission Implementing Regulation (EU) 2019/317][no317_2019] of 11 February 2019 laying down a performance and charging scheme in the single European sky.
 
-<small><span style="color:#C0504D;">Last update: 14. January 2024</small></span>
+<small><span style="color:#C0504D;">Last update: 16. February 2024</small></span>
 
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
@@ -133,18 +133,18 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <tr>
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Environment EPI #3: Additional taxi-out time [min per dep.] - (airports >80k movements)</div><span style="color:#C0504D;"></span></td>
           </tr>
-        <tr>
-          <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>This section is updated annually. The data for 2023 will be available as of early 2024. </span></div></small></td>
-        </tr>
         <!--<tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1PmqdVqGdFrlPEOlznaIxZada3uy2Kwl2nBWNFyk4Btc/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+          <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>This section is updated annually. The data for 2023 will be available in March 2024. </span></div></small></td>
+        </tr>-->
+        <tr>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1Xb8j87_1qNylWEebDCn3d009ASUG8nlmyyB6PDjxhiU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-taxi-out-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
           </tr>
           <tr>
             <td colspan="4" rowspan="1" style="vertical-align: top;"><div id="tbl_txdly_APT_23"></div></td>
-          </tr>-->
+          </tr>
           </tbody>
         </table><br>
     <!-- Additional ASMA time-->
@@ -153,21 +153,21 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <tr>
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; Environment EPI #4: Additional time in terminal airspace [min per arr.] - (airports >80k movements)</div><span style="color:#C0504D;"></span></td>
           </tr>
-         <tr>
-          <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>This section is updated annually. The data for 2023 will be available as of early 2024. </span></div></small></td>
-        </tr>
-       <!--<tr>
+         <!--<tr>
+          <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>This section is updated annually. The data for 2023 will be available in March 2024. </span></div></small></td>
+        </tr>-->
+       <tr>
           <td colspan="4" rowspan="1" style="width: 950px"></td>
         </tr>
         <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1xQHc2ySTwwPk7jg_ORImXeMMxdnF7UAdqd4a9WW2jUs/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1wZNhTD7Mi5IQYwU5PwQi5WWcRvQW3qc4ypv1UwZsgwI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: PRU analysis; Airports; Network Manager</div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a></span></div></td>
         </tr>
         <tr>
             <td colspan="4" rowspan="1" style="vertical-align: top;"><div id="tbl_ASMAdly_APT_23"></div></td>
-        </tr>-->
+        </tr>
           </tbody>
       </table>  <br>
     <!-- Share of arrivals applying CDO -->
@@ -301,7 +301,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <td colspan="4" rowspan="1" style="width: 950px"></td>
         </tr>
         <tr>
-          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: Jan-Nov</span></div></td>
+          <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: Jan-Dec</span></div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1MbJsb5i38-nYPpzSUynx3HwoOklzy7rvlZwxsVcWOpg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a></span></div></td>
           <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: Airports</div></td>
           <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"><a href='{{< relref "/metadata/atc-pre-departure-delay.md" >}}' target="_blank">[Meta data]</a></span></div></td>
