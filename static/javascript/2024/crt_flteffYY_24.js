@@ -5,7 +5,7 @@
  var crt_flteffYY = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
     containerId: 'crt_flteffYY_24',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Q3pAklrdXe-ma8-x5wS-Tegu6ch-9q5sI7eX13e7-yo/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G14',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/17IIUSBbtlcOktrdz5L-nB7GSTwqtD6kR2pO8cP4JISc/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G14',
     options: {
         width: 450,
         height: 190,
