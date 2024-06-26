@@ -5,7 +5,7 @@
   var tbl_aptATC_APT = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_aptATC_APT_24',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19k4g2LjyIe5hyOw4Ez7l4eyESAgIy5s_q_5kSU30ce4/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:I47',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1JZmKltnhSPZNnZ3fTnWTf0n8DYFKc7j1_1uxFdGUBPA/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:I47',
     options: {
         allowHtml: true,
         width: 950,
@@ -21,3 +21,4 @@ tbl_aptATC_APT.draw();
 
     google.setOnLoadCallback(dv);
  })();
+ 
