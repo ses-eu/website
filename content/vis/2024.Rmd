@@ -326,12 +326,12 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
           <tr>
             <td colspan="4" rowspan="1"><div class="head3">&nbsp; En-route Service Units (TSU)[actual vs. determined]</div></td>
           </tr>
-          <tr>
+         <!-- <tr>
          <td colspan="4" rowspan="1" style="width: 950px"><div><span style="color:#C0504D;"><small>Data for June is not yet available. The section will be updated as soon as the data is available.</span></div></small></td>
-          </tr>
+          </tr>-->
           <tr>
-            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: Jan-May</span></div></td>
-            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/1LzxVP_zGiA3jcoFq36pwsdlW0xIpyQ69H5oipwgKAek/edit?usp=sharing" target="_blank">[Download data]</a></span></div></td>
+            <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: Jan-Jun</span></div></td>
+            <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"><span style="color: rgb(102, 102, 102);"><a href="https://docs.google.com/spreadsheets/d/12yJJ04WL5_GXH2sTG-npmZec4-8rTqxKGj4pRJMZ4WY/edit?usp=sharing" target="_blank">[Download data]</a></span></div></td>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">Source: CRCO; EC; PRU analysis </div></td>
             <td><div style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"> <span style="color: rgb(102, 102, 102);"></span></div></td>
           </tr>

@@ -1,6 +1,6 @@
 ---
 title: "July 2024 Release"
-date: 2024-07-17
+date: 2024-07-12
 categories: ["Release"]
 ---
 
@@ -9,4 +9,5 @@ categories: ["Release"]
 
 <ul>
 <li>Update of portal up to June 2024</li>
+<li>Update of En-route service units up to June 2024 on 22 July</li>
 </ul>
