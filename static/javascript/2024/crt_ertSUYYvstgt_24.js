@@ -5,7 +5,7 @@
   var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
     containerId: 'crt_ertSUYYvstgt_24',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/12yJJ04WL5_GXH2sTG-npmZec4-8rTqxKGj4pRJMZ4WY/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I35',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1q8qGYw-rRZav6ekac8ZOEy7z8ZsQL6OxYHEd4vFZiZ8/edit?usp=sharing&sheet=ERT_SU_CZ&range=A5:I35',
     options: {
         width: 475,
         height: 400,
