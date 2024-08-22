@@ -5,7 +5,7 @@
   var tbl_aptATFM_APT = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_aptATFM_APT_24',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1RK0nd_U-4VFXNkGj5kUhZabx5m7xix7kfLS9KoUpsC4/edit?usp=sharing&sheet=APT_ATFM_APT&range=A5:F155',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1tVn2wxs2-foGACOvAu0zn0d2mulYtwrW-Om6EeOU0uE/edit?usp=sharing&sheet=APT_ATFM_APT&range=A5:F155',
     options: {
         allowHtml: true,
         width: 470,
