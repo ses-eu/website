@@ -1,0 +1,12 @@
+---
+title: "September 2024 update"
+date: 2024-09-10
+categories: ["Release"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<ul>
+<li>Update of data for several aiports in airport ATFM arrival delay file (Jan-Dec 2023)</li>
+</ul>
