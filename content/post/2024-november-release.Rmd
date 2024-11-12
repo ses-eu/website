@@ -1,0 +1,12 @@
+---
+title: "November 2024 Release"
+date: 2024-11-15
+categories: ["Release"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<ul>
+<li>Update of portal up to October 2024</li>
+</ul>
