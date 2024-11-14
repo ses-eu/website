@@ -1,6 +1,6 @@
 ---
 title: "November 2024 Release"
-date: 2024-11-15
+date: 2024-11-14
 categories: ["Release"]
 ---
 
