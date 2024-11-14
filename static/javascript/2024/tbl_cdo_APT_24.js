@@ -5,7 +5,7 @@
     var tbl_txdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_cdo_APT_24',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/15lt2XI_cuIsqTTl2yjQx1F3WdrXMTAQK_ExFBC_ociI/edit?usp=sharing&sheet=CDO_APT&range=A5:F155',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1n-xMLD7EWQGfkNeg2CVK5o7wG4WFVNFgJjsJ-MzTI9g/edit?usp=sharing&sheet=CDO_APT&range=A5:F155',
         options: {
             allowHtml: false,
             width: 950,
