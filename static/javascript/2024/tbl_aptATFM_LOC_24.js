@@ -5,7 +5,7 @@
   var tbl_aptATFM_LOC = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_aptATFM_LOC_24',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1MqqF71w-9WE4hGvrf1nXTYzHLAkaHlGbDaf9WNXjMG8/edit?usp=sharing&sheet=APT_ATFM_LOC&range=A5:E28',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1oY3AWWZalnu2TcTnUF2Fj2mgk_y9SpCZgGoZuWkWLaI/edit?usp=sharing&sheet=APT_ATFM_LOC&range=A5:E28',
     options: {
         allowHtml: true,
         width: 470,
