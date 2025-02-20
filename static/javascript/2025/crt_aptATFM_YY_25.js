@@ -1,11 +1,11 @@
 (function() {
     function dv(){
-
-// CAPACITY - En-route ATFM delay - MM - CHART
-var crt_ertdlyMM = new google.visualization.ChartWrapper({
+        
+        // CAPACITY - Airport ATFM arrival delay - YY - CHART
+  var crt_aptATFMsesYY = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
-    containerId: 'crt_ertdlyMM_24',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1VRHlQpAILNP8R2BHwQsK9KhOKEFy1wv50erTPC7UnJE/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:F77&tq=where%20F%3D1',
+    containerId: 'crt_aptATFM_YY_25',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1puNOSQ7-izZg4Fm8NCZ80P_d3JvU64JnaqHXlmIh03M/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D12',
     options: {
         width: 450,
         height: 190,
@@ -15,7 +15,7 @@ var crt_ertdlyMM = new google.visualization.ChartWrapper({
             width: '60%',
             height: '60%'
         },
-        title: 'En-route ATFM delays (SES Area)',
+        title: 'Airport ATFM arrival delays (SES-RP4 airports)',
         titleTextStyle: {
             color: 'grey',
             fontSize: 11
@@ -28,20 +28,10 @@ var crt_ertdlyMM = new google.visualization.ChartWrapper({
             }
         },
         isStacked: 'true',
-        series: {
-            0: {
-                type: 'lines',
-                color: '#5D7CBA',
-                lineWidth: 1,
-                pointSize: 6
-            },
-            1: {
-                type: 'bars',
-                color: '#7DD2F2'
-            }
-        },
+        seriesType: 'bars',
+        colors: ['#7DD2F2'],
         vAxis: {
-            title: 'minutes per flight',
+            title: 'minutes per arrival',
             format: '0.00',
             titleTextStyle: {
                 color: 'grey',
@@ -50,10 +40,11 @@ var crt_ertdlyMM = new google.visualization.ChartWrapper({
         }
     },
     view: {
-        'columns': [0, 4, 1]
+        columns: [0, 1],
+        
     }
 });
-crt_ertdlyMM.draw();
+crt_aptATFMsesYY.draw();      
 
     }
 

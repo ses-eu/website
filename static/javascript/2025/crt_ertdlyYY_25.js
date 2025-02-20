@@ -1,21 +1,21 @@
 (function() {
     function dv(){
-
-// CAPACITY - En-route ATFM delay - MM - CHART
-var crt_ertdlyMM = new google.visualization.ChartWrapper({
+        
+// CAPACITY - En-route ATFM delay - YY - CHART
+var crt_ertdlyYY = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
-    containerId: 'crt_ertdlyMM_24',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1VRHlQpAILNP8R2BHwQsK9KhOKEFy1wv50erTPC7UnJE/edit?usp=sharing&sheet=ERT_ATFM_MM&range=A5:F77&tq=where%20F%3D1',
+    containerId: 'crt_ertdlyYY_25',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1k9s_irbAA-SkIYlHkXH-poefnkUkmyH1XKslO6MF6BY/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:H16',
     options: {
         width: 450,
         height: 190,
         chartArea: {
-            left: 80,
+            left: 50,
             top: 30,
             width: '60%',
             height: '60%'
         },
-        title: 'En-route ATFM delays (SES Area)',
+        title: 'En-route ATFM delays (SES area)',
         titleTextStyle: {
             color: 'grey',
             fontSize: 11
@@ -29,15 +29,15 @@ var crt_ertdlyMM = new google.visualization.ChartWrapper({
         },
         isStacked: 'true',
         series: {
-            0: {
-                type: 'lines',
-                color: '#5D7CBA',
-                lineWidth: 1,
-                pointSize: 6
-            },
             1: {
                 type: 'bars',
                 color: '#7DD2F2'
+            },
+            0: {
+                type: 'lines',
+                color: 'D80032',
+                lineWidth: 0.5,
+                pointSize: 7
             }
         },
         vAxis: {
@@ -50,13 +50,12 @@ var crt_ertdlyMM = new google.visualization.ChartWrapper({
         }
     },
     view: {
-        'columns': [0, 4, 1]
+        'columns': [1, 5, 2]
     }
 });
-crt_ertdlyMM.draw();
+crt_ertdlyYY.draw();       
 
     }
 
     google.setOnLoadCallback(dv);
  })();
- 
