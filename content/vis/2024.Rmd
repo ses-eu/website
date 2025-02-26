@@ -36,7 +36,7 @@ extrajs: [
 
 The data and indicators for [reference period 3][ref3] are in accordance with [Commission Implementing Regulation (EU) 2019/317][no317_2019] of 11 February 2019 laying down a performance and charging scheme in the single European sky.
 
-<small><span style="color:#C0504D;">Last update: 16. January 2025 </small></span>
+<small><span style="color:#C0504D;">Last update: 26. February 2025 </small></span>
 
 <!-- TRAFFIC -->
 <table style="width: 100%; max-width: 950px; text-align: left;" border="0" cellpadding="2" cellspacing="2">
@@ -141,19 +141,77 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
     <tr>
       <td colspan="4" class="head3">&nbsp;Environment EPI #3: Additional taxi-out time [min per dep.] - (airports >80k movements)</td>
     </tr>
-    <tr>
+    <!-- <tr>
       <td colspan="4" style="width: 100%;"><small><span style="color:#C0504D;">This section is updated annually. The data for 2024 will be available as of early 2025.</span></small></td>
+    </tr> -->
+     <tr>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
+        <span style="color: #C0504D;">Period: January–December</span>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href="https://docs.google.com/spreadsheets/d/1mqWQkV0vddQTZwB0e44fUAYF0SKY65BMfFl8asGcJbA/edit?usp=sharing&hl=en_GB" 
+             target="_blank" rel="noopener noreferrer">
+            [Download data]
+          </a>
+        </span>
+      </td>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-source">
+        Source: PRU analysis; Airports
+      </td>
+        <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/additional-taxi-out-time.html" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>  
+    <tr>
+      <td colspan="4" style="vertical-align: top;">
+        <div id="tbl_txdly_APT_24"></div>
+      </td>
     </tr>
 
     <!-- Additional ASMA time -->
+  <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+   <tbody>
     <tr>
       <td colspan="4" class="head3">&nbsp;Environment EPI #4: Additional time in terminal airspace [min per arr.] - (airports >80k movements)</td>
     </tr>
-    <tr>
+    <!--<tr>
       <td colspan="4" style="width: 100%;"><small><span style="color:#C0504D;">This section is updated annually. The data for 2024 will be available as of early 2025.</span></small></td>
+    </tr>-->
+     <tr>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
+        <span style="color: #C0504D;">Period: January–December</span>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href="https://docs.google.com/spreadsheets/d/1Y58MYzOOA7rRy4o5Fkza6SxtITbdtj1rwcs7YO1A0SI/edit?usp=sharing&hl=en_GB" 
+             target="_blank" rel="noopener noreferrer">
+            [Download data]
+          </a>
+        </span>
+      </td>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-source">
+        Source: PRU analysis; Airports
+      </td>
+       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>  
+    <tr>
+      <td colspan="4" style="vertical-align: top;">
+        <div id="tbl_ASMAdly_APT_24"></div>
+      </td>
     </tr>
-
+   </tbody>
+  </table>
+  <br>
     <!-- Share of arrivals applying CDO -->
+  <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+   <tbody>
     <tr>
       <td colspan="4" class="head3">&nbsp;Environment EPI #5: Share of arrivals applying CDO [% arrivals] - (all included airports)</td>
     </tr>
@@ -174,8 +232,12 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
         <div id="tbl_cdo_APT_24"></div>
       </td>
     </tr>
-
+   </tbody>
+  </table>
+  <br>
     <!-- Use of shared airspace -->
+  <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+   <tbody>
     <tr>
       <td colspan="4" class="head3">&nbsp;Environment EPI #6: Effective use of reserved or segregated airspace</td>
     </tr>
@@ -194,6 +256,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
     <tr>
       <td colspan="4" style="width: 100%;"><small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small></td>
     </tr>
+      </tbody>
+    </table>
   </tbody>
 </table>
 
@@ -354,7 +418,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
         <div id="tbl_ertSU_24"></div>
       </td>
       <td colspan="2" style="width: 475px; text-align: center;">
-        <div class="head4">&nbsp;En-route TSU: actual vs. determined (2023)</div>
+        <div class="head4">&nbsp;En-route TSU: actual vs. determined (2024)</div>
         <div id="crt_ertSUYYvstgt_24"></div>
       </td>
     </tr>
