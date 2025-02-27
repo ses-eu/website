@@ -1,7 +1,7 @@
 |||
 |---------------------------|------------------------------------------------------------------------------------|
 | Contact organisation      | EUROCONTROL: The European organisation for the safety of air navigation            |
-| Contact organisation unit |	Directorate European Civil-Military Aviation - Performance Review Unit (DECMA/PRU) |
+| Contact organisation unit |	European Green Sky Directorate - Aviation Intelligence Unit (EGSD/AIU) |
 | Contact name              |	Performance Review Unit - EUROCONTROL                                              |
 | Contact mail address      | 96 Rue de la Fusée<br>1130 Brussels<br>Belgium                                     |
 | Contact e-mail address    | [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int)                  |

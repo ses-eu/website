@@ -9,21 +9,45 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 
 ---
 
+## 2025 (post operational adjustments are not yet taken into account)
+  
+| Description                           |  Files/Link                                                           |
+|---------------------------------------|-----------------------------------------------------------------------|
+| Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP4_APT_ATFM_ARR_2025_Jan.xlsx][RP4_APT_ATFM_ARR_2025]   |
+| Adherence to ATFM slots               | [{{% dwnld_i %}} RP4_APT_ATFM_SLOT_2025_Jan.xlsx][RP4_APT_ATFM_SLOT_2025] |
+| Time in level flight (climb/descent)  | [{{% dwnld_i %}} RP4_APT_VFE_2025_Jan.xlsx][RP4_APT_VFE_2025]             |
+| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP4_ERT_ATFM_2025_Jan.xlsx][RP4_ERT_ATFM_2025]           |
+| En-route Service Units                | [{{% dwnld_i %}} RP4_ERT_SU_2025_Jan.xlsx][RP4_ERT_SU_2025]               |
+| Average daily IFR Flight              | [{{% dwnld_i %}} RP4_Flights_2025_Jan.xlsx][RP4_Flights_2025]             |
+| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP4_FLT_EFF_2024_Jan.xlsx][RP4_FLT_EFF_2025]             |          |
+           |
+[RP4_APT_ATFM_ARR_2025]:  ../download/2025/RP4_APT_ATFM_ARR_2025_Jan.xlsx
+[RP4_APT_ATFM_SLOT_2025]: ../download/2025/RP4_APT_ATFM_SLOT_2025_Jan.xlsx
+[RP4_APT_VFE_2025]:       ../download/2025/RP4_APT_VFE_2025_Jan.xlsx
+[RP4_ERT_ATFM_2025]:      ../download/2025/RP4_ERT_ATFM_2025_Jan.xlsx
+[RP4_ERT_SU_2025]:        ../download/2025/RP4_ERT_SU_2025_Jan.xlsx
+[RP4_Flights_2025]:       ../download/2025/RP4_Flights_2025_Jan.xlsx
+[RP4_FLT_EFF_2025]:       ../download/2025/RP4_FLT_EFF_2025_Jan.xlsx
+
 ## 2024 (post operational adjustments are not yet taken into account)
   
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
+| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP3_APT_ASMA_2024_Jan_Dec.xlsx][RP3_APT_ASMA_2024]             |
 | Share of arrivals applying CDO        | [{{% dwnld_i %}} RP3_APT_CDO_2024_Jan_Dec.xlsx][RP3_CCO_CDO_2024]             |
-| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP3_APT_ATC_PRE_2024_Jan_Nov.xlsx][RP3_APT_ATC_PRE_2024]         |
+| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP3_APT_ATC_PRE_2024_Jan_Dec.xlsx][RP3_APT_ATC_PRE_2024]         |
 | Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP3_APT_ATFM_ARR_2024_Jan_Dec.xlsx][RP3_APT_ATFM_ARR_2024]   |
 | Adherence to ATFM slots               | [{{% dwnld_i %}} RP3_APT_ATFM_SLOT_2024_Jan_Dec.xlsx][RP3_APT_ATFM_SLOT_2024] |
+| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP3_APT_TxOut_2024_Jan_Dec.xlsx][RP3_APT_TxOut_2024]         |
 | En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP3_ERT_ATFM_2024_Jan_Dec.xlsx][RP3_ERT_ATFM_2024]           |
 | En-route Service Units                | [{{% dwnld_i %}} RP3_ERT_SU_2024_Jan_Dec.xlsx][RP3_ERT_SU_2024]               |
 | Average daily IFR Flight              | [{{% dwnld_i %}} RP3_Flights_2024_Jan_Dec.xlsx][RP3_Flights_2024]             |
 | Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP3_FLT_EFF_2024_Jan_Dec.xlsx][RP3_FLT_EFF_2024]             |          |
            |
 
-[RP3_APT_ATC_PRE_2024]:   ../download/2024/RP3_APT_ATC_PRE_2024_Jan_Nov.xlsx
+[RP3_APT_ASMA_2024]:      ../download/2024/RP3_APT_ASMA_2024_Jan_Dec.xlsx
+[RP3_APT_TxOut_2024]:     ../download/2024/RP3_APT_TxOut_2024_Jan_Dec.xlsx
+[RP3_APT_ATC_PRE_2024]:   ../download/2024/RP3_APT_ATC_PRE_2024_Jan_Dec.xlsx
 [RP3_APT_ATFM_ARR_2024]:  ../download/2024/RP3_APT_ATFM_ARR_2024_Jan_Dec.xlsx
 [RP3_APT_ATFM_SLOT_2024]: ../download/2024/RP3_APT_ATFM_SLOT_2024_Jan_Dec.xlsx
 [RP3_ERT_ATFM_2024]:      ../download/2024/RP3_ERT_ATFM_2024_Jan_Dec.xlsx
