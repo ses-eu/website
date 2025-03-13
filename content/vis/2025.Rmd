@@ -36,7 +36,7 @@ extrajs: [
 
 The data and indicators for [reference period 4][ref4] are in accordance with [Commission Implementing Regulation (EU) 2024/3128][no3128_2024] of 16 December 2024 amending [Implementing Regulation (EU) 2019/317][no317_2019] as regards new and revised monitoring indicators for the performance and charging scheme in the single European sky
 
-<small><span style="color:#C0504D;">Last update: 26. February 2025 </small></span>
+<small><span style="color:#C0504D;">Last update: 17. March 2025 </small></span>
 
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
@@ -53,11 +53,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period">
-        <span style="color:#C0504D;">Period: Jan</span>
+        <span style="color:#C0504D;">Period: Jan-Feb</span>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
-          <a href="https://docs.google.com/spreadsheets/d/1ibRA4cbp9-4CjGeXvhZn1VbLcStFbazE4bBDpiBFufY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+          <a href="https://docs.google.com/spreadsheets/d/1c5tgoOdbfozPtjceZ6BmibH-sIrCTZwmZdT_N5HMSVw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
         </span>
       </td>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
@@ -126,10 +126,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
-        <span style="color: #C0504D;">Ref. date: 31 Jan 2025</span>
+        <span style="color: #C0504D;">Ref. date: 28 Feb 2025</span>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1SfaWz4hzxr4qL1D3UF6iJX3rgoK-MXZ_luZrszJR16w/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1cME-ofmlkRqtGbXzgXJxiKaHuwPR-79VFfnJubfZbDo/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color: #f7f8f9;">
         Source: PRU analysis; Network Manager
@@ -178,17 +178,17 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
         <div class="head3">&nbsp; Environment EPI #5: Additional taxi-IN time [min per arr.]</div>
       </td>
     </tr>
-    <tr>
+    <!--<tr>
       <td colspan="4">
         <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
       </td>
-    </tr>
-    <!--<tr>
+    </tr>-->
+    <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
-        <span style="color: #C0504D;">Period: January</span>
+        <span style="color: #C0504D;">Period: Jan</span>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/163vbKuQUpLiZ91Mrtget6xx5hlIcW1AagfGRYiVhbIA/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1ojxvYG_mxN89su6t5DPkYRynrDe36OZYImc8NeMV-dk/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color: #f7f8f9;">
         Source: PRU analysis; Airports
@@ -201,7 +201,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td colspan="4"><div id="tbl_txdly_APT_25"></div></td>
-    </tr>-->
+    </tr>
   </tbody>
 </table>
 <br>
@@ -213,9 +213,78 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
         <div class="head3">&nbsp; Environment EPI #6: Additional time in terminal airspace [min per arr.]</div>
       </td>
     </tr>
-    <tr>
+    <!-- <tr>
       <td colspan="4">
         <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
+      </td>
+    </tr>-->
+     <tr>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
+        <span style="color: #C0504D;">Period: Jan</span>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href="https://docs.google.com/spreadsheets/d/1JvgkSh1W9IHYEulPyA-AgiDTqGfx_C2ndxKdjpZFnT8/edit?usp=sharing&hl=en_GB" 
+             target="_blank" rel="noopener noreferrer">
+            [Download data]
+          </a>
+        </span>
+      </td>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-source">
+        Source: PRU analysis; Airports
+      </td>
+       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>  
+    <tr>
+      <td colspan="4" style="vertical-align: top;">
+        <div id="tbl_ASMAdly_APT_25"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!-- Average duration in climb and descent -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Environment EPI #7: Average duration in climb [sec per climb]</div>
+        <div class="head3">&nbsp; Environment EPI #8: Average duration in descent [sec per descent]</div>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
+      </td>
+    </tr>-->
+     <tr>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
+        <span style="color: #C0504D;">Period: Jan</span>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href="https://docs.google.com/spreadsheets/d/1fQIrZtW_N2UcQiK5i6vDavf1bLOLDeePUsj53LW-4m4/edit?usp=sharing&hl=en_GB" 
+             target="_blank" rel="noopener noreferrer">
+            [Download data]
+          </a>
+        </span>
+      </td>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-source">
+        Source: PRU analysis; Airports
+      </td>
+       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          
+        </span>
+      </td>
+    </tr>  
+    <tr>
+      <td colspan="4" style="vertical-align: top;">
+        <div id="tbl_vfe_APT_25"></div>
       </td>
     </tr>
   </tbody>
@@ -226,7 +295,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
   <tbody>
     <tr>
       <td colspan="4">
-        <div class="head3">&nbsp; Environment EPI #7: Effective use of reserved or segregated airspace</div>
+        <div class="head3">&nbsp; Environment EPI #9: Effective use of reserved or segregated airspace</div>
       </td>
     </tr>
     <tr>
@@ -236,7 +305,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td colspan="4">
-        <div class="head3">&nbsp;  Environment EPI #8: Rate of planning via available airspace structures (reserved or seg. and CDRs)</div>
+        <div class="head3">&nbsp;  Environment EPI #10: Rate of planning via available airspace structures (reserved or seg. and CDRs)</div>
       </td>
     </tr>
     <tr>
@@ -246,7 +315,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td colspan="4">
-        <div class="head3">&nbsp;  Environment EPI #9: Rate of using available airspace structures (reserved or segregated and CDRs)</div>
+        <div class="head3">&nbsp;  Environment EPI #11: Rate of using available airspace structures (reserved or segregated and CDRs)</div>
       </td>
     </tr>
     <tr>
@@ -277,10 +346,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color:#f7f8f9;">
-        <span style="color:#C0504D;">Period: Jan</span>
+        <span style="color:#C0504D;">Period: Jan-Feb</span>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1k9s_irbAA-SkIYlHkXH-poefnkUkmyH1XKslO6MF6BY/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1tMwAKYeCEyiH4Iv17Ph_lXbddBfS-7PQPMM3UnD434o/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color:#f7f8f9;">
         Source: PRU analysis; Network Manager
@@ -312,10 +381,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color:#f7f8f9;">
-        <span style="color:#C0504D;">Period: Jan</span>
+        <span style="color:#C0504D;">Period: Jan-Feb</span>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1puNOSQ7-izZg4Fm8NCZ80P_d3JvU64JnaqHXlmIh03M/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1GnNn4q1vo1z6i5QVxcArFEJsjPsktZIzb33WRNeEOUU/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color:#f7f8f9;">
         Source: PRU analysis; Network Manager
@@ -347,10 +416,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color:#f7f8f9;">
-        <span style="color:#C0504D;">Period: Jan</span>
+        <span style="color:#C0504D;">Period: Jan-Feb</span>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1kvO9EO2qfbtoTYOtIwZiTMhL-C3BIV0iAqjkESFwG3c/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1qHPExmwdSW-2ozqM2CuVIuv3PosSZN5_OhMHVQCzgiI/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color:#f7f8f9;">
         Source: Network Manager
@@ -381,17 +450,17 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
         <div class="head3">&nbsp; Capacity CPI #3: Average time of all cause-departure delay per flight [min. per dep.] - (airports >80k movements)</div>
     </td>
   </tr>
- <tr>
+ <!--<tr>
       <td colspan="4">
         <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
       </td>
-  </tr>
-  <!--<tr>
+  </tr>-->
+  <tr>
     <td class="data-period">
         <span style="color:#C0504D;">Period: Jan</span>
     </td>
     <td class="text-center">
-        <a href="https://docs.google.com/spreadsheets/d/10Nfc8V0o08gc9K9n9IiTBLYimnr13f1x73q9tn0zZSA/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1HTD-NvWNSICI10LBwaq1Tp3kWyRiwIko8BwRqbKmHP8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
     </td>
     <td class="data-source">
         Source: Airports
@@ -404,7 +473,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     <td colspan="4">
        <div id="tbl_aptATC_APT_25"></div>
     </td>
-  </tr>-->
+  </tr>
 </tbody>
 </table>
 <br>
@@ -457,11 +526,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-        <span style="color:#C0504D;">Period: Jan</span>
+        <span style="color:#C0504D;">Period: Jan-Feb</span>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
-          <a href="https://docs.google.com/spreadsheets/d/1QJFdZDuR9QZ3gy0JKfMkJM1aRAbwJBfBHZqlpKsIAxc/edit?usp=sharing" target="_blank">[Download data]</a>
+          <a href="https://docs.google.com/spreadsheets/d/1Cd3I4iQBe7dPo_vtXCvyb3su-Ov52D5xqXPPVUgccnA/edit?usp=sharing" target="_blank">[Download data]</a>
         </span>
       </td>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
