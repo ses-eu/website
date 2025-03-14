@@ -37,8 +37,8 @@ The **additional taxi-out time** is a proxy for the average departure runway que
 on the outbound traffic flow, during congestion periods at airports.
 
 It is the difference between the actual taxi-out time of a flight and a statistically
-determined [unimpeded taxi-out time][utaxi] based on taxi-out times in periods of
-low traffic demand (see also [related methodology documentation][utaximet]). 
+determined reference taxi-out time based on taxi-out times in periods of
+low traffic demand. 
  
 Uncertainty of take-off clearance time and aircraft arriving time at runway holding stop bars
 makes traffic supply to runways a stochastic phenomenon.

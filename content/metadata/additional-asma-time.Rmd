@@ -37,8 +37,7 @@ The **additional ASMA time** is a proxy for the average arrival runway queuing t
 inbound traffic flow, during congestion periods at airports.
 
 It is the difference between the actual ASMA time of a flight and a statistically determined
-[unimpeded ASMA time][uasma] based on ASMA times in periods of low traffic demand (see also
-[unimpeded ASMA time - Methodology][uasmamet]).
+reference ASMA time based on ASMA times in periods of low traffic demand.
 
 Uncertainty of approach conditions (e.g. pilot performance, landing clearance time, approach speed, wind conditions) makes traffic supply to runways a stochastic phenomenon. In order to ensure continuous traffic demand at runways and maximise runway usage, a minimum level of queuing is required. However, additional time in holding is detrimental to operations efficiency, fuel consumption and environment. Therefore, there exists a trade-off between approach efficiency and runway throughput.
 
