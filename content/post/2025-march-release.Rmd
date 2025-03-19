@@ -1,0 +1,13 @@
+---
+title: "February 2024 Release"
+date: 2025-02-1
+categories: ["Release"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<ul>
+<li>Update of portal up to February 2025</li>
+<li>Full year 2024 ASMA and taxi-out additional time added</li>
+</ul>
