@@ -15,7 +15,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 |---------------------------------------|-----------------------------------------------------------------------|
 | Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP4_APT_ASMA_2025_Jan.xlsx][RP4_APT_ASMA_2025]             |
 | Airport Pre-departure Delay           | [{{% dwnld_i %}} RP4_APT_ATC_PRE_2025_Jan.xlsx][RP4_APT_ATC_PRE_2025]         |
-| Airport Additional Taxi Times         | [{{% dwnld_i %}} RP4_APT_Times_2025_Jan.xlsx][RP4_APT_TxTimes_2025]         |
+| Airport Additional Taxi Times         | [{{% dwnld_i %}} RP4_APT_TxTimes_2025_Jan.xlsx][RP4_APT_TxTimes_2025]         |
 | Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP4_APT_ATFM_ARR_2025_Jan_Feb.xlsx][RP4_APT_ATFM_ARR_2025]   |
 | Adherence to ATFM slots               | [{{% dwnld_i %}} RP4_APT_ATFM_SLOT_2025_Jan_Feb.xlsx][RP4_APT_ATFM_SLOT_2025] |
 | Time in level flight (climb/descent)  | [{{% dwnld_i %}} RP4_APT_VFE_2025_Jan_Feb.xlsx][RP4_APT_VFE_2025]             |
@@ -25,7 +25,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP4_FLT_EFF_2024_Jan_Feb.xlsx][RP4_FLT_EFF_2025]             |          |
            |
 [RP4_APT_ASMA_2025]:      ../download/2025/RP4_APT_ASMA_2025_Jan.xlsx
-[RP4_APT_TxTimes_2025]:     ../download/2025/RP4_APT_Tx_2025_Jan.xlsx
+[RP4_APT_TxTimes_2025]:     ../download/2025/RP4_APT_TxTimes_2025_Jan.xlsx
 [RP4_APT_ATC_PRE_2025]:   ../download/2025/RP4_APT_ATC_PRE_2025_Jan.xlsx
 [RP4_APT_ATFM_ARR_2025]:  ../download/2025/RP4_APT_ATFM_ARR_2025_Jan.xlsx
 [RP4_APT_ATFM_SLOT_2025]: ../download/2025/RP4_APT_ATFM_SLOT_2025_Jan.xlsx
