@@ -20,6 +20,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Adherence to ATFM slots               | [{{% dwnld_i %}} RP4_APT_ATFM_SLOT_2025_Jan_Feb.xlsx][RP4_APT_ATFM_SLOT_2025] |
 | Time in level flight (climb/descent)  | [{{% dwnld_i %}} RP4_APT_VFE_2025_Jan_Feb.xlsx][RP4_APT_VFE_2025]             |
 | En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP4_ERT_ATFM_2025_Jan_Feb.xlsx][RP4_ERT_ATFM_2025]           |
+| % En-route ATFM delay above forecast  | [{{% dwnld_i %}} RP4_APT_CAP_Traffic_2025_Jan_Feb.xlsx][RP4_ERT_ATFM_FCST_2025]           |
 | En-route Service Units                | [{{% dwnld_i %}} RP4_ERT_SU_2025_Jan_Feb.xlsx][RP4_ERT_SU_2025]               |
 | Average daily IFR Flight              | [{{% dwnld_i %}} RP4_Flights_2025_Jan_Feb.xlsx][RP4_Flights_2025]             |
 | Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP4_FLT_EFF_2024_Jan_Feb.xlsx][RP4_FLT_EFF_2025]             |          |
@@ -31,6 +32,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP4_APT_ATFM_SLOT_2025]: ../download/2025/RP4_APT_ATFM_SLOT_2025_Jan_Feb.xlsx
 [RP4_APT_VFE_2025]:       ../download/2025/RP4_APT_VFE_2025_Jan_Feb.xlsx
 [RP4_ERT_ATFM_2025]:      ../download/2025/RP4_ERT_ATFM_2025_Jan_Feb.xlsx
+[RP4_ERT_ATFM_FCST_2025]:      ../download/2025/RP4_APT_CAP_Traffic_2025_Jan_Feb.xlsx
 [RP4_ERT_SU_2025]:        ../download/2025/RP4_ERT_SU_2025_Jan_Feb.xlsx
 [RP4_Flights_2025]:       ../download/2025/RP4_Flights_2025_Jan_Feb.xlsx
 [RP4_FLT_EFF_2025]:       ../download/2025/RP4_FLT_EFF_2025_Jan_Feb.xlsx

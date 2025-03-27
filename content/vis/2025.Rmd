@@ -30,6 +30,7 @@ extrajs: [
   "/javascript/2025/tbl_aptATC_APT_25.js",
   "/javascript/2025/tbl_ertSU_25.js",
   "/javascript/2025/crt_ertSUYYvstgt_25.js",
+  "/javascript/2025/tbl_ertdly_traffic_25.js",
   ]
 --- 
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
@@ -483,11 +484,30 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     <tr>
       <td colspan="4"><div class="head3">&nbsp; Capacity CPI #4: % of en-route ATFM delay occurring when daily throughput was above expected daily traffic</div></td>
     </tr>
-    <tr>
+      <!--<tr>
       <td colspan="4" style="width: 950px;">
         <small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small>
       </td>
-    </tr>
+      </tr>-->    
+    <tr>
+    <td class="data-period">
+        <span style="color:#C0504D;">Period: Jan-Feb</span>
+    </td>
+    <td class="text-center">
+        <a href="https://docs.google.com/spreadsheets/d/1oxZq5dum-6FO9IOIKO0xc_aL78qtVca8p1LKu3GU2Ks/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+    </td>
+    <td class="data-source">
+        Source: Network Manager
+    </td>
+    <td class="text-center">
+        <a href='{{< relref "/metadata/ert-dly-traffic.Rmd" >}}' target="_blank">[Meta data]</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">
+       <div id="tbl_ertdly_traffic_25"></div>
+    </td>
+  </tr>
   </tbody>
 </table>
 <br>
