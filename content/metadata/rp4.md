@@ -10,7 +10,7 @@ The third reference period (RP4) covers the calendar years 2025 to 2029 inclusiv
 
 # Legal context
 
-The data and indicators for [reference period 4][ref4] are in accordance with [Commission Implementing Regulation (EU) 2024/3128][no3128_2024] of 16 December 2024 amending [Implementing Regulation (EU) 2019/317][no317_2019] as regards new and revised monitoring indicators for the performance and charging scheme in the single European sky.
+The data and indicators for reference period 4 are in accordance with [Commission Implementing Regulation (EU) 2024/3128][no3128_2024] of 16 December 2024 amending [Implementing Regulation (EU) 2019/317][no317_2019] as regards new and revised monitoring indicators for the performance and charging scheme in the single European sky.
 
 # RP4 SES States
 

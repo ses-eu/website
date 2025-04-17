@@ -1,5 +1,5 @@
 ---
-title: Share of en-route ATFM delay occurring when daily throughput was above expected daily traffic
+title: Weighted avg. peak IFR/hr (top 3 hrs, weighted by daily IFR)
 categories:
   - metadata
   - glossary
@@ -63,32 +63,23 @@ td {
 </table>
 <div id="indicator-definition" class="section level3">
 <h3>Indicator definition</h3>
-<p>The percentage of the total en route ATFM delay minutes that occurred on days when the daily
-throughput was above the expected daily traffic, calculated as follows:</p>
+<p>The annual weighted average of the daily peak throughput, expressed as a number of IFR flights per hour, calculated as follows:</p>
 <ul>
-<li>en route <a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay">ATFM delays</a> calculated in accordance with point 3.1 of Section 1 of <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3128" title="IR 3128/2024">Commission Implementing Regulation (EU) 2024/3128</a> ;</li>
-<li>expected daily traffic refers to the daily traffic profile (guideline traffic) calculated by the Network Manager in January of each year;</li>
-<li>airspace throughput and traffic demand are measured as daily IFR flight entries in the airspace;</li>
-<li>the airspace is the area of responsibility defined for the calculation of en route ATFM delays.</li>
+<li><ol style="list-style-type: lower-roman">
+<li>the daily peak throughput is an arithmetic average of the number of IFR flights during the three hours of each day with the highest number of flights;</li>
+</ol></li>
+<li><ol start="2" style="list-style-type: lower-roman">
+<li>the value used to calculate the weighting is the number of IFR flights per day.</li>
+</ol></li>
 </ul>
 </div>
 </div>
 <div id="unit-of-measure" class="section level2">
 <h2>Unit of Measure</h2>
-<p>% of en route <a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay">ATFM delay</a> on days when daily throughput was above the expected daily traffic.</p>
+<p>Number of IFR flights per hour.</p>
 <div id="statistical-concepts-and-definitions" class="section level3">
 <h3>Statistical concepts and definitions</h3>
 <dl>
-<dt>ATFM delay</dt>
-<dd>
-<em>ATFM delay</em> is defined as the duration between the last Estimated Take-Off Time (<a href="https://ansperformance.eu/acronym/etot/" title="ETOT">ETOT</a>)
-and the Calculated Take-Off Time (<a href="https://ansperformance.eu/acronym/ctot/" title="CTOT">CTOT</a>) allocated by the <a href="https://ansperformance.eu/acronym/nm-cfmu/" title="NM">Network Manager</a>.
-ATFM delay comprises both Airport ATFM delay] and En route ATFM delay.
-This indicator is solely concerned with En route ATFM delay.
-</dd>
-<dd>
-The delay is truncated to minutes.
-</dd>
 <dt>Flights</dt>
 <dd>
 All the <a href="https://ansperformance.eu/acronym/ifr/" title="IFR">IFR</a> flights which have filed a flight plan and have entered the area of
@@ -98,16 +89,6 @@ responsibility of the relevant <a href="https://ansperformance.eu/acronym/acc/" 
 Each flight is only counted once, regardless of its trajectory.
 </dd>
 </dl>
-<div id="attribution-of-delay" class="section level4">
-<h4>Attribution of Delay</h4>
-<p><a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay">ATFM delay</a> to which a flight is subjected is defined to have as cause
-the most penalizing <a href="https://ansperformance.eu/definition/regulation/" title="Regulation">ATFM regulation</a> which affects it.
-Depending of the type and the entity responsible for the <a href="https://ansperformance.eu/definition/reference-location/" title="Reference Location">reference location</a> protected by
-the <a href="https://ansperformance.eu/definition/regulation/" title="Regulation">ATFM regulation</a> the <a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay">ATFM delay</a> is classified as either an airport or
-an en route <a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay">ATFM delay</a> and attributed to airport or en route facilities.</p>
-<p>Each ATFM regulation also comprises a designator referring to the cause of delay
-which can be used in further analysis.</p>
-</div>
 </div>
 <div id="statistical-unit" class="section level3">
 <h3>Statistical unit</h3>
@@ -208,8 +189,6 @@ the relevant EU legislation.</p>
 <h2>Accuracy and reliability</h2>
 <div id="overall-accuracy" class="section level3">
 <h3>Overall accuracy</h3>
-<p>The en route <a href="https://ansperformance.eu/definition/atfm-delay/" title="ATFM Delay">ATFM delay</a> is the delay calculated by the <a href="https://ansperformance.eu/acronym/nm-cfmu/" title="NM">Network Manager</a>.
-This calculation is based on a well established methodology, which has been in place since 1999.</p>
 <p>It is assumed that the data provided is accurate, given the caveats mentioned in sections
 <a href="#quality-assurance">Quality assurance</a> and
 <a href="#quality-assessment">Quality assessment</a>.</p>
