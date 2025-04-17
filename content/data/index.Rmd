@@ -13,45 +13,53 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
   
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
-| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP4_APT_ASMA_2025_Jan.xlsx][RP4_APT_ASMA_2025]             |
-| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP4_APT_ATC_PRE_2025_Jan.xlsx][RP4_APT_ATC_PRE_2025]         |
+| Average daily IFR Flight              | [{{% dwnld_i %}} RP4_Flights_2025_Jan_Feb.xlsx][RP4_Flights_2025]             |
+| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP4_FLT_EFF_2024_Jan_Feb.xlsx][RP4_FLT_EFF_2025]             | 
+| Vertical En-route Flight Efficiency   | [{{% dwnld_i %}} RP4_VFE_ERT_2025_Jan_Mar.xlsx][RP4_VFE_ERT_2025]             | 
 | Airport Additional Taxi Times         | [{{% dwnld_i %}} RP4_APT_TxTimes_2025_Jan.xlsx][RP4_APT_TxTimes_2025]         |
+| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP4_APT_ASMA_2025_Jan.xlsx][RP4_APT_ASMA_2025]               |
+| Time in level flight (climb/descent)  | [{{% dwnld_i %}} RP4_APT_VFE_2025_Jan_Feb.xlsx][RP4_APT_VFE_2025]             |
+| Flexible use of airspace (FUA) indicators | [{{% dwnld_i %}} RP4_FUA_IND_2025_Mar.xlsx][RP4_ENV_FUA_2025]             | 
+| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP4_ERT_ATFM_2025_Jan_Feb.xlsx][RP4_ERT_ATFM_2025]           |
 | Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP4_APT_ATFM_ARR_2025_Jan_Feb.xlsx][RP4_APT_ATFM_ARR_2025]   |
 | Adherence to ATFM slots               | [{{% dwnld_i %}} RP4_APT_ATFM_SLOT_2025_Jan_Feb.xlsx][RP4_APT_ATFM_SLOT_2025] |
-| Time in level flight (climb/descent)  | [{{% dwnld_i %}} RP4_APT_VFE_2025_Jan_Feb.xlsx][RP4_APT_VFE_2025]             |
-| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP4_ERT_ATFM_2025_Jan_Feb.xlsx][RP4_ERT_ATFM_2025]           |
-| % En-route ATFM delay above forecast  | [{{% dwnld_i %}} RP4_APT_CAP_Traffic_2025_Jan_Feb.xlsx][RP4_ERT_ATFM_FCST_2025]           |
+| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP4_APT_ATC_PRE_2025_Jan.xlsx][RP4_APT_ATC_PRE_2025]         |
+| % En-route ATFM delay above forecast  | [{{% dwnld_i %}} RP4_CAP_ERT_DLY_Traffic_2025_Jan_Mar.xlsx][RP4_CAP_TRAFFIC_2025] |
+| Peak hourly throughput (ACC)          | [{{% dwnld_i %}} RP4_CAP_ACC_Through_2025_Jan_Mar.xlsx][RP4_PEAK_THROUGH_2025]| 
 | En-route Service Units                | [{{% dwnld_i %}} RP4_ERT_SU_2025_Jan_Feb.xlsx][RP4_ERT_SU_2025]               |
-| Average daily IFR Flight              | [{{% dwnld_i %}} RP4_Flights_2025_Jan_Feb.xlsx][RP4_Flights_2025]             |
-| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP4_FLT_EFF_2024_Jan_Feb.xlsx][RP4_FLT_EFF_2025]             |          |
-           |
-[RP4_APT_ASMA_2025]:      ../download/2025/RP4_APT_ASMA_2025_Jan.xlsx
-[RP4_APT_TxTimes_2025]:     ../download/2025/RP4_APT_TxTimes_2025_Jan.xlsx
-[RP4_APT_ATC_PRE_2025]:   ../download/2025/RP4_APT_ATC_PRE_2025_Jan.xlsx
-[RP4_APT_ATFM_ARR_2025]:  ../download/2025/RP4_APT_ATFM_ARR_2025_Jan_Feb.xlsx
-[RP4_APT_ATFM_SLOT_2025]: ../download/2025/RP4_APT_ATFM_SLOT_2025_Jan_Feb.xlsx
-[RP4_APT_VFE_2025]:       ../download/2025/RP4_APT_VFE_2025_Jan_Feb.xlsx
-[RP4_ERT_ATFM_2025]:      ../download/2025/RP4_ERT_ATFM_2025_Jan_Feb.xlsx
-[RP4_ERT_ATFM_FCST_2025]:      ../download/2025/RP4_APT_CAP_Traffic_2025_Jan_Feb.xlsx
-[RP4_ERT_SU_2025]:        ../download/2025/RP4_ERT_SU_2025_Jan_Feb.xlsx
-[RP4_Flights_2025]:       ../download/2025/RP4_Flights_2025_Jan_Feb.xlsx
-[RP4_FLT_EFF_2025]:       ../download/2025/RP4_FLT_EFF_2025_Jan_Feb.xlsx
 
-## 2024 (post operational adjustments are not yet taken into account)
+
+[RP4_APT_ASMA_2025]:      ../download/2025/RP4_APT_ASMA_2025_Jan_Feb.xlsx
+[RP4_APT_TxTimes_2025]:   ../download/2025/RP4_APT_TxTimes_2025_Jan_Feb.xlsx
+[RP4_APT_ATC_PRE_2025]:   ../download/2025/RP4_APT_ATC_PRE_2025_Jan_Feb.xlsx
+[RP4_APT_ATFM_ARR_2025]:  ../download/2025/RP4_APT_ATFM_ARR_2025_Jan_Mar.xlsx
+[RP4_APT_ATFM_SLOT_2025]: ../download/2025/RP4_APT_ATFM_SLOT_2025_Jan_Mar.xlsx
+[RP4_APT_VFE_2025]:       ../download/2025/RP4_APT_VFE_2025_Jan_Mar.xlsx
+[RP4_ERT_ATFM_2025]:      ../download/2025/RP4_ERT_ATFM_2025_Jan_Mar.xlsx
+[RP4_ERT_SU_2025]:        ../download/2025/RP4_ERT_SU_2025_Jan_Mar.xlsx
+[RP4_Flights_2025]:       ../download/2025/RP4_Flights_2025_Jan_Mar.xlsx
+[RP4_FLT_EFF_2025]:       ../download/2025/RP4_FLT_EFF_2025_Jan_Mar.xlsx
+[RP4_PEAK_THROUGH_2025]:  ../download/2025/RP4_CAP_ACC_Through_2025_Jan_Mar.xlsx
+[RP4_VFE_ERT_2025]:       ../download/2025/RP4_VFE_ERT_2025_Jan_Mar.xlsx
+[RP4_CAP_TRAFFIC_2025]:   ../download/2025/RP4_CAP_ERT_DLY_Traffic_2025_Jan_Mar.xlsx
+[RP4_ENV_FUA_2025]:       ../download/2025/RP4_FUA_IND_2025_Mar.xlsx
+
+## 2024
   
 | Description                           |  Files/Link                                                           |
 |---------------------------------------|-----------------------------------------------------------------------|
-| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP3_APT_ASMA_2024_Jan_Dec.xlsx][RP3_APT_ASMA_2024]             |
+| Average daily IFR Flight              | [{{% dwnld_i %}} RP3_Flights_2024_Jan_Dec.xlsx][RP3_Flights_2024]             |
+| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP3_FLT_EFF_2024_Jan_Dec.xlsx][RP3_FLT_EFF_2024]             |
+| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP3_APT_TxOut_2024_Jan_Dec.xlsx][RP3_APT_TxOut_2024]         |
+| Additional Time in Terminal Airspace  | [{{% dwnld_i %}} RP3_APT_ASMA_2024_Jan_Dec.xlsx][RP3_APT_ASMA_2024]           |
 | Share of arrivals applying CDO        | [{{% dwnld_i %}} RP3_APT_CDO_2024_Jan_Dec.xlsx][RP3_CCO_CDO_2024]             |
-| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP3_APT_ATC_PRE_2024_Jan_Dec.xlsx][RP3_APT_ATC_PRE_2024]         |
+| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP3_ERT_ATFM_2024_Jan_Dec.xlsx][RP3_ERT_ATFM_2024]           |
 | Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP3_APT_ATFM_ARR_2024_Jan_Dec.xlsx][RP3_APT_ATFM_ARR_2024]   |
 | Adherence to ATFM slots               | [{{% dwnld_i %}} RP3_APT_ATFM_SLOT_2024_Jan_Dec.xlsx][RP3_APT_ATFM_SLOT_2024] |
-| Airport Additional Taxi-out Time      | [{{% dwnld_i %}} RP3_APT_TxOut_2024_Jan_Dec.xlsx][RP3_APT_TxOut_2024]         |
-| En-route ATFM delay per Flight        | [{{% dwnld_i %}} RP3_ERT_ATFM_2024_Jan_Dec.xlsx][RP3_ERT_ATFM_2024]           |
+| Airport Pre-departure Delay           | [{{% dwnld_i %}} RP3_APT_ATC_PRE_2024_Jan_Dec.xlsx][RP3_APT_ATC_PRE_2024]     |
 | En-route Service Units                | [{{% dwnld_i %}} RP3_ERT_SU_2024_Jan_Dec.xlsx][RP3_ERT_SU_2024]               |
-| Average daily IFR Flight              | [{{% dwnld_i %}} RP3_Flights_2024_Jan_Dec.xlsx][RP3_Flights_2024]             |
-| Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP3_FLT_EFF_2024_Jan_Dec.xlsx][RP3_FLT_EFF_2024]             |          |
-           |
+| En route Cost efficiency              | [{{% dwnld_i %}} RP2_ERT_CEF_2024.xlsx][RP3_ERT_CEF_2024]                     |
+| Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2024.xlsx][RP3_TRM_CEF_2024]                     |      
 
 [RP3_APT_ASMA_2024]:      ../download/2024/RP3_APT_ASMA_2024_Jan_Dec.xlsx
 [RP3_APT_TxOut_2024]:     ../download/2024/RP3_APT_TxOut_2024_Jan_Dec.xlsx
@@ -63,7 +71,8 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP3_Flights_2024]:       ../download/2024/RP3_Flights_2024_Jan_Dec.xlsx
 [RP3_FLT_EFF_2024]:       ../download/2024/RP3_FLT_EFF_2024_Jan_Dec.xlsx
 [RP3_CCO_CDO_2024]:       ../download/2024/RP3_APT_CDO_2024_Jan_Dec.xlsx
-
+[RP3_ERT_CEF_2024]:       ../download/2024/RP3_ERT_CEF_2024.xlsx
+[RP3_TRM_CEF_2024]:       ../download/2024/RP3_TRM_CEF_2024.xlsx
 
 ## 2023
   
@@ -79,7 +88,8 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | En-route Service Units                | [{{% dwnld_i %}} RP3_ERT_SU_2023_Jan_Dec.xlsx][RP3_ERT_SU_2023]               |
 | Average daily IFR Flight              | [{{% dwnld_i %}} RP3_Flights_2023_Jan_Dec.xlsx][RP3_Flights_2023]             |
 | Horizontal En-route Flight Efficiency | [{{% dwnld_i %}} RP3_FLT_EFF_2023_Jan_Dec.xlsx][RP3_FLT_EFF_2023]             |          |
-           |
+| En route Cost efficiency              | [{{% dwnld_i %}} RP2_ERT_CEF_2023.xlsx][RP3_ERT_CEF_2023]             |
+| Terminal Cost efficiency              | [{{% dwnld_i %}} RP2_TRM_CEF_2023.xlsx][RP3_TRM_CEF_2023]             |
 
 [RP3_APT_ASMA_2023]:      ../download/2023/RP3_APT_ASMA_2023_Jan_Dec.xlsx
 [RP3_APT_ATC_PRE_2023]:   ../download/2023/RP3_APT_ATC_PRE_2023_Jan_Dec.xlsx
@@ -91,7 +101,8 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 [RP3_Flights_2023]:       ../download/2023/RP3_Flights_2023_Jan_Dec.xlsx
 [RP3_FLT_EFF_2023]:       ../download/2023/RP3_FLT_EFF_2023_Jan_Dec.xlsx
 [RP3_CCO_CDO_2023]:       ../download/2023/RP3_APT_CDO_2023_Jan_Dec.xlsx
-
+[RP3_ERT_CEF_2023]:       ../download/2023/RP3_ERT_CEF_2023.xlsx
+[RP3_TRM_CEF_2023]:       ../download/2023/RP3_TRM_CEF_2023.xlsx
 
 ## 2022
 
