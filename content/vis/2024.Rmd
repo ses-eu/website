@@ -36,7 +36,7 @@ extrajs: [
 
 The data and indicators for [reference period 3][ref3] are in accordance with [Commission Implementing Regulation (EU) 2019/317][no317_2019] of 11 February 2019 laying down a performance and charging scheme in the single European sky.
 
-<small><span style="color:#C0504D;">Last update: 26. February 2025 </small></span>
+<small><span style="color:#C0504D;">Last update: 17. April 2025 </small></span>
 
 <!-- TRAFFIC -->
 <table style="width: 100%; max-width: 950px; text-align: left;" border="0" cellpadding="2" cellspacing="2">
@@ -267,9 +267,9 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
     <tr>
       <td colspan="4" style="width: 100%;">
         <div class="head2">CAPACITY</div>
-        <span style="color:#C0504D;">
+        <!--  <span style="color:#C0504D;">
           <small>Please note that post-operational adjustments are not yet considered. The data will be updated as soon as the post-operational results are available.</small>
-        </span>
+        </span> -->
       </td>
     </tr>
 
@@ -399,7 +399,6 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
     <tr>
       <td colspan="4" class="head2">&nbsp;COST-EFFICIENCY</td>
     </tr>
-
     <!-- EN-ROUTE SERVICE UNITS -->
     <tr>
       <td colspan="4" class="head3">&nbsp; En-route Service Units (TSU)[actual vs. determined]</td>
@@ -422,33 +421,18 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
         <div id="crt_ertSUYYvstgt_24"></div>
       </td>
     </tr>
-
-  <!-- DETERMINED UNIT COSTS FOR EN ROUTE ANS -->
-  <table style="text-align: left; width: 950px;" border="0" cellpadding="1" cellspacing="1">
-    <tbody>
-      <tr>
-        <td colspan="4">
-          <div class="head3">&nbsp;Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div>
-          <span style="color:#C0504D;"><small>To be updated when data is available</small></span>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <!-- DETERMINED UNIT COSTS FOR TERMINAL ANS -->
-  <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
-    <tbody>
-      <tr>
-        <td colspan="4">
-          <div class="head3">&nbsp;Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div>
-          <span style="color:#C0504D;"><small>To be updated when data is available</small></span>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-    </tbody>
-  </table>
-
+    <!-- DETERMINED UNIT COSTS FOR EN ROUTE ANS-->
+       <table style="text-align: left; width: 950px;" border="0" cellpadding="1" cellspacing="1">
+        <tr><td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div></td></tr><br>
+        <tr><td colspan="4" rowspan="1"><span style="color:#C0504D;"><small>The en-route ANS costs in the table covers the period 2024.</span><a href="https://docs.google.com/spreadsheets/d/1I9qom1N7AAvcGlKFP1kqOGCRGcKCnkDS/edit?usp=sharing" target="_blank"> The underlying data are available in the download file.</a></small></td></tr>
+        <tr><td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;"><div id="tbl_ertcef_23"></div></td></tr>
+     </table><br>
+     <!-- DETERMINED UNIT COSTS FOR TERMINAL ANS-->
+       <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+        <tr><td colspan="4" rowspan="1"><div class="head3">&nbsp; Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div></td></tr><br>
+        <tr><td colspan="4" rowspan="1"><span style="color:#C0504D;"><small>The termial ANS costs in the table covers the period 2024.</span><a href="https://docs.google.com/spreadsheets/d/12vfyKhfEKZedGqMH5JdhhkR1fPIBdjIn/edit?usp=sharing" target="_blank"> The underlying data are available in the download file.</a></small></td></tr>
+        <tr><td colspan="1" rowspan="1" style="width: 950px; vertical-align: top;"><div id="tbl_trcef_23"></div></td></tr>
+      </table>
 </tbody>
 </table>
 

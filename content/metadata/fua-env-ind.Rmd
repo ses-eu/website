@@ -1,0 +1,42 @@
+---
+title: Flexible Use of Airspace (FUA) Performance Indicators 
+categories:
+  - metadata
+  - glossary
+---
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('static', 'css', 'table.css'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+## Contacts
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'contacts.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+
+## Metadata update
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'metadata-update.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+### General
+
+Set 1 – Effectiveness of ASM Process in terms of airspace made available 
+Set 2 – Indicators on the utilisation of the available airspace 
+
+Indicators are calculated in accordance with the provisions of IR(EU) 2019/317 ANNEX I, Section 1 points 2.2 (c),(d),(e), Section 2 points 2.2 (f),(g),(h) and Section 3 points 4.2 (e),(f),(g)
+
+### Definition and details on calculation methodology
+<a href="https://www.eurocontrol.int/sites/default/files/2021-07/ernip-part-3-asm-handbook-edition-5-ver-5-8.pdf" target="_blank">European Route Network Improvement Plan - Part 3 – ASM Procedures – Section 7</a>

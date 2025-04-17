@@ -9,6 +9,8 @@ This site is published by the Performance Review Unit (PRU) on behalf of the Eur
 
 The data and indicators are in accordance with [Commission Implementing Regulation (EU) 2019/317][no317_2019] of 11 February 2019 laying down a performance and charging scheme in the single European sky and repealing Implementing Regulations (EU) [No 390/2013][no390_2013] and (EU) [No 391/2013][no391_2013].
 
+The data and indicators for reference period 4 are in accordance with [Commission Implementing Regulation (EU) 2024/3128][no3128_2024] of 16 December 2024 amending [Implementing Regulation (EU) 2019/317][no317_2019] as regards new and revised monitoring indicators for the performance and charging scheme in the single European sky.
+
 Every effort has been made to ensure that the information and analysis contained on this website are
 as accurate and complete as possible.
 
@@ -16,7 +18,7 @@ Despite these precautions, should you find any errors or inconsistencies we woul
 if you could please bring them to the Performance Review Unit’s attention.
 
 
-
 [no317_2019]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.056.01.0001.01.ENG "IR 317/2019"
 [no390_2013]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0390 "IR 390/2019"
 [no391_2013]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0391 "IR 391/2019"
+[no3128_2024]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3128 "IR 3128/2024"

@@ -1,9 +1,10 @@
 Legal acts and agreements are established in the 
 [EU IR691/2010|Performance Regulation (691 / 2010)][law2010/691], 
-[Commission Implementing Regulation (EU) No 390 / 2013][law2013/390] and
-[Commission Implementing Regulation (EU) 2019/317][law2019/317].
-
+[Commission Implementing Regulation (EU) No 390 / 2013][law2013/390], 
+[Commission Implementing Regulation (EU) 2019/317][law2019/317] and
+[Commission Implementing Regulation (EU) 2024/3128][law2024/3128].
 
 [law2010/691]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R0691 "Commission Regulation (EU) No 691/2010"
 [law2013/390]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0390 "Commission Implementing Regulation (EU) No 390/2013"
 [law2019/317]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R0317 "Commission Implementing Regulation (EU) 2019/317"
+[law2024/3128]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3128 "Commission Implementing Regulation (EU) 2024/3128"

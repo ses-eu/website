@@ -1,0 +1,249 @@
+---
+title: Weighted avg. peak IFR/hr (top 3 hrs, weighted by daily IFR)
+categories:
+  - metadata
+  - glossary
+---
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('static', 'css', 'table.css'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+## Contacts
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'contacts.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+
+## Metadata update
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'metadata-update.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+### Indicator definition
+
+The annual weighted average of the daily peak throughput, expressed as a number of IFR flights per hour, calculated as follows:
+
+* (i) the daily peak throughput is an arithmetic average of the number of IFR flights during the three hours of each day with the highest number of flights;
+* (ii) the value used to calculate the weighting is the number of IFR flights per day.
+
+## Unit of Measure
+
+Number of IFR flights per hour.
+
+### Statistical concepts and definitions
+
+Flights 
+: All the [IFR][ifr] flights which have filed a flight plan and have entered the area of
+  responsibility of the relevant [ACC][acc](s) are taken into account.
+: Each flight is only counted once, regardless of its trajectory.
+
+### Statistical unit
+
+The statistical unit is the [ACC][acc] to which the ATFM delays are attributed.
+
+### Statistical population
+
+The statistical population comprises the [ACC][acc] in the [Single European Sky Area][ses-area].
+
+### Reference area
+
+The reference area is the Single European Sky Area. 
+
+### Time coverage
+
+2025 is the first year for which data is presented.
+
+## Reference period
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'reference-period.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+## Institutional Mandate
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'institutional-mandate.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+## Release policy
+
+### Release calendar
+
+The indicator is calculated by the Network Manager in January of each year.
+For information sharing purposes, the data is released 12 times per year, once per month.
+
+### User access
+
+Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
+
+## Frequency of dissemination
+
+The data is published monthly with the annual performance aggregate being available
+in January of the following year.
+
+## Dissemination format
+
+Information is disseminated to the general public via the [SES Data Portal][ses-portal]. 
+
+## Accessibility of documentation
+
+### Documentation on methodology
+
+As per the pertaining regulations (see [Institutional Mandate](#institutional-mandate)).<br>
+For technical questions not addressed in [Statistical processing](#statistical-processing)
+please contact: [PRU-Support@eurocontrol.int](mailto:PRU-Support@eurocontrol.int).<br>
+Additional definitions of the terms used in the frame of the this [KPI][kpi]
+are available in the [Metadata page](..).
+
+### Quality documentation
+
+There is no specific documentation on procedures applied for quality management
+and quality assessment.
+
+## Quality Management
+
+### Quality assurance
+
+The data is provided by the [Network Manager][nm-cfmu] and as such it is their
+responsibility to perform any quality assurance activities.
+
+### Quality assessment
+
+Data is validated by random quality checks, e.g. missing data for given a day,
+adherent data, etc.  Any issues are reported to the [Network manager][nm-cfmu] who works with the
+[EUROCONTROL Performance Review Unit][pru] to resolve them.
+
+## Relevance
+
+The information is published for performance monitoring purposes in accordance with
+the relevant EU legislation. 
+
+### Completeness
+
+The data is collected for the entire [Single European Sky Area][ses-area].
+
+## Accuracy and reliability
+
+### Overall accuracy
+
+It is assumed that the data provided is accurate, given the caveats mentioned in sections
+[Quality assurance](#quality-assurance) and
+[Quality assessment](#quality-assessment).
+
+### Sampling error
+
+There is no sampling and therefore no sampling error. 
+
+## Timeliness and punctuality
+
+### Timeliness
+
+The data is published each month
+- in general between 14 and 16 days after the end of the month in question.
+
+###  Punctuality
+
+The internal databases are updated daily. The [statistical processing](#statistical-processing)
+is performed once per month.
+
+## Comparability
+### Comparability — geographical
+
+The data is collected centrally by the [Network Manager][nm-cfmu] and
+computed consistently throughout the entire [Single European Sky Area][ses-area]
+which allows comparisons across different units.
+
+### Comparability over time
+Comparisons over time are valid.
+
+## Cost and burden
+
+Not available. 
+
+## Data revision
+
+The data revision policy has not yet been defined. 
+
+## Statistical processing
+
+### Source data
+
+Actual en route ATFM delay
+
+* Data provided by the [Network Manager][nm-cfmu].
+
+Actual Number of [IFR][ifr] flights
+
+* Data provided by the [Network Manager][nm-cfmu].
+
+### Data collection
+
+Data is collected and compiled by the [Network Manager][nm-cfmu].
+
+### Data validation
+
+Data validation is the responsibility of the [Network Manager][nm-cfmu].
+
+### Adjustment
+
+Corrections may be made when issues are discovered as described in the
+[Quality Assessment section of this document](#quality-assessment).
+
+## Comment
+
+No comments.
+
+### Disclaimer {.disclaimer}
+
+```{r, echo=FALSE, results='asis'}
+res <- knitr::knit_child(
+  here::here('parts', 'disclaimer.Rmd'),
+  quiet = TRUE)
+cat(res, sep = '\n')
+```
+
+
+##
+
+[no3128_2024]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3128 "IR 3128/2024"
+[air-stats]: https://ansperformance.eu/definition/air-transport-statistics/ "Air Transport Statistics"
+[ansp]: https://ansperformance.eu/acronym/ansp/ "ANSP"
+[acc]: https://ansperformance.eu/acronym/acc/ "ACC"
+[atfm-delay]: https://ansperformance.eu/definition/atfm-delay/ "ATFM Delay"
+[coda]: https://www.eurocontrol.int/articles/central-office-delay-analysis-coda "CODA"
+[ctot]: https://ansperformance.eu/acronym/ctot/ "CTOT"
+[etot]: https://ansperformance.eu/acronym/etot/ "ETOT"
+[fab]: https://ansperformance.eu/acronym/fab/ "FAB"
+[fir]: https://ansperformance.eu/acronym/fir/ "FIR"
+[fmp]: https://ansperformance.eu/acronym/fmp/ "FMP"
+[kpi]: https://ansperformance.eu/acronym/kpi/ "KPI"
+[ifr]: https://ansperformance.eu/acronym/ifr/ "IFR"
+[rp1]: ../rp1/ "RP1"
+[rp2]: ../rp2/ "RP2"
+[rp3]: ../rp3/ "RP3"
+[law]: https://ansperformance.eu/bibliography/legislation/ "Legislation"
+[nm-cfmu]: https://ansperformance.eu/acronym/nm-cfmu/ "NM"
+[nm20]: https://ansperformance.eu/library/NM_20_FB750_Delay_Calculation_improvements.pdf "REA Message"
+[pru]: https://ansperformance.eu/about/us/ "PRU"
+[refloc]: https://ansperformance.eu/definition/reference-location/ "Reference Location"
+[regu]: https://ansperformance.eu/definition/regulation/ "Regulation"
+[ses-area]: https://ansperformance.eu/definition/ses-area/ "SES Area"
+[ses-portal]: ../../ "SES Data Portal"
+[postops]: https://www.eurocontrol.int/service/post-operations-performance-adjustment "Post-operations performance adjustment"

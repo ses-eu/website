@@ -14,6 +14,8 @@ extrajs: [
   "/javascript/2025/crt_flteffMM_25.js",
   "/javascript/2025/tbl_ert_flteff_Fab_25.js",
   "/javascript/2025/tbl_ert_flteff_Loc_25.js",
+  "/javascript/2025/tbl_ert_vfe_Fab_25.js",
+  "/javascript/2025/tbl_ert_vfe_Loc_25.js",
   "/javascript/2025/tbl_txdly_APT_25.js",
   "/javascript/2025/tbl_ASMAdly_APT_25.js",
   "/javascript/2025/tbl_vfe_APT_25.js",
@@ -30,6 +32,9 @@ extrajs: [
   "/javascript/2025/tbl_aptATC_APT_25.js",
   "/javascript/2025/tbl_ertSU_25.js",
   "/javascript/2025/crt_ertSUYYvstgt_25.js",
+  "/javascript/2025/tbl_ertdly_traffic_25.js",
+  "/javascript/2025/tbl_ertcap_through_25.js",
+  "/javascript/2025/tbl_fua_ind_25.js",
   ]
 --- 
 
@@ -37,7 +42,7 @@ extrajs: [
 
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
 <p>The data and indicators for <a href="../../metadata/rp4/" title="Reference Period 4">reference period 4</a> are in accordance with <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3128">Commission Implementing Regulation (EU) 2024/3128</a> of 16 December 2024 amending <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.056.01.0001.01.ENG" title="IR 317/2019">Implementing Regulation (EU) 2019/317</a> as regards new and revised monitoring indicators for the performance and charging scheme in the single European sky</p>
-<p><small><span style="color:#C0504D;">Last update: 19. March 2025 </small></span></p>
+<p><small><span style="color:#C0504D;">Last update: 17. April 2025 </small></span></p>
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
@@ -57,11 +62,11 @@ extrajs: [
 </tr>
 <tr>
 <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period">
-<span style="color:#C0504D;">Period: Jan-Feb</span>
+<span style="color:#C0504D;">Period: Jan-Mar</span>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1c5tgoOdbfozPtjceZ6BmibH-sIrCTZwmZdT_N5HMSVw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1XhFNtNDMUg4tmgZVw7qjno7EQGoW-SIbhLM5rlTULsE/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </span>
 </td>
 <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
@@ -149,13 +154,13 @@ EPI#2: KES - Avg. horizontal en-route flight efficiency (shortest constrained tr
 </tr>
 <tr>
 <td style="width: 350px; background-color: #f7f8f9;">
-<span style="color: #C0504D;">Ref. date: 28 Feb 2025</span>
+<small><span style="color: #C0504D;">Ref. date: 31 Mar 2025</span></small>
 </td>
 <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-<a href="https://docs.google.com/spreadsheets/d/1cME-ofmlkRqtGbXzgXJxiKaHuwPR-79VFfnJubfZbDo/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/19e9-umIoxGXjxNv3bsRK_QE3wLkdqZgc1PgiL0xgYIA/edit?usp=sharing" target="_blank">[Download data]</a>
 </td>
 <td style="width: 350px; background-color: #f7f8f9;">
-Source: PRU analysis; Network Manager
+<small>Source: AIU analysis; Network Manager</small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
@@ -194,9 +199,37 @@ Source: PRU analysis; Network Manager
 </div>
 </td>
 </tr>
+<!-- <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>-->
 <tr>
-<td colspan="4">
-<span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+<td style="width: 350px; background-color: #f7f8f9;">
+<small> <span style="color: #C0504D;">Ref. date: 31 Mar 2025</span></small>
+</td>
+<td style="width: 120px; text-align: center; background-color: #f7f8f9;">
+<a href="https://docs.google.com/spreadsheets/d/1wKJGlCpJSMdJjPMoaG7AoX7ZOWQBiSSeLTSxbUlsYGM/edit?usp=sharing" target="_blank">[Download data]</a>
+</td>
+<td style="width: 350px; background-color: #f7f8f9;">
+<small>Source: Network Manager</small>
+</td>
+<td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+<span style="color: rgb(102, 102, 102);">
+<a href='{{< relref "/metadata/vertical-ert-flight-efficiency.Rmd" >}}' target="_blank">[Meta data]</a>
+</span>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width: 475px;">
+<div id="tbl_ert_vfe_Fab_25">
+
+</div>
+</td>
+<td colspan="2" style="width: 475px;">
+<div id="tbl_ert_vfe_Loc_25">
+
+</div>
 </td>
 </tr>
 </tbody>
@@ -222,13 +255,13 @@ Source: PRU analysis; Network Manager
     </tr>-->
 <tr>
 <td style="width: 350px; background-color: #f7f8f9;">
-<span style="color: #C0504D;">Period: Jan</span>
+<span style="color: #C0504D;"><small>Period: Jan-Feb</small></span>
 </td>
 <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-<a href="https://docs.google.com/spreadsheets/d/1ojxvYG_mxN89su6t5DPkYRynrDe36OZYImc8NeMV-dk/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1LPOmnPcIUUWP_Jmijqpv7BxoheLH5U8IlwdKUOLaAso/edit?usp=sharing" target="_blank">[Download data]</a>
 </td>
 <td style="width: 350px; background-color: #f7f8f9;">
-Source: PRU analysis; Airports
+<small>Source: AIU analysis; Airports</small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
@@ -263,18 +296,18 @@ Source: PRU analysis; Airports
     </tr>-->
 <tr>
 <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
-<span style="color: #C0504D;">Period: Jan</span>
+<span style="color: #C0504D;">Period: Jan-Feb</span>
 </td>
 <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1JvgkSh1W9IHYEulPyA-AgiDTqGfx_C2ndxKdjpZFnT8/edit?usp=sharing&hl=en_GB" 
+<a href="https://docs.google.com/spreadsheets/d/1bPs_j2QYeAsjeKFdrUeP42j5g7RhZa09gBnPlSy9p-w/edit?usp=sharing&hl=en_GB" 
              target="_blank" rel="noopener noreferrer">
 [Download data]
 </a>
 </span>
 </td>
 <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-source">
-Source: PRU analysis; Airports
+Source: AIU analysis; Airports
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
@@ -312,18 +345,18 @@ Source: PRU analysis; Airports
     </tr>-->
 <tr>
 <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
-<span style="color: #C0504D;">Period: Jan</span>
+<span style="color: #C0504D;">Period: Jan-Mar</span>
 </td>
 <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1fQIrZtW_N2UcQiK5i6vDavf1bLOLDeePUsj53LW-4m4/edit?usp=sharing&hl=en_GB" 
+<a href="https://docs.google.com/spreadsheets/d/1wN_zqbJojRXa0zg9ijaTXZm3_lNZ8pohB_KHe8I7O8U/edit?usp=sharing&hl=en_GB" 
              target="_blank" rel="noopener noreferrer">
 [Download data]
 </a>
 </span>
 </td>
 <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-source">
-Source: PRU analysis; Airports
+Source: AIU analysis; Airports
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <p><span style="color: rgb(102, 102, 102);"></p>
@@ -346,39 +379,61 @@ Source: PRU analysis; Airports
 <tr>
 <td colspan="4">
 <div class="head3">
-  Environment EPI #9: Effective use of reserved or segregated airspace
+  Environment EPI #9-10: Flexible Use of Airspace (FUA) Performance Indicators
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="4">
-<span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+<td class="data-period">
+<span style="color:#C0504D;">Period: March</span>
+</td>
+<td class="text-center">
+<a href="https://docs.google.com/spreadsheets/d/1T5V8lM22p6QC2bjsZwMWS7HJUl4SgVFVt44ZtGhECNw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+</td>
+<td class="data-source">
+Source: Network Manager
+</td>
+<td class="text-center">
+<a href='{{< relref "/metadata/fua-env-ind.Rmd" >}}' target="_blank">[Meta data]</a>
 </td>
 </tr>
 <tr>
 <td colspan="4">
-<div class="head3">
-  Environment EPI #10: Rate of planning via available airspace structures (reserved or seg. and CDRs)
+<div id="tbl_fua_ind_25">
+
 </div>
 </td>
 </tr>
-<tr>
-<td colspan="4">
-<span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<div class="head3">
-  Environment EPI #11: Rate of using available airspace structures (reserved or segregated and CDRs)
-</div>
-</td>
-</tr>
-<tr>
-<td colspan="4">
-<span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
-</td>
-</tr>
+<p><!--<tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Environment EPI #9: Effective use of reserved or segregated airspace</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp;  Environment EPI #10: Rate of planning via available airspace structures (reserved or seg. and CDRs)</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp;  Environment EPI #11: Rate of using available airspace structures (reserved or segregated and CDRs)</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>--></p>
 </tbody>
 </table>
 <!-- CAPACITY -->
@@ -406,13 +461,13 @@ Source: PRU analysis; Airports
 </tr>
 <tr>
 <td style="width: 350px; background-color:#f7f8f9;">
-<span style="color:#C0504D;">Period: Jan-Feb</span>
+<small><span style="color:#C0504D;">Period: Jan-Mar</span></small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-<a href="https://docs.google.com/spreadsheets/d/1tMwAKYeCEyiH4Iv17Ph_lXbddBfS-7PQPMM3UnD434o/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1zj_Gix-P5Lgqtzu2UqLRIurpEuF1HmS-pK03SGT3vbw/edit?usp=sharing" target="_blank">[Download data]</a>
 </td>
 <td style="width: 350px; background-color:#f7f8f9;">
-Source: PRU analysis; Network Manager
+<small>Source: AIU analysis; Network Manager</small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
@@ -453,13 +508,13 @@ Source: PRU analysis; Network Manager
 </tr>
 <tr>
 <td style="width: 350px; background-color:#f7f8f9;">
-<span style="color:#C0504D;">Period: Jan-Feb</span>
+<small><span style="color:#C0504D;">Period: Jan-Mar</span></small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-<a href="https://docs.google.com/spreadsheets/d/1GnNn4q1vo1z6i5QVxcArFEJsjPsktZIzb33WRNeEOUU/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1fwU1EFh5RULWqHGH3EamrYgJoCPRbneeZvjDdVxJDSA/edit?usp=sharing" target="_blank">[Download data]</a>
 </td>
 <td style="width: 350px; background-color:#f7f8f9;">
-Source: PRU analysis; Network Manager
+<small>Source: AIU analysis; Network Manager</small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
@@ -500,13 +555,13 @@ Source: PRU analysis; Network Manager
 </tr>
 <tr>
 <td style="width: 350px; background-color:#f7f8f9;">
-<span style="color:#C0504D;">Period: Jan-Feb</span>
+<small><span style="color:#C0504D;">Period: Jan-Mar</span></small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-<a href="https://docs.google.com/spreadsheets/d/1qHPExmwdSW-2ozqM2CuVIuv3PosSZN5_OhMHVQCzgiI/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1ZdnWnTuXSMjni2BGr48PkS3-3gIkTDRGVMUE2qcOr_Q/edit?usp=sharing" target="_blank">[Download data]</a>
 </td>
 <td style="width: 350px; background-color:#f7f8f9;">
-Source: Network Manager
+<small>Source: Network Manager</small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
@@ -549,13 +604,13 @@ Source: Network Manager
   </tr>-->
 <tr>
 <td class="data-period">
-<span style="color:#C0504D;">Period: Jan</span>
+<small><span style="color:#C0504D;">Period: Jan-Feb</span></small>
 </td>
 <td class="text-center">
-<a href="https://docs.google.com/spreadsheets/d/1HTD-NvWNSICI10LBwaq1Tp3kWyRiwIko8BwRqbKmHP8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1ZMRJIkViTI88OgRxQxJ18MhX3nBj0NnYtJqGEL8q5gg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
 </td>
 <td class="data-source">
-Source: Airports
+<small>Source: Airports</small>
 </td>
 <td class="text-center">
 <a href='{{< relref "/metadata/atc-pre-departure-delay.md" >}}' target="_blank">[Meta data]</a>
@@ -581,9 +636,31 @@ Source: Airports
 </div>
 </td>
 </tr>
+<!--<tr>
+      <td colspan="4" style="width: 950px;">
+        <small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small>
+      </td>
+      </tr>--><br />
+
 <tr>
-<td colspan="4" style="width: 950px;">
-<small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small>
+<td class="data-period">
+<small><span style="color:#C0504D;">Period: Jan-Mar</span></small>
+</td>
+<td class="text-center">
+<a href="https://docs.google.com/spreadsheets/d/1Mj9Slsje8pbl6eC2SFFyX1ziRn2q-Q_W_dQy9tm1Ars/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+</td>
+<td class="data-source">
+<small>Source: Network Manager</small>
+</td>
+<td class="text-center">
+<a href='{{< relref "/metadata/ert-dly-traffic.Rmd" >}}' target="_blank">[Meta data]</a>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<div id="tbl_ertdly_traffic_25">
+
+</div>
 </td>
 </tr>
 </tbody>
@@ -599,9 +676,30 @@ Source: Airports
 </div>
 </td>
 </tr>
+<!--<tr>
+      <td colspan="4" style="width: 950px;">
+        <small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small>
+      </td>
+    </tr>-->
 <tr>
-<td colspan="4" style="width: 950px;">
-<small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small>
+<td class="data-period">
+<small><span style="color:#C0504D;">Period: Jan-Mar</span></small>
+</td>
+<td class="text-center">
+<a href="https://docs.google.com/spreadsheets/d/1XoIb66-JCpOBgMlGVWm7m9-jGFDfJpiRi6lbrmLIkNQ/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+</td>
+<td class="data-source">
+<small>Source: AIU analysis, Network Manager</small>
+</td>
+<td class="text-center">
+<a href='{{< relref "/metadata/ert-cap-through.Rmd" >}}' target="_blank">[Meta data]</a>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<div id="tbl_ertcap_through_25">
+
+</div>
 </td>
 </tr>
 </tbody>
@@ -631,15 +729,15 @@ Source: Airports
 </tr>
 <tr>
 <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-<span style="color:#C0504D;">Period: Jan-Feb</span>
+<small><span style="color:#C0504D;">Period: Jan-Mar</span></small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 <span style="color: rgb(102, 102, 102);">
-<a href="https://docs.google.com/spreadsheets/d/1Cd3I4iQBe7dPo_vtXCvyb3su-Ov52D5xqXPPVUgccnA/edit?usp=sharing" target="_blank">[Download data]</a>
+<a href="https://docs.google.com/spreadsheets/d/1kThllqFR2TWTBa3-1RmX1nA4IRqbT5k163a4tOxT2Gk/edit?usp=sharing" target="_blank">[Download data]</a>
 </span>
 </td>
 <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-Source: CRCO; EC; PRU analysis
+<small>Source: CRCO; EC; AIU analysis</small>
 </td>
 <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
 </td>
