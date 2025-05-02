@@ -179,7 +179,7 @@ The average [horizontal en-route flight inefficiency][herfe] of the actual traje
   - (ii) expressed as the average duration of level flight in seconds per arrival;
   - (iii) calculated for the whole calendar year and for each year of the reference period.
 
-* (h) The vertical flight efficiency of the descent, calculated at local level as follows:
+* (h) The vertical flight efficiency of the climb, calculated at local level as follows:
   - (i) the duration of level flight from take-off to the top of climb of all departing IFR flights;
   - (ii) expressed as the average duration of level flight in seconds per departure;
   - (iii) calculated for the whole calendar year and for each year of the reference period.
