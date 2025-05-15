@@ -5,7 +5,7 @@
     var tbl_fua_ind = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_fua_ind_25',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1ATwDWgNk96VciFLbMjwJcnivB-u8NQGKNGKOJ19JNOY/edit?usp=sharing&sheet=FUA_IND&range=A5:I34',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1ATwDWgNk96VciFLbMjwJcnivB-u8NQGKNGKOJ19JNOY/edit?usp=sharing&sheet=FUA_IND&range=A5:I36',
         options: {
             allowHtml: false,
             width: 950,
