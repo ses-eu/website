@@ -30,6 +30,8 @@ extrajs: [
   "/javascript/2024/tbl_aptATC_APT_24.js",
   "/javascript/2024/tbl_ertSU_24.js",
   "/javascript/2024/crt_ertSUYYvstgt_24.js",
+  "/javascript/2024/tbl_fua_rsa_24.js",
+  "/javascript/2024/tbl_fua_cdr_24.js",
   ]
 --- 
 
@@ -288,44 +290,80 @@ Source: PRU analysis; Airports; Network Manager
 </tr>
 </tbody>
 </table>
-<br>
-<!-- Use of shared airspace -->
+<p><br></p>
+<!-- Effective Use of Reserved Airspace  -->
 <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
 <tbody>
 <tr>
-<td colspan="4" class="head3">
- Environment EPI #6: Effective use of reserved or segregated airspace
+<td colspan="4">
+<div class="head3">
+  Environment EPI #6-8: Flexible Use of Airspace (FUA) Performance Indicators
+</div>
+</td>
+</tr>
+<!-- <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>-->
+<tr>
+<td style="width: 350px; background-color: #f7f8f9;">
+<small> <span style="color: #C0504D;">Period: Jan-Dec</span></small>
+</td>
+<td style="width: 120px; text-align: center; background-color: #f7f8f9;">
+<a href="https://docs.google.com/spreadsheets/d/1DfJXsGot_7S7Tv_vlqURzE1nkd88xtF-OQuxlmWCKPw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+</td>
+<td style="width: 350px; background-color: #f7f8f9;">
+<small>Source: Network Manager</small>
+</td>
+<td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+<span style="color: rgb(102, 102, 102);">
+<a href='{{< relref "/metadata/fua-env-ind.Rmd" >}}' target="_blank">[Meta data]</a>
+</span>
 </td>
 </tr>
 <tr>
-<td colspan="4" style="width: 100%;">
-<small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small>
+<td colspan="2" style="width: 475px;">
+<small> Reserved or Segregated Airspace (RSA)</small>
+<div id="tbl_fua_rsa_24">
+
+</div>
 </td>
-</tr>
-<tr>
-<td colspan="4" class="head3">
- Environment EPI #7: Rate of planning via available airspace structures (reserved or seg. and CDRs)
-</td>
-</tr>
-<tr>
-<td colspan="4" style="width: 100%;">
-<small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small>
-</td>
-</tr>
-<tr>
-<td colspan="4" class="head3">
- Environment EPI #8: Rate of using available airspace structures (reserved or segregated and CDRs)
-</td>
-</tr>
-<tr>
-<td colspan="4" style="width: 100%;">
-<small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small>
+<td colspan="2" style="width: 475px;">
+<small> Conditional Route (CDR)</small>
+<div id="tbl_fua_cdr_24">
+
+</div>
 </td>
 </tr>
 </tbody>
 </table>
-</tbody>
-</table>
+<!-- Use of shared airspace 
+
+  <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+   <tbody>
+    <tr>
+      <td colspan="4" class="head3">&nbsp;Environment EPI #6: Effective use of reserved or segregated airspace</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="width: 100%;"><small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small></td>
+    </tr>
+    <tr>
+      <td colspan="4" class="head3">&nbsp;Environment EPI #7: Rate of planning via available airspace structures (reserved or seg. and CDRs)</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="width: 100%;"><small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small></td>
+    </tr>
+    <tr>
+      <td colspan="4" class="head3">&nbsp;Environment EPI #8: Rate of using available airspace structures (reserved or segregated and CDRs)</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="width: 100%;"><small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small></td>
+    </tr>
+      </tbody>
+    </table>
+  </tbody>
+</table>-->
 <!-- CAPACITY Section -->
 <table style="width: 100%; max-width: 950px; text-align: left;" border="0" cellpadding="2" cellspacing="2">
 <tbody>
@@ -427,7 +465,7 @@ Source: PRU analysis; Network Manager
 <tr>
 <td colspan="4">
 <div class="head3">
-Capacity CPI #2: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]
+Capacity CPI #1: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]
 </div>
 </td>
 </tr>
@@ -461,10 +499,10 @@ Source: Network Manager
 <tr>
 <td colspan="4">
 <div class="head3">
-  Capacity CPI #3: Air traffic control pre-departure delay [min. per dep.] - (airports &gt;80k movements)
+  Capacity CPI #2: Air traffic control pre-departure delay [min. per dep.] - (airports &gt;80k movements)
 </div>
 <div class="head3">
-  Capacity CPI #4: Average time of all cause-departure delay per flight [min. per dep.] - (airports &gt;80k movements)
+  Capacity CPI #3: Average time of all cause-departure delay per flight [min. per dep.] - (airports &gt;80k movements)
 </div>
 </td>
 </tr>

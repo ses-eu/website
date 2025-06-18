@@ -263,7 +263,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
         <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
           <tbody>
           <tr>
-            <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #2: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]</div></td>
+            <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #1: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]</div></td>
           </tr>
           <tr>
             <td><div style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period"> <span style="color:#C0504D;">Period: January-December</span></div></td>
@@ -284,7 +284,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
       <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
         <tbody>
         <tr>
-          <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #3: Air traffic control pre-departure delay [min. per dep.] - (airports >80k movements)<br>&nbsp; &nbsp;Capacity CPI #4: Average time of all cause-departure delay per flight [min. per dep.] - (airports >80k movements)</div></td>
+          <td colspan="4" rowspan="1"><div class="head3">&nbsp; Capacity CPI #2: Air traffic control pre-departure delay [min. per dep.] - (airports >80k movements)<br>&nbsp; &nbsp;Capacity CPI #3: Average time of all cause-departure delay per flight [min. per dep.] - (airports >80k movements)</div></td>
         </tr>
         <tr>
           <td colspan="4" rowspan="1" style="width: 950px"></td>

@@ -30,6 +30,8 @@ extrajs: [
   "/javascript/2024/tbl_aptATC_APT_24.js",
   "/javascript/2024/tbl_ertSU_24.js",
   "/javascript/2024/crt_ertSUYYvstgt_24.js",
+  "/javascript/2024/tbl_fua_rsa_24.js",
+  "/javascript/2024/tbl_fua_cdr_24.js",
   ]
 --- 
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
@@ -235,7 +237,51 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
    </tbody>
   </table>
   <br>
-    <!-- Use of shared airspace -->
+    
+  <!-- Effective Use of Reserved Airspace  -->
+  <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Environment EPI #6-8: Flexible Use of Airspace (FUA) Performance Indicators</div>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>-->
+    <tr>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small> <span style="color: #C0504D;">Period: Jan-Dec</span></small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
+        <a href="https://docs.google.com/spreadsheets/d/1DfJXsGot_7S7Tv_vlqURzE1nkd88xtF-OQuxlmWCKPw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+      </td>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small>Source: Network Manager</small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/fua-env-ind.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px;">
+        <small> Reserved or Segregated Airspace (RSA)</small>
+        <div id="tbl_fua_rsa_24"></div>
+      </td>
+      <td colspan="2" style="width: 475px;">
+      <small> Conditional Route (CDR)</small>
+        <div id="tbl_fua_cdr_24"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Use of shared airspace 
+
   <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
    <tbody>
     <tr>
@@ -259,7 +305,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
       </tbody>
     </table>
   </tbody>
-</table>
+</table>-->
 
 <!-- CAPACITY Section -->
 <table style="width: 100%; max-width: 950px; text-align: left;" border="0" cellpadding="2" cellspacing="2">
@@ -338,7 +384,7 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
     <!-- ADHERENCE TO ATFM SLOTS -->
     <tr>
       <td colspan="4">
-        <div class="head3">Capacity CPI #2: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]</div>
+        <div class="head3">Capacity CPI #1: Adherence to ATFM slots [% flights inside the slot tolerance window of [-5, +10 min.]]</div>
       </td>
     </tr>
     <tr>
@@ -367,8 +413,8 @@ The data and indicators for [reference period 3][ref3] are in accordance with [C
     <!-- ATC PRE DEPARTURE DELAYS -->
     <tr>
       <td colspan="4">
-        <div class="head3">&nbsp; Capacity CPI #3: Air traffic control pre-departure delay [min. per dep.] - (airports >80k movements)</div>
-        <div class="head3">&nbsp; Capacity CPI #4: Average time of all cause-departure delay per flight [min. per dep.] - (airports >80k movements)</div>
+        <div class="head3">&nbsp; Capacity CPI #2: Air traffic control pre-departure delay [min. per dep.] - (airports >80k movements)</div>
+        <div class="head3">&nbsp; Capacity CPI #3: Average time of all cause-departure delay per flight [min. per dep.] - (airports >80k movements)</div>
       </td>
     </tr>
     <tr>
