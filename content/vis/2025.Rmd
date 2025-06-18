@@ -34,14 +34,15 @@ extrajs: [
   "/javascript/2025/crt_ertSUYYvstgt_25.js",
   "/javascript/2025/tbl_ertdly_traffic_25.js",
   "/javascript/2025/tbl_ertcap_through_25.js",
-  "/javascript/2025/tbl_fua_ind_25.js",
+  "/javascript/2025/tbl_fua_rsa_25.js",
+  "/javascript/2025/tbl_fua_cdr_25.js",
   ]
 --- 
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
 
 The data and indicators for [reference period 4][ref4] are in accordance with [Commission Implementing Regulation (EU) 2024/3128][no3128_2024] of 16 December 2024 amending [Implementing Regulation (EU) 2019/317][no317_2019] as regards new and revised monitoring indicators for the performance and charging scheme in the single European sky
 
-<small><span style="color:#C0504D;">Last update: 16. May 2025 </small></span>
+<small><span style="color:#C0504D;">Last update: 18. June 2025 </small></span>
 
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
@@ -58,11 +59,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period">
-        <span style="color:#C0504D;">Period: Jan-Mar</span>
+        <span style="color:#C0504D;">Period: Jan-May</span>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
-          <a href="https://docs.google.com/spreadsheets/d/1bv0JKmjdHkIReX8dU0C0cuegcCtp2t9Pmvi4lV81824/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+          <a href="https://docs.google.com/spreadsheets/d/1wJjVjfZcEczvjrpDemUaisphe2S0EFwQVy9Aa4wz65A/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
         </span>
       </td>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
@@ -131,10 +132,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
-       <small><span style="color: #C0504D;">Ref. date: 30 Apr 2025</span></small>
+       <small><span style="color: #C0504D;">Ref. date: 31 May 2025</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1Ch-Oq_QXg80e68whlkzYhMjEUjjITioVp5QZ8OU7cio/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1XclNBIYQi_ktTsg20-2m8ODnBCX6S5mri15YLWSVFGE/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color: #f7f8f9;">
        <small>Source: AIU analysis; Network Manager</small>
@@ -173,10 +174,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>-->
     <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
-       <small> <span style="color: #C0504D;">Period: Jan-Apr</span></small>
+       <small> <span style="color: #C0504D;">Period: Jan-May</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1HdUEKr9LxgJXSzittN2RrfCMTn1isbrneyB86LgCLv0/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/18OiH6LpvTpFfFGuJ6xLG7kHOryQOjIareVeajw715U0/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color: #f7f8f9;">
        <small>Source: Network Manager</small>
@@ -214,10 +215,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>-->
     <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
-        <span style="color: #C0504D;"><small>Period: Jan-Mar</small></span>
+        <span style="color: #C0504D;"><small>Period: Jan-Apr</small></span>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1ROGELPrzaLOfXdVET0zfAYJZKzWNFfV3YayJ75LVido/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1fnoxrrqvTwC-GdsaDnAwm49Otb9zvd9jHT1qlu7L_Ok/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color: #f7f8f9;">
         <small>Source: AIU analysis; Airports</small>
@@ -249,11 +250,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>-->
      <tr>
       <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
-        <span style="color: #C0504D;">Period: Jan-Mar</span>
+        <span style="color: #C0504D;">Period: Jan-Apr</span>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
-          <a href="https://docs.google.com/spreadsheets/d/1xYSbFm6YnW9OxPZEGPZbKqb4p0L_cyd7RhhrHMHFykA/edit?usp=sharing&hl=en_GB" 
+          <a href="https://docs.google.com/spreadsheets/d/1VLt8tguTzrD2He_ZYy9-JCge7DvTabB07TvzR6iEGi8/edit?usp=sharing&hl=en_GB" 
              target="_blank" rel="noopener noreferrer">
             [Download data]
           </a>
@@ -296,7 +297,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
-          <a href="https://docs.google.com/spreadsheets/d/10dsEYkhwpoXmoZfnnoPq0nNYOFqoDaBHTeP6AdZv3oI/edit?usp=sharing&hl=en_GB" 
+          <a href="https://docs.google.com/spreadsheets/d/1hGlfGoxoLikCDqCrGh6woH61Ba_IUJWkNgoGEcwQIWA/edit?usp=sharing&hl=en_GB" 
              target="_blank" rel="noopener noreferrer">
             [Download data]
           </a>
@@ -318,37 +319,50 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
   </tbody>
 </table>
-<br>
-<!-- Effective Use of Reserved Airspace -->
+
+<!-- Effective Use of Reserved Airspace  -->
 <table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
   <tbody>
-  <tr>
-    <td colspan="4">
+    <tr>
+      <td colspan="4">
         <div class="head3">&nbsp; Environment EPI #9-10: Flexible Use of Airspace (FUA) Performance Indicators</div>
-    </td>
-  </tr>  
-  <tr>
-    <td class="data-period">
-        <span style="color:#C0504D;">Period: April</span>
-    </td>
-    <td class="text-center">
-        <a href="https://docs.google.com/spreadsheets/d/1ATwDWgNk96VciFLbMjwJcnivB-u8NQGKNGKOJ19JNOY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
-    </td>
-    <td class="data-source">
-        Source: Network Manager
-    </td>
-    <td class="text-center">
-        <a href='{{< relref "/metadata/fua-env-ind.Rmd" >}}' target="_blank">[Meta data]</a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="4">
-       <div id="tbl_fua_ind_25"></div>
-    </td>
-  </tr> 
-    
-    
-   <!--<tr>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>-->
+    <tr>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small> <span style="color: #C0504D;">Period: Jan-May</span></small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
+        <a href="https://docs.google.com/spreadsheets/d/1jYd2mh_GYEM6P_2JDg14ZlyKeuU-dzxkeYwAj5S3ay8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+      </td>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small>Source: Network Manager</small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/fua-env-ind.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px;">
+        <small> Reserved or Segregated Airspace (RSA)</small>
+        <div id="tbl_fua_rsa_25"></div>
+      </td>
+      <td colspan="2" style="width: 475px;">
+      <small> Conditional Route (CDR)</small>
+        <div id="tbl_fua_cdr_25"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+  
+ <!-- <tr>
       <td colspan="4">
         <div class="head3">&nbsp; Environment EPI #9: Effective use of reserved or segregated airspace</div>
       </td>
@@ -378,10 +392,6 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
         <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
       </td>
     </tr>-->
-  
-  
-  </tbody>
-</table>
 
 <!-- CAPACITY -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
@@ -403,10 +413,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color:#f7f8f9;">
-      <small><span style="color:#C0504D;">Period: Jan-Apr</span></small>
+      <small><span style="color:#C0504D;">Period: Jan-May</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1NDSxffNa1ThJVHhle3V0FD1CkUGktuYATlEsWuwETLk/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1jX1KapHRl3TKeqoBDDiwfyh9uNZXFyPyjkjo4svSs8w/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color:#f7f8f9;">
       <small>Source: AIU analysis; Network Manager</small>
@@ -438,10 +448,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color:#f7f8f9;">
-      <small><span style="color:#C0504D;">Period: Jan-Apr</span></small>
+      <small><span style="color:#C0504D;">Period: Jan-May</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1usbyVSkJ8EmHqSGIRuE77dtVGZlYQIqHk4LDC_ilgjk/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1LngXl_17kGfuXxg4BLydlivyVh3uLWUwEKswlavcc90/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color:#f7f8f9;">
        <small>Source: AIU analysis; Network Manager</small>
@@ -473,10 +483,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color:#f7f8f9;">
-       <small><span style="color:#C0504D;">Period: Jan-Apr</span></small>
+       <small><span style="color:#C0504D;">Period: Jan-May</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1fxDYdys2kG17isUrAvGyMr3_78HH5V0lTHX6lAF9nzA/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1whsKIeAhMJ2sAKjYJZDPlnfK7PkQh1RorSmcIkWWIhY/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color:#f7f8f9;">
       <small>Source: Network Manager</small>
@@ -514,10 +524,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
   </tr>-->
   <tr>
     <td class="data-period">
-      <small><span style="color:#C0504D;">Period: Jan-Mar</span></small>
+      <small><span style="color:#C0504D;">Period: Jan-Apr</span></small>
     </td>
     <td class="text-center">
-        <a href="https://docs.google.com/spreadsheets/d/1fqcZbJZEoRuVoeLW0r85NymSIYglazOTv5B-wNHwEq8/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/17ynZlvjtVTjtf4L1pHaBJcWTmjNdVpV3stOturIDWak/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
     </td>
     <td class="data-source">
       <small>Source: Airports</small>
@@ -547,10 +557,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
       </tr>-->    
     <tr>
     <td class="data-period">
-      <small><span style="color:#C0504D;">Period: Jan-Apr</span></small>
+      <small><span style="color:#C0504D;">Period: Jan-May</span></small>
     </td>
     <td class="text-center">
-        <a href="https://docs.google.com/spreadsheets/d/1dkm_e496ko6SRHt0m4yG01R3VqUb6yAxjQtBlDVU9_s/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1e69pn-nSjjEs1nw6_kJly8zc1mPMf2Ta5eZ_c_4m6UI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
     </td>
     <td class="data-source">
      <small>Source: Network Manager</small>
@@ -580,10 +590,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>-->
     <tr>
     <td class="data-period">
-       <small><span style="color:#C0504D;">Period: Jan-Apr</span></small>
+       <small><span style="color:#C0504D;">Period: Jan-May</span></small>
     </td>
     <td class="text-center">
-        <a href="https://docs.google.com/spreadsheets/d/18Ebt95Z-p3NVksOP0iMgcOEE_sZvkziqmldGW5pJBUg/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1SJeocLAOM7ZTNjUZkvdpFYs_91a4XS-S8E4HF5fiYGo/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
     </td>
     <td class="data-source">
       <small>Source: AIU analysis, Network Manager</small>
@@ -621,11 +631,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-       <small><span style="color:#C0504D;">Period: Jan-Apr</span></small>
+       <small><span style="color:#C0504D;">Period: Jan-May</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
-          <a href="https://docs.google.com/spreadsheets/d/1LnAk9gsSpnLanqkTxmtmclosDxfMrexYDmp949zt8kQ/edit?usp=sharing" target="_blank">[Download data]</a>
+          <a href="https://docs.google.com/spreadsheets/d/1w1B5_AqHU3nulPyp-laiF3XYU0IU4pBl_AyQNeHIyj0/edit?usp=sharing" target="_blank">[Download data]</a>
         </span>
       </td>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
