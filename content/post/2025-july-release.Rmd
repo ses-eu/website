@@ -1,6 +1,6 @@
 ---
 title: "July 2025 Release"
-date: 2025-07-17
+date: 2025-07-15
 categories: ["Release"]
 ---
 
