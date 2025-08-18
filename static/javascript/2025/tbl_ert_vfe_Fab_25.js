@@ -5,7 +5,7 @@
 var tbl_ert_vfe = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ert_vfe_Fab_25',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1LNbDsO50edBs9fVEMRNITTt4myQuSYUpw_fzcC8sJ-U/edit?usp=sharing&sheet=ERT_VFE_FAB&range=A5:D15&hl=en_GB',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Yu0Bo8vuQqHGSeYokL_oOiBg6fLy1yxqTcr0NTuNu7M/edit?usp=sharing&sheet=ERT_VFE_FAB&range=A5:D15&hl=en_GB',
     options: {
         allowHtml: true,
         width: 460,
