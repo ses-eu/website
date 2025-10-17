@@ -5,7 +5,7 @@
 var crt_ertdlyYY = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
     containerId: 'crt_ertdlyYY_25',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1XUqoVJcihBaQ3nKgcbYQJElctGqWMbgZGk1Lmxjb6-0/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:H16',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1FcpqVq-abC54zjmpaVstcLpYRAG7cmGMVTjYN-dyPbQ/edit?usp=sharing&alt=json&sheet=ERT_ATFM_YY&range=A5:H16',
     options: {
         width: 450,
         height: 190,
