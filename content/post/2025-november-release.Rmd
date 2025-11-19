@@ -1,0 +1,12 @@
+---
+title: "November 2025 Release"
+date: 2025-11-19
+categories: ["Release"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<ul>
+<li>Update of portal up to October 2025</li>
+</ul>
