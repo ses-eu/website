@@ -16,8 +16,8 @@
 
 #--------------- PRODUCTION ---------------
 # remember ending '/'
-#baseurl = "http://www.sesperformance.eu/dataportal/"
-baseurl = "http://www.eurocontrol.int/prudata/dashboard/"
+baseurl = "http://www.sesperformance.eu/dataportal/"
+#baseurl = "http://www.eurocontrol.int/prudata/dashboard/"
 relativeurls = false
 # the following is alsready setup in .Rprofile for the project
 # publishDir = "../ses-portal-generated"
