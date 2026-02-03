@@ -1,0 +1,704 @@
+---
+title: "Reporting Period 4 - 2026 dashboard"
+date: 2026-02-03
+categories: ["dashboard"]
+aliases:
+  - /rp2_2025.html
+extrajs: [
+  "/javascript/load_google.js",
+  "/javascript/draw_vis.js",
+  "/javascript/2026/crt_ertfltsYY_26.js",
+  "/javascript/2026/crt_ertfltsMM_26.js",
+  "/javascript/2026/tbl_ertfltsYY_26.js",
+  "/javascript/2026/crt_flteffYY_26.js",
+  "/javascript/2026/crt_flteffMM_26.js",
+  "/javascript/2026/tbl_ert_flteff_Fab_26.js",
+  "/javascript/2026/tbl_ert_flteff_Loc_26.js",
+  "/javascript/2026/tbl_ert_vfe_Fab_26.js",
+  "/javascript/2026/tbl_ert_vfe_Loc_26.js",
+  "/javascript/2026/tbl_txdly_APT_26.js",
+  "/javascript/2026/tbl_ASMAdly_APT_26.js",
+  "/javascript/2026/tbl_vfe_APT_26.js",
+  "/javascript/2026/crt_ertdlyYY_26.js",
+  "/javascript/2026/crt_ertdlyMM_26.js",
+  "/javascript/2026/tbl_ertdly_FAB_26.js",
+  "/javascript/2026/tbl_ertdly_LOC_26.js",
+  "/javascript/2026/crt_aptATFM_YY_26.js",
+  "/javascript/2026/crt_aptATFM_MM_26.js",
+  "/javascript/2026/tbl_aptATFM_LOC_26.js",
+  "/javascript/2026/tbl_aptATFM_APT_26.js",
+  "/javascript/2026/tbl_aptATFMADH_LOC_26.js",
+  "/javascript/2026/tbl_aptATFMADH_APT_26.js",
+  "/javascript/2026/tbl_aptATC_APT_26.js",
+  "/javascript/2026/tbl_ertSU_26.js",
+  "/javascript/2026/crt_ertSUYYvstgt_26.js",
+  "/javascript/2026/tbl_ertdly_traffic_26.js",
+  "/javascript/2026/tbl_ertcap_through_26.js",
+  "/javascript/2026/tbl_fua_rsa_26.js",
+  "/javascript/2026/tbl_fua_cdr_26.js",
+  ]
+--- 
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
+
+The data and indicators for [reference period 4][ref4] are in accordance with [Commission Implementing Regulation (EU) 2024/3128][no3128_2024] of 16 December 2024 amending [Implementing Regulation (EU) 2019/317][no317_2019] as regards new and revised monitoring indicators for the performance and charging scheme in the single European sky
+
+<small><span style="color:#C0504D;">Last update: 20.February 2026 </small></span>
+
+<!-- TRAFFIC -->
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td colspan="4" style="width: 100%;">
+        <div class="head2">&nbsp;Traffic</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Average daily IFR flights</div>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period">
+        <span style="color:#C0504D;">Period: Jan</span>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href="https://docs.google.com/spreadsheets/d/1X04d6slxWIWg_T5MZTt41-7DiinLIf2gnzdkqZGGVrw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+        </span>
+      </td>
+      <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
+        Source: Network Manager
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px; vertical-align: top;">
+        <div id="crt_cap_ert_YY"></div>
+        <div style="float: left;" id="crt_ertfltsYY_26"></div>
+        <div style="float: left;" id="crt_ertfltsMM_26"></div>
+      </td>
+      <td colspan="2" style="width: 475px; vertical-align: top;">
+        <div id="tbl_ertfltsYY_26"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- SAFETY -->
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td colspan="4" style="width: 950px;">
+        <div class="head2">&nbsp;SAFETY</div>
+        <span style="color:#C0504D;">
+          <small>To be provided in line with the scheduled reporting cycle.</small>
+        </span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ENVIRONMENT -->
+<table style="width: 950px; text-align: left;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td colspan="4" style="width: 950px;">
+        <div class="head2">&nbsp; ENVIRONMENT</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Horizontal en-route flight efficiency -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4"><div class="head3">&nbsp; Environment: Horizontal en-route flight efficiency [%]</div></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <small>
+          <ul>
+            <li>EKPI#1: KEA - Avg. horizontal en-route flight efficiency (actual trajectory)</li>
+            <li>EPI#1: KEP - Avg. horizontal en-route flight efficiency (last filed flight plan)</li>
+            <li>EPI#2: KES - Avg. horizontal en-route flight efficiency (shortest constrained trajectory)</li>
+          </ul>
+        </small>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small><span style="color: #C0504D;">Ref. date: 31 Jan 2026</span></small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
+        <a href="https://docs.google.com/spreadsheets/d/1Ytis7Mh7HV-TvRMrgD9ad_P25oFOLkEoyTETMsUlSWA/edit?usp=sharing" target="_blank">[Download data]</a>
+      </td>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small>Source: AIU analysis; Network Manager</small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/average-horizontal-en-route-inefficiency.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px;">
+        <div id="crt_flteffYY_26"></div>
+        <div id="tbl_ert_flteff_Fab_26"></div>
+      </td>
+      <td colspan="2" style="width: 475px;">
+        <div id="crt_flteffMM_26"></div>
+        <div id="tbl_ert_flteff_Loc_26"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!-- Vertical en-route flight efficiency -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Environment EPI #3: Vertical en-route flight efficiency [%]</div>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>-->
+    <tr>
+    <tr>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small> <span style="color: #C0504D;">Period: Jan</span></small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
+        <a href="https://docs.google.com/spreadsheets/d/1r8-6S7zFKYqKKMC8waohd0tjhy0edQ93BMVLBIaBW6I/edit?usp=sharing" target="_blank">[Download data]</a>
+      </td>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small>Source: Network Manager</small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/vertical-ert-flight-efficiency.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px;">
+        <div id="tbl_ert_vfe_Fab_26"></div>
+      </td>
+      <td colspan="2" style="width: 475px;">
+        <div id="tbl_ert_vfe_Loc_26"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!-- Additional Taxi Times -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Environment EPI #4: Additional taxi-OUT time [min per dep.] - (airports >80k movements)</div>
+        <div class="head3">&nbsp; Environment EPI #5: Additional taxi-IN time [min per arr.] - (airports >80k movements)</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
+      </td>
+    </tr> 
+    <!--
+    <tr>
+      <td style="width: 350px; background-color: #f7f8f9;">
+        <span style="color: #C0504D;"><small>Period: Jan-Nov</small></span>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
+        <a href="https://docs.google.com/spreadsheets/d/1g5eQuoYBKKi8cTfYqI13db4fix3coq4z6qnff9R-JuI/edit?usp=sharing" target="_blank">[Download data]</a>
+      </td>
+      <td style="width: 350px; background-color: #f7f8f9;">
+        <small>Source: AIU analysis; Airports</small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/additional-taxi-out-time.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><div id="tbl_txdly_APT_26"></div></td>
+    </tr>
+    -->
+
+  </tbody>
+</table>
+<br>
+<!-- Additional ASMA Time -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Environment EPI #6: Additional time in terminal airspace [min per arr.]</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
+      </td>
+    </tr>
+     
+     <!--
+     <tr>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
+        <span style="color: #C0504D;">Period: Jan-Nov</span>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href="https://docs.google.com/spreadsheets/d/1uyyPGSyFAZ24_xxXKaWtx75mo85ftcDCWJ51NrvYYhc/edit?usp=sharing&hl=en_GB" 
+             target="_blank" rel="noopener noreferrer">
+            [Download data]
+          </a>
+        </span>
+      </td>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-source">
+        Source: AIU analysis; Airports
+      </td>
+       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/additional-asma-time.html" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>  
+    <tr>
+      <td colspan="4" style="vertical-align: top;">
+        <div id="tbl_ASMAdly_APT_26"></div>
+      </td>
+    </tr>
+    -->
+
+  </tbody>
+</table>
+<br>
+<!-- Average duration in climb and descent -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Environment EPI #7: Average duration in climb [sec per climb]</div>
+        <div class="head3">&nbsp; Environment EPI #8: Average duration in descent [sec per descent]</div>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
+      </td>
+    </tr>-->
+     <tr>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
+        <span style="color: #C0504D;">Period: Jan</span>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href="https://docs.google.com/spreadsheets/d/12fI8Flb2mVE0cFB-ubniMGim8pOlVJ8MYYkYKtq0TzE/edit?usp=sharing&hl=en_GB" 
+             target="_blank" rel="noopener noreferrer">
+            [Download data]
+          </a>
+        </span>
+      </td>
+      <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-source">
+        Source: AIU analysis; Airports
+      </td>
+       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          
+        </span>
+      </td>
+    </tr>  
+    <tr>
+      <td colspan="4" style="vertical-align: top;">
+        <div id="tbl_vfe_APT_26"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Effective Use of Reserved Airspace  -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Environment EPI #9-10: Flexible Use of Airspace (FUA) Performance Indicators</div>
+      </td>
+    </tr>
+    <!-- <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>-->
+    <tr>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small> <span style="color: #C0504D;">Period: Jan</span></small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
+        <a href="https://docs.google.com/spreadsheets/d/1n0wxRcZBc_9Z_cwiFi1nTSun4iyQLQara6izs3EMR9I/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+      </td>
+      <td style="width: 350px; background-color: #f7f8f9;">
+       <small>Source: Network Manager</small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/fua-env-ind.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px;">
+        <small> Reserved or Segregated Airspace (RSA)</small>
+        <div id="tbl_fua_rsa_26"></div>
+      </td>
+      <td colspan="2" style="width: 475px;">
+      <small> Conditional Route (CDR)</small>
+        <div id="tbl_fua_cdr_26"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+  
+ <!-- <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp; Environment EPI #9: Effective use of reserved or segregated airspace</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp;  Environment EPI #10: Rate of planning via available airspace structures (reserved or seg. and CDRs)</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp;  Environment EPI #11: Rate of using available airspace structures (reserved or segregated and CDRs)</div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated as soon as the data is available.</small></span>
+      </td>
+    </tr>-->
+
+<!-- CAPACITY -->
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td colspan="4" style="width: 950px;">
+        <div class="head2">&nbsp;CAPACITY</div>
+        <small><span style="color:#C0504D;">Please note that post-operational adjustments are not yet considered. The data will be updated as soon as the post-operational results are available.</span></small>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- EN-ROUTE ATFM DELAYS -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4"><div class="head3">&nbsp; Capacity CKPI #1: En-route ATFM delay per flight [minutes per flight]</div></td>
+    </tr>
+    <tr>
+      <td style="width: 350px; background-color:#f7f8f9;">
+      <small><span style="color:#C0504D;">Period: Jan</span></small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
+        <a href="https://docs.google.com/spreadsheets/d/1HJgBZk3aVX7iD0-gE5AWxbFe9-YlpSX-PyJsknDoJ8A/edit?usp=sharing" target="_blank">[Download data]</a>
+      </td>
+      <td style="width: 350px; background-color:#f7f8f9;">
+      <small>Source: AIU analysis; Network Manager</small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/minutes-of-en-route-atfm-delay-per-flight.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px;">
+        <div id="crt_ertdlyYY_26"></div>
+        <div id="tbl_ertdly_FAB_26"></div>
+      </td>
+      <td colspan="2" style="width: 475px;">
+        <div id="crt_ertdlyMM_26"></div>
+        <div id="tbl_ertdly_LOC_26"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!-- AIRPORT ATFM ARRIVAL DELAYS -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4"><div class="head3">&nbsp; Capacity CKPI #2: Airport ATFM arrival delay per flight [min./arr.]</div></td>
+    </tr>
+    <tr>
+      <td style="width: 350px; background-color:#f7f8f9;">
+      <small><span style="color:#C0504D;">Period: Jan</span></small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
+        <a href="https://docs.google.com/spreadsheets/d/1HVSblDgQK3Vix6x_VaI9ZCNN99Mqcoc0Q2BOWtNbt4Y/edit?usp=sharing" target="_blank">[Download data]</a>
+      </td>
+      <td style="width: 350px; background-color:#f7f8f9;">
+       <small>Source: AIU analysis; Network Manager</small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/airport-atfm-delay.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px;">
+        <div id="crt_aptATFM_YY_26"></div>
+        <div id="tbl_aptATFM_LOC_26"></div>
+      </td>
+      <td colspan="2" style="width: 475px;">
+        <div id="crt_aptATFM_MM_26"></div>
+        <div id="tbl_aptATFM_APT_26"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!-- ADHERENCE TO ATFM SLOTS -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4"><div class="head3">&nbsp; Capacity CPI #1: Adherence to ATFM slots [% flights inside slot tolerance window of -5 to +10 min.]</div></td>
+    </tr>
+    <tr>
+      <td style="width: 350px; background-color:#f7f8f9;">
+       <small><span style="color:#C0504D;">Period: Jan</span></small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
+        <a href="https://docs.google.com/spreadsheets/d/1drD16STITQ8iX-_Iv8hIUOygMqisUFaBrdkMDQjO2w0/edit?usp=sharing" target="_blank">[Download data]</a>
+      </td>
+      <td style="width: 350px; background-color:#f7f8f9;">
+      <small>Source: Network Manager</small>
+      </td>
+        <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href='{{< relref "/metadata/atfm-slot-adherence.Rmd" >}}' target="_blank">[Meta data]</a>
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px;">
+        <div id="tbl_aptATFMADH_LOC_26"></div>
+      </td>
+      <td colspan="2" style="width: 475px;">
+        <div id="tbl_aptATFMADH_APT_26"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!-- ATC PRE DEPARTURE DELAYS -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody> 
+  <tr>
+    <td colspan="4">
+        <div class="head3">&nbsp; Capacity CPI #2: Air traffic control pre-departure delay [min. per dep.] - (airports >80k movements)</div>
+        <div class="head3">&nbsp; Capacity CPI #3: Average time of all cause-departure delay per flight [min. per dep.] - (airports >80k movements)</div>
+    </td>
+  </tr>
+ 
+ <tr>
+      <td colspan="4">
+        <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
+      </td>
+  </tr>
+
+ <!--
+  <tr>
+    <td class="data-period">
+      <small><span style="color:#C0504D;">Period: Jan-Nov</span></small>
+    </td>
+    <td class="text-center">
+        <a href="https://docs.google.com/spreadsheets/d/1V_VF44K7iru2htFAMhKxMNtwpIo8ZG_0cXvA5_dAImU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+    </td>
+    <td class="data-source">
+      <small>Source: Airports</small>
+    </td>
+    <td class="text-center">
+        <a href='{{< relref "/metadata/atc-pre-departure-delay.md" >}}' target="_blank">[Meta data]</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">
+       <div id="tbl_aptATC_APT_26"></div>
+    </td>
+  </tr>
+-->
+
+</tbody>
+</table>
+<br>
+<!-- % OF EN-ROUTE ATFM DELAY WHEN TRAFFIC WAS HIGHER -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4"><div class="head3">&nbsp; Capacity CPI #4: % of en-route ATFM delay occurring when daily throughput was above expected daily traffic</div></td>
+    </tr>
+    <!--  <tr>
+      <td colspan="4" style="width: 950px;">
+        <small><span style="color:#C0504D;">July data not yet available. The section will be updated as soon as the data is available.</span></small>
+      </td>
+      </tr>  --> 
+    <tr>
+    <td class="data-period">
+      <small><span style="color:#C0504D;">Period: Jan</span></small>
+    </td>
+    <td class="text-center">
+        <a href="https://docs.google.com/spreadsheets/d/1yeEc7ElCr-sOA87Dc0KCXtGiygSgvOtTciaz7idc-yI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+    </td>
+    <td class="data-source">
+     <small>Source: Network Manager</small>
+    </td>
+    <td class="text-center">
+        <a href='{{< relref "/metadata/ert-dly-traffic.Rmd" >}}' target="_blank">[Meta data]</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">
+       <div id="tbl_ertdly_traffic_26"></div>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<br>
+<!-- ANNUAL WEIGHTED AVG THROUGHPUT -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4"><div class="head3">&nbsp; Capacity CPI #5: Average daily peak throughput (flights per hour)</div></td>
+    </tr>
+    <!--<tr>
+      <td colspan="4" style="width: 950px;">
+        <small><span style="color:#C0504D;">Data not yet available. The section will be updated as soon as the data is available.</span></small>
+      </td>
+    </tr>-->
+    <tr>
+    <td class="data-period">
+       <small><span style="color:#C0504D;">Period: Jan</span></small>
+    </td>
+    <td class="text-center">
+        <a href="https://docs.google.com/spreadsheets/d/1fDkz_Y9qXwfKz7JNv6XletRC99LwreFXhR1HhkHX4LU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+    </td>
+    <td class="data-source">
+      <small>Source: AIU analysis, Network Manager</small>
+    </td>
+    <td class="text-center">
+        <a href='{{< relref "/metadata/ert-cap-through.Rmd" >}}' target="_blank">[Meta data]</a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="4">
+       <div id="tbl_ertcap_through_26"></div>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<br>
+<!-- COST-EFFICIENCY -->
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td colspan="4" style="width: 950px;">
+        <div class="head2">&nbsp;COST-EFFICIENCY</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- EN-ROUTE SERVICE UNITS -->
+<table style="width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp;En-route Service Units (TSU) [actual vs. determined]</div>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+       <small><span style="color:#C0504D;">Period: Jan</span></small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
+        <span style="color: rgb(102, 102, 102);">
+          <a href="https://docs.google.com/spreadsheets/d/1Rw24FBbRj7MD1MN8bbCb0Q580wZlJ7Z0z4_qj4NpXks/edit?usp=sharing" target="_blank">[Download data]</a>
+        </span>
+      </td>
+      <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
+       <small>Source: CRCO; EC; AIU analysis</small>
+      </td>
+      <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;"></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="width: 475px; text-align: center; vertical-align: top;">
+        <div class="head4">&nbsp;En-route TSU: by charging zones (2025)</div>
+        <div id="tbl_ertSU_26"></div>
+      </td>
+      <td colspan="2" style="width: 475px; text-align: center; vertical-align: top;">
+        <div class="head4">&nbsp;En-route TSU: actual vs. determined (2025)</div>
+        <div id="crt_ertSUYYvstgt_26"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!-- DETERMINED UNIT COSTS FOR EN ROUTE ANS -->
+<table style="text-align: left; width: 950px;" border="0" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp;Cost efficiency KPI #1: Determined unit cost (DUC) for en-route (ER) ANS</div>
+        <span style="color:#C0504D;"><small>To be updated when data is available</small></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!-- DETERMINED UNIT COSTS FOR TERMINAL ANS -->
+<table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td colspan="4">
+        <div class="head3">&nbsp;Cost efficiency KPI #2: Determined unit cost (DUC) for terminal (TR) ANS</div>
+        <span style="color:#C0504D;"><small>To be updated when data is available</small></span>
+      </td>
+    </tr>
+  </tbody>
+</table>
+  </tbody>
+</table>
+
+<script src="//d3js.org/d3.v3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+
+
+[no317_2019]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2019.056.01.0001.01.ENG "IR 317/2019"
+[no3128_2024]: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R3128
+[ref4]: ../../metadata/rp4/ "Reference Period 4"
