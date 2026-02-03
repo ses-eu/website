@@ -552,10 +552,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
       <td colspan="4"><div class="head3">&nbsp; Capacity CPI #4: % of en-route ATFM delay occurring when daily throughput was above expected daily traffic</div></td>
     </tr>
       <tr>
+    <!--  <tr>
       <td colspan="4" style="width: 950px;">
         <small><span style="color:#C0504D;">July data not yet available. The section will be updated as soon as the data is available.</span></small>
       </td>
-      </tr>   
+      </tr>  --> 
     <tr>
     <td class="data-period">
       <small><span style="color:#C0504D;">Period: Jan-Dec</span></small>
