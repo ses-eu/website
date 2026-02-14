@@ -5,7 +5,7 @@
  var crt_flteffYY = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
     containerId: 'crt_flteffYY_26',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Ytis7Mh7HV-TvRMrgD9ad_P25oFOLkEoyTETMsUlSWA/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G15',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1Ytis7Mh7HV-TvRMrgD9ad_P25oFOLkEoyTETMsUlSWA/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G19',
     options: {
         width: 450,
         height: 190,
@@ -79,7 +79,7 @@
     },
     view: {
         columns: [1, 3, 4, 5, 6],
-        rows: [0, 1, 2, 3, 4,5,6,7,8,9]
+        rows: [0, 1, 2, 3, 4,5,6,7,8,9,10]
     }
 });
 crt_flteffYY.draw();
