@@ -1,48 +1,48 @@
 ---
-title: "Reporting Period 4 - 2025 dashboard"
-date: 2025-02-24
+title: "Reporting Period 4 - 2026 dashboard"
+date: 2026-02-03
 categories: ["dashboard"]
 aliases:
   - /rp2_2025.html
 extrajs: [
   "/javascript/load_google.js",
   "/javascript/draw_vis.js",
-  "/javascript/2025/crt_ertfltsYY_25.js",
-  "/javascript/2025/crt_ertfltsMM_25.js",
-  "/javascript/2025/tbl_ertfltsYY_25.js",
-  "/javascript/2025/crt_flteffYY_25.js",
-  "/javascript/2025/crt_flteffMM_25.js",
-  "/javascript/2025/tbl_ert_flteff_Fab_25.js",
-  "/javascript/2025/tbl_ert_flteff_Loc_25.js",
-  "/javascript/2025/tbl_ert_vfe_Fab_25.js",
-  "/javascript/2025/tbl_ert_vfe_Loc_25.js",
-  "/javascript/2025/tbl_txdly_APT_25.js",
-  "/javascript/2025/tbl_ASMAdly_APT_25.js",
-  "/javascript/2025/tbl_vfe_APT_25.js",
-  "/javascript/2025/crt_ertdlyYY_25.js",
-  "/javascript/2025/crt_ertdlyMM_25.js",
-  "/javascript/2025/tbl_ertdly_FAB_25.js",
-  "/javascript/2025/tbl_ertdly_LOC_25.js",
-  "/javascript/2025/crt_aptATFM_YY_25.js",
-  "/javascript/2025/crt_aptATFM_MM_25.js",
-  "/javascript/2025/tbl_aptATFM_LOC_25.js",
-  "/javascript/2025/tbl_aptATFM_APT_25.js",
-  "/javascript/2025/tbl_aptATFMADH_LOC_25.js",
-  "/javascript/2025/tbl_aptATFMADH_APT_25.js",
-  "/javascript/2025/tbl_aptATC_APT_25.js",
-  "/javascript/2025/tbl_ertSU_25.js",
-  "/javascript/2025/crt_ertSUYYvstgt_25.js",
-  "/javascript/2025/tbl_ertdly_traffic_25.js",
-  "/javascript/2025/tbl_ertcap_through_25.js",
-  "/javascript/2025/tbl_fua_rsa_25.js",
-  "/javascript/2025/tbl_fua_cdr_25.js",
+  "/javascript/2026/crt_ertfltsYY_26.js",
+  "/javascript/2026/crt_ertfltsMM_26.js",
+  "/javascript/2026/tbl_ertfltsYY_26.js",
+  "/javascript/2026/crt_flteffYY_26.js",
+  "/javascript/2026/crt_flteffMM_26.js",
+  "/javascript/2026/tbl_ert_flteff_Fab_26.js",
+  "/javascript/2026/tbl_ert_flteff_Loc_26.js",
+  "/javascript/2026/tbl_ert_vfe_Fab_26.js",
+  "/javascript/2026/tbl_ert_vfe_Loc_26.js",
+  "/javascript/2026/tbl_txdly_APT_26.js",
+  "/javascript/2026/tbl_ASMAdly_APT_26.js",
+  "/javascript/2026/tbl_vfe_APT_26.js",
+  "/javascript/2026/crt_ertdlyYY_26.js",
+  "/javascript/2026/crt_ertdlyMM_26.js",
+  "/javascript/2026/tbl_ertdly_FAB_26.js",
+  "/javascript/2026/tbl_ertdly_LOC_26.js",
+  "/javascript/2026/crt_aptATFM_YY_26.js",
+  "/javascript/2026/crt_aptATFM_MM_26.js",
+  "/javascript/2026/tbl_aptATFM_LOC_26.js",
+  "/javascript/2026/tbl_aptATFM_APT_26.js",
+  "/javascript/2026/tbl_aptATFMADH_LOC_26.js",
+  "/javascript/2026/tbl_aptATFMADH_APT_26.js",
+  "/javascript/2026/tbl_aptATC_APT_26.js",
+  "/javascript/2026/tbl_ertSU_26.js",
+  "/javascript/2026/crt_ertSUYYvstgt_26.js",
+  "/javascript/2026/tbl_ertdly_traffic_26.js",
+  "/javascript/2026/tbl_ertcap_through_26.js",
+  "/javascript/2026/tbl_fua_rsa_26.js",
+  "/javascript/2026/tbl_fua_cdr_26.js",
   ]
 --- 
 <script type="text/javascript" src="//www.google.com/jsapi"></script>
 
 The data and indicators for [reference period 4][ref4] are in accordance with [Commission Implementing Regulation (EU) 2024/3128][no3128_2024] of 16 December 2024 amending [Implementing Regulation (EU) 2019/317][no317_2019] as regards new and revised monitoring indicators for the performance and charging scheme in the single European sky
 
-<small><span style="color:#C0504D;">Last update: 14.February 2026 </small></span>
+<small><span style="color:#C0504D;">Last update: 18.February 2026 </small></span>
 
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
@@ -59,11 +59,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-period">
-        <span style="color:#C0504D;">Period: Jan-Dec</span>
+        <span style="color:#C0504D;">Period: Jan</span>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
-          <a href="https://docs.google.com/spreadsheets/d/1sKOy3BJCuqwmKsj_ix9TS-x9xYqifGz9MPOvLWNEg9w/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+          <a href="https://docs.google.com/spreadsheets/d/1X04d6slxWIWg_T5MZTt41-7DiinLIf2gnzdkqZGGVrw/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
         </span>
       </td>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;" class="data-source">
@@ -78,11 +78,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     <tr>
       <td colspan="2" style="width: 475px; vertical-align: top;">
         <div id="crt_cap_ert_YY"></div>
-        <div style="float: left;" id="crt_ertfltsYY_25"></div>
-        <div style="float: left;" id="crt_ertfltsMM_25"></div>
+        <div style="float: left;" id="crt_ertfltsYY_26"></div>
+        <div style="float: left;" id="crt_ertfltsMM_26"></div>
       </td>
       <td colspan="2" style="width: 475px; vertical-align: top;">
-        <div id="tbl_ertfltsYY_25"></div>
+        <div id="tbl_ertfltsYY_26"></div>
       </td>
     </tr>
   </tbody>
@@ -132,10 +132,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
-       <small><span style="color: #C0504D;">Ref. date: 31 Dec 2025</span></small>
+       <small><span style="color: #C0504D;">Ref. date: 31 Jan 2026</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1x1N61PCLVu-EqTzUkn0xUPn8HAIBLJAmff3zJnePnaw/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1Ytis7Mh7HV-TvRMrgD9ad_P25oFOLkEoyTETMsUlSWA/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color: #f7f8f9;">
        <small>Source: AIU analysis; Network Manager</small>
@@ -148,12 +148,12 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td colspan="2" style="width: 475px;">
-        <div id="crt_flteffYY_25"></div>
-        <div id="tbl_ert_flteff_Fab_25"></div>
+        <div id="crt_flteffYY_26"></div>
+        <div id="tbl_ert_flteff_Fab_26"></div>
       </td>
       <td colspan="2" style="width: 475px;">
-        <div id="crt_flteffMM_25"></div>
-        <div id="tbl_ert_flteff_Loc_25"></div>
+        <div id="crt_flteffMM_26"></div>
+        <div id="tbl_ert_flteff_Loc_26"></div>
       </td>
     </tr>
   </tbody>
@@ -175,10 +175,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     <tr>
     <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
-       <small> <span style="color: #C0504D;">Period: Jan-Dec</span></small>
+       <small> <span style="color: #C0504D;">Period: Jan</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/15Lo-zfN-aQ4WNT6PLtT-VjqgK5tyztYYI0Z2xiU9rik/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1r8-6S7zFKYqKKMC8waohd0tjhy0edQ93BMVLBIaBW6I/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color: #f7f8f9;">
        <small>Source: Network Manager</small>
@@ -191,10 +191,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td colspan="2" style="width: 475px;">
-        <div id="tbl_ert_vfe_Fab_25"></div>
+        <div id="tbl_ert_vfe_Fab_26"></div>
       </td>
       <td colspan="2" style="width: 475px;">
-        <div id="tbl_ert_vfe_Loc_25"></div>
+        <div id="tbl_ert_vfe_Loc_26"></div>
       </td>
     </tr>
   </tbody>
@@ -209,14 +209,15 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
         <div class="head3">&nbsp; Environment EPI #5: Additional taxi-IN time [min per arr.] - (airports >80k movements)</div>
       </td>
     </tr>
-    <!--<tr>
+    <tr>
       <td colspan="4">
         <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
       </td>
-    </tr>-->
+    </tr> 
+    <!--
     <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
-        <span style="color: #C0504D;"><small>Period: Jan-Dec</small></span>
+        <span style="color: #C0504D;"><small>Period: Jan-Nov</small></span>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
         <a href="https://docs.google.com/spreadsheets/d/1g5eQuoYBKKi8cTfYqI13db4fix3coq4z6qnff9R-JuI/edit?usp=sharing" target="_blank">[Download data]</a>
@@ -231,8 +232,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
       </td>
     </tr>
     <tr>
-      <td colspan="4"><div id="tbl_txdly_APT_25"></div></td>
+      <td colspan="4"><div id="tbl_txdly_APT_26"></div></td>
     </tr>
+    -->
+
   </tbody>
 </table>
 <br>
@@ -244,14 +247,16 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
         <div class="head3">&nbsp; Environment EPI #6: Additional time in terminal airspace [min per arr.]</div>
       </td>
     </tr>
-    <!-- <tr>
+    <tr>
       <td colspan="4">
         <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
       </td>
-    </tr>-->
+    </tr>
+     
+     <!--
      <tr>
       <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
-        <span style="color: #C0504D;">Period: Jan-Dec</span>
+        <span style="color: #C0504D;">Period: Jan-Nov</span>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
@@ -272,9 +277,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>  
     <tr>
       <td colspan="4" style="vertical-align: top;">
-        <div id="tbl_ASMAdly_APT_25"></div>
+        <div id="tbl_ASMAdly_APT_26"></div>
       </td>
     </tr>
+    -->
+
   </tbody>
 </table>
 <br>
@@ -294,11 +301,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>-->
      <tr>
       <td style="width: 350px; text-align: left; background-color: #f7f8f9; vertical-align: top;" class="data-period">
-        <span style="color: #C0504D;">Period: Jan-Dec</span>
+        <span style="color: #C0504D;">Period: Jan</span>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
-          <a href="https://docs.google.com/spreadsheets/d/15Q1_UjVfjXQ5zjmkK_t1PFDaDZvPtzqZv-NDhKEVuxo/edit?usp=sharing&hl=en_GB" 
+          <a href="https://docs.google.com/spreadsheets/d/12fI8Flb2mVE0cFB-ubniMGim8pOlVJ8MYYkYKtq0TzE/edit?usp=sharing&hl=en_GB" 
              target="_blank" rel="noopener noreferrer">
             [Download data]
           </a>
@@ -315,7 +322,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>  
     <tr>
       <td colspan="4" style="vertical-align: top;">
-        <div id="tbl_vfe_APT_25"></div>
+        <div id="tbl_vfe_APT_26"></div>
       </td>
     </tr>
   </tbody>
@@ -336,10 +343,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>-->
     <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
-       <small> <span style="color: #C0504D;">Period: Jan-Dec</span></small>
+       <small> <span style="color: #C0504D;">Period: Jan</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color: #f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1mASg_85hPqiH4_nNsjgV1205Mgp1oeOJPlbr5snZihY/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1n0wxRcZBc_9Z_cwiFi1nTSun4iyQLQara6izs3EMR9I/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color: #f7f8f9;">
        <small>Source: Network Manager</small>
@@ -353,11 +360,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     <tr>
       <td colspan="2" style="width: 475px;">
         <small> Reserved or Segregated Airspace (RSA)</small>
-        <div id="tbl_fua_rsa_25"></div>
+        <div id="tbl_fua_rsa_26"></div>
       </td>
       <td colspan="2" style="width: 475px;">
       <small> Conditional Route (CDR)</small>
-        <div id="tbl_fua_cdr_25"></div>
+        <div id="tbl_fua_cdr_26"></div>
       </td>
     </tr>
   </tbody>
@@ -414,10 +421,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color:#f7f8f9;">
-      <small><span style="color:#C0504D;">Period: Jan-Dec</span></small>
+      <small><span style="color:#C0504D;">Period: Jan</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1tdS26PfhuBp5bqFqfOVLbXrVZvtg5zyYSo1SbfdEsxY/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1HJgBZk3aVX7iD0-gE5AWxbFe9-YlpSX-PyJsknDoJ8A/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color:#f7f8f9;">
       <small>Source: AIU analysis; Network Manager</small>
@@ -430,12 +437,12 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td colspan="2" style="width: 475px;">
-        <div id="crt_ertdlyYY_25"></div>
-        <div id="tbl_ertdly_FAB_25"></div>
+        <div id="crt_ertdlyYY_26"></div>
+        <div id="tbl_ertdly_FAB_26"></div>
       </td>
       <td colspan="2" style="width: 475px;">
-        <div id="crt_ertdlyMM_25"></div>
-        <div id="tbl_ertdly_LOC_25"></div>
+        <div id="crt_ertdlyMM_26"></div>
+        <div id="tbl_ertdly_LOC_26"></div>
       </td>
     </tr>
   </tbody>
@@ -449,10 +456,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color:#f7f8f9;">
-      <small><span style="color:#C0504D;">Period: Jan-Dec</span></small>
+      <small><span style="color:#C0504D;">Period: Jan</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1ZKaStnFurADuSzeP5y4Ypih1ZE6NhmttgIUhsd2RDQo/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1HVSblDgQK3Vix6x_VaI9ZCNN99Mqcoc0Q2BOWtNbt4Y/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color:#f7f8f9;">
        <small>Source: AIU analysis; Network Manager</small>
@@ -465,12 +472,12 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td colspan="2" style="width: 475px;">
-        <div id="crt_aptATFM_YY_25"></div>
-        <div id="tbl_aptATFM_LOC_25"></div>
+        <div id="crt_aptATFM_YY_26"></div>
+        <div id="tbl_aptATFM_LOC_26"></div>
       </td>
       <td colspan="2" style="width: 475px;">
-        <div id="crt_aptATFM_MM_25"></div>
-        <div id="tbl_aptATFM_APT_25"></div>
+        <div id="crt_aptATFM_MM_26"></div>
+        <div id="tbl_aptATFM_APT_26"></div>
       </td>
     </tr>
   </tbody>
@@ -484,10 +491,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; background-color:#f7f8f9;">
-       <small><span style="color:#C0504D;">Period: Jan-Dec</span></small>
+       <small><span style="color:#C0504D;">Period: Jan</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9;">
-        <a href="https://docs.google.com/spreadsheets/d/1j5gjI5suFNk31KmCMhr8JRWxf0uubgdhGvoHvNgkC5I/edit?usp=sharing" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1drD16STITQ8iX-_Iv8hIUOygMqisUFaBrdkMDQjO2w0/edit?usp=sharing" target="_blank">[Download data]</a>
       </td>
       <td style="width: 350px; background-color:#f7f8f9;">
       <small>Source: Network Manager</small>
@@ -500,10 +507,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td colspan="2" style="width: 475px;">
-        <div id="tbl_aptATFMADH_LOC_25"></div>
+        <div id="tbl_aptATFMADH_LOC_26"></div>
       </td>
       <td colspan="2" style="width: 475px;">
-        <div id="tbl_aptATFMADH_APT_25"></div>
+        <div id="tbl_aptATFMADH_APT_26"></div>
       </td>
     </tr>
   </tbody>
@@ -518,14 +525,17 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
         <div class="head3">&nbsp; Capacity CPI #3: Average time of all cause-departure delay per flight [min. per dep.] - (airports >80k movements)</div>
     </td>
   </tr>
- <!--<tr>
+ 
+ <tr>
       <td colspan="4">
         <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
       </td>
-  </tr>-->
+  </tr>
+
+ <!--
   <tr>
     <td class="data-period">
-      <small><span style="color:#C0504D;">Period: Jan-Dec</span></small>
+      <small><span style="color:#C0504D;">Period: Jan-Nov</span></small>
     </td>
     <td class="text-center">
         <a href="https://docs.google.com/spreadsheets/d/1V_VF44K7iru2htFAMhKxMNtwpIo8ZG_0cXvA5_dAImU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
@@ -539,9 +549,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
   </tr>
   <tr>
     <td colspan="4">
-       <div id="tbl_aptATC_APT_25"></div>
+       <div id="tbl_aptATC_APT_26"></div>
     </td>
   </tr>
+-->
+
 </tbody>
 </table>
 <br>
@@ -551,18 +563,18 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     <tr>
       <td colspan="4"><div class="head3">&nbsp; Capacity CPI #4: % of en-route ATFM delay occurring when daily throughput was above expected daily traffic</div></td>
     </tr>
-      <tr>
-    <!--  <tr>
-      <td colspan="4" style="width: 950px;">
-        <small><span style="color:#C0504D;">July data not yet available. The section will be updated as soon as the data is available.</span></small>
-      </td>
-      </tr>  --> 
     <tr>
+      <td colspan="4" style="width: 950px;">
+        <small><span style="color:#C0504D;">January data not yet available. The section will be updated as soon as the data becomes available.</span></small>
+      </td>
+      </tr>
+    
+    <!--<tr>
     <td class="data-period">
-      <small><span style="color:#C0504D;">Period: Jan-Dec</span></small>
+      <small><span style="color:#C0504D;">Period: Jan</span></small>
     </td>
     <td class="text-center">
-        <a href="https://docs.google.com/spreadsheets/d/1V_oKg_37AaUhkESGG2CQYMySUaUhvsX8fus3j-CPdOA/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1yeEc7ElCr-sOA87Dc0KCXtGiygSgvOtTciaz7idc-yI/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
     </td>
     <td class="data-source">
      <small>Source: Network Manager</small>
@@ -573,9 +585,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
   </tr>
   <tr>
     <td colspan="4">
-       <div id="tbl_ertdly_traffic_25"></div>
+       <div id="tbl_ertdly_traffic_26"></div>
     </td>
   </tr>
+  --> 
   </tbody>
 </table>
 <br>
@@ -592,10 +605,10 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>-->
     <tr>
     <td class="data-period">
-       <small><span style="color:#C0504D;">Period: Jan-Dec</span></small>
+       <small><span style="color:#C0504D;">Period: Jan</span></small>
     </td>
     <td class="text-center">
-        <a href="https://docs.google.com/spreadsheets/d/1qqZRprdFMwsCm-3AU9_tyGRP4esrwXfUMpP1Yw9llhc/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
+        <a href="https://docs.google.com/spreadsheets/d/1fDkz_Y9qXwfKz7JNv6XletRC99LwreFXhR1HhkHX4LU/edit?usp=sharing&hl=en_GB" target="_blank">[Download data]</a>
     </td>
     <td class="data-source">
       <small>Source: AIU analysis, Network Manager</small>
@@ -606,7 +619,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
   </tr>
   <tr>
     <td colspan="4">
-       <div id="tbl_ertcap_through_25"></div>
+       <div id="tbl_ertcap_through_26"></div>
     </td>
   </tr>
   </tbody>
@@ -633,11 +646,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     </tr>
     <tr>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
-       <small><span style="color:#C0504D;">Period: Jan-Dec</span></small>
+       <small><span style="color:#C0504D;">Period: Jan</span></small>
       </td>
       <td style="width: 120px; text-align: center; background-color:#f7f8f9; vertical-align: top;">
         <span style="color: rgb(102, 102, 102);">
-          <a href="https://docs.google.com/spreadsheets/d/14r0P6gY5D1T7Sg-r1Lgxwna0K9WtOJKHaG1vAlrt8io/edit?usp=sharing" target="_blank">[Download data]</a>
+          <a href="https://docs.google.com/spreadsheets/d/1Rw24FBbRj7MD1MN8bbCb0Q580wZlJ7Z0z4_qj4NpXks/edit?usp=sharing" target="_blank">[Download data]</a>
         </span>
       </td>
       <td style="width: 350px; text-align: left; background-color:#f7f8f9; vertical-align: top;">
@@ -648,11 +661,11 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     <tr>
       <td colspan="2" style="width: 475px; text-align: center; vertical-align: top;">
         <div class="head4">&nbsp;En-route TSU: by charging zones (2025)</div>
-        <div id="tbl_ertSU_25"></div>
+        <div id="tbl_ertSU_26"></div>
       </td>
       <td colspan="2" style="width: 475px; text-align: center; vertical-align: top;">
         <div class="head4">&nbsp;En-route TSU: actual vs. determined (2025)</div>
-        <div id="crt_ertSUYYvstgt_25"></div>
+        <div id="crt_ertSUYYvstgt_26"></div>
       </td>
     </tr>
   </tbody>
