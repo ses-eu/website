@@ -24,7 +24,7 @@ attn_i: <i class="fa pru fa-exclamation-triangle"></i>
 | Airport ATFM Arrival Delay            | [{{% dwnld_i %}} RP4_APT_ATFM_ARR_2026_Jan.xlsx][RP4_APT_ATFM_ARR_2026]   |
 | Adherence to ATFM slots               | [{{% dwnld_i %}} RP4_APT_ATFM_SLOT_2026_Jan.xlsx][RP4_APT_ATFM_SLOT_2026] |
 | Airport Pre-departure Delay           | available as of March release         |
-| % En-route ATFM delay above forecast  | available as of March release |
+| % En-route ATFM delay above forecast  | [{{% dwnld_i %}} RP4_ERT_CAP_Traffic_2026_Jan.xlsx][RP4_CAP_TRAFFIC_2026] |
 | Peak hourly throughput (ACC)          | [{{% dwnld_i %}} RP4_CAP_ACC_Through_2026_Jan.xlsx][RP4_PEAK_THROUGH_2026]| 
 | En-route Service Units                | [{{% dwnld_i %}} RP4_ERT_SU_2026_Jan.xlsx][RP4_ERT_SU_2026]               |
 

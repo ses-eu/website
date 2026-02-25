@@ -42,7 +42,7 @@ extrajs: [
 
 The data and indicators for [reference period 4][ref4] are in accordance with [Commission Implementing Regulation (EU) 2024/3128][no3128_2024] of 16 December 2024 amending [Implementing Regulation (EU) 2019/317][no317_2019] as regards new and revised monitoring indicators for the performance and charging scheme in the single European sky
 
-<small><span style="color:#C0504D;">Last update: 18.February 2026 </small></span>
+<small><span style="color:#C0504D;">Last update: 25.February 2026 </small></span>
 
 <!-- TRAFFIC -->
 <table style="text-align: left; width: 950px;" border="0" cellpadding="2" cellspacing="2">
@@ -563,13 +563,13 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
     <tr>
       <td colspan="4"><div class="head3">&nbsp; Capacity CPI #4: % of en-route ATFM delay occurring when daily throughput was above expected daily traffic</div></td>
     </tr>
-    <tr>
+    <!--<tr>
       <td colspan="4" style="width: 950px;">
         <small><span style="color:#C0504D;">January data not yet available. The section will be updated as soon as the data becomes available.</span></small>
       </td>
-      </tr>
+      </tr>-->
     
-    <!--<tr>
+    <tr>
     <td class="data-period">
       <small><span style="color:#C0504D;">Period: Jan</span></small>
     </td>
@@ -588,7 +588,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
        <div id="tbl_ertdly_traffic_26"></div>
     </td>
   </tr>
-  --> 
+   
   </tbody>
 </table>
 <br>
