@@ -213,8 +213,7 @@ The data and indicators for [reference period 4][ref4] are in accordance with [C
       <td colspan="4">
         <span style="color: #C0504D;"><small>Data not yet available. This section will be updated with January data in the March release.</small></span>
       </td>
-    </tr>-->
-    
+    </tr>--> 
     <tr>
       <td style="width: 350px; background-color: #f7f8f9;">
         <span style="color: #C0504D;"><small>Period: Jan</small></span>
