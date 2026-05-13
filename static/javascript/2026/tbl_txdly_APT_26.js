@@ -1,6 +1,6 @@
 (function() {
     function dv(){ 
-    
+     
         // ENVIRONMENT - TAXI OUT DLY - APT - TABLE
     var tbl_txdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',

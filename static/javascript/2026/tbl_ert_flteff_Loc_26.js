@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-        
+
 // ENVIRONMENT - Horizontal flight efficiency - TABLE
 var tbl_ert_flteff = new google.visualization.ChartWrapper({
     chartType: 'Table',

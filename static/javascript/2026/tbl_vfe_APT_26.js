@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-    
+     
         // ENVIRONMENT - Vertical flight efficiency - APT - TABLE
     var tbl_txdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',

@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-
+ 
   // ERT ATFM DLY - LOCAL level - TABLE
   var tbl_ertdly_YYtgt = new google.visualization.ChartWrapper({
     chartType: 'Table',

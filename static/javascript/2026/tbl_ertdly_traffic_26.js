@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-
+ 
  // CAPACITY - Share of en-route ATFM delay when traffic above forecast - ACC - TABLE
  var tbl_CapTraffic_ACC = new google.visualization.ChartWrapper({
     chartType: 'Table',

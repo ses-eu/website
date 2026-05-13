@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-        
+         
  // CAPACITY - Weighted avg. peak IFR/hr (top 3 hrs, weighted by daily IFR) - ACC - TABLE
  var tbl_CapTrough_ACC = new google.visualization.ChartWrapper({
     chartType: 'Table',

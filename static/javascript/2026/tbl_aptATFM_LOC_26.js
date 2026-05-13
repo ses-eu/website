@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-
+ 
   // CAPACITY - Airport ATFM arrival delay - LOC - TABLE
   var tbl_aptATFM_LOC = new google.visualization.ChartWrapper({
     chartType: 'Table',

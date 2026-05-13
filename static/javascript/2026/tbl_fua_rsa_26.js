@@ -1,6 +1,6 @@
 (function() {
     function dv(){ 
-      
+       
         // FUA - FUA indicators RSA - TABLE
     var tbl_fua_rsa = new google.visualization.ChartWrapper({
         chartType: 'Table',

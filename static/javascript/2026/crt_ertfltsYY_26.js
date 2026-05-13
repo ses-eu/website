@@ -1,5 +1,5 @@
 (function() {
-   function dv(){
+   function dv(){ 
     // TRAFFIC - ERT FLTS - YY - CHART 
       var crt_ertfltsYY = new google.visualization.ChartWrapper({
         chartType: 'ComboChart',

@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-        
+         
   var tbl_ertSU = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ertSU_26',

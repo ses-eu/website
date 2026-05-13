@@ -1,6 +1,6 @@
 (function() {
     function dv(){ 
-      
+       
         // FUA - FUA indicators - CDR - TABLE
     var tbl_fua_cdr = new google.visualization.ChartWrapper({
         chartType: 'Table',

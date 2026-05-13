@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-        
+         
  // TRAFFIC - ERT FLTS - TABLE 
     var tbl_ertflts_YY = new google.visualization.ChartWrapper({
         chartType: 'Table',

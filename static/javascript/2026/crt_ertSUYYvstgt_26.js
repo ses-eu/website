@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-    
+     
   // ERT SU - YY - CHART vs target - [EU_YY]
   var crt_ertSUYYvstgt = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',

@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-    
+     
  // ENVIRONMENT - ASMA DLY - APT - TABLE
  var tbl_ASMAdly_APT = new google.visualization.ChartWrapper({
     chartType: 'Table',

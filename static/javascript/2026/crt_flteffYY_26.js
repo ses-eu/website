@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-
+ 
  // ENVIRONMENT - Horizontal flight efficiency - YY - CHART
  var crt_flteffYY = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',

@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-       
+        
         // ENVIRONMENT - Horizontal flight efficiency - MM - CHART
 var crt_flteffMM = new google.visualization.ChartWrapper({
     chartType: 'LineChart',

@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-        
+         
 // CAPACITY - Airport ATFM slot adherence LOC - TABLE
   var tbl_aptATFMADH_LOC = new google.visualization.ChartWrapper({
     chartType: 'Table',

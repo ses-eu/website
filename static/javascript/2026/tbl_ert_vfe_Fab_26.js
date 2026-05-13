@@ -1,6 +1,6 @@
 (function() {
     function dv(){
-
+ 
 // ENVIRONMENT - Vertical en-route flight efficiency - TABLE FAB
 var tbl_ert_vfe = new google.visualization.ChartWrapper({
     chartType: 'Table',
