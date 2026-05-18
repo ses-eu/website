@@ -1,11 +1,11 @@
 (function() {
     function dv(){
-
+ 
 // CAPACITY - Airport ATFM slot adherence APT - TABLE
   var tbl_aptATFMADH_APT = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_aptATFMADH_APT_26',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1is54RB1vnIZSP2IQDdWZ6rh-g4aeae-Nab7H3GQkODw/edit?usp=sharing&sheet=APT_ATFM_ADH_APT&range=A5:D155',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1293X6R_7PuX1l3CtHbzr8KJsN2ve_8y58VP8uGNxfQI/edit?usp=sharing&sheet=APT_ATFM_ADH_APT&range=A5:D155',
     options:  {
         allowHtml: true,
         width: 470,

@@ -1,11 +1,11 @@
 (function() {
     function dv(){
-        
+         
   // CAPACITY - Airport ATC pre-departure APT - TABLE
   var tbl_aptATC_APT = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_aptATC_APT_26',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1LCAmfnjRnyTTarlMRCn7tBQc2YYqLzW_42zasT8f-0k/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:I43',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1MYfsyDl-2fJXgH4QW9n2F2qjRUiC70vDRtQfGdhfudE/edit?usp=sharing&sheet=APT_ATC_PRE_APT&range=A5:I43',
     options: {
         allowHtml: true,
         width: 950,

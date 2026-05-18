@@ -1,11 +1,11 @@
 (function() {
     function dv(){
-    
+     
         // ENVIRONMENT - Vertical flight efficiency - APT - TABLE
     var tbl_txdly_APT = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_vfe_APT_26',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1hu2R1CzsiCMb548ind3CAaNmWCe-1jNA-c3UK2MR4_s/edit?usp=sharing&sheet=CDO_APT&range=A5:I194',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1UVH_9u2jPg4X9lpMj9TJ2g3xoZ2aKv0_Frsm5UfdHOQ/edit?usp=sharing&sheet=CDO_APT&range=A5:I194',
         options: {
             allowHtml: false,
             width: 950,

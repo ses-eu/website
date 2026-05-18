@@ -1,11 +1,11 @@
 (function() {
     function dv(){
-
+ 
  // ENVIRONMENT - Horizontal flight efficiency - YY - CHART
  var crt_flteffYY = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
     containerId: 'crt_flteffYY_26',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/16pUnr65GdiCpIO38zbY0C-guoXQ1YQqxkBfj753nqHI/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G19',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1renSRpgP9dIBpCXTO54c33Jct65jKt8uGq3pA89G71A/edit?usp=sharing&sheet=FLT_EFF_YY&range=A5:G19',
     options: {
         width: 450,
         height: 190,

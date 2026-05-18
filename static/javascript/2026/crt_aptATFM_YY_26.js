@@ -5,7 +5,7 @@
   var crt_aptATFMsesYY = new google.visualization.ChartWrapper({
     chartType: 'ComboChart',
     containerId: 'crt_aptATFM_YY_26',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1u5vTpJ9JpypFHYW2TmeWGW4NPKJhHo7E1YlCOLropfc/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D13',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1C7WbnbESH7DimijN8AeK3QWxJnOhf1EDh9D_iXYC8EM/edit?usp=sharing&sheet=APT_ATFM_SES_YY&range=A5:D10',
     options: {
         width: 450,
         height: 190,
