@@ -1,0 +1,13 @@
+---
+title: "August 2026 Release"
+date: 2026-08-26
+categories: ["Release"]
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<ul>
+<li>Update of portal up to July 2026</li>
+<li>2026-08-26 - July 2026 data for Capacity CPI #4 has been added</li>
+</ul>
