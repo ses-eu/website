@@ -5,7 +5,7 @@
  var tbl_ASMAdly_APT = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ASMAdly_APT_26',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/13FYSZ-0M-MLuHIEipCvGGFWi0GsJ_or7n0D6NenvrCI/edit?usp=sharing&sheet=ASMA_APT&range=A5:G43',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1-i9dXJOGIU99U5aattu91PDqPnRYsA35l16-D9j7aWA/edit?usp=sharing&sheet=ASMA_APT&range=A5:G43',
     options: {
         allowHtml: false,
         width: 950,
