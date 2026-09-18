@@ -5,7 +5,7 @@
  var tbl_CapTraffic_ACC = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ertdly_traffic_26',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/19Cur5g7JdHPvgKscThToiZ3hRAX6h_F5VGDgBIpC1Fg/edit?usp=sharing&sheet=CAP_ERT_DLY_Traffic&range=A5:G55',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1uxvfbh1yTWHSh2FOc2bXht9d6ndxtqbfaQrJPFpGWW0/edit?usp=sharing&sheet=CAP_ERT_DLY_Traffic&range=A5:G55',
     options: {
         allowHtml: false,
         width: 950,

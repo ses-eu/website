@@ -5,7 +5,7 @@
     var tbl_fua_rsa = new google.visualization.ChartWrapper({
         chartType: 'Table',
         containerId: 'tbl_fua_rsa_26',
-        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1DHOc-j1kHpDVOCQAkAM66dId78sAaN1oXGWsljJCt64/edit?usp=sharing&sheet=FUA_IND&range=A5:G37',
+        dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1k1Mf2kn7n-fxBQ8tM3ZzdMNXn_R0CUzuq7ZNUTdUtf8/edit?usp=sharing&sheet=FUA_IND&range=A5:G37',
         options: {
             allowHtml: false,
             width: 460,
