@@ -19,3 +19,10 @@ of the European Commission, which make no warranty, either implied or express, f
 contained on this website, neither do they assume any legal liability or responsibility for the accuracy,
 completeness or usefulness of this information.
 The EC reserves the right to change or amend the information provided at any time and without prior notice.
+
+## Data collection main characteristics, data quality and contact details
+
+[Download Overview - Air Navigation Services KPI {{% dwnld_i %}}][meta-eurostat]
+
+
+[meta-eurostat]:      ../documents/Reference metadata on methodology and quality - Air Navigation Services.pdf
