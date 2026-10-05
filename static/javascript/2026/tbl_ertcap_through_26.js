@@ -5,7 +5,7 @@
  var tbl_CapTrough_ACC = new google.visualization.ChartWrapper({
     chartType: 'Table',
     containerId: 'tbl_ertcap_through_26',
-    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1W2n-JthjXnJt4cumLYgcyvbMtJTyCtpeVwYGoaGMH3w/edit?usp=sharing&sheet=CAP_ERT_ACC_THROUGH&range=A5:E54',
+    dataSourceUrl: 'https://docs.google.com/spreadsheets/d/1HR8sZiqWWyHddNBDwuSr1viht47Fx4wJf9Bo-kpJqeY/edit?usp=sharing&sheet=CAP_ERT_ACC_THROUGH&range=A5:E54',
     options: {
         allowHtml: false,
         width: 950,
